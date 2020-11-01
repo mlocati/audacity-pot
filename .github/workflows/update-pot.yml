@@ -32,7 +32,7 @@ jobs:
         run: |
           set -o errexit
           cd tmp/audacity/locale
-          ./update_po_files.sh
+          AUDACITY_ONLY_POT=y ./update_po_files.sh
           cd - >/dev/null
           cp tmp/audacity/locale/audacity.pot .
       - name: Check and commit changes
