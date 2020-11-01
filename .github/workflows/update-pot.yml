@@ -1,0 +1,60 @@
+name: Update .pot
+
+on:
+  schedule:
+    - cron: "0 8 * * *"
+  repository_dispatch:
+    types:
+      - update-pot
+
+jobs:
+  update-pot:
+    name: Update audacity.pot
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install required packages
+        run: sudo apt-get install -qy gettext
+      - name: Checkout audacity-pot repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Switch to main branch
+        run: git checkout --quiet main
+      - name: Cleanup
+        run: rm -rf tmp && mkdir tmp
+      - name: Checkout audacity repository
+        uses: actions/checkout@v2
+        with:
+          repository: audacity/audacity
+          ref: master
+          path: tmp/audacity
+      - name: Regenerate audacity.pot
+        run: |
+          set -o errexit
+          cd tmp/audacity/locale
+          ./update_po_files.sh
+          cd - >/dev/null
+          cp tmp/audacity/locale/audacity.pot .
+      - name: Check and commit changes
+        env:
+          DEPLOY_KEY: "${{ secrets.DEPLOY_KEY }}"
+        run: |
+          printf 'Checking changes... '
+          if test -z "$(git diff --unified=0 --no-indent-heuristic --no-color audacity.pot | grep -E '^[+-]' | tail -n+3 | grep -vE '^[+-]#' | grep -vE '^[+-]"POT-Creation-Date')"; then
+            echo 'no changes detected.'
+            exit 0
+          fi
+          echo 'changes detected.'
+          printf 'Configuring git... '
+          git config user.name 'Michele Locati'
+          git config user.email 'michele@locati.it'
+          echo 'done.'
+          echo 'Committing changes:'
+          git add audacity.pot
+          git commit -m 'Update audacity.pot'
+          printf 'Initializing SSH agent... '
+          eval "$(ssh-agent)" >/dev/null
+          printf '%s' "$DEPLOY_KEY" | tr -d '\r' | ssh-add - >/dev/null
+          echo 'done.'
+          echo 'Pushing changes:'
+          git push origin main:main
