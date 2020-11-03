@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 2.4.2\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2020-11-01 17:51+0000\n"
+"POT-Creation-Date: 2020-11-03 08:13+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -146,10 +146,10 @@ msgstr ""
 
 #: modules/mod-nyq-bench/NyqBench.cpp src/AudacityLogger.cpp
 #: src/DBConnection.cpp src/Project.cpp src/ProjectFileIO.cpp
-#: src/SqliteSampleBlock.cpp src/WaveClip.cpp src/WaveTrack.cpp
-#: src/export/Export.cpp src/export/ExportCL.cpp src/export/ExportMultiple.cpp
-#: src/import/RawAudioGuess.cpp src/menus/EditMenus.cpp
-#: src/prefs/KeyConfigPrefs.cpp src/widgets/Warning.cpp
+#: src/ProjectHistory.cpp src/SqliteSampleBlock.cpp src/WaveClip.cpp
+#: src/WaveTrack.cpp src/export/Export.cpp src/export/ExportCL.cpp
+#: src/export/ExportMultiple.cpp src/import/RawAudioGuess.cpp
+#: src/menus/EditMenus.cpp src/prefs/KeyConfigPrefs.cpp src/widgets/Warning.cpp
 msgid "Warning"
 msgstr ""
 
@@ -3954,10 +3954,6 @@ msgstr ""
 
 #: src/ProjectHistory.cpp
 msgid "Automatic database backup failed."
-msgstr ""
-
-#: src/ProjectHistory.cpp
-msgid "Warining"
 msgstr ""
 
 #: src/ProjectManager.cpp
