@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 2.4.2\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2020-11-12 08:13+0000\n"
+"POT-Creation-Date: 2020-11-18 08:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2712,7 +2712,7 @@ msgstr ""
 msgid "&Compact"
 msgstr ""
 
-#: src/HistoryWindow.cpp src/menus/FileMenus.cpp
+#: src/HistoryWindow.cpp src/ProjectFileManager.cpp
 #, c-format
 msgid "Compacting actually freed %s of disk space."
 msgstr ""
@@ -3946,6 +3946,32 @@ msgstr ""
 
 #: src/ProjectFileManager.cpp
 msgid "Error Importing"
+msgstr ""
+
+#: src/ProjectFileManager.cpp
+msgid "Compact Project"
+msgstr ""
+
+#: src/ProjectFileManager.cpp
+#, c-format
+msgid ""
+"Compacting this project will free up disk space by removing unused bytes "
+"within the file.\n"
+"\n"
+"There is %s of free disk space and this project is currently using %s.\n"
+"\n"
+"If you proceed, the current Undo/Redo History and clipboard contents will be "
+"discarded and you will recover approximately %s of disk space.\n"
+"\n"
+"Do you want to continue?"
+msgstr ""
+
+#: src/ProjectFileManager.cpp
+msgid "Compacted project file"
+msgstr ""
+
+#: src/ProjectFileManager.cpp
+msgid "Compact"
 msgstr ""
 
 #: src/ProjectHistory.cpp
@@ -12110,32 +12136,6 @@ msgstr ""
 msgid ""
 "Cannot create directory '%s'. \n"
 "File already exists that is not a directory"
-msgstr ""
-
-#: src/menus/FileMenus.cpp
-msgid "Compact Project"
-msgstr ""
-
-#: src/menus/FileMenus.cpp
-#, c-format
-msgid ""
-"Compacting this project will free up disk space by removing unused bytes "
-"within the file.\n"
-"\n"
-"There is %s of free disk space and this project is currently using %s.\n"
-"\n"
-"If you proceed, the current Undo/Redo History and clipboard contents will be "
-"discarded and you will recover approximately %s of disk space.\n"
-"\n"
-"Do you want to continue?"
-msgstr ""
-
-#: src/menus/FileMenus.cpp
-msgid "Compacted project file"
-msgstr ""
-
-#: src/menus/FileMenus.cpp
-msgid "Compact"
 msgstr ""
 
 #: src/menus/FileMenus.cpp
