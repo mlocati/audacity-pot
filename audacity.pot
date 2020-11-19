@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 2.4.2\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2020-11-18 08:17+0000\n"
+"POT-Creation-Date: 2020-11-19 08:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3964,14 +3964,6 @@ msgid ""
 "discarded and you will recover approximately %s of disk space.\n"
 "\n"
 "Do you want to continue?"
-msgstr ""
-
-#: src/ProjectFileManager.cpp
-msgid "Compacted project file"
-msgstr ""
-
-#: src/ProjectFileManager.cpp
-msgid "Compact"
 msgstr ""
 
 #: src/ProjectHistory.cpp
