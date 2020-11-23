@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 2.4.2\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2020-11-21 08:14+0000\n"
+"POT-Creation-Date: 2020-11-23 08:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3663,6 +3663,18 @@ msgid "Destination project could not be detached"
 msgstr ""
 
 #: src/ProjectFileIO.cpp
+msgid "Error Writing to File"
+msgstr ""
+
+#: src/ProjectFileIO.cpp
+#, c-format
+msgid ""
+"Audacity failed to write file %s.\n"
+"Perhaps disk is full or not writable.\n"
+"For tips on freeing up space, click the help button."
+msgstr ""
+
+#: src/ProjectFileIO.cpp
 msgid "Compacting project"
 msgstr ""
 
@@ -3787,18 +3799,6 @@ msgstr ""
 
 #: src/ProjectFileManager.cpp
 msgid "Warning - Empty Project"
-msgstr ""
-
-#: src/ProjectFileManager.cpp
-msgid "Error Writing to File"
-msgstr ""
-
-#: src/ProjectFileManager.cpp
-#, c-format
-msgid ""
-"Audacity failed to write file %s.\n"
-"Perhaps disk is full or not writable.\n"
-"For tips on freeing up space, click the help button."
 msgstr ""
 
 #: src/ProjectFileManager.cpp
