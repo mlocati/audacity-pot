@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 2.4.2\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2020-11-26 08:15+0000\n"
+"POT-Creation-Date: 2020-11-28 08:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12234,10 +12234,6 @@ msgstr ""
 
 #: src/menus/FileMenus.cpp
 msgid "&Backup Project..."
-msgstr ""
-
-#: src/menus/FileMenus.cpp
-msgid "Co&mpact Project"
 msgstr ""
 
 #: src/menus/FileMenus.cpp
