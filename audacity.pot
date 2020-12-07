@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 2.4.2\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2020-11-28 08:15+0000\n"
+"POT-Creation-Date: 2020-12-07 08:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2244,15 +2244,15 @@ msgstr ""
 
 #: src/FileException.cpp
 #, c-format
-msgid ""
-"Audacity failed to write to a file.\n"
-"Perhaps %s is not writable or the disk is full.\n"
-"For tips on freeing up space, click the help button."
+msgid "Audacity successfully wrote a file in %s but failed to rename it as %s."
 msgstr ""
 
 #: src/FileException.cpp
 #, c-format
-msgid "Audacity successfully wrote a file in %s but failed to rename it as %s."
+msgid ""
+"Audacity failed to write to a file.\n"
+"Perhaps %s is not writable or the disk is full.\n"
+"For tips on freeing up space, click the help button."
 msgstr ""
 
 #: src/FileException.h
@@ -3748,6 +3748,12 @@ msgstr ""
 
 #: src/ProjectFileIO.cpp
 msgid "Unable to parse project information."
+msgstr ""
+
+#: src/ProjectFileIO.cpp
+msgid ""
+"The project's database failed to reopen, possibly because of limited space "
+"on the storage device."
 msgstr ""
 
 #: src/ProjectFileIO.cpp
@@ -9636,13 +9642,6 @@ msgstr ""
 msgid ""
 "Unable to export.\n"
 "Error %s"
-msgstr ""
-
-#: src/export/Export.cpp
-msgid ""
-"Audacity failed to write to a file.\n"
-"Perhaps the file is not writable or the disk is full.\n"
-"For tips on freeing up space, click the help button."
 msgstr ""
 
 #: src/export/ExportCL.cpp
