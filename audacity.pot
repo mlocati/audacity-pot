@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 2.4.2\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2020-12-10 08:18+0000\n"
+"POT-Creation-Date: 2021-01-04 08:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -744,6 +744,8 @@ msgstr ""
 msgid "Click and drag to adjust, double-click to reset"
 msgstr ""
 
+#. i18n-hint: This text is a tooltip on the icon (of a pin) representing
+#. the temporal position in the audio.
 #: src/AdornedRulerPanel.cpp
 msgid "Record/Play head"
 msgstr ""
@@ -2933,6 +2935,7 @@ msgstr ""
 msgid "Disallowed"
 msgstr ""
 
+#. i18n-hint: noun, means a track, made by mixing other tracks
 #: src/Mix.cpp
 msgid "Mix"
 msgstr ""
@@ -3809,6 +3812,12 @@ msgstr ""
 
 #: src/ProjectFileManager.cpp
 msgid "Error Saving Project"
+msgstr ""
+
+#: src/ProjectFileManager.cpp
+msgid ""
+"The project exceeds the maximum size of 4GB when writing to a FAT32 "
+"formatted filesystem."
 msgstr ""
 
 #: src/ProjectFileManager.cpp src/commands/ScreenshotCommand.cpp
