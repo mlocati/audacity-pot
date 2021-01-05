@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 2.4.2\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-01-04 08:28+0000\n"
+"POT-Creation-Date: 2021-01-05 08:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2333,6 +2333,14 @@ msgstr ""
 
 #: src/FileNames.cpp
 msgid "Specify New Filename:"
+msgstr ""
+
+#: src/FileNames.cpp
+msgid "Unsuitable"
+msgstr ""
+
+#: src/FileNames.cpp
+msgid "FAT formatted filesystems are unsuitable."
 msgstr ""
 
 #: src/FreqWindow.cpp src/prefs/SpectrumPrefs.h
