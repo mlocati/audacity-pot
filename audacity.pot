@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 2.4.2\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-01-05 08:28+0000\n"
+"POT-Creation-Date: 2021-01-06 08:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2340,7 +2340,11 @@ msgid "Unsuitable"
 msgstr ""
 
 #: src/FileNames.cpp
-msgid "FAT formatted filesystems are unsuitable."
+#, c-format
+msgid ""
+"%s\n"
+"\n"
+"For tips on suitable drives, click the help button."
 msgstr ""
 
 #: src/FreqWindow.cpp src/prefs/SpectrumPrefs.h
@@ -3771,6 +3775,10 @@ msgstr ""
 msgid "Saving project"
 msgstr ""
 
+#: src/ProjectFileIO.cpp src/ProjectFileManager.cpp
+msgid "Error Saving Project"
+msgstr ""
+
 #: src/ProjectFileIO.cpp
 msgid "Syncing"
 msgstr ""
@@ -3802,6 +3810,10 @@ msgstr ""
 msgid "Project Recovered"
 msgstr ""
 
+#: src/ProjectFileManager.cpp src/prefs/DirectoriesPrefs.cpp
+msgid "Projects cannot be saved to FAT drives."
+msgstr ""
+
 #: src/ProjectFileManager.cpp
 msgid ""
 "Your project is now empty.\n"
@@ -3816,10 +3828,6 @@ msgstr ""
 
 #: src/ProjectFileManager.cpp
 msgid "Warning - Empty Project"
-msgstr ""
-
-#: src/ProjectFileManager.cpp
-msgid "Error Saving Project"
 msgstr ""
 
 #: src/ProjectFileManager.cpp
@@ -14072,6 +14080,10 @@ msgstr ""
 
 #: src/prefs/DirectoriesPrefs.cpp
 msgid "&Location:"
+msgstr ""
+
+#: src/prefs/DirectoriesPrefs.cpp
+msgid "Temporary files directory cannot be on a FAT drive."
 msgstr ""
 
 #: src/prefs/DirectoriesPrefs.cpp
