@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 2.4.2\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-01-10 08:32+0000\n"
+"POT-Creation-Date: 2021-01-11 08:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -979,11 +979,51 @@ msgid "Audacity is already running"
 msgstr ""
 
 #: src/AudacityApp.cpp
-msgid "An unrecoverable error has occurred during startup"
+msgid ""
+"Unable to acquire semaphores.\n"
+"\n"
+"This is likely due to a resource shortage\n"
+"and a reboot may be required."
 msgstr ""
 
 #: src/AudacityApp.cpp
 msgid "Audacity Startup Failure"
+msgstr ""
+
+#: src/AudacityApp.cpp
+msgid ""
+"Unable to create semaphores.\n"
+"\n"
+"This is likely due to a resource shortage\n"
+"and a reboot may be required."
+msgstr ""
+
+#: src/AudacityApp.cpp
+msgid ""
+"Unable to acquire lock semaphore.\n"
+"\n"
+"This is likely due to a resource shortage\n"
+"and a reboot may be required."
+msgstr ""
+
+#: src/AudacityApp.cpp
+msgid ""
+"Unable to acquire server semaphore.\n"
+"\n"
+"This is likely due to a resource shortage\n"
+"and a reboot may be required."
+msgstr ""
+
+#: src/AudacityApp.cpp
+msgid ""
+"The Audacity IPC server failed to initialize.\n"
+"\n"
+"This is likely due to a resource shortage\n"
+"and a reboot may be required."
+msgstr ""
+
+#: src/AudacityApp.cpp
+msgid "An unrecoverable error has occurred during startup"
 msgstr ""
 
 #. i18n-hint: This controls the number of bytes that Audacity will
@@ -3828,6 +3868,17 @@ msgstr ""
 
 #: src/ProjectFileManager.cpp
 msgid "Warning - Empty Project"
+msgstr ""
+
+#: src/ProjectFileManager.cpp
+msgid "Insufficient Disk Space"
+msgstr ""
+
+#: src/ProjectFileManager.cpp
+msgid ""
+"The project size exceeds the available free space on the target disk.\n"
+"\n"
+"Please select a different disk with more free space."
 msgstr ""
 
 #: src/ProjectFileManager.cpp
