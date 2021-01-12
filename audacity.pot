@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 2.4.2\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-01-11 08:35+0000\n"
+"POT-Creation-Date: 2021-01-12 08:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2367,16 +2367,28 @@ msgid "%s files"
 msgstr ""
 
 #: src/FileNames.cpp
+msgid "Unsuitable"
+msgstr ""
+
+#: src/FileNames.cpp
+msgid ""
+"The temporary files direcotory is on a FAT formatted drive\n"
+"Resetting to default location."
+msgstr ""
+
+#: src/FileNames.cpp
+msgid ""
+"The temporary files direcotory is on a FAT formatted drive.\n"
+"Resetting to default location."
+msgstr ""
+
+#: src/FileNames.cpp
 msgid ""
 "The specified filename could not be converted due to Unicode character use."
 msgstr ""
 
 #: src/FileNames.cpp
 msgid "Specify New Filename:"
-msgstr ""
-
-#: src/FileNames.cpp
-msgid "Unsuitable"
 msgstr ""
 
 #: src/FileNames.cpp
@@ -3718,6 +3730,10 @@ msgid "Destination project could not be detached"
 msgstr ""
 
 #: src/ProjectFileIO.cpp
+msgid "Copying Project"
+msgstr ""
+
+#: src/ProjectFileIO.cpp
 msgid "Error Writing to File"
 msgstr ""
 
@@ -3961,6 +3977,12 @@ msgstr ""
 
 #: src/ProjectFileManager.cpp src/import/ImportAUP.cpp
 msgid "Error Opening Project"
+msgstr ""
+
+#: src/ProjectFileManager.cpp
+msgid ""
+"Project resides on FAT formatted drive.\n"
+"Copy it to another drive to open it."
 msgstr ""
 
 #: src/ProjectFileManager.cpp
