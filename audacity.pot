@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 2.4.2\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-01-13 08:44+0000\n"
+"POT-Creation-Date: 2021-01-16 08:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12752,6 +12752,11 @@ msgstr ""
 
 #: src/menus/PluginMenus.cpp
 #, c-format
+msgid "&Repeat %s"
+msgstr ""
+
+#: src/menus/PluginMenus.cpp
+#, c-format
 msgid "Plug-in %d to %d"
 msgstr ""
 
@@ -12761,6 +12766,10 @@ msgstr ""
 
 #: src/menus/PluginMenus.cpp
 msgid "Add / Remove Plug-ins..."
+msgstr ""
+
+#: src/menus/PluginMenus.cpp
+msgid "Repeat Last Generator"
 msgstr ""
 
 #: src/menus/PluginMenus.cpp
@@ -12775,8 +12784,16 @@ msgstr ""
 msgid "&Analyze"
 msgstr ""
 
+#: src/menus/PluginMenus.cpp
+msgid "Repeat Last Analyzer"
+msgstr ""
+
 #: src/menus/PluginMenus.cpp src/toolbars/ToolsToolBar.cpp
 msgid "T&ools"
+msgstr ""
+
+#: src/menus/PluginMenus.cpp
+msgid "Repeat Last Tool"
 msgstr ""
 
 #: src/menus/PluginMenus.cpp
