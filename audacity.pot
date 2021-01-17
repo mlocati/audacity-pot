@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 2.4.2\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-01-16 08:43+0000\n"
+"POT-Creation-Date: 2021-01-17 08:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2367,30 +2367,12 @@ msgid "%s files"
 msgstr ""
 
 #: src/FileNames.cpp
-msgid "Unsuitable"
-msgstr ""
-
-#: src/FileNames.cpp
-msgid ""
-"The temporary files directory is on a FAT formatted drive.\n"
-"Resetting to default location."
-msgstr ""
-
-#: src/FileNames.cpp
 msgid ""
 "The specified filename could not be converted due to Unicode character use."
 msgstr ""
 
 #: src/FileNames.cpp
 msgid "Specify New Filename:"
-msgstr ""
-
-#: src/FileNames.cpp
-#, c-format
-msgid ""
-"%s\n"
-"\n"
-"For tips on suitable drives, click the help button."
 msgstr ""
 
 #: src/FreqWindow.cpp src/prefs/SpectrumPrefs.h
@@ -4577,6 +4559,24 @@ msgstr ""
 
 #: src/Tags.cpp
 msgid "Error Saving Tags File"
+msgstr ""
+
+#: src/TempDirectory.cpp
+msgid "Unsuitable"
+msgstr ""
+
+#: src/TempDirectory.cpp
+msgid ""
+"The temporary files directory is on a FAT formatted drive.\n"
+"Resetting to default location."
+msgstr ""
+
+#: src/TempDirectory.cpp
+#, c-format
+msgid ""
+"%s\n"
+"\n"
+"For tips on suitable drives, click the help button."
 msgstr ""
 
 #: src/Theme.cpp
