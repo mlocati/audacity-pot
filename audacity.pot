@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 2.4.2\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-01-17 08:43+0000\n"
+"POT-Creation-Date: 2021-01-23 08:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -8769,6 +8769,18 @@ msgstr ""
 
 #: src/effects/StereoToMono.cpp
 msgid "Converts stereo tracks to mono"
+msgstr ""
+
+#: src/effects/StereoToMono.cpp
+msgid "Resampling left channel"
+msgstr ""
+
+#: src/effects/StereoToMono.cpp
+msgid "Resampling right channel"
+msgstr ""
+
+#: src/effects/StereoToMono.cpp
+msgid "Mixing down to mono"
 msgstr ""
 
 #: src/effects/TimeScale.cpp
