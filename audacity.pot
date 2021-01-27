@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 2.4.2\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-01-23 08:44+0000\n"
+"POT-Creation-Date: 2021-01-27 08:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3685,11 +3685,23 @@ msgid "Total orphan blocks deleted %d"
 msgstr ""
 
 #: src/ProjectFileIO.cpp
+msgid "Failed to rollback transaction during import"
+msgstr ""
+
+#: src/ProjectFileIO.cpp
 msgid "Unable to attach destination database"
 msgstr ""
 
 #: src/ProjectFileIO.cpp
+msgid "Unable to switch to fast journaling mode"
+msgstr ""
+
+#: src/ProjectFileIO.cpp
 msgid "Failed to copy tags"
+msgstr ""
+
+#: src/ProjectFileIO.cpp
+msgid "Failed to bind SQL parameter"
 msgstr ""
 
 #: src/ProjectFileIO.cpp
@@ -3754,6 +3766,10 @@ msgid "Failed to remove the autosave information from the project file."
 msgstr ""
 
 #: src/ProjectFileIO.cpp
+msgid "Failed to detach project during import"
+msgstr ""
+
+#: src/ProjectFileIO.cpp
 #, c-format
 msgid "Unable to attach %s project file"
 msgstr ""
@@ -3764,6 +3780,14 @@ msgstr ""
 
 #: src/ProjectFileIO.cpp
 msgid "Unable to decode project document"
+msgstr ""
+
+#: src/ProjectFileIO.cpp
+msgid "Unable to parse the project document"
+msgstr ""
+
+#: src/ProjectFileIO.cpp
+msgid "Missing root node in project document"
 msgstr ""
 
 #: src/ProjectFileIO.cpp src/import/ImportAUP.cpp
@@ -3781,6 +3805,10 @@ msgid "Importing project"
 msgstr ""
 
 #: src/ProjectFileIO.cpp
+msgid "Unable to start a transaction during import"
+msgstr ""
+
+#: src/ProjectFileIO.cpp
 #, c-format
 msgid ""
 "Failed to import sample block.\n"
@@ -3790,7 +3818,15 @@ msgid ""
 msgstr ""
 
 #: src/ProjectFileIO.cpp
+msgid "Unable to commit transaction during import"
+msgstr ""
+
+#: src/ProjectFileIO.cpp
 msgid "Failed to import tags"
+msgstr ""
+
+#: src/ProjectFileIO.cpp
+msgid "Unable to recreate project information."
 msgstr ""
 
 #: src/ProjectFileIO.cpp
@@ -3816,7 +3852,21 @@ msgid "Syncing"
 msgstr ""
 
 #: src/ProjectFileIO.cpp
-msgid "Failed to open copy of project file"
+#, c-format
+msgid ""
+"The project failed to open, possibly due to limited space\n"
+"on the storage device.\n"
+"\n"
+"%s"
+msgstr ""
+
+#: src/ProjectFileIO.cpp
+#, c-format
+msgid ""
+"Unable to remove autosave information, possibly due to limited space\n"
+"on the storage device.\n"
+"\n"
+"%s"
 msgstr ""
 
 #: src/ProjectFileIO.cpp
@@ -4007,6 +4057,10 @@ msgstr ""
 
 #: src/ProjectFileManager.cpp
 msgid "Import"
+msgstr ""
+
+#: src/ProjectFileManager.cpp
+msgid "Failed to import project"
 msgstr ""
 
 #: src/ProjectFileManager.cpp
@@ -11233,8 +11287,14 @@ msgstr ""
 #, c-format
 msgid ""
 "Audacity did not recognize the type of the file '%s'.\n"
-"Try installing FFmpeg. For uncompressed files, also try File > Import > Raw "
-"Data."
+"\n"
+"%sFor uncompressed files, also try File > Import > Raw Data."
+msgstr ""
+
+#: src/import/Import.cpp
+msgid ""
+"Try installing FFmpeg.\n"
+"\n"
 msgstr ""
 
 #: src/import/Import.cpp src/menus/ClipMenus.cpp
@@ -11752,7 +11812,7 @@ msgstr ""
 msgid "Unable to get fill buffer"
 msgstr ""
 
-#. i18n-hint: 'Raw' means 'unprocessed' here and should usually be tanslated.
+#. i18n-hint: 'Raw' means 'unprocessed' here and should usually be translated.
 #: src/import/ImportRaw.cpp
 msgid "Import Raw"
 msgstr ""
