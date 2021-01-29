@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 2.4.2\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-01-27 08:22+0000\n"
+"POT-Creation-Date: 2021-01-29 08:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3378,6 +3378,16 @@ msgstr[1] ""
 
 #: src/PluginManager.cpp
 msgid "Enable new plug-ins"
+msgstr ""
+
+#: src/PluginManager.cpp
+#, c-format
+msgid ""
+"The plugin registry file is not writable:\n"
+"\n"
+"%s\n"
+"\n"
+"Settings were not saved."
 msgstr ""
 
 #: src/Prefs.cpp
@@ -11147,6 +11157,14 @@ msgid ""
 "is a MIDI file, not an audio file. \n"
 "Audacity cannot open this type of file for playing, but you can\n"
 "edit it by clicking File > Import > MIDI."
+msgstr ""
+
+#: src/import/Import.cpp
+#, c-format
+msgid ""
+"\"%s\" \n"
+"is a not an audio file. \n"
+"Audacity cannot open this type of file."
 msgstr ""
 
 #: src/import/Import.cpp
