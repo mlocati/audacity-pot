@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 2.4.2\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-01-31 08:22+0000\n"
+"POT-Creation-Date: 2021-02-01 08:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1070,6 +1070,41 @@ msgstr ""
 msgid "Message"
 msgstr ""
 
+#: src/AudacityFileConfig.cpp
+msgid "Audacity Configuration Error"
+msgstr ""
+
+#: src/AudacityFileConfig.cpp
+#, c-format
+msgid ""
+"The following configuration file could not be accessed:\n"
+"\n"
+"\t%s\n"
+"\n"
+"This could be caused by many reasons, but the most likely are that the disk "
+"is full or you do not have write permissions to the file. More information "
+"can be obtained by clicking the help button below.\n"
+"\n"
+"You can attempt to correct the issue and then click \"Retry\" to coninue.\n"
+"\n"
+"If you choose to \"Quit Audacity\", your project may be left in an unsaved "
+"state which will be recovered the next time you open it."
+msgstr ""
+
+#: src/AudacityFileConfig.cpp src/ShuttleGui.cpp src/commands/HelpCommand.cpp
+#: src/effects/Equalization.cpp src/menus/HelpMenus.cpp
+#: src/widgets/MultiDialog.cpp
+msgid "Help"
+msgstr ""
+
+#: src/AudacityFileConfig.cpp src/AutoRecoveryDialog.cpp
+msgid "&Quit Audacity"
+msgstr ""
+
+#: src/AudacityFileConfig.cpp
+msgid "&Retry"
+msgstr ""
+
 #: src/AudacityLogger.cpp
 msgid "Audacity Log"
 msgstr ""
@@ -1391,10 +1426,6 @@ msgstr ""
 #. i18n-hint: (noun).  It's the name of the project to recover.
 #: src/AutoRecoveryDialog.cpp src/PluginManager.cpp src/TrackInfo.cpp
 msgid "Name"
-msgstr ""
-
-#: src/AutoRecoveryDialog.cpp
-msgid "&Quit Audacity"
 msgstr ""
 
 #: src/AutoRecoveryDialog.cpp
@@ -3380,21 +3411,6 @@ msgstr[1] ""
 msgid "Enable new plug-ins"
 msgstr ""
 
-#: src/PluginManager.cpp
-#, c-format
-msgid ""
-"The plugin registry file is not writable:\n"
-"\n"
-"%s\n"
-"\n"
-"Settings were not saved."
-msgstr ""
-
-#: src/Prefs.cpp
-#, c-format
-msgid "Audacity cannot start because the settings file at %s is not writable."
-msgstr ""
-
 #: src/Printing.cpp
 msgid "There was a problem printing."
 msgstr ""
@@ -4462,11 +4478,6 @@ msgstr ""
 
 #: src/Sequence.cpp
 msgid "Warning - Truncating Overlong Block File"
-msgstr ""
-
-#: src/ShuttleGui.cpp src/commands/HelpCommand.cpp src/effects/Equalization.cpp
-#: src/menus/HelpMenus.cpp src/widgets/MultiDialog.cpp
-msgid "Help"
 msgstr ""
 
 #: src/ShuttleGui.cpp src/effects/EffectUI.cpp
