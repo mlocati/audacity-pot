@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 2.4.2\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-02-01 08:23+0000\n"
+"POT-Creation-Date: 2021-02-02 08:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1085,7 +1085,7 @@ msgid ""
 "is full or you do not have write permissions to the file. More information "
 "can be obtained by clicking the help button below.\n"
 "\n"
-"You can attempt to correct the issue and then click \"Retry\" to coninue.\n"
+"You can attempt to correct the issue and then click \"Retry\" to continue.\n"
 "\n"
 "If you choose to \"Quit Audacity\", your project may be left in an unsaved "
 "state which will be recovered the next time you open it."
@@ -17672,7 +17672,7 @@ msgstr ""
 #. * The decimal separator is specified using '<' if your language uses a ',' or
 #. * to '>' if your language uses a '.'.
 #: src/widgets/NumericTextCtrl.cpp
-msgid "0100000>0100 Hz"
+msgid "010,01000>0100 Hz"
 msgstr ""
 
 #: src/widgets/NumericTextCtrl.cpp
