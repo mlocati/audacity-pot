@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 2.4.2\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-02-02 08:22+0000\n"
+"POT-Creation-Date: 2021-02-03 08:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3792,67 +3792,7 @@ msgid "Failed to remove the autosave information from the project file."
 msgstr ""
 
 #: src/ProjectFileIO.cpp
-msgid "Failed to detach project during import"
-msgstr ""
-
-#: src/ProjectFileIO.cpp
-#, c-format
-msgid "Unable to attach %s project file"
-msgstr ""
-
-#: src/ProjectFileIO.cpp
-msgid "Unable to load project or autosave documents"
-msgstr ""
-
-#: src/ProjectFileIO.cpp
 msgid "Unable to decode project document"
-msgstr ""
-
-#: src/ProjectFileIO.cpp
-msgid "Unable to parse the project document"
-msgstr ""
-
-#: src/ProjectFileIO.cpp
-msgid "Missing root node in project document"
-msgstr ""
-
-#: src/ProjectFileIO.cpp src/import/ImportAUP.cpp
-msgid ""
-"The active project already has a time track and one was encountered in the "
-"project being imported, bypassing imported time track."
-msgstr ""
-
-#: src/ProjectFileIO.cpp src/import/ImportAUP.cpp
-msgid "Project Import"
-msgstr ""
-
-#: src/ProjectFileIO.cpp
-msgid "Importing project"
-msgstr ""
-
-#: src/ProjectFileIO.cpp
-msgid "Unable to start a transaction during import"
-msgstr ""
-
-#: src/ProjectFileIO.cpp
-#, c-format
-msgid ""
-"Failed to import sample block.\n"
-"The following command failed:\n"
-"\n"
-"%s"
-msgstr ""
-
-#: src/ProjectFileIO.cpp
-msgid "Unable to commit transaction during import"
-msgstr ""
-
-#: src/ProjectFileIO.cpp
-msgid "Failed to import tags"
-msgstr ""
-
-#: src/ProjectFileIO.cpp
-msgid "Unable to recreate project information."
 msgstr ""
 
 #: src/ProjectFileIO.cpp
@@ -11417,6 +11357,16 @@ msgstr ""
 msgid ""
 "MIDI tracks found in project file, but this build of Audacity does not "
 "include MIDI support, bypassing track."
+msgstr ""
+
+#: src/import/ImportAUP.cpp
+msgid "Project Import"
+msgstr ""
+
+#: src/import/ImportAUP.cpp
+msgid ""
+"The active project already has a time track and one was encountered in the "
+"project being imported, bypassing imported time track."
 msgstr ""
 
 #: src/import/ImportAUP.cpp
