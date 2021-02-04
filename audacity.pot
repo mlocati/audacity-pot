@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 2.4.2\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-02-03 08:20+0000\n"
+"POT-Creation-Date: 2021-02-04 08:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -4034,6 +4034,10 @@ msgid "Error Importing"
 msgstr ""
 
 #: src/ProjectFileManager.cpp
+msgid "Cannot import AUP3 format.  Use File > Open instead"
+msgstr ""
+
+#: src/ProjectFileManager.cpp
 msgid "Compact Project"
 msgstr ""
 
@@ -5242,6 +5246,14 @@ msgstr ""
 #: src/commands/CommandManager.cpp src/prefs/MousePrefs.cpp
 #: src/widgets/KeyView.cpp
 msgid "Command"
+msgstr ""
+
+#. i18n-hint: %s will be the name of the effect which will be
+#. * repeated if this menu item is chosen
+#: src/commands/CommandManager.cpp src/effects/EffectUI.cpp
+#: src/menus/PluginMenus.cpp
+#, c-format
+msgid "Repeat %s"
 msgstr ""
 
 #: src/commands/CommandManager.cpp
@@ -7431,11 +7443,8 @@ msgstr ""
 msgid "Play"
 msgstr ""
 
-#. i18n-hint: %s will be the name of the effect which will be
-#. * repeated if this menu item is chosen
-#: src/effects/EffectUI.cpp src/menus/PluginMenus.cpp
-#, c-format
-msgid "Repeat %s"
+#: src/effects/EffectUI.cpp src/effects/nyquist/Nyquist.cpp
+msgid "Nyquist Prompt"
 msgstr ""
 
 #. i18n-hint: Technical term for a kind of curve.
@@ -9396,10 +9405,6 @@ msgstr ""
 
 #: src/effects/nyquist/Nyquist.cpp
 msgid "Applying Nyquist Effect..."
-msgstr ""
-
-#: src/effects/nyquist/Nyquist.cpp
-msgid "Nyquist Prompt"
 msgstr ""
 
 #. i18n-hint: It is acceptable to translate this the same as for "Nyquist Prompt"
