@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 2.4.2\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-02-10 08:18+0000\n"
+"POT-Creation-Date: 2021-02-13 08:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12341,10 +12341,6 @@ msgstr ""
 
 #: src/menus/FileMenus.cpp
 msgid "Allegro files"
-msgstr ""
-
-#: src/menus/FileMenus.cpp
-msgid "Select any uncompressed audio file"
 msgstr ""
 
 #: src/menus/FileMenus.cpp
