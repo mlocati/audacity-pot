@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 2.4.2\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-02-13 08:18+0000\n"
+"POT-Creation-Date: 2021-02-14 08:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1569,6 +1569,10 @@ msgstr ""
 msgid "Macros Palette"
 msgstr ""
 
+#: src/BatchProcessDialog.cpp
+msgid "Manage Macros"
+msgstr ""
+
 #. i18n-hint: A macro is a sequence of commands that can be applied
 #. * to one or more audio files.
 #: src/BatchProcessDialog.cpp
@@ -1733,10 +1737,6 @@ msgstr ""
 #: src/BatchProcessDialog.cpp
 #, c-format
 msgid "Are you sure you want to delete %s?"
-msgstr ""
-
-#: src/BatchProcessDialog.cpp
-msgid "Manage Macros"
 msgstr ""
 
 #. i18n-hint: Benchmark means a software speed test
@@ -2406,6 +2406,10 @@ msgstr ""
 msgid "Specify New Filename:"
 msgstr ""
 
+#: src/FreqWindow.cpp
+msgid "Frequency Analysis"
+msgstr ""
+
 #: src/FreqWindow.cpp src/prefs/SpectrumPrefs.h
 msgid "Spectrum"
 msgstr ""
@@ -2575,10 +2579,6 @@ msgstr ""
 
 #: src/FreqWindow.cpp
 msgid "Lag (seconds)\tFrequency (Hz)\tLevel"
-msgstr ""
-
-#: src/FreqWindow.cpp
-msgid "Frequency Analysis"
 msgstr ""
 
 #: src/FreqWindow.cpp
@@ -3019,6 +3019,11 @@ msgstr ""
 msgid "Mixing and rendering tracks"
 msgstr ""
 
+#: src/MixerBoard.cpp
+#, c-format
+msgid "Audacity Mixer Board%s"
+msgstr ""
+
 #. i18n-hint: title of the Gain slider, used to adjust the volume
 #. i18n-hint: Title of the Gain slider, used to adjust the volume
 #: src/MixerBoard.cpp src/menus/TrackMenus.cpp
@@ -3077,11 +3082,6 @@ msgstr ""
 #: src/MixerBoard.cpp
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackSliderHandles.cpp
 msgid "Moved pan slider"
-msgstr ""
-
-#: src/MixerBoard.cpp
-#, c-format
-msgid "Audacity Mixer Board%s"
 msgstr ""
 
 #: src/MixerBoard.cpp
