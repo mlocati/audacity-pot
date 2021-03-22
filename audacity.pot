@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 2.4.2\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-03-18 08:19+0000\n"
+"POT-Creation-Date: 2021-03-22 08:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -596,7 +596,6 @@ msgstr ""
 msgid "The name %s is a registered trademark of Dominic Mazzoni."
 msgstr ""
 
-#. i18n-hint: Information about when audacity was compiled
 #: src/AboutDialog.cpp
 msgid "Build Information"
 msgstr ""
@@ -608,6 +607,68 @@ msgstr ""
 #: src/AboutDialog.cpp src/PluginManager.cpp src/export/ExportFFmpegDialogs.cpp
 #: src/prefs/ModulePrefs.cpp
 msgid "Disabled"
+msgstr ""
+
+#. i18n-hint: Information about when audacity was compiled follows
+#: src/AboutDialog.cpp
+msgid "The Build"
+msgstr ""
+
+#: src/AboutDialog.cpp
+msgid "Program build date:"
+msgstr ""
+
+#: src/AboutDialog.cpp
+msgid "Commit Id:"
+msgstr ""
+
+#: src/AboutDialog.cpp
+#, c-format
+msgid "Debug build (debug level %d)"
+msgstr ""
+
+#: src/AboutDialog.cpp
+#, c-format
+msgid "Release build (debug level %d)"
+msgstr ""
+
+#: src/AboutDialog.cpp
+#, c-format
+msgid "%s, 64 bits"
+msgstr ""
+
+#: src/AboutDialog.cpp
+msgid "Build type:"
+msgstr ""
+
+#: src/AboutDialog.cpp
+msgid "Compiler:"
+msgstr ""
+
+#. i18n-hint: The directory audacity is installed into (on *nix systems)
+#: src/AboutDialog.cpp
+msgid "Installation Prefix:"
+msgstr ""
+
+#: src/AboutDialog.cpp
+msgid "Settings folder:"
+msgstr ""
+
+#. i18n-hint: Libraries that are essential to audacity
+#: src/AboutDialog.cpp
+msgid "Core Libraries"
+msgstr ""
+
+#: src/AboutDialog.cpp
+msgid "Cross-platform GUI library"
+msgstr ""
+
+#: src/AboutDialog.cpp
+msgid "Audio playback and recording"
+msgstr ""
+
+#: src/AboutDialog.cpp
+msgid "Sample rate conversion"
 msgstr ""
 
 #: src/AboutDialog.cpp
@@ -651,23 +712,6 @@ msgstr ""
 msgid "Import via GStreamer"
 msgstr ""
 
-#. i18n-hint: Libraries that are essential to audacity
-#: src/AboutDialog.cpp
-msgid "Core Libraries"
-msgstr ""
-
-#: src/AboutDialog.cpp
-msgid "Sample rate conversion"
-msgstr ""
-
-#: src/AboutDialog.cpp
-msgid "Audio playback and recording"
-msgstr ""
-
-#: src/AboutDialog.cpp
-msgid "Cross-platform GUI library"
-msgstr ""
-
 #: src/AboutDialog.cpp
 msgid "Features"
 msgstr ""
@@ -690,46 +734,6 @@ msgstr ""
 
 #: src/AboutDialog.cpp
 msgid "Extreme Pitch and Tempo Change support"
-msgstr ""
-
-#: src/AboutDialog.cpp
-msgid "Program build date:"
-msgstr ""
-
-#: src/AboutDialog.cpp
-msgid "Commit Id:"
-msgstr ""
-
-#: src/AboutDialog.cpp
-#, c-format
-msgid "Debug build (debug level %d)"
-msgstr ""
-
-#: src/AboutDialog.cpp
-#, c-format
-msgid "Release build (debug level %d)"
-msgstr ""
-
-#: src/AboutDialog.cpp
-#, c-format
-msgid "%s, 64 bits"
-msgstr ""
-
-#: src/AboutDialog.cpp
-msgid "Build type:"
-msgstr ""
-
-#: src/AboutDialog.cpp
-msgid "Compiler:"
-msgstr ""
-
-#. i18n-hint: The directory audacity is installed into (on *nix systems)
-#: src/AboutDialog.cpp
-msgid "Installation Prefix:"
-msgstr ""
-
-#: src/AboutDialog.cpp
-msgid "Settings folder:"
 msgstr ""
 
 #: src/AboutDialog.cpp
