@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 2.4.2\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-03-22 08:24+0000\n"
+"POT-Creation-Date: 2021-03-23 08:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1661,6 +1661,11 @@ msgstr ""
 #: src/BatchProcessDialog.cpp src/effects/Contrast.cpp
 #: src/effects/Equalization.cpp
 msgid "E&xport..."
+msgstr ""
+
+#: src/BatchProcessDialog.cpp src/effects/nyquist/Nyquist.cpp
+#: src/menus/HelpMenus.cpp
+msgid "&Save"
 msgstr ""
 
 #: src/BatchProcessDialog.cpp
@@ -9559,10 +9564,6 @@ msgstr ""
 
 #: src/effects/nyquist/Nyquist.cpp
 msgid "&Load"
-msgstr ""
-
-#: src/effects/nyquist/Nyquist.cpp src/menus/HelpMenus.cpp
-msgid "&Save"
 msgstr ""
 
 #. i18n-hint: Nyquist is the name of a programming language
