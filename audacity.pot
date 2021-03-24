@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 2.4.2\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-03-23 08:20+0000\n"
+"POT-Creation-Date: 2021-03-24 08:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1663,11 +1663,6 @@ msgstr ""
 msgid "E&xport..."
 msgstr ""
 
-#: src/BatchProcessDialog.cpp src/effects/nyquist/Nyquist.cpp
-#: src/menus/HelpMenus.cpp
-msgid "&Save"
-msgstr ""
-
 #: src/BatchProcessDialog.cpp
 msgid "Edit Steps"
 msgstr ""
@@ -1703,6 +1698,11 @@ msgstr ""
 
 #: src/BatchProcessDialog.cpp src/effects/Equalization.cpp
 msgid "Move &Down"
+msgstr ""
+
+#: src/BatchProcessDialog.cpp src/effects/nyquist/Nyquist.cpp
+#: src/menus/HelpMenus.cpp
+msgid "&Save"
 msgstr ""
 
 #. i18n-hint: The Shrink button makes the dialog smaller, with less in it
