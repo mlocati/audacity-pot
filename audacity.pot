@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 2.4.2\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-03-24 08:09+0000\n"
+"POT-Creation-Date: 2021-03-28 08:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3658,8 +3658,16 @@ msgstr ""
 msgid "[Project %02i] "
 msgstr ""
 
-#: src/ProjectFileIO.cpp src/SqliteSampleBlock.cpp
+#: src/ProjectFileIO.cpp
 msgid "Failed to open the project's database"
+msgstr ""
+
+#: src/ProjectFileIO.cpp
+#, c-format
+msgid ""
+"Failed to open database file:\n"
+"\n"
+"%s"
 msgstr ""
 
 #: src/ProjectFileIO.cpp
@@ -3710,8 +3718,63 @@ msgstr ""
 msgid "Unable to initialize the project file"
 msgstr ""
 
+#. i18n-hint: An error message.  Don't translate inset or blockids.
 #: src/ProjectFileIO.cpp
-msgid "Cleanup of orphan blocks failed"
+msgid "Unable to add 'inset' function (can't verify blockids)"
+msgstr ""
+
+#. i18n-hint: An error message.  Don't translate blockfiles.
+#: src/ProjectFileIO.cpp
+msgid ""
+"Project is read only\n"
+"(Unable to work with the blockfiles)"
+msgstr ""
+
+#. i18n-hint: An error message.  Don't translate blockfiles.
+#: src/ProjectFileIO.cpp
+msgid ""
+"Project is locked\n"
+"(Unable to work with the blockfiles)"
+msgstr ""
+
+#. i18n-hint: An error message.  Don't translate blockfiles.
+#: src/ProjectFileIO.cpp
+msgid ""
+"Project is busy\n"
+"(Unable to work with the blockfiles)"
+msgstr ""
+
+#. i18n-hint: An error message.  Don't translate blockfiles.
+#: src/ProjectFileIO.cpp
+msgid ""
+"Project is corrupt\n"
+"(Unable to work with the blockfiles)"
+msgstr ""
+
+#. i18n-hint: An error message.  Don't translate blockfiles.
+#: src/ProjectFileIO.cpp
+msgid ""
+"Some permissions issue\n"
+"(Unable to work with the blockfiles)"
+msgstr ""
+
+#. i18n-hint: An error message.  Don't translate blockfiles.
+#: src/ProjectFileIO.cpp
+msgid ""
+"A disk I/O error\n"
+"(Unable to work with the blockfiles)"
+msgstr ""
+
+#. i18n-hint: An error message.  Don't translate blockfiles.
+#: src/ProjectFileIO.cpp
+msgid ""
+"Not authorized\n"
+"(Unable to work with the blockfiles)"
+msgstr ""
+
+#. i18n-hint: An error message.  Don't translate blockfiles.
+#: src/ProjectFileIO.cpp
+msgid "Unable to work with the blockfiles"
 msgstr ""
 
 #: src/ProjectFileIO.cpp
@@ -4475,6 +4538,10 @@ msgstr ""
 
 #: src/SplashDialog.cpp
 msgid "Don't show this again at start up"
+msgstr ""
+
+#: src/SqliteSampleBlock.cpp
+msgid "Connection to project file is null"
 msgstr ""
 
 #: src/Tags.cpp
