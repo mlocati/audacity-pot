@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.1\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-04-01 08:11+0000\n"
+"POT-Creation-Date: 2021-04-02 08:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14889,23 +14889,7 @@ msgid "MP3 Library Version:"
 msgstr ""
 
 #: src/prefs/LibraryPrefs.cpp
-msgid "LAME MP3 Library:"
-msgstr ""
-
-#: src/prefs/LibraryPrefs.cpp
-msgid "&Locate..."
-msgstr ""
-
-#: src/prefs/LibraryPrefs.cpp
-msgid "&Download"
-msgstr ""
-
-#: src/prefs/LibraryPrefs.cpp
 msgid "FFmpeg Import/Export Library"
-msgstr ""
-
-#: src/prefs/LibraryPrefs.cpp
-msgid "FFmpeg Library Version:"
 msgstr ""
 
 #: src/prefs/LibraryPrefs.cpp
@@ -14914,6 +14898,10 @@ msgstr ""
 
 #: src/prefs/LibraryPrefs.cpp
 msgid "FFmpeg support is not compiled in"
+msgstr ""
+
+#: src/prefs/LibraryPrefs.cpp
+msgid "FFmpeg Library Version:"
 msgstr ""
 
 #: src/prefs/LibraryPrefs.cpp
