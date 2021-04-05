@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.1\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-04-02 08:05+0000\n"
+"POT-Creation-Date: 2021-04-05 08:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1996,6 +1996,11 @@ msgid "Report generated to:"
 msgstr ""
 
 #: src/DBConnection.cpp
+#, c-format
+msgid "(%d): %s"
+msgstr ""
+
+#: src/DBConnection.cpp
 msgid "Checkpointing project"
 msgstr ""
 
@@ -3864,6 +3869,10 @@ msgstr ""
 
 #: src/ProjectFileIO.cpp
 msgid "Failed to remove the autosave information from the project file."
+msgstr ""
+
+#: src/ProjectFileIO.cpp
+msgid "Unable to bind to blob"
 msgstr ""
 
 #: src/ProjectFileIO.cpp
@@ -10714,15 +10723,6 @@ msgstr ""
 msgid "45-85 kbps (Smaller files)"
 msgstr ""
 
-#: src/export/ExportMP3.cpp
-msgid "Fast"
-msgstr ""
-
-#: src/export/ExportMP3.cpp src/prefs/KeyConfigPrefs.cpp
-#: plug-ins/sample-data-export.ny
-msgid "Standard"
-msgstr ""
-
 #. i18n-hint: Slightly humorous - as in use an insane precision with MP3.
 #: src/export/ExportMP3.cpp
 msgid "Insane, 320 kbps"
@@ -10747,6 +10747,11 @@ msgstr ""
 
 #: src/export/ExportMP3.cpp
 msgid "Extreme"
+msgstr ""
+
+#: src/export/ExportMP3.cpp src/prefs/KeyConfigPrefs.cpp
+#: plug-ins/sample-data-export.ny
+msgid "Standard"
 msgstr ""
 
 #: src/export/ExportMP3.cpp
@@ -10780,10 +10785,6 @@ msgstr ""
 #. i18n-hint: meaning accuracy in reproduction of sounds
 #: src/export/ExportMP3.cpp src/prefs/QualityPrefs.cpp src/prefs/QualityPrefs.h
 msgid "Quality"
-msgstr ""
-
-#: src/export/ExportMP3.cpp
-msgid "Variable Speed:"
 msgstr ""
 
 #: src/export/ExportMP3.cpp
