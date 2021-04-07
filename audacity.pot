@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.1\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-04-06 08:05+0000\n"
+"POT-Creation-Date: 2021-04-07 08:11+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -4040,6 +4040,14 @@ msgstr ""
 
 #: src/ProjectFileManager.cpp
 msgid "Error Saving Copy of Project"
+msgstr ""
+
+#: src/ProjectFileManager.cpp
+msgid "Can't open new empty project"
+msgstr ""
+
+#: src/ProjectFileManager.cpp
+msgid "Error opening a new empty project"
 msgstr ""
 
 #: src/ProjectFileManager.cpp src/effects/nyquist/Nyquist.cpp
