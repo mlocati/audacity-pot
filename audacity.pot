@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-05-06 08:18+0000\n"
+"POT-Creation-Date: 2021-05-15 08:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3445,6 +3445,10 @@ msgstr[1] ""
 
 #: src/PluginManager.cpp
 msgid "Enable new plug-ins"
+msgstr ""
+
+#: src/PluginManager.h
+msgid "Nyquist Prompt"
 msgstr ""
 
 #: src/Printing.cpp
@@ -7559,10 +7563,6 @@ msgstr ""
 
 #: src/effects/EffectUI.cpp src/toolbars/ControlToolBar.cpp
 msgid "Play"
-msgstr ""
-
-#: src/effects/EffectUI.cpp src/effects/nyquist/Nyquist.cpp
-msgid "Nyquist Prompt"
 msgstr ""
 
 #. i18n-hint: Technical term for a kind of curve.
