@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-05-17 08:21+0000\n"
+"POT-Creation-Date: 2021-05-19 08:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -4307,7 +4307,7 @@ msgid "24-bit PCM"
 msgstr ""
 
 #. i18n-hint: Audio data bit depth (precision): 32-bit floating point
-#: src/SampleFormat.cpp src/prefs/QualityPrefs.cpp
+#: src/SampleFormat.cpp src/prefs/QualitySettings.cpp
 msgid "32-bit float"
 msgstr ""
 
@@ -15343,14 +15343,6 @@ msgid "Preferences:"
 msgstr ""
 
 #: src/prefs/QualityPrefs.cpp
-msgid "16-bit"
-msgstr ""
-
-#: src/prefs/QualityPrefs.cpp
-msgid "24-bit"
-msgstr ""
-
-#: src/prefs/QualityPrefs.cpp
 msgid "Preferences for Quality"
 msgstr ""
 
@@ -15399,6 +15391,14 @@ msgstr ""
 #. i18n-hint: technical term for randomization to reduce undesirable resampling artifacts
 #: src/prefs/QualityPrefs.cpp
 msgid "Dit&her:"
+msgstr ""
+
+#: src/prefs/QualitySettings.cpp
+msgid "16-bit"
+msgstr ""
+
+#: src/prefs/QualitySettings.cpp
+msgid "24-bit"
 msgstr ""
 
 #: src/prefs/RecordingPrefs.cpp
