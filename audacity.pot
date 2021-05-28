@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-05-27 08:46+0000\n"
+"POT-Creation-Date: 2021-05-28 08:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,98 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: libraries/lib-strings/Internat.cpp
+msgid "Unable to determine"
+msgstr ""
+
+#: libraries/lib-strings/Internat.cpp
+#, c-format
+msgid "%s bytes"
+msgstr ""
+
+#. i18n-hint: Abbreviation for Kilo bytes
+#: libraries/lib-strings/Internat.cpp
+#, c-format
+msgid "%s KB"
+msgstr ""
+
+#. i18n-hint: Abbreviation for Mega bytes
+#: libraries/lib-strings/Internat.cpp
+#, c-format
+msgid "%s MB"
+msgstr ""
+
+#. i18n-hint: Abbreviation for Giga bytes
+#: libraries/lib-strings/Internat.cpp
+#, c-format
+msgid "%s GB"
+msgstr ""
+
+#: libraries/lib-strings/Languages.cpp
+msgid "Simplified"
+msgstr ""
+
+#: libraries/lib-strings/Languages.cpp
+msgid "System"
+msgstr ""
+
+#. i18n-hint comments, can be cut and pasted elsewhere
+#. during the continued development in string freeze.
+#.
+#. Some example strings are also given first, to document the syntax.
+#.
+#. //////////////////////////////////////////////// Begin examples
+#. A translated string may also have an accompanying special comment
+#. i18n-hint to lower oneself
+#. i18n-hint An example of a longer special comment that can wrap lines.
+#. These comments must begin with the special word i18n-hint and immediately
+#. precede the source code line with the opening quotation mark.  The translators
+#. will see this comment text in the generated .po files, which they edit and
+#. complete.  This comment can give hints about unusual words, or the grammatical
+#. form of an English word (such as whether it's meant as noun or verb) when that
+#. is not clear from context.
+#.
+#. i18n-hint one more example of alternative correct placement of an
+#. internationalization comment.  All comments on different occurrences of the
+#. same string are collected in the template file.
+#: libraries/lib-strings/UnusedStrings.h
+msgid "Get down"
+msgstr ""
+
+#. i18n-hint Have fun and dance
+#: libraries/lib-strings/UnusedStrings.h
+msgctxt "party"
+msgid "Get down"
+msgstr ""
+
+#. i18n-hint Obtain the underfeathers of a goose
+#: libraries/lib-strings/UnusedStrings.h
+msgctxt "pillows"
+msgid "Get down"
+msgstr ""
+
+#: libraries/lib-strings/UnusedStrings.h src/BatchCommands.cpp
+#, c-format
+msgid "Your batch command of %s was not recognized."
+msgstr ""
+
+#. i18n-hint
+#: libraries/lib-strings/UnusedStrings.h
+#, c-format
+msgid "Got down one time"
+msgid_plural "Got down %d times"
+msgstr[0] ""
+msgstr[1] ""
+
+#. i18n-hint Obtained underfeathers of geese on one or more occasions
+#: libraries/lib-strings/UnusedStrings.h
+#, c-format
+msgctxt "pillows"
+msgid "Got down one time"
+msgid_plural "Got down %d times"
+msgstr[0] ""
+msgstr[1] ""
 
 #: modules/mod-null/ModNullCallback.cpp
 msgid "1st Experimental Command..."
@@ -1547,11 +1639,6 @@ msgstr ""
 msgid "\"%s\" requires one or more tracks to be selected."
 msgstr ""
 
-#: src/BatchCommands.cpp src/UnusedStrings.h
-#, c-format
-msgid "Your batch command of %s was not recognized."
-msgstr ""
-
 #. i18n-hint: active verb in past tense
 #: src/BatchCommands.cpp
 msgid "Applied Macro"
@@ -2858,33 +2945,6 @@ msgstr ""
 msgid "Internal Error"
 msgstr ""
 
-#: src/Internat.cpp
-msgid "Unable to determine"
-msgstr ""
-
-#: src/Internat.cpp
-#, c-format
-msgid "%s bytes"
-msgstr ""
-
-#. i18n-hint: Abbreviation for Kilo bytes
-#: src/Internat.cpp
-#, c-format
-msgid "%s KB"
-msgstr ""
-
-#. i18n-hint: Abbreviation for Mega bytes
-#: src/Internat.cpp
-#, c-format
-msgid "%s MB"
-msgstr ""
-
-#. i18n-hint: Abbreviation for Giga bytes
-#: src/Internat.cpp
-#, c-format
-msgid "%s GB"
-msgstr ""
-
 #: src/LabelDialog.cpp
 msgid "Edit Labels"
 msgstr ""
@@ -2988,14 +3048,6 @@ msgstr ""
 #: src/LangChoice.cpp src/effects/VST/VSTEffect.cpp
 #: src/widgets/FileDialog/gtk/FileDialogPrivate.cpp
 msgid "Confirm"
-msgstr ""
-
-#: src/Languages.cpp
-msgid "Simplified"
-msgstr ""
-
-#: src/Languages.cpp
-msgid "System"
 msgstr ""
 
 #: src/Legacy.cpp
@@ -5280,58 +5332,6 @@ msgstr ""
 #: src/UndoManager.cpp
 msgid "Discarding undo/redo history"
 msgstr ""
-
-#. i18n-hint comments, can be cut and pasted elsewhere
-#. during the continued development in string freeze.
-#.
-#. Some example strings are also given first, to document the syntax.
-#.
-#. //////////////////////////////////////////////// Begin examples
-#. A translated string may also have an accompanying special comment
-#. i18n-hint to lower oneself
-#. i18n-hint An example of a longer special comment that can wrap lines.
-#. These comments must begin with the special word i18n-hint and immediately
-#. precede the source code line with the opening quotation mark.  The translators
-#. will see this comment text in the generated .po files, which they edit and
-#. complete.  This comment can give hints about unusual words, or the grammatical
-#. form of an English word (such as whether it's meant as noun or verb) when that
-#. is not clear from context.
-#.
-#. i18n-hint one more example of alternative correct placement of an
-#. internationalization comment.  All comments on different occurrences of the
-#. same string are collected in the template file.
-#: src/UnusedStrings.h
-msgid "Get down"
-msgstr ""
-
-#. i18n-hint Have fun and dance
-#: src/UnusedStrings.h
-msgctxt "party"
-msgid "Get down"
-msgstr ""
-
-#. i18n-hint Obtain the underfeathers of a goose
-#: src/UnusedStrings.h
-msgctxt "pillows"
-msgid "Get down"
-msgstr ""
-
-#. i18n-hint
-#: src/UnusedStrings.h
-#, c-format
-msgid "Got down one time"
-msgid_plural "Got down %d times"
-msgstr[0] ""
-msgstr[1] ""
-
-#. i18n-hint Obtained underfeathers of geese on one or more occasions
-#: src/UnusedStrings.h
-#, c-format
-msgctxt "pillows"
-msgid "Got down one time"
-msgid_plural "Got down %d times"
-msgstr[0] ""
-msgstr[1] ""
 
 #. i18n-hint: Voice key is an experimental/incomplete feature that
 #. is used to navigate in vocal recordings, to move forwards and
