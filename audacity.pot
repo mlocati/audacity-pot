@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-06-08 08:21+0000\n"
+"POT-Creation-Date: 2021-06-09 08:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -63,11 +63,12 @@ msgid ""
 "collected anonymously."
 msgstr ""
 
-#: libraries/lib-strings/UnusedStrings.h
+#: libraries/lib-strings/UnusedStrings.h src/widgets/ErrorReportDialog.cpp
 msgid "Problem details"
 msgstr ""
 
 #: libraries/lib-strings/UnusedStrings.h src/Tags.cpp src/prefs/MousePrefs.cpp
+#: src/widgets/ErrorReportDialog.cpp
 msgid "Comments"
 msgstr ""
 
@@ -1291,7 +1292,7 @@ msgstr ""
 
 #: src/AudacityFileConfig.cpp src/ShuttleGui.cpp src/commands/HelpCommand.cpp
 #: src/effects/Equalization.cpp src/export/Export.cpp src/menus/HelpMenus.cpp
-#: src/widgets/MultiDialog.cpp
+#: src/widgets/ErrorReportDialog.cpp src/widgets/MultiDialog.cpp
 msgid "Help"
 msgstr ""
 
@@ -12811,10 +12812,6 @@ msgid "&Generate Support Data..."
 msgstr ""
 
 #: src/menus/HelpMenus.cpp
-msgid "Menu Tree..."
-msgstr ""
-
-#: src/menus/HelpMenus.cpp
 msgid "&Check for Updates..."
 msgstr ""
 
@@ -17464,6 +17461,20 @@ msgstr ""
 #: src/widgets/ASlider.cpp
 #, c-format
 msgid "%.2fx"
+msgstr ""
+
+#: src/widgets/ErrorReportDialog.cpp
+msgid ""
+"Click \"Send\" to submit report to Audacity. This information is collected "
+"anonymously."
+msgstr ""
+
+#: src/widgets/ErrorReportDialog.cpp
+msgid "Don't send"
+msgstr ""
+
+#: src/widgets/ErrorReportDialog.cpp
+msgid "Send"
 msgstr ""
 
 #: src/widgets/FileDialog/gtk/FileDialogPrivate.cpp
