@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-06-09 08:18+0000\n"
+"POT-Creation-Date: 2021-06-11 08:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,154 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: libraries/lib-strings/FutureStrings.h
+msgid "Problem Report for Audacity"
+msgstr ""
+
+#: libraries/lib-strings/FutureStrings.h
+msgid ""
+"Click \"Send\" to submit the report to Audacity. This information is "
+"collected anonymously."
+msgstr ""
+
+#: libraries/lib-strings/FutureStrings.h src/widgets/ErrorReportDialog.cpp
+msgid "Problem details"
+msgstr ""
+
+#: libraries/lib-strings/FutureStrings.h src/Tags.cpp src/prefs/MousePrefs.cpp
+#: src/widgets/ErrorReportDialog.cpp
+msgid "Comments"
+msgstr ""
+
+#: libraries/lib-strings/FutureStrings.h
+msgctxt "crash reporter button"
+msgid "&Send"
+msgstr ""
+
+#: libraries/lib-strings/FutureStrings.h
+msgctxt "crash reporter button"
+msgid "&Don't send"
+msgstr ""
+
+#. i18n-hint C++ programming exception
+#: libraries/lib-strings/FutureStrings.h
+#, c-format
+msgid "Exception code 0x%x"
+msgstr ""
+
+#. i18n-hint C++ programming exception
+#: libraries/lib-strings/FutureStrings.h
+msgid "Unknown exception"
+msgstr ""
+
+#. i18n-hint C++ programming assertion
+#: libraries/lib-strings/FutureStrings.h
+msgid "Unknown assertion"
+msgstr ""
+
+#: libraries/lib-strings/FutureStrings.h
+msgid "Unknown error"
+msgstr ""
+
+#: libraries/lib-strings/FutureStrings.h
+msgid "Failed to send crash report"
+msgstr ""
+
+#. i18n-hint Scheme refers to a color scheme for spectrogram colors
+#: libraries/lib-strings/FutureStrings.h
+msgctxt "spectrum prefs"
+msgid "Sche&me"
+msgstr ""
+
+#. i18n-hint Choice of spectrogram colors
+#: libraries/lib-strings/FutureStrings.h
+msgctxt "spectrum prefs"
+msgid "Color (default)"
+msgstr ""
+
+#. i18n-hint Choice of spectrogram colors
+#: libraries/lib-strings/FutureStrings.h
+msgctxt "spectrum prefs"
+msgid "Color (classic)"
+msgstr ""
+
+#. i18n-hint Choice of spectrogram colors
+#: libraries/lib-strings/FutureStrings.h
+msgctxt "spectrum prefs"
+msgid "Grayscale"
+msgstr ""
+
+#. i18n-hint Choice of spectrogram colors
+#: libraries/lib-strings/FutureStrings.h
+msgctxt "spectrum prefs"
+msgid "Inverse grayscale"
+msgstr ""
+
+#: libraries/lib-strings/FutureStrings.h
+msgctxt "update dialog"
+msgid "Update Audacity"
+msgstr ""
+
+#: libraries/lib-strings/FutureStrings.h
+msgctxt "update dialog"
+msgid "&Skip"
+msgstr ""
+
+#: libraries/lib-strings/FutureStrings.h
+msgctxt "update dialog"
+msgid "&Install update"
+msgstr ""
+
+#: libraries/lib-strings/FutureStrings.h
+msgctxt "update dialog"
+msgid "Changelog"
+msgstr ""
+
+#: libraries/lib-strings/FutureStrings.h
+msgctxt "update dialog"
+msgid "Read more on GitHub"
+msgstr ""
+
+#: libraries/lib-strings/FutureStrings.h
+msgctxt "update dialog"
+msgid "Error checking for update"
+msgstr ""
+
+#: libraries/lib-strings/FutureStrings.h
+msgctxt "update dialog"
+msgid "Unable to connect to Audacity update server."
+msgstr ""
+
+#: libraries/lib-strings/FutureStrings.h
+msgctxt "update dialog"
+msgid "Update data was corrupted."
+msgstr ""
+
+#: libraries/lib-strings/FutureStrings.h
+msgctxt "update dialog"
+msgid "Error downloading update."
+msgstr ""
+
+#: libraries/lib-strings/FutureStrings.h
+msgctxt "update dialog"
+msgid "Can't open the Audacity download link."
+msgstr ""
+
+#. i18n-hint Substitution of version number for %s.
+#: libraries/lib-strings/FutureStrings.h
+#, c-format
+msgctxt "update dialog"
+msgid "Audacity %s is available!"
+msgstr ""
+
+#. i18n-hint comment to be moved
+#. to one of them (one is enough)
+#. i18n-hint: modifier as in "Recording preferences", not progressive verb
+#: libraries/lib-strings/FutureStrings.h
+msgctxt "preference"
+msgid "Recording"
+msgstr ""
 
 #: libraries/lib-strings/Internat.cpp
 msgid "Unable to determine"
@@ -51,146 +199,6 @@ msgstr ""
 
 #: libraries/lib-strings/Languages.cpp
 msgid "System"
-msgstr ""
-
-#: libraries/lib-strings/UnusedStrings.h
-msgid "Problem Report for Audacity"
-msgstr ""
-
-#: libraries/lib-strings/UnusedStrings.h
-msgid ""
-"Click \"Send\" to submit the report to Audacity. This information is "
-"collected anonymously."
-msgstr ""
-
-#: libraries/lib-strings/UnusedStrings.h src/widgets/ErrorReportDialog.cpp
-msgid "Problem details"
-msgstr ""
-
-#: libraries/lib-strings/UnusedStrings.h src/Tags.cpp src/prefs/MousePrefs.cpp
-#: src/widgets/ErrorReportDialog.cpp
-msgid "Comments"
-msgstr ""
-
-#: libraries/lib-strings/UnusedStrings.h
-msgctxt "crash reporter button"
-msgid "&Send"
-msgstr ""
-
-#: libraries/lib-strings/UnusedStrings.h
-msgctxt "crash reporter button"
-msgid "&Don't send"
-msgstr ""
-
-#. i18n-hint C++ programming exception
-#: libraries/lib-strings/UnusedStrings.h
-#, c-format
-msgid "Exception code 0x%x"
-msgstr ""
-
-#. i18n-hint C++ programming exception
-#: libraries/lib-strings/UnusedStrings.h
-msgid "Unknown exception"
-msgstr ""
-
-#. i18n-hint C++ programming assertion
-#: libraries/lib-strings/UnusedStrings.h
-msgid "Unknown assertion"
-msgstr ""
-
-#: libraries/lib-strings/UnusedStrings.h
-msgid "Unknown error"
-msgstr ""
-
-#: libraries/lib-strings/UnusedStrings.h
-msgid "Failed to send crash report"
-msgstr ""
-
-#. i18n-hint Scheme refers to a color scheme for spectrogram colors
-#: libraries/lib-strings/UnusedStrings.h
-msgctxt "spectrum prefs"
-msgid "Sche&me"
-msgstr ""
-
-#. i18n-hint Choice of spectrogram colors
-#: libraries/lib-strings/UnusedStrings.h
-msgctxt "spectrum prefs"
-msgid "Color (default)"
-msgstr ""
-
-#. i18n-hint Choice of spectrogram colors
-#: libraries/lib-strings/UnusedStrings.h
-msgctxt "spectrum prefs"
-msgid "Color (classic)"
-msgstr ""
-
-#. i18n-hint Choice of spectrogram colors
-#: libraries/lib-strings/UnusedStrings.h
-msgctxt "spectrum prefs"
-msgid "Grayscale"
-msgstr ""
-
-#. i18n-hint Choice of spectrogram colors
-#: libraries/lib-strings/UnusedStrings.h
-msgctxt "spectrum prefs"
-msgid "Inverse grayscale"
-msgstr ""
-
-#: libraries/lib-strings/UnusedStrings.h
-msgctxt "update dialog"
-msgid "Update Audacity"
-msgstr ""
-
-#: libraries/lib-strings/UnusedStrings.h
-msgctxt "update dialog"
-msgid "&Skip"
-msgstr ""
-
-#: libraries/lib-strings/UnusedStrings.h
-msgctxt "update dialog"
-msgid "&Install update"
-msgstr ""
-
-#: libraries/lib-strings/UnusedStrings.h
-msgctxt "update dialog"
-msgid "Changelog"
-msgstr ""
-
-#: libraries/lib-strings/UnusedStrings.h
-msgctxt "update dialog"
-msgid "Read more on GitHub"
-msgstr ""
-
-#: libraries/lib-strings/UnusedStrings.h
-msgctxt "update dialog"
-msgid "Error checking for update"
-msgstr ""
-
-#: libraries/lib-strings/UnusedStrings.h
-msgctxt "update dialog"
-msgid "Unable to connect to Audacity update server."
-msgstr ""
-
-#: libraries/lib-strings/UnusedStrings.h
-msgctxt "update dialog"
-msgid "Update data was corrupted."
-msgstr ""
-
-#: libraries/lib-strings/UnusedStrings.h
-msgctxt "update dialog"
-msgid "Error downloading update."
-msgstr ""
-
-#: libraries/lib-strings/UnusedStrings.h
-msgctxt "update dialog"
-msgid "Can't open the Audacity download link."
-msgstr ""
-
-#. i18n-hint Substitution of version number for %s.
-#: libraries/lib-strings/UnusedStrings.h
-#, c-format
-msgctxt "update dialog"
-msgid "Audacity %s is available!"
 msgstr ""
 
 #: modules/mod-null/ModNullCallback.cpp
@@ -4239,12 +4247,6 @@ msgstr ""
 
 #: src/ProjectFileManager.cpp
 msgid ""
-"Project resides on FAT formatted drive.\n"
-"Copy it to another drive to open it."
-msgstr ""
-
-#: src/ProjectFileManager.cpp
-msgid ""
 "You are trying to open an automatically created backup file.\n"
 "Doing this may result in severe data loss.\n"
 "\n"
@@ -4272,6 +4274,12 @@ msgstr ""
 
 #: src/ProjectFileManager.cpp
 msgid "Error Opening File or Project"
+msgstr ""
+
+#: src/ProjectFileManager.cpp
+msgid ""
+"Project resides on FAT formatted drive.\n"
+"Copy it to another drive to open it."
 msgstr ""
 
 #: src/ProjectFileManager.cpp
@@ -13980,13 +13988,15 @@ msgid "Move Focused Track to &Bottom"
 msgstr ""
 
 #. i18n-hint: These are strings for the status bar, and indicate whether Audacity
-#. is playing or recording or stopped, and whether it is paused.
+#. is playing or recording or stopped, and whether it is paused;
+#. progressive verb form
 #: src/menus/TransportMenus.cpp src/toolbars/ControlToolBar.cpp
 msgid "Playing"
 msgstr ""
 
 #. i18n-hint: These are strings for the status bar, and indicate whether Audacity
-#. is playing or recording or stopped, and whether it is paused.
+#. is playing or recording or stopped, and whether it is paused;
+#. progressive verb form
 #: src/menus/TransportMenus.cpp src/prefs/DevicePrefs.cpp
 #: src/prefs/MidiIOPrefs.cpp src/prefs/RecordingPrefs.cpp
 #: src/prefs/RecordingPrefs.h src/toolbars/ControlToolBar.cpp
@@ -16176,7 +16186,8 @@ msgid "Waveform dB &range:"
 msgstr ""
 
 #. i18n-hint: These are strings for the status bar, and indicate whether Audacity
-#. is playing or recording or stopped, and whether it is paused.
+#. is playing or recording or stopped, and whether it is paused;
+#. progressive verb form
 #: src/toolbars/ControlToolBar.cpp
 msgid "Stopped"
 msgstr ""
