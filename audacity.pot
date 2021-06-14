@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-06-13 08:16+0000\n"
+"POT-Creation-Date: 2021-06-14 08:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,27 +22,8 @@ msgstr ""
 msgid "Problem Report for Audacity"
 msgstr ""
 
-#: libraries/lib-strings/FutureStrings.h
-msgid "Click \"Send\" to submit the report to Audacity. This information is collected anonymously."
-msgstr ""
-
 #: libraries/lib-strings/FutureStrings.h src/widgets/ErrorReportDialog.cpp
 msgid "Problem details"
-msgstr ""
-
-#: libraries/lib-strings/FutureStrings.h src/Tags.cpp src/prefs/MousePrefs.cpp
-#: src/widgets/ErrorReportDialog.cpp
-msgid "Comments"
-msgstr ""
-
-#: libraries/lib-strings/FutureStrings.h
-msgctxt "crash reporter button"
-msgid "&Send"
-msgstr ""
-
-#: libraries/lib-strings/FutureStrings.h
-msgctxt "crash reporter button"
-msgid "&Don't send"
 msgstr ""
 
 #. i18n-hint C++ programming exception
@@ -4687,6 +4668,10 @@ msgstr ""
 
 #: src/Tags.cpp
 msgid "Genre"
+msgstr ""
+
+#: src/Tags.cpp src/prefs/MousePrefs.cpp src/widgets/ErrorReportDialog.cpp
+msgid "Comments"
 msgstr ""
 
 #: src/Tags.cpp
@@ -17278,15 +17263,17 @@ msgid "%.2fx"
 msgstr ""
 
 #: src/widgets/ErrorReportDialog.cpp
-msgid "Click \"Send\" to submit report to Audacity. This information is collected anonymously."
+msgid "Click \"Send\" to submit the report to Audacity. This information is collected anonymously."
 msgstr ""
 
 #: src/widgets/ErrorReportDialog.cpp
-msgid "Don't send"
+msgctxt "crash reporter button"
+msgid "&Don't send"
 msgstr ""
 
 #: src/widgets/ErrorReportDialog.cpp
-msgid "Send"
+msgctxt "crash reporter button"
+msgid "&Send"
 msgstr ""
 
 #: src/widgets/FileDialog/gtk/FileDialogPrivate.cpp
