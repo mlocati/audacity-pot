@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-06-14 08:22+0000\n"
+"POT-Creation-Date: 2021-06-16 08:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,66 +18,54 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: libraries/lib-strings/FutureStrings.h
-msgid "Problem Report for Audacity"
-msgstr ""
-
-#: libraries/lib-strings/FutureStrings.h src/widgets/ErrorReportDialog.cpp
-msgid "Problem details"
-msgstr ""
-
-#. i18n-hint C++ programming exception
-#: libraries/lib-strings/FutureStrings.h
+#. i18n-hint C++ programming assertion
+#: crashreports/crashreporter/CrashReportApp.cpp
 #, c-format
 msgid "Exception code 0x%x"
 msgstr ""
 
-#. i18n-hint C++ programming exception
-#: libraries/lib-strings/FutureStrings.h
+#. i18n-hint C++ programming assertion
+#: crashreports/crashreporter/CrashReportApp.cpp
 msgid "Unknown exception"
 msgstr ""
 
-#. i18n-hint C++ programming assertion
-#: libraries/lib-strings/FutureStrings.h
-msgid "Unknown assertion"
-msgstr ""
-
-#: libraries/lib-strings/FutureStrings.h
+#: crashreports/crashreporter/CrashReportApp.cpp
 msgid "Unknown error"
 msgstr ""
 
-#: libraries/lib-strings/FutureStrings.h
+#: crashreports/crashreporter/CrashReportApp.cpp
+msgid "Problem Report for Audacity"
+msgstr ""
+
+#: crashreports/crashreporter/CrashReportApp.cpp
+#: src/widgets/ErrorReportDialog.cpp
+msgctxt "crash reporter button"
+msgid "&Don't send"
+msgstr ""
+
+#: crashreports/crashreporter/CrashReportApp.cpp
+#: src/widgets/ErrorReportDialog.cpp
+msgctxt "crash reporter button"
+msgid "&Send"
+msgstr ""
+
+#: crashreports/crashreporter/CrashReportApp.cpp
+#: src/widgets/ErrorReportDialog.cpp
+msgid "Click \"Send\" to submit the report to Audacity. This information is collected anonymously."
+msgstr ""
+
+#: crashreports/crashreporter/CrashReportApp.cpp
+#: src/widgets/ErrorReportDialog.cpp
+msgid "Problem details"
+msgstr ""
+
+#: crashreports/crashreporter/CrashReportApp.cpp src/Tags.cpp
+#: src/prefs/MousePrefs.cpp src/widgets/ErrorReportDialog.cpp
+msgid "Comments"
+msgstr ""
+
+#: crashreports/crashreporter/CrashReportApp.cpp
 msgid "Failed to send crash report"
-msgstr ""
-
-#. i18n-hint Scheme refers to a color scheme for spectrogram colors
-#: libraries/lib-strings/FutureStrings.h
-msgctxt "spectrum prefs"
-msgid "Sche&me"
-msgstr ""
-
-#. i18n-hint Choice of spectrogram colors
-#: libraries/lib-strings/FutureStrings.h
-msgctxt "spectrum prefs"
-msgid "Color (default)"
-msgstr ""
-
-#. i18n-hint Choice of spectrogram colors
-#: libraries/lib-strings/FutureStrings.h
-msgctxt "spectrum prefs"
-msgid "Color (classic)"
-msgstr ""
-
-#. i18n-hint Choice of spectrogram colors
-#: libraries/lib-strings/FutureStrings.h
-msgctxt "spectrum prefs"
-msgid "Grayscale"
-msgstr ""
-
-#. i18n-hint Choice of spectrogram colors
-#: libraries/lib-strings/FutureStrings.h
-msgctxt "spectrum prefs"
-msgid "Inverse grayscale"
 msgstr ""
 
 #: libraries/lib-strings/FutureStrings.h
@@ -4670,10 +4658,6 @@ msgstr ""
 msgid "Genre"
 msgstr ""
 
-#: src/Tags.cpp src/prefs/MousePrefs.cpp src/widgets/ErrorReportDialog.cpp
-msgid "Comments"
-msgstr ""
-
 #: src/Tags.cpp
 msgid "Use arrow keys (or ENTER key after editing) to navigate fields."
 msgstr ""
@@ -6144,8 +6128,10 @@ msgstr ""
 msgid "Spectral Select"
 msgstr ""
 
-#: src/commands/SetTrackInfoCommand.cpp
-msgid "Gray Scale"
+#. i18n-hint Scheme refers to a color scheme for spectrogram colors
+#: src/commands/SetTrackInfoCommand.cpp src/prefs/SpectrumPrefs.cpp
+msgctxt "spectrum prefs"
+msgid "Sche&me"
 msgstr ""
 
 #: src/commands/SetTrackInfoCommand.cpp
@@ -15474,6 +15460,30 @@ msgstr ""
 msgid "Period"
 msgstr ""
 
+#. i18n-hint: New color scheme for spectrograms
+#: src/prefs/SpectrogramSettings.cpp
+msgctxt "spectrum prefs"
+msgid "Color (default)"
+msgstr ""
+
+#. i18n-hint: Classic color scheme(from theme) for spectrograms
+#: src/prefs/SpectrogramSettings.cpp
+msgctxt "spectrum prefs"
+msgid "Color (classic)"
+msgstr ""
+
+#. i18n-hint: Grayscale color scheme for spectrograms
+#: src/prefs/SpectrogramSettings.cpp
+msgctxt "spectrum prefs"
+msgid "Grayscale"
+msgstr ""
+
+#. i18n-hint: Inverse grayscale color scheme for spectrograms
+#: src/prefs/SpectrogramSettings.cpp
+msgctxt "spectrum prefs"
+msgid "Inverse grayscale"
+msgstr ""
+
 #: src/prefs/SpectrogramSettings.cpp
 msgid "Frequencies"
 msgstr ""
@@ -15555,10 +15565,6 @@ msgstr ""
 
 #: src/prefs/SpectrumPrefs.cpp
 msgid "High &boost (dB/dec):"
-msgstr ""
-
-#: src/prefs/SpectrumPrefs.cpp
-msgid "Gra&yscale"
 msgstr ""
 
 #: src/prefs/SpectrumPrefs.cpp
@@ -17260,20 +17266,6 @@ msgstr ""
 #: src/widgets/ASlider.cpp
 #, c-format
 msgid "%.2fx"
-msgstr ""
-
-#: src/widgets/ErrorReportDialog.cpp
-msgid "Click \"Send\" to submit the report to Audacity. This information is collected anonymously."
-msgstr ""
-
-#: src/widgets/ErrorReportDialog.cpp
-msgctxt "crash reporter button"
-msgid "&Don't send"
-msgstr ""
-
-#: src/widgets/ErrorReportDialog.cpp
-msgctxt "crash reporter button"
-msgid "&Send"
 msgstr ""
 
 #: src/widgets/FileDialog/gtk/FileDialogPrivate.cpp
