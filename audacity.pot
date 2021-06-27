@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-06-19 08:17+0000\n"
+"POT-Creation-Date: 2021-06-27 08:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14329,6 +14329,11 @@ msgstr ""
 
 #: src/prefs/DirectoriesPrefs.cpp
 msgid "Choose a location"
+msgstr ""
+
+#: src/prefs/DirectoriesPrefs.cpp
+#, c-format
+msgid "Directory %s does not have write permissions"
 msgstr ""
 
 #: src/prefs/DirectoriesPrefs.cpp
