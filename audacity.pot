@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-06-27 08:16+0000\n"
+"POT-Creation-Date: 2021-06-28 08:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12616,7 +12616,7 @@ msgstr ""
 msgid "&Generate Support Data..."
 msgstr ""
 
-#: src/menus/HelpMenus.cpp src/prefs/ApplicationPrefs.cpp
+#: src/menus/HelpMenus.cpp
 msgid "&Check for Updates..."
 msgstr ""
 
@@ -14153,6 +14153,10 @@ msgstr ""
 
 #: src/prefs/ApplicationPrefs.cpp
 msgid "Update Audacity"
+msgstr ""
+
+#: src/prefs/ApplicationPrefs.cpp
+msgid "&Check for Updates"
 msgstr ""
 
 #: src/prefs/BatchPrefs.cpp src/prefs/BatchPrefs.h
