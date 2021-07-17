@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-07-15 08:17+0000\n"
+"POT-Creation-Date: 2021-07-17 08:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -66,71 +66,6 @@ msgstr ""
 
 #: crashreports/crashreporter/CrashReportApp.cpp
 msgid "Failed to send crash report"
-msgstr ""
-
-#: libraries/lib-strings/FutureStrings.h src/update/UpdatePopupDialog.cpp
-msgctxt "update dialog"
-msgid "Update Audacity"
-msgstr ""
-
-#: libraries/lib-strings/FutureStrings.h src/update/UpdatePopupDialog.cpp
-msgctxt "update dialog"
-msgid "&Skip"
-msgstr ""
-
-#: libraries/lib-strings/FutureStrings.h src/update/UpdatePopupDialog.cpp
-msgctxt "update dialog"
-msgid "&Install update"
-msgstr ""
-
-#: libraries/lib-strings/FutureStrings.h src/update/UpdatePopupDialog.cpp
-msgctxt "update dialog"
-msgid "Changelog"
-msgstr ""
-
-#: libraries/lib-strings/FutureStrings.h src/update/UpdatePopupDialog.cpp
-msgctxt "update dialog"
-msgid "Read more on GitHub"
-msgstr ""
-
-#: libraries/lib-strings/FutureStrings.h src/update/UpdateManager.cpp
-msgctxt "update dialog"
-msgid "Error checking for update"
-msgstr ""
-
-#: libraries/lib-strings/FutureStrings.h src/update/UpdateManager.cpp
-msgctxt "update dialog"
-msgid "Unable to connect to Audacity update server."
-msgstr ""
-
-#: libraries/lib-strings/FutureStrings.h src/update/UpdateManager.cpp
-msgctxt "update dialog"
-msgid "Update data was corrupted."
-msgstr ""
-
-#: libraries/lib-strings/FutureStrings.h src/update/UpdateManager.cpp
-msgctxt "update dialog"
-msgid "Error downloading update."
-msgstr ""
-
-#: libraries/lib-strings/FutureStrings.h src/update/UpdateManager.cpp
-msgctxt "update dialog"
-msgid "Can't open the Audacity download link."
-msgstr ""
-
-#. i18n-hint Substitution of version number for %s.
-#: libraries/lib-strings/FutureStrings.h src/update/UpdatePopupDialog.cpp
-#, c-format
-msgctxt "update dialog"
-msgid "Audacity %s is available!"
-msgstr ""
-
-#. i18n-hint comment to be moved
-#. to one of them (one is enough)
-#. i18n-hint: modifier as in "Recording preferences", not progressive verb
-#: libraries/lib-strings/FutureStrings.h
-msgctxt "preference"
-msgid "Recording"
 msgstr ""
 
 #: libraries/lib-strings/Internat.cpp
@@ -1049,6 +984,7 @@ msgstr ""
 #: src/prefs/KeyConfigPrefs.cpp
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackControls.cpp
 #: src/widgets/FileDialog/gtk/FileDialogPrivate.cpp
+#: src/widgets/UnwritableLocationErrorDialog.cpp
 #: plug-ins/eq-xml-to-txt-converter.ny
 msgid "Error"
 msgstr ""
@@ -4146,14 +4082,6 @@ msgstr ""
 
 #: src/ProjectFileManager.cpp
 msgid "Error Saving Copy of Project"
-msgstr ""
-
-#: src/ProjectFileManager.cpp
-msgid "Can't open new empty project"
-msgstr ""
-
-#: src/ProjectFileManager.cpp
-msgid "Error opening a new empty project"
 msgstr ""
 
 #: src/ProjectFileManager.cpp src/effects/nyquist/Nyquist.cpp
@@ -13827,9 +13755,8 @@ msgstr ""
 #. i18n-hint: These are strings for the status bar, and indicate whether Audacity
 #. is playing or recording or stopped, and whether it is paused;
 #. progressive verb form
-#: src/menus/TransportMenus.cpp src/prefs/DevicePrefs.cpp
-#: src/prefs/MidiIOPrefs.cpp src/prefs/RecordingPrefs.cpp
-#: src/prefs/RecordingPrefs.h src/toolbars/ControlToolBar.cpp
+#: src/menus/TransportMenus.cpp src/prefs/MidiIOPrefs.cpp
+#: src/toolbars/ControlToolBar.cpp
 msgid "Recording"
 msgstr ""
 
@@ -14252,6 +14179,13 @@ msgstr ""
 msgid "&Device:"
 msgstr ""
 
+#. i18n-hint: modifier as in "Recording preferences", not progressive verb
+#: src/prefs/DevicePrefs.cpp src/prefs/RecordingPrefs.cpp
+#: src/prefs/RecordingPrefs.h
+msgctxt "preference"
+msgid "Recording"
+msgstr ""
+
 #: src/prefs/DevicePrefs.cpp src/prefs/MidiIOPrefs.cpp
 msgid "De&vice:"
 msgstr ""
@@ -14295,6 +14229,7 @@ msgstr ""
 
 #. i18n-hint:  Directories, also called directories, in computer file systems
 #: src/prefs/DirectoriesPrefs.cpp src/prefs/DirectoriesPrefs.h
+#: src/widgets/UnwritableLocationErrorDialog.cpp
 msgid "Directories"
 msgstr ""
 
@@ -17062,6 +16997,11 @@ msgstr ""
 msgid "Logarithmic &Interpolation"
 msgstr ""
 
+#. i18n-hint Appears on hovering mouse over clip affordance
+#: src/tracks/ui/AffordanceHandle.cpp
+msgid "Click and drag to move a clip in time, or click to select"
+msgstr ""
+
 #: src/tracks/ui/CommonTrackControls.cpp
 msgid "&Name..."
 msgstr ""
@@ -17295,6 +17235,31 @@ msgstr ""
 msgid "Left=Zoom In, Right=Zoom Out, Middle=Normal"
 msgstr ""
 
+#: src/update/UpdateManager.cpp
+msgctxt "update dialog"
+msgid "Error checking for update"
+msgstr ""
+
+#: src/update/UpdateManager.cpp
+msgctxt "update dialog"
+msgid "Unable to connect to Audacity update server."
+msgstr ""
+
+#: src/update/UpdateManager.cpp
+msgctxt "update dialog"
+msgid "Update data was corrupted."
+msgstr ""
+
+#: src/update/UpdateManager.cpp
+msgctxt "update dialog"
+msgid "Error downloading update."
+msgstr ""
+
+#: src/update/UpdateManager.cpp
+msgctxt "update dialog"
+msgid "Can't open the Audacity download link."
+msgstr ""
+
 #. i18n-hint: Title of the app update notice dialog.
 #: src/update/UpdateNoticeDialog.cpp
 msgid "App update checking"
@@ -17318,8 +17283,41 @@ msgstr ""
 msgid "App updates"
 msgstr ""
 
+#. i18n-hint: a page in the Preferences dialog; use same name
 #: src/update/UpdateNoticeDialog.cpp
 msgid "Preferences > Application"
+msgstr ""
+
+#: src/update/UpdatePopupDialog.cpp
+msgctxt "update dialog"
+msgid "Update Audacity"
+msgstr ""
+
+#: src/update/UpdatePopupDialog.cpp
+msgctxt "update dialog"
+msgid "&Skip"
+msgstr ""
+
+#: src/update/UpdatePopupDialog.cpp
+msgctxt "update dialog"
+msgid "&Install update"
+msgstr ""
+
+#. i18n-hint Substitution of version number for %s.
+#: src/update/UpdatePopupDialog.cpp
+#, c-format
+msgctxt "update dialog"
+msgid "Audacity %s is available!"
+msgstr ""
+
+#: src/update/UpdatePopupDialog.cpp
+msgctxt "update dialog"
+msgid "Changelog"
+msgstr ""
+
+#: src/update/UpdatePopupDialog.cpp
+msgctxt "update dialog"
+msgid "Read more on GitHub"
 msgstr ""
 
 #: src/widgets/AButton.cpp
@@ -17893,6 +17891,28 @@ msgstr ""
 
 #: src/widgets/ProgressDialog.cpp
 msgid "Confirm Close"
+msgstr ""
+
+#. i18n-hint: %s is replaced with a directory path.
+#: src/widgets/UnwritableLocationErrorDialog.cpp
+#, c-format
+msgid "Unable to write files to directory: %s."
+msgstr ""
+
+#. i18n-hint: This message describes the error in the Error dialog.
+#: src/widgets/UnwritableLocationErrorDialog.cpp
+msgid "Please check that the directory exists, has the necessary permissions, and the drive isn't full."
+msgstr ""
+
+#. i18n-hint: %s is replaced with 'Preferences > Directories'.
+#: src/widgets/UnwritableLocationErrorDialog.cpp
+#, c-format
+msgid "You can change the directory in %s."
+msgstr ""
+
+#. i18n-hint: Hyperlink title that opens Preferences dialog on Directories page.
+#: src/widgets/UnwritableLocationErrorDialog.cpp
+msgid "Preferences > Directories"
 msgstr ""
 
 #: src/widgets/Warning.cpp
