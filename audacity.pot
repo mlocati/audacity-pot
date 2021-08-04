@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-07-31 08:16+0000\n"
+"POT-Creation-Date: 2021-08-04 08:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17006,7 +17006,7 @@ msgstr ""
 
 #. i18n-hint Appears on hovering mouse over clip affordance
 #: src/tracks/ui/AffordanceHandle.cpp
-msgid "Click and drag to move a clip in time, or click to select"
+msgid "Drag clips to reposition them. Hold Shift and drag to move all clips on the same track."
 msgstr ""
 
 #: src/tracks/ui/CommonTrackControls.cpp
