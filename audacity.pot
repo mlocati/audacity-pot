@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-08-04 08:18+0000\n"
+"POT-Creation-Date: 2021-08-05 08:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -230,7 +230,7 @@ msgstr ""
 msgid "Rectangle"
 msgstr ""
 
-#: libraries/lib-math/Dither.cpp plug-ins/tremolo.ny
+#: libraries/lib-math/Dither.cpp src/effects/ToneGen.cpp plug-ins/tremolo.ny
 msgid "Triangle"
 msgstr ""
 
@@ -5348,7 +5348,8 @@ msgstr ""
 
 #. i18n-hint: An item name followed by a value, with appropriate separating punctuation
 #: src/commands/AudacityCommand.cpp src/effects/Effect.cpp
-#: src/effects/vamp/VampEffect.cpp src/menus/PluginMenus.cpp
+#: src/effects/vamp/VampEffect.cpp src/import/ImportRaw.cpp
+#: src/menus/PluginMenus.cpp
 #: src/tracks/playabletrack/notetrack/ui/NoteTrackSliderHandles.cpp
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackSliderHandles.cpp
 #: src/widgets/ASlider.cpp
@@ -11925,6 +11926,11 @@ msgstr ""
 msgid "Sample rate:"
 msgstr ""
 
+#. i18n-hint: Guess format of raw file
+#: src/import/ImportRaw.cpp
+msgid "Detect"
+msgstr ""
+
 #: src/import/ImportRaw.cpp src/menus/FileMenus.cpp
 msgid "&Import"
 msgstr ""
@@ -17259,12 +17265,21 @@ msgstr ""
 
 #: src/update/UpdateManager.cpp
 msgctxt "update dialog"
-msgid "Error downloading update."
+msgid "Error downloading update"
 msgstr ""
 
 #: src/update/UpdateManager.cpp
 msgctxt "update dialog"
 msgid "Can't open the Audacity download link."
+msgstr ""
+
+#: src/update/UpdateManager.cpp
+msgid "Audacity update"
+msgstr ""
+
+#: src/update/UpdateManager.cpp
+#, c-format
+msgid "Downloading %s"
 msgstr ""
 
 #. i18n-hint: Title of the app update notice dialog.
