@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-08-12 08:18+0000\n"
+"POT-Creation-Date: 2021-08-18 08:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -370,6 +370,26 @@ msgstr ""
 
 #: libraries/lib-strings/Languages.cpp
 msgid "System"
+msgstr ""
+
+#: libraries/lib-xml/XMLFileReader.cpp src/effects/Effect.cpp
+#: src/effects/VST/VSTEffect.cpp
+#, c-format
+msgid "Could not open file: \"%s\""
+msgstr ""
+
+#: libraries/lib-xml/XMLFileReader.cpp
+#, c-format
+msgid "Error: %s at line %lu"
+msgstr ""
+
+#: libraries/lib-xml/XMLFileReader.cpp
+#, c-format
+msgid "Could not load file: \"%s\""
+msgstr ""
+
+#: libraries/lib-xml/XMLFileReader.cpp
+msgid "Could not parse XML"
 msgstr ""
 
 #: modules/mod-null/ModNullCallback.cpp
@@ -7265,12 +7285,6 @@ msgstr ""
 
 #: src/effects/Effect.cpp
 msgid "Export Effect Parameters"
-msgstr ""
-
-#: src/effects/Effect.cpp src/effects/VST/VSTEffect.cpp
-#: src/xml/XMLFileReader.cpp
-#, c-format
-msgid "Could not open file: \"%s\""
 msgstr ""
 
 #: src/effects/Effect.cpp src/effects/VST/VSTEffect.cpp
@@ -18032,20 +18046,6 @@ msgstr ""
 
 #: src/widgets/wxPanelWrapper.h
 msgid "File Dialog"
-msgstr ""
-
-#: src/xml/XMLFileReader.cpp
-#, c-format
-msgid "Error: %s at line %lu"
-msgstr ""
-
-#: src/xml/XMLFileReader.cpp
-#, c-format
-msgid "Could not load file: \"%s\""
-msgstr ""
-
-#: src/xml/XMLFileReader.cpp
-msgid "Could not parse XML"
 msgstr ""
 
 #: plug-ins/SpectralEditMulti.ny
