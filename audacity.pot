@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-08-18 08:17+0000\n"
+"POT-Creation-Date: 2021-08-21 08:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2973,6 +2973,10 @@ msgstr ""
 #. that have been taken.
 #: src/HistoryWindow.cpp
 msgid "&History..."
+msgstr ""
+
+#: src/JournalEvents.cpp
+msgid "Journal recording failed"
 msgstr ""
 
 #: src/LabelDialog.cpp
