@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-08-31 08:23+0000\n"
+"POT-Creation-Date: 2021-09-02 08:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -703,9 +703,9 @@ msgid "Script was not saved."
 msgstr ""
 
 #: modules/mod-nyq-bench/NyqBench.cpp src/DBConnection.cpp src/LogWindow.cpp
-#: src/Project.cpp src/ProjectFileIO.cpp src/ProjectHistory.cpp
-#: src/SqliteSampleBlock.cpp src/WaveClip.cpp src/WaveTrack.cpp
-#: src/export/Export.cpp src/export/ExportCL.cpp src/export/ExportMultiple.cpp
+#: src/ProjectFileIO.cpp src/ProjectHistory.cpp src/SqliteSampleBlock.cpp
+#: src/WaveClip.cpp src/WaveTrack.cpp src/export/Export.cpp
+#: src/export/ExportCL.cpp src/export/ExportMultiple.cpp
 #: src/import/RawAudioGuess.cpp src/menus/EditMenus.cpp
 #: src/prefs/KeyConfigPrefs.cpp src/widgets/Warning.cpp
 msgid "Warning"
@@ -3583,14 +3583,6 @@ msgstr ""
 msgid "Print"
 msgstr ""
 
-#: src/Project.cpp
-#, c-format
-msgid ""
-"There is very little free disk space left on %s\n"
-"Please select a bigger temporary directory location in\n"
-"Directories Preferences."
-msgstr ""
-
 #: src/ProjectAudioManager.cpp
 #, c-format
 msgid "Actual Rate: %d"
@@ -3808,6 +3800,14 @@ msgstr ""
 #: src/ProjectFileIO.cpp
 #, c-format
 msgid "[Project %02i] "
+msgstr ""
+
+#: src/ProjectFileIO.cpp
+#, c-format
+msgid ""
+"There is very little free disk space left on %s\n"
+"Please select a bigger temporary directory location in\n"
+"Directories Preferences."
 msgstr ""
 
 #: src/ProjectFileIO.cpp
