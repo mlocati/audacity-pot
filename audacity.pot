@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-09-03 08:22+0000\n"
+"POT-Creation-Date: 2021-09-07 08:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -802,6 +802,7 @@ msgid "Save script as..."
 msgstr ""
 
 #: modules/mod-nyq-bench/NyqBench.cpp src/toolbars/EditToolBar.cpp
+#: src/tracks/playabletrack/wavetrack/ui/WaveTrackView.cpp
 msgid "Copy"
 msgstr ""
 
@@ -811,6 +812,7 @@ msgstr ""
 
 #: modules/mod-nyq-bench/NyqBench.cpp src/menus/EditMenus.cpp
 #: src/toolbars/EditToolBar.cpp
+#: src/tracks/playabletrack/wavetrack/ui/WaveTrackView.cpp
 msgid "Cut"
 msgstr ""
 
@@ -820,6 +822,7 @@ msgstr ""
 
 #: modules/mod-nyq-bench/NyqBench.cpp src/menus/EditMenus.cpp
 #: src/toolbars/EditToolBar.cpp
+#: src/tracks/playabletrack/wavetrack/ui/WaveTrackView.cpp
 msgid "Paste"
 msgstr ""
 
@@ -837,6 +840,7 @@ msgid "Clear selection"
 msgstr ""
 
 #: modules/mod-nyq-bench/NyqBench.cpp src/menus/SelectMenus.cpp
+#: src/tracks/ui/BackgroundCell.cpp
 msgid "Select All"
 msgstr ""
 
@@ -3622,6 +3626,13 @@ msgstr ""
 msgid "Too Few Compatible Tracks Selected"
 msgstr ""
 
+#. i18n-hint a numerical suffix added to distinguish otherwise like-named clips when new record started
+#: src/ProjectAudioManager.cpp
+#, c-format
+msgctxt "clip name template"
+msgid "%s #%d"
+msgstr ""
+
 #: src/ProjectAudioManager.cpp
 msgid "Recorded Audio"
 msgstr ""
@@ -4247,6 +4258,13 @@ msgstr ""
 
 #: src/ProjectFileManager.cpp
 msgid "Recover"
+msgstr ""
+
+#. i18n-hint Name default name assigned to a clip on track import
+#: src/ProjectFileManager.cpp
+#, c-format
+msgctxt "clip name template"
+msgid "%s %d"
 msgstr ""
 
 #: src/ProjectFileManager.cpp
@@ -5353,6 +5371,43 @@ msgstr ""
 
 #: src/WaveClip.cpp
 msgid "Resampling failed."
+msgstr ""
+
+#. i18n-hint Template for clip name generation on copy-paste
+#: src/WaveTrack.cpp
+#, c-format
+msgctxt "clip name template"
+msgid "%s - copy %i"
+msgstr ""
+
+#. i18n-hint Template for clip name generation on inserting new empty clip
+#: src/WaveTrack.cpp
+#, c-format
+msgctxt "clip name template"
+msgid "%s %i"
+msgstr ""
+
+#. i18n-hint Template for clip name generation used when copying a part of clip data
+#: src/WaveTrack.cpp
+#, c-format
+msgctxt "clip name template"
+msgid "%s samples [%.2f-%.2f]"
+msgstr ""
+
+#. i18n-hint Name assigned to the first clip when splitting a wave track
+#. i18n-hint Name assigned to the first clip on split
+#: src/WaveTrack.cpp
+#, c-format
+msgctxt "clip name template"
+msgid "%s 1"
+msgstr ""
+
+#. i18n-hint Name assigned to the second clip when splitting a wave track
+#. i18n-hint Name assigned to the second clip on split
+#: src/WaveTrack.cpp
+#, c-format
+msgctxt "clip name template"
+msgid "%s 2"
 msgstr ""
 
 #: src/WaveTrack.cpp
@@ -16532,6 +16587,10 @@ msgid "Pla&y-at-Speed Toolbar"
 msgstr ""
 
 #: src/tracks/labeltrack/ui/LabelGlyphHandle.cpp
+msgid "Drag label. Hold shift and drag to move all labels on the same track."
+msgstr ""
+
+#: src/tracks/labeltrack/ui/LabelGlyphHandle.cpp
 msgid "Drag one or more label boundaries."
 msgstr ""
 
@@ -16959,6 +17018,14 @@ msgstr ""
 msgid "Close sub-view"
 msgstr ""
 
+#: src/tracks/playabletrack/wavetrack/ui/WaveTrackView.cpp
+msgid "Split Clip"
+msgstr ""
+
+#: src/tracks/playabletrack/wavetrack/ui/WaveTrackView.cpp
+msgid "Mute/Unmute Track"
+msgstr ""
+
 #: src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp
 msgid "Zoom x1/2"
 msgstr ""
@@ -17057,6 +17124,22 @@ msgstr ""
 #. i18n-hint Appears on hovering mouse over clip affordance
 #: src/tracks/ui/AffordanceHandle.cpp
 msgid "Drag clips to reposition them. Hold Shift and drag to move all clips on the same track."
+msgstr ""
+
+#: src/tracks/ui/BackgroundCell.cpp
+msgid "Add Mono Track"
+msgstr ""
+
+#: src/tracks/ui/BackgroundCell.cpp
+msgid "Add Stereo Track"
+msgstr ""
+
+#: src/tracks/ui/BackgroundCell.cpp
+msgid "Add Label Track"
+msgstr ""
+
+#: src/tracks/ui/BackgroundCell.cpp
+msgid "Export Audio..."
 msgstr ""
 
 #: src/tracks/ui/CommonTrackControls.cpp
