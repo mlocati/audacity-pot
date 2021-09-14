@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-09-07 08:17+0000\n"
+"POT-Creation-Date: 2021-09-14 08:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -360,7 +360,9 @@ msgstr ""
 
 #: libraries/lib-files/FileNames.cpp
 #, c-format
-msgid "Directory %s does not have write permissions"
+msgid ""
+"\n"
+"%s does not have write permissions."
 msgstr ""
 
 #: libraries/lib-files/FileNames.cpp src/AdornedRulerPanel.cpp src/AudioIO.cpp
@@ -716,7 +718,8 @@ msgstr ""
 #: src/WaveClip.cpp src/WaveTrack.cpp src/export/Export.cpp
 #: src/export/ExportCL.cpp src/export/ExportMultiple.cpp
 #: src/import/RawAudioGuess.cpp src/menus/EditMenus.cpp
-#: src/prefs/KeyConfigPrefs.cpp src/widgets/Warning.cpp
+#: src/prefs/DirectoriesPrefs.cpp src/prefs/KeyConfigPrefs.cpp
+#: src/widgets/Warning.cpp
 msgid "Warning"
 msgstr ""
 
@@ -12416,6 +12419,10 @@ msgid "&Full Screen (on/off)"
 msgstr ""
 
 #: src/menus/FileMenus.cpp
+msgid "Cannot proceed to export."
+msgstr ""
+
+#: src/menus/FileMenus.cpp
 #, c-format
 msgid ""
 "Cannot create directory '%s'. \n"
@@ -14428,6 +14435,10 @@ msgid "Choose a location to place the temporary directory"
 msgstr ""
 
 #: src/prefs/DirectoriesPrefs.cpp
+msgid "Cannot set the preference."
+msgstr ""
+
+#: src/prefs/DirectoriesPrefs.cpp
 msgid "unavailable - above location doesn't exist"
 msgstr ""
 
@@ -14437,16 +14448,33 @@ msgstr ""
 
 #: src/prefs/DirectoriesPrefs.cpp
 #, c-format
-msgid "Directory %s is not suitable (at risk of being cleaned out)"
+msgid ""
+"\n"
+"Directory %s does not exist. Create it?"
+msgstr ""
+
+#: src/prefs/DirectoriesPrefs.cpp
+msgid "Directory creation failed."
 msgstr ""
 
 #: src/prefs/DirectoriesPrefs.cpp
 #, c-format
-msgid "Directory %s does not exist. Create it?"
+msgid ""
+"\n"
+"%s"
 msgstr ""
 
 #: src/prefs/DirectoriesPrefs.cpp
-msgid "New Temporary Directory"
+#, c-format
+msgid "Directory %s is not suitable (at risk of being cleaned out)"
+msgstr ""
+
+#: src/prefs/DirectoriesPrefs.cpp
+msgid "'Temporary Directory' cannot be set."
+msgstr ""
+
+#: src/prefs/DirectoriesPrefs.cpp
+msgid "'Temporary files' directory cannot be set."
 msgstr ""
 
 #: src/prefs/DirectoriesPrefs.cpp
@@ -14460,6 +14488,26 @@ msgstr ""
 
 #: src/prefs/DirectoriesPrefs.cpp
 msgid "Temp Directory Update"
+msgstr ""
+
+#: src/prefs/DirectoriesPrefs.cpp
+msgid "'Open' directory cannot be set."
+msgstr ""
+
+#: src/prefs/DirectoriesPrefs.cpp
+msgid "'Save' directory cannot be set."
+msgstr ""
+
+#: src/prefs/DirectoriesPrefs.cpp
+msgid "'Import' directory cannot be set."
+msgstr ""
+
+#: src/prefs/DirectoriesPrefs.cpp
+msgid "'Export' directory cannot be set."
+msgstr ""
+
+#: src/prefs/DirectoriesPrefs.cpp
+msgid "'Macro Output' directory cannot be set."
 msgstr ""
 
 #: src/prefs/EffectsPrefs.cpp
