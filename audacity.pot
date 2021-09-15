@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-09-14 08:18+0000\n"
+"POT-Creation-Date: 2021-09-15 08:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -4673,6 +4673,44 @@ msgstr ""
 msgid "Activation level (dB):"
 msgstr ""
 
+#: src/SpectralDataDialog.cpp
+msgid "Spectral Data Control Panel"
+msgstr ""
+
+#: src/SpectralDataDialog.cpp src/TimerRecordDialog.cpp src/prefs/GUIPrefs.cpp
+#: src/prefs/PlaybackPrefs.cpp src/prefs/RecordingPrefs.cpp
+msgid "Options"
+msgstr ""
+
+#: src/SpectralDataDialog.cpp
+msgid "Enable overtones selection"
+msgstr ""
+
+#: src/SpectralDataDialog.cpp
+msgid "Enable smart selection"
+msgstr ""
+
+#: src/SpectralDataDialog.cpp
+msgid "Brush radius"
+msgstr ""
+
+#: src/SpectralDataDialog.cpp
+msgid "Custom brush size"
+msgstr ""
+
+#: src/SpectralDataDialog.cpp
+msgid "Apply effect to selection."
+msgstr ""
+
+#: src/SpectralDataDialog.cpp
+#, c-format
+msgid "Effect applied to %d selection(s)."
+msgstr ""
+
+#: src/SpectralDataDialog.cpp
+msgid "Applied effect to selection"
+msgstr ""
+
 #: src/SplashDialog.cpp
 msgid "Welcome to Audacity!"
 msgstr ""
@@ -5143,11 +5181,6 @@ msgstr ""
 
 #: src/TimerRecordDialog.cpp
 msgid "Export Project As:"
-msgstr ""
-
-#: src/TimerRecordDialog.cpp src/prefs/GUIPrefs.cpp src/prefs/PlaybackPrefs.cpp
-#: src/prefs/RecordingPrefs.cpp
-msgid "Options"
 msgstr ""
 
 #: src/TimerRecordDialog.cpp
@@ -5777,6 +5810,7 @@ msgstr ""
 #: src/commands/PreferenceCommands.cpp src/commands/SetProjectCommand.cpp
 #: src/commands/SetTrackInfoCommand.cpp
 #: src/tracks/labeltrack/ui/LabelTrackView.cpp
+#: src/tracks/playabletrack/wavetrack/ui/WaveTrackAffordanceControls.cpp
 #: src/tracks/ui/CommonTrackControls.cpp
 msgid "Name:"
 msgstr ""
@@ -8213,34 +8247,6 @@ msgstr ""
 
 #: src/effects/NoiseReduction.cpp
 msgid "Old"
-msgstr ""
-
-#: src/effects/NoiseReduction.cpp
-msgid "none, Hann (2.0.6 behavior)"
-msgstr ""
-
-#: src/effects/NoiseReduction.cpp
-msgid "Hann, none"
-msgstr ""
-
-#: src/effects/NoiseReduction.cpp
-msgid "Hann, Hann (default)"
-msgstr ""
-
-#: src/effects/NoiseReduction.cpp
-msgid "Blackman, Hann"
-msgstr ""
-
-#: src/effects/NoiseReduction.cpp
-msgid "Hamming, none"
-msgstr ""
-
-#: src/effects/NoiseReduction.cpp
-msgid "Hamming, Hann"
-msgstr ""
-
-#: src/effects/NoiseReduction.cpp
-msgid "Hamming, Reciprocal Hamming"
 msgstr ""
 
 #: src/effects/NoiseReduction.cpp src/menus/PluginMenus.cpp
@@ -16575,6 +16581,10 @@ msgid "Multi-Tool"
 msgstr ""
 
 #: src/toolbars/ToolsToolBar.cpp
+msgid "Brush Tool"
+msgstr ""
+
+#: src/toolbars/ToolsToolBar.cpp
 msgid "Slide Tool"
 msgstr ""
 
@@ -16606,6 +16616,10 @@ msgstr ""
 
 #: src/toolbars/ToolsToolBar.cpp
 msgid "&Multi Tool"
+msgstr ""
+
+#: src/toolbars/ToolsToolBar.cpp
+msgid "&Brush Tool"
 msgstr ""
 
 #: src/toolbars/ToolsToolBar.cpp
@@ -16834,6 +16848,22 @@ msgstr ""
 
 #: src/tracks/playabletrack/wavetrack/ui/SpectrumView.cpp
 msgid "S&pectrogram Settings..."
+msgstr ""
+
+#: src/tracks/playabletrack/wavetrack/ui/WaveTrackAffordanceControls.cpp
+msgid "Set Wave Clip Name"
+msgstr ""
+
+#: src/tracks/playabletrack/wavetrack/ui/WaveTrackAffordanceControls.cpp
+msgid "Click and drag to select text"
+msgstr ""
+
+#: src/tracks/playabletrack/wavetrack/ui/WaveTrackAffordanceControls.cpp
+msgid "Modified Clip Name"
+msgstr ""
+
+#: src/tracks/playabletrack/wavetrack/ui/WaveTrackAffordanceControls.cpp
+msgid "Clip Name Edit"
 msgstr ""
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackControls.cpp
@@ -17188,6 +17218,18 @@ msgstr ""
 
 #: src/tracks/ui/BackgroundCell.cpp
 msgid "Export Audio..."
+msgstr ""
+
+#: src/tracks/ui/BrushHandle.cpp
+msgid "Erased selected area"
+msgstr ""
+
+#: src/tracks/ui/BrushHandle.cpp
+msgid "Selected area using Brush Tool"
+msgstr ""
+
+#: src/tracks/ui/BrushHandle.cpp
+msgid "Brush tool selection"
 msgstr ""
 
 #: src/tracks/ui/CommonTrackControls.cpp
