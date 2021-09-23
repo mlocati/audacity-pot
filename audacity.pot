@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-09-17 08:18+0000\n"
+"POT-Creation-Date: 2021-09-23 08:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -87,40 +87,40 @@ msgstr ""
 msgid "Failed to send crash report"
 msgstr ""
 
-#: libraries/lib-audio-devices/AudioIOBase.cpp
+#: libraries/lib-audio-devices/AudioIOBase.cpp src/NoteTrack.cpp
 msgid "Stream is active ... unable to gather information.\n"
 msgstr ""
 
-#: libraries/lib-audio-devices/AudioIOBase.cpp
+#: libraries/lib-audio-devices/AudioIOBase.cpp src/NoteTrack.cpp
 #, c-format
 msgid "Default recording device number: %d\n"
 msgstr ""
 
-#: libraries/lib-audio-devices/AudioIOBase.cpp
+#: libraries/lib-audio-devices/AudioIOBase.cpp src/NoteTrack.cpp
 #, c-format
 msgid "Default playback device number: %d\n"
 msgstr ""
 
-#: libraries/lib-audio-devices/AudioIOBase.cpp
+#: libraries/lib-audio-devices/AudioIOBase.cpp src/NoteTrack.cpp
 msgid "No devices found\n"
 msgstr ""
 
-#: libraries/lib-audio-devices/AudioIOBase.cpp
+#: libraries/lib-audio-devices/AudioIOBase.cpp src/NoteTrack.cpp
 #, c-format
 msgid "Device info unavailable for: %d\n"
 msgstr ""
 
-#: libraries/lib-audio-devices/AudioIOBase.cpp
+#: libraries/lib-audio-devices/AudioIOBase.cpp src/NoteTrack.cpp
 #, c-format
 msgid "Device ID: %d\n"
 msgstr ""
 
-#: libraries/lib-audio-devices/AudioIOBase.cpp
+#: libraries/lib-audio-devices/AudioIOBase.cpp src/NoteTrack.cpp
 #, c-format
 msgid "Device name: %s\n"
 msgstr ""
 
-#: libraries/lib-audio-devices/AudioIOBase.cpp
+#: libraries/lib-audio-devices/AudioIOBase.cpp src/NoteTrack.cpp
 #, c-format
 msgid "Host name: %s\n"
 msgstr ""
@@ -224,43 +224,6 @@ msgstr ""
 
 #: libraries/lib-audio-devices/AudioIOBase.cpp
 msgid "Playback volume is native\n"
-msgstr ""
-
-#. i18n-hint: Supported, meaning made available by the system
-#: libraries/lib-audio-devices/AudioIOBase.cpp
-#, c-format
-msgid "Supports output: %d\n"
-msgstr ""
-
-#. i18n-hint: Supported, meaning made available by the system
-#: libraries/lib-audio-devices/AudioIOBase.cpp
-#, c-format
-msgid "Supports input: %d\n"
-msgstr ""
-
-#: libraries/lib-audio-devices/AudioIOBase.cpp
-#, c-format
-msgid "Opened: %d\n"
-msgstr ""
-
-#: libraries/lib-audio-devices/AudioIOBase.cpp
-#, c-format
-msgid "Selected MIDI recording device: %d - %s\n"
-msgstr ""
-
-#: libraries/lib-audio-devices/AudioIOBase.cpp
-#, c-format
-msgid "No MIDI recording device found for '%s'.\n"
-msgstr ""
-
-#: libraries/lib-audio-devices/AudioIOBase.cpp
-#, c-format
-msgid "Selected MIDI playback device: %d - %s\n"
-msgstr ""
-
-#: libraries/lib-audio-devices/AudioIOBase.cpp
-#, c-format
-msgid "No MIDI playback device found for '%s'.\n"
 msgstr ""
 
 #: libraries/lib-basic-ui/BasicUI.cpp
@@ -1697,27 +1660,13 @@ msgid ""
 "\n"
 msgstr ""
 
-#: src/AudioIO.cpp
+#: src/AudioIO.cpp src/MIDIPlay.cpp
 #, c-format
 msgid "Error: %s"
 msgstr ""
 
 #: src/AudioIO.cpp
 msgid "Error Initializing Audio"
-msgstr ""
-
-#: src/AudioIO.cpp
-msgid "There was an error initializing the midi i/o layer.\n"
-msgstr ""
-
-#: src/AudioIO.cpp
-msgid ""
-"You will not be able to play midi.\n"
-"\n"
-msgstr ""
-
-#: src/AudioIO.cpp
-msgid "Error Initializing Midi"
 msgstr ""
 
 #: src/AudioIO.cpp
@@ -3153,6 +3102,20 @@ msgstr ""
 msgid "&Karaoke..."
 msgstr ""
 
+#: src/MIDIPlay.cpp
+msgid "There was an error initializing the midi i/o layer.\n"
+msgstr ""
+
+#: src/MIDIPlay.cpp
+msgid ""
+"You will not be able to play midi.\n"
+"\n"
+msgstr ""
+
+#: src/MIDIPlay.cpp
+msgid "Error Initializing Midi"
+msgstr ""
+
 #: src/Menus.cpp
 #, c-format
 msgid "&Undo %s"
@@ -3341,6 +3304,43 @@ msgstr ""
 #. this is a Note track.
 #: src/NoteTrack.cpp src/TrackPanelAx.cpp
 msgid "Note Track"
+msgstr ""
+
+#. i18n-hint: Supported, meaning made available by the system
+#: src/NoteTrack.cpp
+#, c-format
+msgid "Supports output: %d\n"
+msgstr ""
+
+#. i18n-hint: Supported, meaning made available by the system
+#: src/NoteTrack.cpp
+#, c-format
+msgid "Supports input: %d\n"
+msgstr ""
+
+#: src/NoteTrack.cpp
+#, c-format
+msgid "Opened: %d\n"
+msgstr ""
+
+#: src/NoteTrack.cpp
+#, c-format
+msgid "Selected MIDI recording device: %d - %s\n"
+msgstr ""
+
+#: src/NoteTrack.cpp
+#, c-format
+msgid "No MIDI recording device found for '%s'.\n"
+msgstr ""
+
+#: src/NoteTrack.cpp
+#, c-format
+msgid "Selected MIDI playback device: %d - %s\n"
+msgstr ""
+
+#: src/NoteTrack.cpp
+#, c-format
+msgid "No MIDI playback device found for '%s'.\n"
 msgstr ""
 
 #. i18n-hint: Name of a musical note in the 12-tone chromatic scale
