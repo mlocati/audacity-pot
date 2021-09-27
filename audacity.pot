@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-09-25 08:17+0000\n"
+"POT-Creation-Date: 2021-09-27 08:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2227,6 +2227,12 @@ msgstr ""
 msgid "Benchmark completed successfully.\n"
 msgstr ""
 
+#. i18n-hint: describing the "classic" or traditional
+#. appearance of older versions of Audacity
+#: src/ClassicThemeAsCeeCode.cpp
+msgid "Classic"
+msgstr ""
+
 #. i18n-hint: %s will be replaced by the name of an action, such as Normalize, Cut, Fade.
 #: src/CommonCommandFlags.cpp
 #, c-format
@@ -2349,6 +2355,10 @@ msgstr ""
 
 #: src/DBConnection.cpp
 msgid "Database error.  Sorry, but we don't have more details."
+msgstr ""
+
+#: src/DarkThemeAsCeeCode.cpp
+msgid "Dark"
 msgstr ""
 
 #: src/Dependencies.cpp
@@ -2875,6 +2885,12 @@ msgstr ""
 msgid "Check Online"
 msgstr ""
 
+#. i18n-hint: greater difference between foreground and
+#. background colors
+#: src/HiContrastThemeAsCeeCode.cpp
+msgid "High Contrast"
+msgstr ""
+
 #: src/HistoryWindow.cpp
 msgid "History"
 msgstr ""
@@ -3051,6 +3067,11 @@ msgstr ""
 
 #: src/Legacy.cpp
 msgid "Opening Audacity Project"
+msgstr ""
+
+#. i18n-hint: Light meaning opposite of dark
+#: src/LightThemeAsCeeCode.cpp
+msgid "Light"
 msgstr ""
 
 #: src/LogWindow.cpp
@@ -4914,27 +4935,6 @@ msgstr ""
 msgid ""
 "Audacity could not save file:\n"
 "  %s"
-msgstr ""
-
-#. i18n-hint: describing the "classic" or traditional
-#. appearance of older versions of Audacity
-#: src/Theme.cpp
-msgid "Classic"
-msgstr ""
-
-#. i18n-hint: Light meaning opposite of dark
-#: src/Theme.cpp
-msgid "Light"
-msgstr ""
-
-#: src/Theme.cpp
-msgid "Dark"
-msgstr ""
-
-#. i18n-hint: greater difference between foreground and
-#. background colors
-#: src/Theme.cpp
-msgid "High Contrast"
 msgstr ""
 
 #. i18n-hint: user defined
