@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-09-27 08:18+0000\n"
+"POT-Creation-Date: 2021-09-28 08:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -328,13 +328,13 @@ msgid ""
 "%s does not have write permissions."
 msgstr ""
 
-#: libraries/lib-files/FileNames.cpp src/AdornedRulerPanel.cpp src/AudioIO.cpp
-#: src/ProjectAudioManager.cpp src/TimerRecordDialog.cpp
-#: src/effects/Contrast.cpp src/effects/Effect.cpp src/effects/Generator.cpp
-#: src/effects/nyquist/Nyquist.cpp src/export/ExportFFmpeg.cpp
-#: src/export/ExportMP2.cpp src/menus/TrackMenus.cpp
-#: src/menus/TransportMenus.cpp src/prefs/DirectoriesPrefs.cpp
-#: src/prefs/KeyConfigPrefs.cpp
+#: libraries/lib-files/FileNames.cpp src/AudioIO.cpp
+#: src/ProjectAudioManager.cpp src/SelectUtilities.cpp
+#: src/TimerRecordDialog.cpp src/effects/Contrast.cpp src/effects/Effect.cpp
+#: src/effects/Generator.cpp src/effects/nyquist/Nyquist.cpp
+#: src/export/ExportFFmpeg.cpp src/export/ExportMP2.cpp
+#: src/menus/TrackMenus.cpp src/menus/TransportMenus.cpp
+#: src/prefs/DirectoriesPrefs.cpp src/prefs/KeyConfigPrefs.cpp
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackControls.cpp
 #: src/widgets/FileDialog/gtk/FileDialogPrivate.cpp
 #: src/widgets/UnwritableLocationErrorDialog.cpp
@@ -1398,12 +1398,6 @@ msgstr ""
 
 #: src/AdornedRulerPanel.cpp
 msgid "Pinned Play Head"
-msgstr ""
-
-#: src/AdornedRulerPanel.cpp
-msgid ""
-"Cannot lock region beyond\n"
-"end of project."
 msgstr ""
 
 #: src/AudacityApp.cpp
@@ -2531,6 +2525,14 @@ msgstr ""
 
 #: src/FFmpeg.cpp
 msgid "Only avformat.dll"
+msgstr ""
+
+#: src/FFmpeg.cpp
+msgid "Only ffmpeg.*.dylib"
+msgstr ""
+
+#: src/FFmpeg.cpp
+msgid "Only libavformat.so"
 msgstr ""
 
 #. i18n-hint: It's asking for the location of a file, for
@@ -4636,6 +4638,12 @@ msgstr ""
 
 #: src/SelectFile.cpp
 msgid "Specify New Filename:"
+msgstr ""
+
+#: src/SelectUtilities.cpp
+msgid ""
+"Cannot lock region beyond\n"
+"end of project."
 msgstr ""
 
 #: src/Sequence.cpp
@@ -16130,6 +16138,10 @@ msgstr ""
 
 #: src/toolbars/ControlToolBar.cpp
 msgid "Skip to End"
+msgstr ""
+
+#: src/toolbars/ControlToolBar.cpp
+msgid "Looping Region"
 msgstr ""
 
 #: src/toolbars/ControlToolBar.cpp
