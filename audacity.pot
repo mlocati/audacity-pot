@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-09-28 08:18+0000\n"
+"POT-Creation-Date: 2021-10-02 08:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -4697,17 +4697,12 @@ msgstr ""
 msgid "Spectral Data Control Panel"
 msgstr ""
 
-#: src/SpectralDataDialog.cpp src/TimerRecordDialog.cpp src/prefs/GUIPrefs.cpp
-#: src/prefs/PlaybackPrefs.cpp src/prefs/RecordingPrefs.cpp
-msgid "Options"
+#: src/SpectralDataDialog.cpp
+msgid "Brush Tool"
 msgstr ""
 
 #: src/SpectralDataDialog.cpp
-msgid "Enable overtones selection"
-msgstr ""
-
-#: src/SpectralDataDialog.cpp
-msgid "Enable smart selection"
+msgid "Spectral Brush"
 msgstr ""
 
 #: src/SpectralDataDialog.cpp
@@ -4719,15 +4714,24 @@ msgid "Custom brush size"
 msgstr ""
 
 #: src/SpectralDataDialog.cpp
-msgid "Apply effect to selection."
+msgid "Auto-select overtones (beta)"
 msgstr ""
 
 #: src/SpectralDataDialog.cpp
-#, c-format
-msgid "Effect applied to %d selection(s)."
+msgid "Enable smart selection"
 msgstr ""
 
 #: src/SpectralDataDialog.cpp
+msgid ""
+"Select the fundamental frequency\n"
+"and release the mouse"
+msgstr ""
+
+#: src/SpectralDataDialog.cpp
+msgid "Spectra&l Selection Panel"
+msgstr ""
+
+#: src/SpectralDataManager.cpp
 msgid "Applied effect to selection"
 msgstr ""
 
@@ -5180,6 +5184,11 @@ msgstr ""
 
 #: src/TimerRecordDialog.cpp
 msgid "Export Project As:"
+msgstr ""
+
+#: src/TimerRecordDialog.cpp src/prefs/GUIPrefs.cpp src/prefs/PlaybackPrefs.cpp
+#: src/prefs/RecordingPrefs.cpp
+msgid "Options"
 msgstr ""
 
 #: src/TimerRecordDialog.cpp
@@ -16549,10 +16558,6 @@ msgid "Envelope Tool"
 msgstr ""
 
 #: src/toolbars/ToolsToolBar.cpp
-msgid "Time Shift Tool"
-msgstr ""
-
-#: src/toolbars/ToolsToolBar.cpp
 msgid "Zoom Tool"
 msgstr ""
 
@@ -16563,14 +16568,6 @@ msgstr ""
 
 #: src/toolbars/ToolsToolBar.cpp
 msgid "Multi-Tool"
-msgstr ""
-
-#: src/toolbars/ToolsToolBar.cpp
-msgid "Brush Tool"
-msgstr ""
-
-#: src/toolbars/ToolsToolBar.cpp
-msgid "Slide Tool"
 msgstr ""
 
 #. i18n-hint: Clicking this menu item shows a toolbar
@@ -16596,15 +16593,7 @@ msgid "&Zoom Tool"
 msgstr ""
 
 #: src/toolbars/ToolsToolBar.cpp
-msgid "&Time Shift Tool"
-msgstr ""
-
-#: src/toolbars/ToolsToolBar.cpp
 msgid "&Multi Tool"
-msgstr ""
-
-#: src/toolbars/ToolsToolBar.cpp
-msgid "&Brush Tool"
 msgstr ""
 
 #: src/toolbars/ToolsToolBar.cpp
