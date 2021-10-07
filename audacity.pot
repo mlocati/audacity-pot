@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-10-06 08:18+0000\n"
+"POT-Creation-Date: 2021-10-07 08:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2846,6 +2846,12 @@ msgstr ""
 msgid "You can help us get Audacity ready for release by joining our [[https://www.audacityteam.org/community/|community]].<hr><br><br>"
 msgstr ""
 
+#. i18n-hint: %s is replaced with Audacity version
+#: src/HelpText.cpp
+#, c-format
+msgid "What's new in Audacity %s"
+msgstr ""
+
 #: src/HelpText.cpp
 msgid "How to get help"
 msgstr ""
@@ -5426,7 +5432,7 @@ msgstr ""
 #: src/WaveTrack.cpp
 #, c-format
 msgctxt "clip name template"
-msgid "%s - copy %i"
+msgid "%s.%i"
 msgstr ""
 
 #. i18n-hint Template for clip name generation on inserting new empty clip
@@ -5434,29 +5440,6 @@ msgstr ""
 #, c-format
 msgctxt "clip name template"
 msgid "%s %i"
-msgstr ""
-
-#. i18n-hint Template for clip name generation used when copying a part of clip data
-#: src/WaveTrack.cpp
-#, c-format
-msgctxt "clip name template"
-msgid "%s samples [%.2f-%.2f]"
-msgstr ""
-
-#. i18n-hint Name assigned to the first clip when splitting a wave track
-#. i18n-hint Name assigned to the first clip on split
-#: src/WaveTrack.cpp
-#, c-format
-msgctxt "clip name template"
-msgid "%s 1"
-msgstr ""
-
-#. i18n-hint Name assigned to the second clip when splitting a wave track
-#. i18n-hint Name assigned to the second clip on split
-#: src/WaveTrack.cpp
-#, c-format
-msgctxt "clip name template"
-msgid "%s 2"
 msgstr ""
 
 #: src/WaveTrack.cpp
