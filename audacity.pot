@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-10-12 08:18+0000\n"
+"POT-Creation-Date: 2021-10-13 08:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -216,14 +216,6 @@ msgstr ""
 
 #: libraries/lib-audio-devices/AudioIOBase.cpp
 msgid "Recording volume is native\n"
-msgstr ""
-
-#: libraries/lib-audio-devices/AudioIOBase.cpp
-msgid "Playback volume is emulated\n"
-msgstr ""
-
-#: libraries/lib-audio-devices/AudioIOBase.cpp
-msgid "Playback volume is native\n"
 msgstr ""
 
 #: libraries/lib-basic-ui/BasicUI.cpp
@@ -16353,11 +16345,6 @@ msgstr ""
 
 #: src/toolbars/MixerToolBar.cpp
 msgid "Recording Volume (Unavailable; use system mixer.)"
-msgstr ""
-
-#: src/toolbars/MixerToolBar.cpp
-#, c-format
-msgid "Playback Volume: %.2f (emulated)"
 msgstr ""
 
 #: src/toolbars/MixerToolBar.cpp
