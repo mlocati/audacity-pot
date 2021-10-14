@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-10-13 08:19+0000\n"
+"POT-Creation-Date: 2021-10-14 08:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -477,6 +477,10 @@ msgstr ""
 #: libraries/lib-registries/Registry.cpp
 #, c-format
 msgid "Plug-in items at %s specify conflicting placements"
+msgstr ""
+
+#: libraries/lib-screen-geometry/ViewInfo.cpp
+msgid "&Loop On/Off"
 msgstr ""
 
 #: libraries/lib-strings/Internat.cpp
@@ -1411,6 +1415,10 @@ msgid "App update checking and error reporting require network access. These fea
 msgstr ""
 
 #: src/AdornedRulerPanel.cpp
+msgid "Click and drag to define a looping region."
+msgstr ""
+
+#: src/AdornedRulerPanel.cpp
 msgid "Timeline actions disabled during recording"
 msgstr ""
 
@@ -1493,10 +1501,6 @@ msgid "Timeline Options"
 msgstr ""
 
 #: src/AdornedRulerPanel.cpp
-msgid "Enable Quick-Play"
-msgstr ""
-
-#: src/AdornedRulerPanel.cpp
 msgid "Enable dragging selection"
 msgstr ""
 
@@ -1505,7 +1509,11 @@ msgid "Update display while playing"
 msgstr ""
 
 #: src/AdornedRulerPanel.cpp
-msgid "Lock Play Region"
+msgid "Clear Looping Region"
+msgstr ""
+
+#: src/AdornedRulerPanel.cpp
+msgid "Set Loop To Selection"
 msgstr ""
 
 #: src/AdornedRulerPanel.cpp
@@ -4746,6 +4754,10 @@ msgstr ""
 msgid ""
 "Cannot lock region beyond\n"
 "end of project."
+msgstr ""
+
+#: src/SelectUtilities.cpp
+msgid "Position"
 msgstr ""
 
 #: src/Sequence.cpp
@@ -13142,10 +13154,6 @@ msgid "Set Left Selection Boundary"
 msgstr ""
 
 #: src/menus/SelectMenus.cpp
-msgid "Position"
-msgstr ""
-
-#: src/menus/SelectMenus.cpp
 msgid "Set Right Selection Boundary"
 msgstr ""
 
@@ -13904,6 +13912,14 @@ msgid "no labels in label track"
 msgstr ""
 
 #: src/menus/TransportMenus.cpp
+msgid "Set Loop &In"
+msgstr ""
+
+#: src/menus/TransportMenus.cpp
+msgid "Set Loop &Out"
+msgstr ""
+
+#: src/menus/TransportMenus.cpp
 msgid ""
 "Timer Recording cannot be used with more than one open project.\n"
 "\n"
@@ -13954,7 +13970,7 @@ msgid "Play/Stop and &Set Cursor"
 msgstr ""
 
 #: src/menus/TransportMenus.cpp
-msgid "&Loop Play"
+msgid "Play &Once/Stop"
 msgstr ""
 
 #: src/menus/TransportMenus.cpp
@@ -13987,15 +14003,15 @@ msgid "Punch and Rol&l Record"
 msgstr ""
 
 #: src/menus/TransportMenus.cpp
-msgid "Pla&y Region"
+msgid "&Looping"
 msgstr ""
 
 #: src/menus/TransportMenus.cpp
-msgid "&Lock"
+msgid "&Clear Loop"
 msgstr ""
 
 #: src/menus/TransportMenus.cpp
-msgid "&Unlock"
+msgid "&Set Loop to Selection"
 msgstr ""
 
 #: src/menus/TransportMenus.cpp
@@ -14036,7 +14052,7 @@ msgstr ""
 
 #. i18n-hint: (verb) Start playing audio
 #: src/menus/TransportMenus.cpp
-msgid "Pl&ay"
+msgid "Pl&ay Once"
 msgstr ""
 
 #. i18n-hint: (verb) Stop playing audio
@@ -14080,17 +14096,13 @@ msgstr ""
 msgid "Play C&ut Preview"
 msgstr ""
 
+#. i18n-hint: 'Normal Play-at-Speed' doesn't loop or cut preview.
 #: src/menus/TransportMenus.cpp
 msgid "&Play-at-Speed"
 msgstr ""
 
-#. i18n-hint: 'Normal Play-at-Speed' doesn't loop or cut preview.
 #: src/menus/TransportMenus.cpp
-msgid "Normal Pl&ay-at-Speed"
-msgstr ""
-
-#: src/menus/TransportMenus.cpp
-msgid "&Loop Play-at-Speed"
+msgid "Play-at-Speed &Once"
 msgstr ""
 
 #: src/menus/TransportMenus.cpp
@@ -16140,11 +16152,7 @@ msgid "Skip to End"
 msgstr ""
 
 #: src/toolbars/ControlToolBar.cpp
-msgid "Looping Region"
-msgstr ""
-
-#: src/toolbars/ControlToolBar.cpp
-msgid "Loop Play"
+msgid "Play Once"
 msgstr ""
 
 #: src/toolbars/ControlToolBar.cpp
@@ -16598,7 +16606,7 @@ msgid "Playback Speed"
 msgstr ""
 
 #: src/toolbars/TranscriptionToolBar.cpp
-msgid "Looped-Play-at-Speed"
+msgid "Play-at-Speed Once"
 msgstr ""
 
 #. i18n-hint: Clicking this menu item shows the toolbar
