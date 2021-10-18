@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-10-15 08:18+0000\n"
+"POT-Creation-Date: 2021-10-18 08:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -530,20 +530,13 @@ msgstr ""
 
 #. i18n-hint: greater difference between foreground and
 #. background colors
-#: libraries/lib-theme/HiContrastThemeAsCeeCode.cpp
+#: libraries/lib-theme/HighContrastThemeAsCeeCode.cpp
 msgid "High Contrast"
 msgstr ""
 
 #. i18n-hint: Light meaning opposite of dark
 #: libraries/lib-theme/LightThemeAsCeeCode.cpp
 msgid "Light"
-msgstr ""
-
-#: libraries/lib-theme/Theme.cpp
-#, c-format
-msgid ""
-"Audacity could not write file:\n"
-"  %s."
 msgstr ""
 
 #. i18n-hint: A theme is a consistent visual style across an application's
@@ -553,7 +546,14 @@ msgstr ""
 #: libraries/lib-theme/Theme.cpp
 #, c-format
 msgid ""
-"Theme written to:\n"
+"Themes written to:\n"
+"  %s/*/%s."
+msgstr ""
+
+#: libraries/lib-theme/Theme.cpp
+#, c-format
+msgid ""
+"Audacity could not write file:\n"
 "  %s."
 msgstr ""
 
@@ -569,14 +569,6 @@ msgstr ""
 #, c-format
 msgid ""
 "Audacity could not write images to file:\n"
-"  %s."
-msgstr ""
-
-#. i18n-hint "Cee" means the C computer programming language
-#: libraries/lib-theme/Theme.cpp
-#, c-format
-msgid ""
-"Theme as Cee code written to:\n"
 "  %s."
 msgstr ""
 
@@ -614,6 +606,13 @@ msgstr ""
 #: libraries/lib-theme/Theme.cpp
 #, c-format
 msgid ""
+"Themes written to:\n"
+"  %s/*/Components/."
+msgstr ""
+
+#: libraries/lib-theme/Theme.cpp
+#, c-format
+msgid ""
 "Could not create directory:\n"
 "  %s"
 msgstr ""
@@ -631,6 +630,14 @@ msgstr ""
 msgid ""
 "Audacity could not save file:\n"
 "  %s"
+msgstr ""
+
+#. i18n-hint "Cee" means the C computer programming language
+#: libraries/lib-theme/Theme.cpp
+#, c-format
+msgid ""
+"Themes as Cee code written to:\n"
+"  %s/*%s."
 msgstr ""
 
 #. i18n-hint: user defined
@@ -15848,10 +15855,7 @@ msgid ""
 "To try it out, click \"Save Theme Cache\" then find and modify the images and colors in\n"
 "ImageCacheVxx.png using an image editor such as the Gimp.\n"
 "\n"
-"Click \"Load Theme Cache\" to load the changed images and colors back into Audacity.\n"
-"\n"
-"(Only the Transport Toolbar and the colors on the wavetrack are currently affected, even\n"
-"though the image file shows other icons too.)"
+"Click \"Load Theme Cache\" to load the changed images and colors back into Audacity."
 msgstr ""
 
 #: src/prefs/ThemePrefs.cpp
