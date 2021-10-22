@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-10-18 08:18+0000\n"
+"POT-Creation-Date: 2021-10-22 08:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -363,7 +363,8 @@ msgstr ""
 msgid "Rectangle"
 msgstr ""
 
-#: libraries/lib-math/Dither.cpp src/effects/ToneGen.cpp plug-ins/tremolo.ny
+#: libraries/lib-math/Dither.cpp
+msgctxt "dither"
 msgid "Triangle"
 msgstr ""
 
@@ -9085,6 +9086,11 @@ msgstr ""
 
 #: src/effects/ToneGen.cpp
 msgid "Square, no alias"
+msgstr ""
+
+#: src/effects/ToneGen.cpp plug-ins/tremolo.ny
+msgctxt "waveform"
+msgid "Triangle"
 msgstr ""
 
 #: src/effects/ToneGen.cpp
