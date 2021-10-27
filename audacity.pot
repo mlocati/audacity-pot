@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-10-22 08:18+0000\n"
+"POT-Creation-Date: 2021-10-27 08:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -598,6 +598,11 @@ msgstr ""
 
 #: libraries/lib-theme/Theme.cpp
 #, c-format
+msgid "Couldn't read from file: %s"
+msgstr ""
+
+#: libraries/lib-theme/Theme.cpp
+#, c-format
 msgid ""
 "None of the expected theme component files\n"
 " were found in:\n"
@@ -631,6 +636,12 @@ msgstr ""
 msgid ""
 "Audacity could not save file:\n"
 "  %s"
+msgstr ""
+
+#: libraries/lib-theme/Theme.cpp src/FreqWindow.cpp src/LabelDialog.cpp
+#: src/effects/Contrast.cpp src/menus/FileMenus.cpp
+#, c-format
+msgid "Couldn't write to file: %s"
 msgstr ""
 
 #. i18n-hint "Cee" means the C computer programming language
@@ -2867,12 +2878,6 @@ msgstr ""
 
 #: src/FreqWindow.cpp
 msgid "Export Spectral Data As:"
-msgstr ""
-
-#: src/FreqWindow.cpp src/LabelDialog.cpp src/effects/Contrast.cpp
-#: src/menus/FileMenus.cpp
-#, c-format
-msgid "Couldn't write to file: %s"
 msgstr ""
 
 #: src/FreqWindow.cpp
