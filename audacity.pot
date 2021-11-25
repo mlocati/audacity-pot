@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-11-21 08:18+0000\n"
+"POT-Creation-Date: 2021-11-25 08:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3999,23 +3999,6 @@ msgid ""
 "%s"
 msgstr ""
 
-#: src/ProjectFileIO.cpp
-#, c-format
-msgid ""
-"Unable to prepare project file command:\n"
-"\n"
-"%s"
-msgstr ""
-
-#: src/ProjectFileIO.cpp
-#, c-format
-msgid ""
-"Failed to retrieve data from the project file.\n"
-"The following command failed:\n"
-"\n"
-"%s"
-msgstr ""
-
 #. i18n-hint: An error message.
 #: src/ProjectFileIO.cpp
 msgid ""
@@ -4115,6 +4098,14 @@ msgid "Unable to switch to fast journaling mode"
 msgstr ""
 
 #: src/ProjectFileIO.cpp
+#, c-format
+msgid ""
+"Unable to prepare project file command:\n"
+"\n"
+"%s"
+msgstr ""
+
+#: src/ProjectFileIO.cpp
 msgid "Failed to bind SQL parameter"
 msgstr ""
 
@@ -4180,10 +4171,6 @@ msgstr ""
 
 #: src/ProjectFileIO.cpp
 msgid "Unable to bind to blob"
-msgstr ""
-
-#: src/ProjectFileIO.cpp
-msgid "Unable to decode project document"
 msgstr ""
 
 #: src/ProjectFileIO.cpp
@@ -11478,11 +11465,6 @@ msgstr ""
 
 #: src/import/ImportAUP.cpp
 msgid "Internal error in importer...tag not recognized"
-msgstr ""
-
-#: src/import/ImportAUP.cpp
-#, c-format
-msgid "Invalid project '%s' attribute."
 msgstr ""
 
 #: src/import/ImportAUP.cpp
