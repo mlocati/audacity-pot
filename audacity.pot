@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-11-25 08:19+0000\n"
+"POT-Creation-Date: 2021-12-02 08:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -521,22 +521,22 @@ msgstr ""
 
 #. i18n-hint: describing the "classic" or traditional
 #. appearance of older versions of Audacity
-#: libraries/lib-theme/ClassicThemeAsCeeCode.cpp
+#: libraries/lib-theme-resources/ClassicThemeAsCeeCode.cpp
 msgid "Classic"
 msgstr ""
 
-#: libraries/lib-theme/DarkThemeAsCeeCode.cpp
+#: libraries/lib-theme-resources/DarkThemeAsCeeCode.cpp
 msgid "Dark"
 msgstr ""
 
 #. i18n-hint: greater difference between foreground and
 #. background colors
-#: libraries/lib-theme/HighContrastThemeAsCeeCode.cpp
+#: libraries/lib-theme-resources/HighContrastThemeAsCeeCode.cpp
 msgid "High Contrast"
 msgstr ""
 
 #. i18n-hint: Light meaning opposite of dark
-#: libraries/lib-theme/LightThemeAsCeeCode.cpp
+#: libraries/lib-theme-resources/LightThemeAsCeeCode.cpp
 msgid "Light"
 msgstr ""
 
@@ -655,6 +655,19 @@ msgstr ""
 #. i18n-hint: user defined
 #: libraries/lib-theme/Theme.cpp
 msgid "Custom"
+msgstr ""
+
+#: libraries/lib-track/Track.cpp
+msgid "Generic Track"
+msgstr ""
+
+#. i18n-hint: The default name for an audio track.
+#: libraries/lib-track/Track.cpp src/prefs/TracksPrefs.cpp
+msgid "Audio Track"
+msgstr ""
+
+#: libraries/lib-track/Track.cpp
+msgid "Playable Track"
 msgstr ""
 
 #: libraries/lib-xml/XMLFileReader.cpp src/effects/Effect.cpp
@@ -5425,6 +5438,10 @@ msgstr ""
 
 #: src/WaveClip.cpp
 msgid "Resampling failed."
+msgstr ""
+
+#: src/WaveTrack.cpp
+msgid "Wave Track"
 msgstr ""
 
 #. i18n-hint Template for clip name generation on copy-paste
@@ -16054,11 +16071,6 @@ msgstr ""
 
 #: src/prefs/TracksPrefs.cpp
 msgid "Default audio track &name:"
-msgstr ""
-
-#. i18n-hint: The default name for an audio track.
-#: src/prefs/TracksPrefs.cpp
-msgid "Audio Track"
 msgstr ""
 
 #: src/prefs/TracksPrefs.cpp src/toolbars/EditToolBar.cpp
