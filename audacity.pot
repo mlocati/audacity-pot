@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-12-02 08:19+0000\n"
+"POT-Creation-Date: 2021-12-08 08:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -670,6 +670,21 @@ msgstr ""
 msgid "Playable Track"
 msgstr ""
 
+#: libraries/lib-transactions/TransactionScope.cpp
+msgid "Database error.  Sorry, but we don't have more details."
+msgstr ""
+
+#: libraries/lib-transactions/TransactionScope.cpp
+#: modules/mod-nyq-bench/NyqBench.cpp src/DBConnection.cpp src/LogWindow.cpp
+#: src/ProjectFileIO.cpp src/ProjectHistory.cpp src/SqliteSampleBlock.cpp
+#: src/WaveClip.cpp src/WaveTrack.cpp src/export/Export.cpp
+#: src/export/ExportCL.cpp src/export/ExportMultiple.cpp
+#: src/import/RawAudioGuess.cpp src/menus/EditMenus.cpp
+#: src/prefs/DirectoriesPrefs.cpp src/prefs/KeyConfigPrefs.cpp
+#: src/widgets/Warning.cpp
+msgid "Warning"
+msgstr ""
+
 #: libraries/lib-xml/XMLFileReader.cpp src/effects/Effect.cpp
 #: src/effects/VST/VSTEffect.cpp
 #, c-format
@@ -822,16 +837,6 @@ msgstr ""
 
 #: modules/mod-nyq-bench/NyqBench.cpp
 msgid "Script was not saved."
-msgstr ""
-
-#: modules/mod-nyq-bench/NyqBench.cpp src/DBConnection.cpp src/LogWindow.cpp
-#: src/ProjectFileIO.cpp src/ProjectHistory.cpp src/SqliteSampleBlock.cpp
-#: src/WaveClip.cpp src/WaveTrack.cpp src/export/Export.cpp
-#: src/export/ExportCL.cpp src/export/ExportMultiple.cpp
-#: src/import/RawAudioGuess.cpp src/menus/EditMenus.cpp
-#: src/prefs/DirectoriesPrefs.cpp src/prefs/KeyConfigPrefs.cpp
-#: src/widgets/Warning.cpp
-msgid "Warning"
 msgstr ""
 
 #: modules/mod-nyq-bench/NyqBench.cpp src/effects/nyquist/Nyquist.cpp
@@ -2497,10 +2502,6 @@ msgid ""
 "Failed to release savepoint:\n"
 "\n"
 "%s"
-msgstr ""
-
-#: src/DBConnection.cpp
-msgid "Database error.  Sorry, but we don't have more details."
 msgstr ""
 
 #: src/Dependencies.cpp
