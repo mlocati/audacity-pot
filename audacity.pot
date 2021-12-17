@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-12-08 08:20+0000\n"
+"POT-Creation-Date: 2021-12-17 08:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -63,8 +63,6 @@ msgstr ""
 #. i18n-hint: Title of hyperlink to the privacy policy. This is an
 #. object of "See".
 #. i18n-hint: Title of hyperlink to the privacy policy. This is an object of "See".
-#. i18n-hint: Title of hyperlink to the privacy policy. This is an
-#. object of "See".
 #: crashreports/crashreporter/CrashReportApp.cpp src/AboutDialog.cpp
 #: src/prefs/ApplicationPrefs.cpp src/update/UpdateNoticeDialog.cpp
 #: src/widgets/ErrorReportDialog.cpp
@@ -19906,7 +19904,7 @@ msgid "Processing Vocoder..."
 msgstr ""
 
 #: plug-ins/vocoder.ny
-msgid "Edgar-RFT"
+msgid "Edgar-RFT and Steve Daulton"
 msgstr ""
 
 #: plug-ins/vocoder.ny
@@ -19930,7 +19928,7 @@ msgid "Number of vocoder bands"
 msgstr ""
 
 #: plug-ins/vocoder.ny
-msgid "Amplitude of original audio (percent)"
+msgid "Amplitude of carrier wave (percent)"
 msgstr ""
 
 #: plug-ins/vocoder.ny
@@ -19947,5 +19945,5 @@ msgstr ""
 
 #: plug-ins/vocoder.ny
 #, lisp-format
-msgid "Error.~%Stereo track required."
+msgid "Error.~%No modulation carrier."
 msgstr ""
