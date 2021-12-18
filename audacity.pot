@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-12-17 08:20+0000\n"
+"POT-Creation-Date: 2021-12-18 08:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -476,6 +476,14 @@ msgstr ""
 #: libraries/lib-registries/Registry.cpp
 #, c-format
 msgid "Plug-in items at %s specify conflicting placements"
+msgstr ""
+
+#: libraries/lib-sample-track/SampleTrack.cpp
+msgid "Sample Track"
+msgstr ""
+
+#: libraries/lib-sample-track/SampleTrack.cpp
+msgid "Writable Sample Track"
 msgstr ""
 
 #: libraries/lib-screen-geometry/ViewInfo.cpp
@@ -3295,15 +3303,15 @@ msgid "Disallowed"
 msgstr ""
 
 #. i18n-hint: noun, means a track, made by mixing other tracks
-#: src/Mix.cpp
+#: src/MixAndRender.cpp
 msgid "Mix"
 msgstr ""
 
-#: src/Mix.cpp src/menus/TrackMenus.cpp
+#: src/MixAndRender.cpp src/menus/TrackMenus.cpp
 msgid "Mix and Render"
 msgstr ""
 
-#: src/Mix.cpp
+#: src/MixAndRender.cpp
 msgid "Mixing and rendering tracks"
 msgstr ""
 
