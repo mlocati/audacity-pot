@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2022-01-07 08:20+0000\n"
+"POT-Creation-Date: 2022-01-12 08:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,7 +47,7 @@ msgstr ""
 msgid "Problem details"
 msgstr ""
 
-#: crashreports/crashreporter/CrashReportApp.cpp src/Tags.cpp
+#: crashreports/crashreporter/CrashReportApp.cpp src/TagsEditor.cpp
 #: src/prefs/MousePrefs.cpp src/widgets/ErrorReportDialog.cpp
 msgid "Comments"
 msgstr ""
@@ -779,8 +779,7 @@ msgstr ""
 msgid "Generic Track"
 msgstr ""
 
-#. i18n-hint: The default name for an audio track.
-#: libraries/lib-track/Track.cpp src/prefs/TracksPrefs.cpp
+#: libraries/lib-track/Track.cpp src/WaveTrack.cpp
 msgid "Audio Track"
 msgstr ""
 
@@ -2245,8 +2244,8 @@ msgstr ""
 msgid "Move &Down"
 msgstr ""
 
-#: src/BatchProcessDialog.cpp src/effects/nyquist/Nyquist.cpp
-#: src/menus/HelpMenus.cpp
+#: src/BatchProcessDialog.cpp src/HelpUtilities.cpp
+#: src/effects/nyquist/Nyquist.cpp
 msgid "&Save"
 msgstr ""
 
@@ -2707,6 +2706,28 @@ msgstr ""
 msgid "Dependency Check"
 msgstr ""
 
+#. i18n-hint:  A name given to a track, appearing as its menu button.
+#. The translation should be short or else it will not display well.
+#. At most, about 11 Latin characters.
+#. Dropout is a loss of a short sequence of audio sample data from the
+#. recording
+#: src/DropoutDetector.cpp
+msgid "Dropouts"
+msgstr ""
+
+#: src/DropoutDetector.cpp
+msgid ""
+"Recorded audio was lost at the labeled locations. Possible causes:\n"
+"\n"
+"Other applications are competing with Audacity for processor time\n"
+"\n"
+"You are saving directly to a slow external storage device\n"
+msgstr ""
+
+#: src/DropoutDetector.cpp
+msgid "Turn off dropout detection"
+msgstr ""
+
 #: src/FFmpeg.cpp
 msgid "FFmpeg support not compiled in"
 msgstr ""
@@ -3124,6 +3145,16 @@ msgstr ""
 msgid "Check Online"
 msgstr ""
 
+#: src/HelpUtilities.cpp
+#, c-format
+msgid "Save %s"
+msgstr ""
+
+#: src/HelpUtilities.cpp
+#, c-format
+msgid "Unable to save %s"
+msgstr ""
+
 #: src/HistoryWindow.cpp
 msgid "History"
 msgstr ""
@@ -3306,12 +3337,12 @@ msgstr ""
 msgid "Audacity Log"
 msgstr ""
 
-#: src/LogWindow.cpp src/Tags.cpp
+#: src/LogWindow.cpp src/TagsEditor.cpp
 msgid "&Save..."
 msgstr ""
 
 #. i18n-hint: (verb)
-#: src/LogWindow.cpp src/Tags.cpp src/prefs/KeyConfigPrefs.cpp
+#: src/LogWindow.cpp src/TagsEditor.cpp src/prefs/KeyConfigPrefs.cpp
 msgid "Cl&ear"
 msgstr ""
 
@@ -3773,28 +3804,6 @@ msgstr ""
 msgid "Record"
 msgstr ""
 
-#. i18n-hint:  A name given to a track, appearing as its menu button.
-#. The translation should be short or else it will not display well.
-#. At most, about 11 Latin characters.
-#. Dropout is a loss of a short sequence of audio sample data from the
-#. recording
-#: src/ProjectAudioManager.cpp
-msgid "Dropouts"
-msgstr ""
-
-#: src/ProjectAudioManager.cpp
-msgid ""
-"Recorded audio was lost at the labeled locations. Possible causes:\n"
-"\n"
-"Other applications are competing with Audacity for processor time\n"
-"\n"
-"You are saving directly to a slow external storage device\n"
-msgstr ""
-
-#: src/ProjectAudioManager.cpp
-msgid "Turn off dropout detection"
-msgstr ""
-
 #. i18n-hint: The audacity project file is XML and has 'tags' in it,
 #. rather like html tags <something>some stuff</something>.
 #. This error message is about the tags that hold the sequence information.
@@ -3925,8 +3934,8 @@ msgstr ""
 
 #. i18n-hint: This title appears on a dialog that indicates the progress
 #. in doing something.
-#: src/ProjectFSCK.cpp src/ProjectFileIO.cpp src/UndoManager.cpp
-#: src/menus/TransportMenus.cpp
+#: src/ProjectFSCK.cpp src/ProjectFileIO.cpp src/TransportUtilities.cpp
+#: src/UndoManager.cpp
 msgid "Progress"
 msgstr ""
 
@@ -4847,111 +4856,111 @@ msgstr ""
 msgid "Connection to project file is null"
 msgstr ""
 
-#: src/Tags.cpp
+#: src/TagsEditor.cpp
 msgid "Artist Name"
 msgstr ""
 
-#: src/Tags.cpp
+#: src/TagsEditor.cpp
 msgid "Track Title"
 msgstr ""
 
-#: src/Tags.cpp
+#: src/TagsEditor.cpp
 msgid "Album Title"
 msgstr ""
 
-#: src/Tags.cpp
+#: src/TagsEditor.cpp
 msgid "Track Number"
 msgstr ""
 
-#: src/Tags.cpp
+#: src/TagsEditor.cpp
 msgid "Year"
 msgstr ""
 
-#: src/Tags.cpp
+#: src/TagsEditor.cpp
 msgid "Genre"
 msgstr ""
 
-#: src/Tags.cpp
+#: src/TagsEditor.cpp
 msgid "Use arrow keys (or ENTER key after editing) to navigate fields."
 msgstr ""
 
-#: src/Tags.cpp
+#: src/TagsEditor.cpp
 msgid "Tag"
 msgstr ""
 
-#: src/Tags.cpp
+#: src/TagsEditor.cpp
 msgid "Value"
 msgstr ""
 
-#: src/Tags.cpp
+#: src/TagsEditor.cpp
 msgid "&Add"
 msgstr ""
 
-#: src/Tags.cpp
+#: src/TagsEditor.cpp
 msgid "&Remove"
 msgstr ""
 
-#: src/Tags.cpp
+#: src/TagsEditor.cpp
 msgid "Genres"
 msgstr ""
 
-#: src/Tags.cpp
+#: src/TagsEditor.cpp
 msgid "E&dit..."
 msgstr ""
 
-#: src/Tags.cpp
+#: src/TagsEditor.cpp
 msgid "Rese&t..."
 msgstr ""
 
-#: src/Tags.cpp
+#: src/TagsEditor.cpp
 msgid "Template"
 msgstr ""
 
-#: src/Tags.cpp
+#: src/TagsEditor.cpp
 msgid "&Load..."
 msgstr ""
 
-#: src/Tags.cpp
+#: src/TagsEditor.cpp
 msgid "Set De&fault"
 msgstr ""
 
-#: src/Tags.cpp
+#: src/TagsEditor.cpp
 msgid "Don't show this when exporting audio"
 msgstr ""
 
-#: src/Tags.cpp
+#: src/TagsEditor.cpp
 msgid "Edit Genres"
 msgstr ""
 
-#: src/Tags.cpp
+#: src/TagsEditor.cpp
 msgid "Unable to save genre file."
 msgstr ""
 
-#: src/Tags.cpp
+#: src/TagsEditor.cpp
 msgid "Reset Genres"
 msgstr ""
 
-#: src/Tags.cpp
+#: src/TagsEditor.cpp
 msgid "Are you sure you want to reset the genre list to defaults?"
 msgstr ""
 
-#: src/Tags.cpp
+#: src/TagsEditor.cpp
 msgid "Unable to open genre file."
 msgstr ""
 
-#: src/Tags.cpp
+#: src/TagsEditor.cpp
 msgid "Load Metadata As:"
 msgstr ""
 
-#: src/Tags.cpp
+#: src/TagsEditor.cpp
 msgid "Error Loading Metadata"
 msgstr ""
 
-#: src/Tags.cpp
+#: src/TagsEditor.cpp
 msgid "Save Metadata As:"
 msgstr ""
 
-#: src/Tags.cpp
+#: src/TagsEditor.cpp
 msgid "Error Saving Tags File"
 msgstr ""
 
@@ -5375,6 +5384,21 @@ msgstr ""
 
 #: src/TrackUtilities.cpp
 msgid "Move Track Down"
+msgstr ""
+
+#. i18n-hint: These are strings for the status bar, and indicate whether Audacity
+#. is playing or recording or stopped, and whether it is paused;
+#. progressive verb form
+#: src/TransportUtilities.cpp src/toolbars/ControlToolBar.cpp
+msgid "Playing"
+msgstr ""
+
+#. i18n-hint: These are strings for the status bar, and indicate whether Audacity
+#. is playing or recording or stopped, and whether it is paused;
+#. progressive verb form
+#: src/TransportUtilities.cpp src/prefs/MidiIOPrefs.cpp
+#: src/toolbars/ControlToolBar.cpp
+msgid "Recording"
 msgstr ""
 
 #: src/UndoManager.cpp
@@ -6865,7 +6889,7 @@ msgstr ""
 msgid "&Difference:"
 msgstr ""
 
-#: src/effects/Contrast.cpp src/menus/HelpMenus.cpp src/prefs/GUIPrefs.cpp
+#: src/effects/Contrast.cpp src/menus/HelpMenus.cpp src/prefs/GUISettings.cpp
 msgid "&Help"
 msgstr ""
 
@@ -12589,16 +12613,6 @@ msgid "Export as FLAC"
 msgstr ""
 
 #: src/menus/HelpMenus.cpp
-#, c-format
-msgid "Save %s"
-msgstr ""
-
-#: src/menus/HelpMenus.cpp
-#, c-format
-msgid "Unable to save %s"
-msgstr ""
-
-#: src/menus/HelpMenus.cpp
 msgid "Do you have these problems?"
 msgstr ""
 
@@ -12639,10 +12653,6 @@ msgid "Audio Device Info"
 msgstr ""
 
 #: src/menus/HelpMenus.cpp
-msgid "MIDI Device Info"
-msgstr ""
-
-#: src/menus/HelpMenus.cpp
 msgid "&Quick Fix..."
 msgstr ""
 
@@ -12668,10 +12678,6 @@ msgstr ""
 
 #: src/menus/HelpMenus.cpp
 msgid "Au&dio Device Info..."
-msgstr ""
-
-#: src/menus/HelpMenus.cpp
-msgid "&MIDI Device Info..."
 msgstr ""
 
 #: src/menus/HelpMenus.cpp src/widgets/ErrorDialog.cpp
@@ -12793,6 +12799,16 @@ msgid "Detach Labeled Audio"
 msgstr ""
 
 #: src/menus/LabelMenus.cpp
+msgid "Created new label track"
+msgstr ""
+
+#: src/menus/LabelMenus.cpp
+#: src/tracks/playabletrack/wavetrack/ui/WaveTrackMenuItems.cpp
+#: src/tracks/timetrack/ui/TimeTrackMenuItems.cpp
+msgid "New Track"
+msgstr ""
+
+#: src/menus/LabelMenus.cpp
 msgid "&Labels"
 msgstr ""
 
@@ -12878,6 +12894,10 @@ msgstr ""
 
 #: src/menus/LabelMenus.cpp
 msgid "Label Join"
+msgstr ""
+
+#: src/menus/LabelMenus.cpp
+msgid "&Label Track"
 msgstr ""
 
 #: src/menus/NavigationMenus.cpp
@@ -13583,30 +13603,6 @@ msgid "Adjusted Pan"
 msgstr ""
 
 #: src/menus/TrackMenus.cpp
-msgid "Created new audio track"
-msgstr ""
-
-#: src/menus/TrackMenus.cpp
-msgid "New Track"
-msgstr ""
-
-#: src/menus/TrackMenus.cpp
-msgid "Created new stereo audio track"
-msgstr ""
-
-#: src/menus/TrackMenus.cpp
-msgid "Created new label track"
-msgstr ""
-
-#: src/menus/TrackMenus.cpp
-msgid "This version of Audacity only allows one time track for each project window."
-msgstr ""
-
-#: src/menus/TrackMenus.cpp
-msgid "Created new time track"
-msgstr ""
-
-#: src/menus/TrackMenus.cpp
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackControls.cpp
 msgid "New sample rate (Hz):"
 msgstr ""
@@ -13673,22 +13669,6 @@ msgstr ""
 
 #: src/menus/TrackMenus.cpp
 msgid "Add &New"
-msgstr ""
-
-#: src/menus/TrackMenus.cpp
-msgid "&Mono Track"
-msgstr ""
-
-#: src/menus/TrackMenus.cpp
-msgid "&Stereo Track"
-msgstr ""
-
-#: src/menus/TrackMenus.cpp
-msgid "&Label Track"
-msgstr ""
-
-#: src/menus/TrackMenus.cpp
-msgid "&Time Track"
 msgstr ""
 
 #: src/menus/TrackMenus.cpp
@@ -13857,21 +13837,6 @@ msgstr ""
 
 #: src/menus/TrackMenus.cpp
 msgid "Move Focused Track to &Bottom"
-msgstr ""
-
-#. i18n-hint: These are strings for the status bar, and indicate whether Audacity
-#. is playing or recording or stopped, and whether it is paused;
-#. progressive verb form
-#: src/menus/TransportMenus.cpp src/toolbars/ControlToolBar.cpp
-msgid "Playing"
-msgstr ""
-
-#. i18n-hint: These are strings for the status bar, and indicate whether Audacity
-#. is playing or recording or stopped, and whether it is paused;
-#. progressive verb form
-#: src/menus/TransportMenus.cpp src/prefs/MidiIOPrefs.cpp
-#: src/toolbars/ControlToolBar.cpp
-msgid "Recording"
 msgstr ""
 
 #: src/menus/TransportMenus.cpp
@@ -14778,13 +14743,13 @@ msgstr ""
 msgid "Show Scrub Ruler"
 msgstr ""
 
-#: src/prefs/GUIPrefs.cpp
-#, c-format
-msgid "Language \"%s\" is unknown"
-msgstr ""
-
 #: src/prefs/GUIPrefs.h
 msgid "GUI"
+msgstr ""
+
+#: src/prefs/GUISettings.cpp
+#, c-format
+msgid "Language \"%s\" is unknown"
 msgstr ""
 
 #: src/prefs/ImportExportPrefs.cpp
@@ -16678,6 +16643,14 @@ msgstr ""
 msgid "Down Octa&ve"
 msgstr ""
 
+#: src/tracks/playabletrack/notetrack/ui/NoteTrackMenuItems.cpp
+msgid "MIDI Device Info"
+msgstr ""
+
+#: src/tracks/playabletrack/notetrack/ui/NoteTrackMenuItems.cpp
+msgid "&MIDI Device Info..."
+msgstr ""
+
 #: src/tracks/playabletrack/notetrack/ui/NoteTrackVZoomHandle.cpp
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackVZoomHandle.cpp
 msgid "Click to vertically zoom in. Shift-click to zoom out. Drag to specify a zoom region."
@@ -17031,6 +17004,22 @@ msgstr ""
 msgid "Right, %dHz"
 msgstr ""
 
+#: src/tracks/playabletrack/wavetrack/ui/WaveTrackMenuItems.cpp
+msgid "Created new audio track"
+msgstr ""
+
+#: src/tracks/playabletrack/wavetrack/ui/WaveTrackMenuItems.cpp
+msgid "Created new stereo audio track"
+msgstr ""
+
+#: src/tracks/playabletrack/wavetrack/ui/WaveTrackMenuItems.cpp
+msgid "&Mono Track"
+msgstr ""
+
+#: src/tracks/playabletrack/wavetrack/ui/WaveTrackMenuItems.cpp
+msgid "&Stereo Track"
+msgstr ""
+
 #. i18n-hint dB abbreviates decibels
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackSliderHandles.cpp
 #: src/widgets/ASlider.cpp
@@ -17184,6 +17173,18 @@ msgstr ""
 
 #: src/tracks/timetrack/ui/TimeTrackControls.cpp
 msgid "Logarithmic &Interpolation"
+msgstr ""
+
+#: src/tracks/timetrack/ui/TimeTrackMenuItems.cpp
+msgid "This version of Audacity only allows one time track for each project window."
+msgstr ""
+
+#: src/tracks/timetrack/ui/TimeTrackMenuItems.cpp
+msgid "Created new time track"
+msgstr ""
+
+#: src/tracks/timetrack/ui/TimeTrackMenuItems.cpp
+msgid "&Time Track"
 msgstr ""
 
 #. i18n-hint Appears on hovering mouse over clip affordance
