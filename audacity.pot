@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2022-01-12 08:21+0000\n"
+"POT-Creation-Date: 2022-01-23 08:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -6009,7 +6009,7 @@ msgstr ""
 msgid "Add"
 msgstr ""
 
-#: src/commands/SelectCommand.cpp src/effects/EffectUI.cpp
+#: src/commands/SelectCommand.cpp
 #: src/tracks/playabletrack/wavetrack/ui/CutlineHandle.cpp
 msgid "Remove"
 msgstr ""
@@ -7502,75 +7502,6 @@ msgstr ""
 
 #: src/effects/EffectManager.cpp
 msgid "Command failed to initialize"
-msgstr ""
-
-#: src/effects/EffectUI.cpp
-msgid "Effects Rack"
-msgstr ""
-
-#: src/effects/EffectUI.cpp
-msgid "&Apply"
-msgstr ""
-
-#: src/effects/EffectUI.cpp
-msgid "Latency: 0"
-msgstr ""
-
-#: src/effects/EffectUI.cpp
-msgid "&Bypass"
-msgstr ""
-
-#: src/effects/EffectUI.cpp
-msgid "Active State"
-msgstr ""
-
-#: src/effects/EffectUI.cpp
-msgid "Set effect active state"
-msgstr ""
-
-#: src/effects/EffectUI.cpp
-msgid "Show/Hide Editor"
-msgstr ""
-
-#: src/effects/EffectUI.cpp
-msgid "Open/close effect editor"
-msgstr ""
-
-#: src/effects/EffectUI.cpp
-msgid "Move Up"
-msgstr ""
-
-#: src/effects/EffectUI.cpp
-msgid "Move effect up in the rack"
-msgstr ""
-
-#: src/effects/EffectUI.cpp
-msgid "Move Down"
-msgstr ""
-
-#: src/effects/EffectUI.cpp
-msgid "Move effect down in the rack"
-msgstr ""
-
-#: src/effects/EffectUI.cpp
-msgid "Favorite"
-msgstr ""
-
-#: src/effects/EffectUI.cpp
-msgid "Mark effect as a favorite"
-msgstr ""
-
-#: src/effects/EffectUI.cpp
-msgid "Remove effect from the rack"
-msgstr ""
-
-#: src/effects/EffectUI.cpp
-msgid "Name of the effect"
-msgstr ""
-
-#: src/effects/EffectUI.cpp
-#, c-format
-msgid "Latency: %4d"
 msgstr ""
 
 #: src/effects/EffectUI.cpp
@@ -14164,10 +14095,6 @@ msgstr ""
 msgid "&Show Clipping (on/off)"
 msgstr ""
 
-#: src/menus/ViewMenus.cpp src/toolbars/EditToolBar.cpp
-msgid "Show Effects Rack"
-msgstr ""
-
 #: src/menus/WindowMenus.cpp
 msgid "&Window"
 msgstr ""
@@ -16226,10 +16153,6 @@ msgstr ""
 
 #: src/toolbars/EditToolBar.cpp
 msgid "Fit project to width"
-msgstr ""
-
-#: src/toolbars/EditToolBar.cpp
-msgid "Open Effects Rack"
 msgstr ""
 
 #. i18n-hint: Clicking this menu item shows the toolbar for editing
