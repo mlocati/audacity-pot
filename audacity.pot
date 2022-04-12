@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2022-03-31 08:24+0000\n"
+"POT-Creation-Date: 2022-04-12 08:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -320,11 +320,12 @@ msgstr ""
 
 #: libraries/lib-files/FileNames.cpp src/AudioIO.cpp
 #: src/ProjectAudioManager.cpp src/TimerRecordDialog.cpp
-#: src/effects/Contrast.cpp src/effects/Effect.cpp src/effects/Generator.cpp
-#: src/effects/VST3/VST3Effect.cpp src/effects/nyquist/Nyquist.cpp
-#: src/export/ExportFFmpeg.cpp src/export/ExportMP2.cpp
-#: src/menus/TrackMenus.cpp src/menus/TransportMenus.cpp
-#: src/prefs/DirectoriesPrefs.cpp src/prefs/KeyConfigPrefs.cpp
+#: src/effects/Contrast.cpp src/effects/EffectBase.cpp
+#: src/effects/Generator.cpp src/effects/VST3/VST3Effect.cpp
+#: src/effects/nyquist/Nyquist.cpp src/export/ExportFFmpeg.cpp
+#: src/export/ExportMP2.cpp src/menus/TrackMenus.cpp
+#: src/menus/TransportMenus.cpp src/prefs/DirectoriesPrefs.cpp
+#: src/prefs/KeyConfigPrefs.cpp
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackControls.cpp
 #: src/widgets/FileDialog/gtk/FileDialogPrivate.cpp
 #: src/widgets/UnwritableLocationErrorDialog.cpp
@@ -567,6 +568,10 @@ msgstr ""
 msgid "Nyquist Prompt"
 msgstr ""
 
+#: libraries/lib-project-history/ProjectHistory.cpp
+msgid "Created new project"
+msgstr ""
+
 #: libraries/lib-project-rate/QualitySettings.cpp
 msgid "16-bit"
 msgstr ""
@@ -793,12 +798,11 @@ msgstr ""
 
 #: libraries/lib-transactions/TransactionScope.cpp
 #: modules/mod-nyq-bench/NyqBench.cpp src/DBConnection.cpp src/LogWindow.cpp
-#: src/ProjectFileIO.cpp src/ProjectHistory.cpp src/SqliteSampleBlock.cpp
-#: src/WaveClip.cpp src/WaveTrack.cpp src/export/Export.cpp
-#: src/export/ExportCL.cpp src/export/ExportMultiple.cpp
-#: src/import/RawAudioGuess.cpp src/menus/EditMenus.cpp
-#: src/prefs/DirectoriesPrefs.cpp src/prefs/KeyConfigPrefs.cpp
-#: src/widgets/Warning.cpp
+#: src/ProjectFileIO.cpp src/SqliteSampleBlock.cpp src/WaveClip.cpp
+#: src/WaveTrack.cpp src/export/Export.cpp src/export/ExportCL.cpp
+#: src/export/ExportMultiple.cpp src/import/RawAudioGuess.cpp
+#: src/menus/EditMenus.cpp src/prefs/DirectoriesPrefs.cpp
+#: src/prefs/KeyConfigPrefs.cpp src/widgets/Warning.cpp
 msgid "Warning"
 msgstr ""
 
@@ -3419,11 +3423,6 @@ msgstr ""
 msgid "Disallowed"
 msgstr ""
 
-#. i18n-hint: noun, means a track, made by mixing other tracks
-#: src/MixAndRender.cpp
-msgid "Mix"
-msgstr ""
-
 #: src/MixAndRender.cpp src/menus/TrackMenus.cpp
 msgid "Mix and Render"
 msgstr ""
@@ -3768,7 +3767,7 @@ msgstr ""
 msgid "Actual Rate: %d"
 msgstr ""
 
-#: src/ProjectAudioManager.cpp src/effects/Effect.cpp
+#: src/ProjectAudioManager.cpp src/effects/EffectBase.cpp
 msgid ""
 "Error opening sound device.\n"
 "Try changing the audio host, playback device and the project sample rate."
@@ -3938,8 +3937,8 @@ msgstr ""
 
 #. i18n-hint: This title appears on a dialog that indicates the progress
 #. in doing something.
-#: src/ProjectFSCK.cpp src/ProjectFileIO.cpp src/TransportUtilities.cpp
-#: src/UndoManager.cpp
+#: src/ProjectFSCK.cpp src/ProjectFileIO.cpp src/SqliteSampleBlock.cpp
+#: src/TransportUtilities.cpp
 msgid "Progress"
 msgstr ""
 
@@ -4219,6 +4218,10 @@ msgstr ""
 msgid "Backing up project"
 msgstr ""
 
+#: src/ProjectFileIO.cpp
+msgid "Automatic database backup failed."
+msgstr ""
+
 #: src/ProjectFileManager.cpp
 msgid ""
 "This project was not saved properly the last time Audacity ran.\n"
@@ -4442,14 +4445,6 @@ msgstr ""
 
 #: src/ProjectFileManager.cpp
 msgid "Compact"
-msgstr ""
-
-#: src/ProjectHistory.cpp
-msgid "Created new project"
-msgstr ""
-
-#: src/ProjectHistory.cpp
-msgid "Automatic database backup failed."
 msgstr ""
 
 #: src/ProjectManager.cpp
@@ -4851,6 +4846,10 @@ msgstr ""
 
 #: src/SqliteSampleBlock.cpp
 msgid "Connection to project file is null"
+msgstr ""
+
+#: src/SqliteSampleBlock.cpp
+msgid "Discarding undo/redo history"
 msgstr ""
 
 #: src/TagsEditor.cpp
@@ -5397,10 +5396,6 @@ msgstr ""
 msgid "Recording"
 msgstr ""
 
-#: src/UndoManager.cpp
-msgid "Discarding undo/redo history"
-msgstr ""
-
 #. i18n-hint: Voice key is an experimental/incomplete feature that
 #. is used to navigate in vocal recordings, to move forwards and
 #. backwards by words.  So 'key' is being used in the sense of an index.
@@ -5481,7 +5476,7 @@ msgid ""
 "%s"
 msgstr ""
 
-#: src/commands/AudacityCommand.cpp src/effects/Effect.cpp
+#: src/commands/AudacityCommand.cpp src/effects/EffectBase.cpp
 #, c-format
 msgid "Applying %s..."
 msgstr ""
@@ -7424,11 +7419,11 @@ msgstr ""
 msgid "%s: is for a different Effect, Generator or Analyzer.\n"
 msgstr ""
 
-#: src/effects/Effect.cpp
+#: src/effects/EffectBase.cpp
 msgid "Preparing preview"
 msgstr ""
 
-#: src/effects/Effect.cpp
+#: src/effects/EffectBase.cpp
 msgid "Previewing"
 msgstr ""
 
@@ -7436,7 +7431,7 @@ msgstr ""
 #. Audacity, named in honor of the Swedish-American Harry Nyquist (or Nyqvist).
 #. In the translations of this and other strings, you may transliterate the
 #. name into another alphabet.
-#: src/effects/Effect.h
+#: src/effects/EffectBase.h
 msgid "Nyquist"
 msgstr ""
 
@@ -13417,6 +13412,10 @@ msgstr ""
 #. i18n-hint: (verb)
 #: src/menus/ToolbarMenus.cpp
 msgid "Reset Toolb&ars"
+msgstr ""
+
+#: src/menus/TrackMenus.cpp
+msgid "Mix"
 msgstr ""
 
 #: src/menus/TrackMenus.cpp
