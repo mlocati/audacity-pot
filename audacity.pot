@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2022-04-12 08:23+0000\n"
+"POT-Creation-Date: 2022-05-05 08:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -9347,6 +9347,18 @@ msgstr ""
 msgid "Audio Unit Effect Options"
 msgstr ""
 
+#: src/effects/audiounits/AudioUnitEffect.cpp src/prefs/KeyConfigPrefs.cpp
+msgid "Full"
+msgstr ""
+
+#: src/effects/audiounits/AudioUnitEffect.cpp
+msgid "Generic"
+msgstr ""
+
+#: src/effects/audiounits/AudioUnitEffect.cpp
+msgid "Basic"
+msgstr ""
+
 #: src/effects/audiounits/AudioUnitEffect.cpp
 msgid "As part of their processing, some Audio Unit effects must delay returning audio to Audacity. When not compensating for this delay, you will notice that small silences have been inserted into the audio. Enabling this option will provide that compensation, but it may not work for all Audio Unit effects."
 msgstr ""
@@ -9361,18 +9373,6 @@ msgstr ""
 
 #: src/effects/audiounits/AudioUnitEffect.cpp
 msgid "Select &interface"
-msgstr ""
-
-#: src/effects/audiounits/AudioUnitEffect.cpp src/prefs/KeyConfigPrefs.cpp
-msgid "Full"
-msgstr ""
-
-#: src/effects/audiounits/AudioUnitEffect.cpp
-msgid "Generic"
-msgstr ""
-
-#: src/effects/audiounits/AudioUnitEffect.cpp
-msgid "Basic"
 msgstr ""
 
 #: src/effects/audiounits/AudioUnitEffect.cpp
