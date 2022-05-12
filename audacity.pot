@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2022-05-05 08:23+0000\n"
+"POT-Creation-Date: 2022-05-12 08:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -9445,6 +9445,31 @@ msgid "Import Audio Unit Preset As %s:"
 msgstr ""
 
 #: src/effects/audiounits/AudioUnitEffect.cpp
+#, c-format
+msgid "Failed to decode \"%s\" preset"
+msgstr ""
+
+#: src/effects/audiounits/AudioUnitEffect.cpp
+#, c-format
+msgid "Failed to convert \"%s\" preset to internal format"
+msgstr ""
+
+#: src/effects/audiounits/AudioUnitEffect.cpp
+#, c-format
+msgid "Failed to create property list for \"%s\" preset"
+msgstr ""
+
+#: src/effects/audiounits/AudioUnitEffect.cpp
+#, c-format
+msgid "Failed to set class info for \"%s\" preset"
+msgstr ""
+
+#: src/effects/audiounits/AudioUnitEffect.cpp
+#, c-format
+msgid "Failed to write XML preset to \"%s\""
+msgstr ""
+
+#: src/effects/audiounits/AudioUnitEffect.cpp
 msgid "Failed to set preset name"
 msgstr ""
 
@@ -9458,24 +9483,6 @@ msgstr ""
 
 #: src/effects/audiounits/AudioUnitEffect.cpp
 msgid "XML data is empty after conversion"
-msgstr ""
-
-#: src/effects/audiounits/AudioUnitEffect.cpp
-#, c-format
-msgid "Failed to write XML preset to \"%s\""
-msgstr ""
-
-#: src/effects/audiounits/AudioUnitEffect.cpp
-msgid "Failed to convert preset to internal format"
-msgstr ""
-
-#: src/effects/audiounits/AudioUnitEffect.cpp
-msgid "Failed to create property list for preset"
-msgstr ""
-
-#: src/effects/audiounits/AudioUnitEffect.cpp
-#, c-format
-msgid "Failed to set class info for \"%s\" preset"
 msgstr ""
 
 #. i18n-hint: the name of an Apple audio software protocol
@@ -14505,18 +14512,6 @@ msgstr ""
 
 #: src/prefs/EffectsPrefs.cpp
 msgid "&Maximum effects per group (0 to disable):"
-msgstr ""
-
-#: src/prefs/EffectsPrefs.cpp
-msgid "Plugin Options"
-msgstr ""
-
-#: src/prefs/EffectsPrefs.cpp
-msgid "Check for updated plugins when Audacity starts"
-msgstr ""
-
-#: src/prefs/EffectsPrefs.cpp
-msgid "Rescan plugins next time Audacity is started"
 msgstr ""
 
 #: src/prefs/EffectsPrefs.cpp
