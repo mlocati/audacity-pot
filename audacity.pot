@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2022-05-17 08:24+0000\n"
+"POT-Creation-Date: 2022-05-19 08:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3214,6 +3214,27 @@ msgstr ""
 msgid "&History..."
 msgstr ""
 
+#: src/IncompatiblePluginsDialog.cpp
+msgid "New Plugins"
+msgstr ""
+
+#: src/IncompatiblePluginsDialog.cpp
+msgid "Incompatible plugin(s) found"
+msgstr ""
+
+#: src/IncompatiblePluginsDialog.cpp src/PluginRegistrationDialog.cpp
+msgid "Manage Plug-ins"
+msgstr ""
+
+#: src/IncompatiblePluginsDialog.cpp
+msgid "Continue"
+msgstr ""
+
+#: src/IncompatiblePluginsDialog.cpp
+#, c-format
+msgid "Audacity has found %d incompatible plugins which could not be loaded and are disabled. If you wish to enable them, you can do so from \"Manage Plug-Ins\" or  click \"Continue\"."
+msgstr ""
+
 #: src/JournalEvents.cpp
 msgid "Journal recording failed"
 msgstr ""
@@ -3654,10 +3675,6 @@ msgid "A♯/B♭"
 msgstr ""
 
 #: src/PluginRegistrationDialog.cpp
-msgid "Manage Plug-ins"
-msgstr ""
-
-#: src/PluginRegistrationDialog.cpp
 msgid "Select effects, click the Enable or Disable button, then click OK."
 msgstr ""
 
@@ -3752,6 +3769,10 @@ msgstr ""
 msgid ""
 "Effect or Command at %s failed to register:\n"
 "%s"
+msgstr ""
+
+#: src/PluginStartupRegistration.cpp
+msgid "Searching for plugins"
 msgstr ""
 
 #: src/Printing.cpp
@@ -9105,20 +9126,6 @@ msgstr ""
 msgid "Adds the ability to use VST effects in Audacity."
 msgstr ""
 
-#: src/effects/VST/VSTEffect.cpp
-msgid "Scanning Shell VST"
-msgstr ""
-
-#: src/effects/VST/VSTEffect.cpp
-#, c-format
-msgid "Registering %d of %d: %-64.64s"
-msgstr ""
-
-#: src/effects/VST/VSTEffect.cpp src/effects/ladspa/LadspaEffect.cpp
-#: src/effects/lv2/LoadLV2.cpp src/effects/vamp/LoadVamp.cpp
-msgid "Could not load the library"
-msgstr ""
-
 #: src/effects/VST/VSTEffect.cpp src/effects/VST3/VST3OptionsDialog.cpp
 msgid "VST Effect Options"
 msgstr ""
@@ -9493,6 +9500,11 @@ msgstr ""
 
 #: src/effects/ladspa/LadspaEffect.cpp
 msgid "Audacity no longer uses vst-bridge"
+msgstr ""
+
+#: src/effects/ladspa/LadspaEffect.cpp src/effects/lv2/LoadLV2.cpp
+#: src/effects/vamp/LoadVamp.cpp
+msgid "Could not load the library"
 msgstr ""
 
 #: src/effects/ladspa/LadspaEffect.cpp
