@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2022-05-25 08:24+0000\n"
+"POT-Creation-Date: 2022-05-26 08:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -4534,6 +4534,66 @@ msgstr ""
 
 #: src/ProjectWindow.cpp
 msgid "Vertical Scrollbar"
+msgstr ""
+
+#. i18n-hint: undo history, first parameter - realtime effect name, second - track name
+#: src/RealtimeEffectPanel.cpp
+#, c-format
+msgid "'%s' removed from '%s' effect stack"
+msgstr ""
+
+#. i18n-hint: undo history record
+#: src/RealtimeEffectPanel.cpp
+msgid "Remove realtime effect"
+msgstr ""
+
+#. i18n-hint: undo history, first parameter - realtime effect name, second - track name
+#: src/RealtimeEffectPanel.cpp
+#, c-format
+msgid "'%s' effect of '%s' modified"
+msgstr ""
+
+#. i18n-hint: undo history record
+#: src/RealtimeEffectPanel.cpp
+msgid "Modify realtime effect"
+msgstr ""
+
+#: src/RealtimeEffectPanel.cpp
+msgid "No Effect"
+msgstr ""
+
+#: src/RealtimeEffectPanel.cpp
+msgid "Get more effects..."
+msgstr ""
+
+#: src/RealtimeEffectPanel.cpp
+msgid "Add new effect"
+msgstr ""
+
+#. i18n-hint: undo history, first parameter - track name, second - old position, third - new position
+#: src/RealtimeEffectPanel.cpp
+#, c-format
+msgid "'%s' effects reorder %d->%d"
+msgstr ""
+
+#. i18n-hint: undo history record
+#: src/RealtimeEffectPanel.cpp
+msgid "Realtime effect reorder"
+msgstr ""
+
+#. i18n-hint: undo history, first parameter - realtime effect name, second - track name
+#: src/RealtimeEffectPanel.cpp
+#, c-format
+msgid "'%s' added to the '%s' effect stack"
+msgstr ""
+
+#. i18n-hint: undo history record
+#: src/RealtimeEffectPanel.cpp
+msgid "Add realtime effect"
+msgstr ""
+
+#: src/RealtimeEffectPanel.cpp
+msgid "Realtime Effects"
 msgstr ""
 
 #: src/Screenshot.cpp
@@ -16649,6 +16709,10 @@ msgstr ""
 #. shorter.
 #: src/tracks/playabletrack/notetrack/ui/StretchHandle.cpp
 msgid "Stretch"
+msgstr ""
+
+#: src/tracks/playabletrack/ui/PlayableTrackControls.cpp
+msgid "Add effects"
 msgstr ""
 
 #: src/tracks/playabletrack/wavetrack/ui/CutlineHandle.cpp
