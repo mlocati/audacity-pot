@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2022-05-26 08:24+0000\n"
+"POT-Creation-Date: 2022-05-27 08:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3232,7 +3232,7 @@ msgstr ""
 
 #: src/IncompatiblePluginsDialog.cpp
 #, c-format
-msgid "Audacity has found %d incompatible plugins which could not be loaded and are disabled. If you wish to enable them, you can do so from \"Manage Plug-Ins\" or  click \"Continue\"."
+msgid "Audacity has found %d incompatible plugins which could not be loaded and are disabled. If you wish to enable them, you can do so from \"Manage Plug-Ins\" or click \"Continue\"."
 msgstr ""
 
 #: src/JournalEvents.cpp
