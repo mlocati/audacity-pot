@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2022-05-27 08:23+0000\n"
+"POT-Creation-Date: 2022-06-07 08:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -6579,8 +6579,8 @@ msgstr ""
 
 #. i18n-hint: n/a is an English abbreviation meaning "not applicable".
 #. i18n-hint: Can mean "not available," "not applicable," "no answer"
-#: src/effects/ChangeSpeed.cpp src/effects/audiounits/AudioUnitEffect.cpp
-#: src/effects/ladspa/LadspaEffect.cpp src/effects/lv2/LV2Effect.cpp
+#: src/effects/ChangeSpeed.cpp src/effects/EffectUI.cpp
+#: src/effects/audiounits/AudioUnitEffect.cpp src/effects/lv2/LV2Effect.cpp
 #: src/effects/nyquist/Nyquist.cpp
 msgid "n/a"
 msgstr ""
@@ -11094,6 +11094,18 @@ msgid ""
 msgstr ""
 
 #: src/export/ExportMultiple.cpp
+msgid "Using Label/Track Name"
+msgstr ""
+
+#: src/export/ExportMultiple.cpp
+msgid "Numbering before Label/Track Name"
+msgstr ""
+
+#: src/export/ExportMultiple.cpp
+msgid "Numbering after File name prefix"
+msgstr ""
+
+#: src/export/ExportMultiple.cpp
 msgid "Export files to:"
 msgstr ""
 
@@ -11127,18 +11139,6 @@ msgstr ""
 
 #: src/export/ExportMultiple.cpp
 msgid "Name files:"
-msgstr ""
-
-#: src/export/ExportMultiple.cpp
-msgid "Using Label/Track Name"
-msgstr ""
-
-#: src/export/ExportMultiple.cpp
-msgid "Numbering before Label/Track Name"
-msgstr ""
-
-#: src/export/ExportMultiple.cpp
-msgid "Numbering after File name prefix"
 msgstr ""
 
 #: src/export/ExportMultiple.cpp
@@ -14864,14 +14864,6 @@ msgid "&Hotkey:"
 msgstr ""
 
 #: src/prefs/KeyConfigPrefs.cpp
-msgid "Key Bindings"
-msgstr ""
-
-#: src/prefs/KeyConfigPrefs.cpp
-msgid "View by:"
-msgstr ""
-
-#: src/prefs/KeyConfigPrefs.cpp
 msgid "&Tree"
 msgstr ""
 
@@ -14881,6 +14873,14 @@ msgstr ""
 
 #: src/prefs/KeyConfigPrefs.cpp
 msgid "&Key"
+msgstr ""
+
+#: src/prefs/KeyConfigPrefs.cpp
+msgid "Key Bindings"
+msgstr ""
+
+#: src/prefs/KeyConfigPrefs.cpp
+msgid "View by:"
 msgstr ""
 
 #: src/prefs/KeyConfigPrefs.cpp
