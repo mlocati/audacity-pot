@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2022-06-11 08:20+0000\n"
+"POT-Creation-Date: 2022-06-12 08:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -4572,7 +4572,12 @@ msgid "Get more effects..."
 msgstr ""
 
 #: src/RealtimeEffectPanel.cpp
-msgid "Add new effect"
+msgid "Add effect"
+msgstr ""
+
+#. i18n-hint: Hyperlink to the effects stack panel tutorial video
+#: src/RealtimeEffectPanel.cpp
+msgid "Watch video"
 msgstr ""
 
 #. i18n-hint: undo history, first parameter - track name, second - old position, third - new position
@@ -4584,6 +4589,10 @@ msgstr ""
 #. i18n-hint: undo history record
 #: src/RealtimeEffectPanel.cpp
 msgid "Realtime effect reorder"
+msgstr ""
+
+#: src/RealtimeEffectPanel.cpp
+msgid "Realtime effects are non-destructive and can be changed at any time."
 msgstr ""
 
 #. i18n-hint: undo history, first parameter - realtime effect name, second - track name
@@ -6336,7 +6345,7 @@ msgstr ""
 msgid "Sets various values for a track."
 msgstr ""
 
-#: src/effects/Amplify.cpp
+#: src/effects/Amplify.cpp res/effects_menu_defaults.xml
 msgid "Amplify"
 msgstr ""
 
@@ -6360,7 +6369,7 @@ msgstr ""
 msgid "Allo&w clipping"
 msgstr ""
 
-#: src/effects/AutoDuck.cpp
+#: src/effects/AutoDuck.cpp res/effects_menu_defaults.xml
 msgid "Auto Duck"
 msgstr ""
 
@@ -6426,7 +6435,7 @@ msgstr ""
 msgid "Preview not available"
 msgstr ""
 
-#: src/effects/BassTreble.cpp
+#: src/effects/BassTreble.cpp res/effects_menu_defaults.xml
 msgid "Bass and Treble"
 msgstr ""
 
@@ -6470,7 +6479,7 @@ msgstr ""
 msgid "&Link Volume control to Tone controls"
 msgstr ""
 
-#: src/effects/ChangePitch.cpp
+#: src/effects/ChangePitch.cpp res/effects_menu_defaults.xml
 msgid "Change Pitch"
 msgstr ""
 
@@ -6590,7 +6599,7 @@ msgstr ""
 msgid "n/a"
 msgstr ""
 
-#: src/effects/ChangeSpeed.cpp
+#: src/effects/ChangeSpeed.cpp res/effects_menu_defaults.xml
 msgid "Change Speed"
 msgstr ""
 
@@ -6666,7 +6675,7 @@ msgctxt "change speed"
 msgid "to"
 msgstr ""
 
-#: src/effects/ChangeTempo.cpp
+#: src/effects/ChangeTempo.cpp res/effects_menu_defaults.xml
 msgid "Change Tempo"
 msgstr ""
 
@@ -6729,7 +6738,7 @@ msgstr ""
 msgid "Length in seconds from %s, to"
 msgstr ""
 
-#: src/effects/ClickRemoval.cpp
+#: src/effects/ClickRemoval.cpp res/effects_menu_defaults.xml
 msgid "Click Removal"
 msgstr ""
 
@@ -6762,7 +6771,7 @@ msgstr ""
 msgid "Max Spike Width"
 msgstr ""
 
-#: src/effects/Compressor.cpp
+#: src/effects/Compressor.cpp res/effects_menu_defaults.xml
 msgid "Compressor"
 msgstr ""
 
@@ -7282,7 +7291,7 @@ msgstr ""
 msgid "Number of repeats"
 msgstr ""
 
-#: src/effects/Distortion.cpp
+#: src/effects/Distortion.cpp res/effects_menu_defaults.xml
 msgid "Distortion"
 msgstr ""
 
@@ -7447,7 +7456,7 @@ msgstr ""
 msgid "%0.f ms"
 msgstr ""
 
-#: src/effects/Echo.cpp
+#: src/effects/Echo.cpp res/effects_menu_defaults.xml
 msgid "Echo"
 msgstr ""
 
@@ -7734,10 +7743,12 @@ msgid "Equalization"
 msgstr ""
 
 #: src/effects/Equalization.cpp plug-ins/eq-xml-to-txt-converter.ny
+#: res/effects_menu_defaults.xml
 msgid "Filter Curve EQ"
 msgstr ""
 
 #: src/effects/Equalization.cpp plug-ins/eq-xml-to-txt-converter.ny
+#: res/effects_menu_defaults.xml
 msgid "Graphic EQ"
 msgstr ""
 
@@ -8102,11 +8113,11 @@ msgid ""
 "SSE Threaded: %s\n"
 msgstr ""
 
-#: src/effects/Fade.cpp
+#: src/effects/Fade.cpp res/effects_menu_defaults.xml
 msgid "Fade In"
 msgstr ""
 
-#: src/effects/Fade.cpp
+#: src/effects/Fade.cpp res/effects_menu_defaults.xml
 msgid "Fade Out"
 msgstr ""
 
@@ -8142,7 +8153,7 @@ msgstr ""
 msgid "There is not enough room available to generate the audio"
 msgstr ""
 
-#: src/effects/Invert.cpp
+#: src/effects/Invert.cpp res/effects_menu_defaults.xml
 msgid "Invert"
 msgstr ""
 
@@ -8170,7 +8181,7 @@ msgstr ""
 msgid "RMS"
 msgstr ""
 
-#: src/effects/Loudness.cpp
+#: src/effects/Loudness.cpp res/effects_menu_defaults.xml
 msgid "Loudness Normalization"
 msgstr ""
 
@@ -8265,6 +8276,7 @@ msgid "Old"
 msgstr ""
 
 #: src/effects/NoiseReduction.cpp src/menus/PluginMenus.cpp
+#: res/effects_menu_defaults.xml
 msgid "Noise Reduction"
 msgstr ""
 
@@ -8509,7 +8521,7 @@ msgstr ""
 msgid "Re&move"
 msgstr ""
 
-#: src/effects/Normalize.cpp
+#: src/effects/Normalize.cpp res/effects_menu_defaults.xml
 msgid "Normalize"
 msgstr ""
 
@@ -8574,7 +8586,7 @@ msgstr ""
 msgid "N&ormalize stereo channels independently"
 msgstr ""
 
-#: src/effects/Paulstretch.cpp
+#: src/effects/Paulstretch.cpp res/effects_menu_defaults.xml
 msgid "Paulstretch"
 msgstr ""
 
@@ -8624,7 +8636,7 @@ msgid ""
 "or reducing the 'Time Resolution' to less than %.1f seconds."
 msgstr ""
 
-#: src/effects/Phaser.cpp
+#: src/effects/Phaser.cpp res/effects_menu_defaults.xml
 msgid "Phaser"
 msgstr ""
 
@@ -8688,7 +8700,7 @@ msgstr ""
 msgid "Output gain (dB)"
 msgstr ""
 
-#: src/effects/Repair.cpp
+#: src/effects/Repair.cpp res/effects_menu_defaults.xml
 msgid "Repair"
 msgstr ""
 
@@ -8712,7 +8724,7 @@ msgid ""
 "The more surrounding audio, the better it performs."
 msgstr ""
 
-#: src/effects/Repeat.cpp
+#: src/effects/Repeat.cpp res/effects_menu_defaults.xml
 msgid "Repeat"
 msgstr ""
 
@@ -8782,7 +8794,7 @@ msgstr ""
 msgid "Cathedral"
 msgstr ""
 
-#: src/effects/Reverb.cpp
+#: src/effects/Reverb.cpp res/effects_menu_defaults.xml
 msgid "Reverb"
 msgstr ""
 
@@ -8830,7 +8842,7 @@ msgstr ""
 msgid "Wet O&nly"
 msgstr ""
 
-#: src/effects/Reverse.cpp
+#: src/effects/Reverse.cpp res/effects_menu_defaults.xml
 msgid "Reverse"
 msgstr ""
 
@@ -9038,7 +9050,7 @@ msgstr ""
 msgid "Mixing down to mono"
 msgstr ""
 
-#: src/effects/TimeScale.cpp
+#: src/effects/TimeScale.cpp res/effects_menu_defaults.xml
 msgid "Sliding Stretch"
 msgstr ""
 
@@ -9151,7 +9163,7 @@ msgstr ""
 msgid "Compress Excess Silence"
 msgstr ""
 
-#: src/effects/TruncSilence.cpp
+#: src/effects/TruncSilence.cpp res/effects_menu_defaults.xml
 msgid "Truncate Silence"
 msgstr ""
 
@@ -9375,7 +9387,7 @@ msgstr ""
 msgid "Most VST3 effects have a graphical interface for setting parameter values. A basic text-only method is also available.  Reopen the effect for this to take effect."
 msgstr ""
 
-#: src/effects/Wahwah.cpp
+#: src/effects/Wahwah.cpp res/effects_menu_defaults.xml
 msgid "Wahwah"
 msgstr ""
 
@@ -13003,15 +13015,15 @@ msgid "Toggle Focuse&d Track"
 msgstr ""
 
 #: src/menus/PluginMenus.cpp
-msgid "Uncategorized"
-msgstr ""
-
-#: src/menus/PluginMenus.cpp
 msgid "..."
 msgstr ""
 
 #: src/menus/PluginMenus.cpp
 msgid "Unknown"
+msgstr ""
+
+#: src/menus/PluginMenus.cpp
+msgid "Uncategorized"
 msgstr ""
 
 #. i18n-hint a "journal" is a text file that records
@@ -14533,6 +14545,10 @@ msgstr ""
 
 #: src/prefs/EffectsPrefs.cpp
 msgid "Grouped by Type"
+msgstr ""
+
+#: src/prefs/EffectsPrefs.cpp
+msgid "Default"
 msgstr ""
 
 #. i18n-hint: abbreviates "Linux Audio Developer's Simple Plugin API"
@@ -16716,10 +16732,6 @@ msgstr ""
 msgid "Stretch"
 msgstr ""
 
-#: src/tracks/playabletrack/ui/PlayableTrackControls.cpp
-msgid "Add effects"
-msgstr ""
-
 #: src/tracks/playabletrack/wavetrack/ui/CutlineHandle.cpp
 msgid "Left-Click to expand, Right-Click to remove"
 msgstr ""
@@ -18248,7 +18260,7 @@ msgstr ""
 msgid "File Dialog"
 msgstr ""
 
-#: plug-ins/SpectralEditMulti.ny
+#: plug-ins/SpectralEditMulti.ny res/effects_menu_defaults.xml
 msgid "Spectral edit multi tool"
 msgstr ""
 
@@ -18299,7 +18311,7 @@ msgstr ""
 msgid "Error.~%"
 msgstr ""
 
-#: plug-ins/SpectralEditParametricEQ.ny
+#: plug-ins/SpectralEditParametricEQ.ny res/effects_menu_defaults.xml
 msgid "Spectral edit parametric EQ"
 msgstr ""
 
@@ -18338,11 +18350,11 @@ msgid ""
 "                         Please select a frequency range."
 msgstr ""
 
-#: plug-ins/SpectralEditShelves.ny
+#: plug-ins/SpectralEditShelves.ny res/effects_menu_defaults.xml
 msgid "Spectral edit shelves"
 msgstr ""
 
-#: plug-ins/StudioFadeOut.ny
+#: plug-ins/StudioFadeOut.ny res/effects_menu_defaults.xml
 msgid "Studio Fade Out"
 msgstr ""
 
@@ -18372,7 +18384,7 @@ msgstr ""
 msgid "Selection too short.~%It must be more than 2 samples."
 msgstr ""
 
-#: plug-ins/adjustable-fade.ny
+#: plug-ins/adjustable-fade.ny res/effects_menu_defaults.xml
 msgid "Adjustable Fade"
 msgstr ""
 
@@ -18511,7 +18523,7 @@ msgstr ""
 msgid "Threshold Percentage"
 msgstr ""
 
-#: plug-ins/clipfix.ny
+#: plug-ins/clipfix.ny res/effects_menu_defaults.xml
 msgid "Clip Fix"
 msgstr ""
 
@@ -18535,7 +18547,7 @@ msgstr ""
 msgid "Reduce amplitude to allow for restored peaks (dB)"
 msgstr ""
 
-#: plug-ins/crossfadeclips.ny
+#: plug-ins/crossfadeclips.ny res/effects_menu_defaults.xml
 msgid "Crossfade Clips"
 msgstr ""
 
@@ -18558,7 +18570,7 @@ msgstr ""
 msgid "Error.~%Crossfade Clips may only be applied to one track."
 msgstr ""
 
-#: plug-ins/crossfadetracks.ny
+#: plug-ins/crossfadetracks.ny res/effects_menu_defaults.xml
 msgid "Crossfade Tracks"
 msgstr ""
 
@@ -18603,7 +18615,7 @@ msgstr ""
 msgid "Error.~%Select 2 (or more) tracks to crossfade."
 msgstr ""
 
-#: plug-ins/delay.ny
+#: plug-ins/delay.ny res/effects_menu_defaults.xml
 msgid "Delay"
 msgstr ""
 
@@ -18822,7 +18834,7 @@ msgstr ""
 msgid "~aRegion length = ~a seconds."
 msgstr ""
 
-#: plug-ins/highpass.ny
+#: plug-ins/highpass.ny res/effects_menu_defaults.xml
 msgid "High-Pass Filter"
 msgstr ""
 
@@ -18967,7 +18979,7 @@ msgstr ""
 msgid "Labelling regions between sounds requires~%at least two sounds.~%Only one sound detected."
 msgstr ""
 
-#: plug-ins/limiter.ny
+#: plug-ins/limiter.ny res/effects_menu_defaults.xml
 msgid "Limiter"
 msgstr ""
 
@@ -19020,7 +19032,7 @@ msgstr ""
 msgid "Apply Make-up Gain"
 msgstr ""
 
-#: plug-ins/lowpass.ny
+#: plug-ins/lowpass.ny res/effects_menu_defaults.xml
 msgid "Low-Pass Filter"
 msgstr ""
 
@@ -19028,7 +19040,7 @@ msgstr ""
 msgid "Performing Low-Pass Filter..."
 msgstr ""
 
-#: plug-ins/noisegate.ny
+#: plug-ins/noisegate.ny res/effects_menu_defaults.xml
 msgid "Noise Gate"
 msgstr ""
 
@@ -19114,7 +19126,7 @@ msgstr ""
 msgid "~ah ~am"
 msgstr ""
 
-#: plug-ins/notch.ny
+#: plug-ins/notch.ny res/effects_menu_defaults.xml
 msgid "Notch Filter"
 msgstr ""
 
@@ -19733,7 +19745,7 @@ msgstr ""
 msgid "Error.~%Unable to open file"
 msgstr ""
 
-#: plug-ins/spectral-delete.ny
+#: plug-ins/spectral-delete.ny res/effects_menu_defaults.xml
 msgid "Spectral Delete"
 msgstr ""
 
@@ -19742,7 +19754,7 @@ msgstr ""
 msgid "Error.~%Track sample rate below 100 Hz is not supported."
 msgstr ""
 
-#: plug-ins/tremolo.ny
+#: plug-ins/tremolo.ny res/effects_menu_defaults.xml
 msgid "Tremolo"
 msgstr ""
 
@@ -19766,7 +19778,7 @@ msgstr ""
 msgid "Wet level (percent)"
 msgstr ""
 
-#: plug-ins/vocalrediso.ny
+#: plug-ins/vocalrediso.ny res/effects_menu_defaults.xml
 msgid "Vocal Reduction and Isolation"
 msgstr ""
 
@@ -19893,7 +19905,7 @@ msgstr ""
 msgid "This plug-in works only with stereo tracks."
 msgstr ""
 
-#: plug-ins/vocoder.ny
+#: plug-ins/vocoder.ny res/effects_menu_defaults.xml
 msgid "Vocoder"
 msgstr ""
 
@@ -19944,4 +19956,47 @@ msgstr ""
 #: plug-ins/vocoder.ny
 #, lisp-format
 msgid "Error.~%No modulation carrier."
+msgstr ""
+
+#. Effects menu group name; audio dynamics compression, not data compression
+#: res/effects_menu_defaults.xml
+msgid "Volume and Compression"
+msgstr ""
+
+#. Effects menu group name
+#: res/effects_menu_defaults.xml
+msgid "Fading"
+msgstr ""
+
+#: res/effects_menu_defaults.xml
+msgid "Pitch and Tempo"
+msgstr ""
+
+#: res/effects_menu_defaults.xml
+msgid "EQ and Filters"
+msgstr ""
+
+#: res/effects_menu_defaults.xml
+msgid "Noise Removal and Repair"
+msgstr ""
+
+#: res/effects_menu_defaults.xml
+msgid "Delay and Reverb"
+msgstr ""
+
+#: res/effects_menu_defaults.xml
+msgid "Distortion and Modulation"
+msgstr ""
+
+#. Effects menu group name
+#: res/effects_menu_defaults.xml
+msgid "Special"
+msgstr ""
+
+#: res/effects_menu_defaults.xml
+msgid "Vocal Remover"
+msgstr ""
+
+#: res/effects_menu_defaults.xml
+msgid "Spectral Tools"
 msgstr ""
