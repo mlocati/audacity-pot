@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2022-06-12 08:19+0000\n"
+"POT-Creation-Date: 2022-06-16 08:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16131,6 +16131,32 @@ msgstr ""
 msgid "Waveform dB &range:"
 msgstr ""
 
+#: src/toolbars/AudioSetupToolBar.cpp
+msgid "Audio Setup"
+msgstr ""
+
+#: src/toolbars/AudioSetupToolBar.cpp
+msgid "Audio Settings..."
+msgstr ""
+
+#: src/toolbars/AudioSetupToolBar.cpp src/toolbars/DeviceToolBar.cpp
+msgid "1 (Mono) Recording Channel"
+msgstr ""
+
+#: src/toolbars/AudioSetupToolBar.cpp src/toolbars/DeviceToolBar.cpp
+msgid "2 (Stereo) Recording Channels"
+msgstr ""
+
+#: src/toolbars/AudioSetupToolBar.cpp
+msgid "Audio Settings:"
+msgstr ""
+
+#. i18n-hint: Clicking this menu item shows the toolbar
+#. that manages the audio devices
+#: src/toolbars/AudioSetupToolBar.cpp
+msgid "&Audio Setup Toolbar"
+msgstr ""
+
 #. i18n-hint: These are strings for the status bar, and indicate whether Audacity
 #. is playing or recording or stopped, and whether it is paused;
 #. progressive verb form
@@ -16204,14 +16230,6 @@ msgstr ""
 
 #: src/toolbars/DeviceToolBar.cpp
 msgid "Recording Channels"
-msgstr ""
-
-#: src/toolbars/DeviceToolBar.cpp
-msgid "1 (Mono) Recording Channel"
-msgstr ""
-
-#: src/toolbars/DeviceToolBar.cpp
-msgid "2 (Stereo) Recording Channels"
 msgstr ""
 
 #: src/toolbars/DeviceToolBar.cpp
