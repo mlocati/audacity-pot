@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2022-06-22 08:25+0000\n"
+"POT-Creation-Date: 2022-06-25 08:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1438,7 +1438,19 @@ msgid "Installation Prefix:"
 msgstr ""
 
 #: src/AboutDialog.cpp
+msgid "Cache folder:"
+msgstr ""
+
+#: src/AboutDialog.cpp
 msgid "Settings folder:"
+msgstr ""
+
+#: src/AboutDialog.cpp
+msgid "Data folder:"
+msgstr ""
+
+#: src/AboutDialog.cpp
+msgid "State folder:"
 msgstr ""
 
 #. i18n-hint: Libraries that are essential to audacity
@@ -10218,13 +10230,15 @@ msgstr ""
 
 #. i18n-hint kbps abbreviates "thousands of bits per second"
 #. i18n-hint: kbps is the bitrate of the MP3 file, kilobits per second
+#. i18n-hint kbps abbreviates "thousands of bits per second"
 #: src/export/ExportFFmpegDialogs.cpp src/export/ExportMP2.cpp
-#: src/export/ExportMP3.cpp
+#: src/export/ExportMP3.cpp src/export/ExportWavPack.cpp
 #, c-format
 msgid "%d kbps"
 msgstr ""
 
 #: src/export/ExportFFmpegDialogs.cpp src/export/ExportMP2.cpp
+#: src/export/ExportWavPack.cpp
 msgid "Bit Rate:"
 msgstr ""
 
@@ -10769,11 +10783,11 @@ msgstr ""
 msgid "Failed to find the codec"
 msgstr ""
 
-#: src/export/ExportFLAC.cpp
+#: src/export/ExportFLAC.cpp src/export/ExportWavPack.cpp
 msgid "16 bit"
 msgstr ""
 
-#: src/export/ExportFLAC.cpp
+#: src/export/ExportFLAC.cpp src/export/ExportWavPack.cpp
 msgid "24 bit"
 msgstr ""
 
@@ -10826,6 +10840,7 @@ msgid "Cannot export MP2 with this sample rate and bit rate"
 msgstr ""
 
 #: src/export/ExportMP2.cpp src/export/ExportMP3.cpp src/export/ExportOGG.cpp
+#: src/export/ExportWavPack.cpp
 msgid "Unable to open target file for writing"
 msgstr ""
 
@@ -10943,7 +10958,8 @@ msgid "Bit Rate Mode:"
 msgstr ""
 
 #. i18n-hint: meaning accuracy in reproduction of sounds
-#: src/export/ExportMP3.cpp src/prefs/QualityPrefs.cpp src/prefs/QualityPrefs.h
+#: src/export/ExportMP3.cpp src/export/ExportWavPack.cpp
+#: src/prefs/QualityPrefs.cpp src/prefs/QualityPrefs.h
 msgid "Quality"
 msgstr ""
 
@@ -11339,6 +11355,50 @@ msgstr ""
 msgid ""
 "Error while writing %s file (disk full?).\n"
 "Libsndfile says \"%s\""
+msgstr ""
+
+#: src/export/ExportWavPack.cpp
+msgid "Low Quality (Fast)"
+msgstr ""
+
+#: src/export/ExportWavPack.cpp
+msgid "High Quality (Slow)"
+msgstr ""
+
+#: src/export/ExportWavPack.cpp
+msgid "Very High Quality (Slowest)"
+msgstr ""
+
+#: src/export/ExportWavPack.cpp
+msgid "32 bit float "
+msgstr ""
+
+#: src/export/ExportWavPack.cpp
+msgid "Bit Depth"
+msgstr ""
+
+#: src/export/ExportWavPack.cpp
+msgid "Hybrid Mode"
+msgstr ""
+
+#: src/export/ExportWavPack.cpp
+msgid "Create Correction(.wvc) File"
+msgstr ""
+
+#: src/export/ExportWavPack.cpp
+msgid "WavPack Files"
+msgstr ""
+
+#: src/export/ExportWavPack.cpp
+msgid "Unable to create target file for writing"
+msgstr ""
+
+#: src/export/ExportWavPack.cpp
+msgid "Exporting selected audio as WavPack"
+msgstr ""
+
+#: src/export/ExportWavPack.cpp
+msgid "Exporting the audio as WavPack"
 msgstr ""
 
 #: src/import/Import.cpp
@@ -12099,6 +12159,10 @@ msgstr ""
 
 #: src/import/ImportRaw.cpp src/menus/FileMenus.cpp
 msgid "&Import"
+msgstr ""
+
+#: src/import/ImportWavPack.cpp
+msgid "WavPack files"
 msgstr ""
 
 #: src/import/RawAudioGuess.cpp
