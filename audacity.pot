@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2022-07-08 08:25+0000\n"
+"POT-Creation-Date: 2022-07-09 08:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13158,7 +13158,7 @@ msgid "&Generate"
 msgstr ""
 
 #: src/menus/PluginMenus.cpp
-msgid "Add / Remove Plug-ins..."
+msgid "Plugin Manager"
 msgstr ""
 
 #: src/menus/PluginMenus.cpp
@@ -13167,6 +13167,10 @@ msgstr ""
 
 #: src/menus/PluginMenus.cpp
 msgid "Effe&ct"
+msgstr ""
+
+#: src/menus/PluginMenus.cpp
+msgid "Add Realtime Effects"
 msgstr ""
 
 #: src/menus/PluginMenus.cpp
