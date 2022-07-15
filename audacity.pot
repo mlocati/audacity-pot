@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2022-07-09 08:21+0000\n"
+"POT-Creation-Date: 2022-07-15 08:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -4766,8 +4766,7 @@ msgstr ""
 msgid "Transport"
 msgstr ""
 
-#: src/Screenshot.cpp src/commands/ScreenshotCommand.cpp
-#: src/toolbars/MixerToolBar.cpp
+#: src/Screenshot.cpp
 msgid "Mixer"
 msgstr ""
 
@@ -16452,38 +16451,6 @@ msgstr ""
 msgid "&Playback Meter Toolbar"
 msgstr ""
 
-#: src/toolbars/MixerToolBar.cpp
-msgid "Recording Volume"
-msgstr ""
-
-#: src/toolbars/MixerToolBar.cpp
-msgid "Playback Volume"
-msgstr ""
-
-#: src/toolbars/MixerToolBar.cpp
-#, c-format
-msgid "Recording Volume: %.2f"
-msgstr ""
-
-#: src/toolbars/MixerToolBar.cpp
-msgid "Recording Volume (Unavailable; use system mixer.)"
-msgstr ""
-
-#: src/toolbars/MixerToolBar.cpp
-#, c-format
-msgid "Playback Volume: %.2f"
-msgstr ""
-
-#: src/toolbars/MixerToolBar.cpp
-msgid "Playback Volume (Unavailable; use system mixer.)"
-msgstr ""
-
-#. i18n-hint: Clicking this menu item shows the toolbar
-#. with the mixer
-#: src/toolbars/MixerToolBar.cpp
-msgid "Mi&xer Toolbar"
-msgstr ""
-
 #: src/toolbars/ScrubbingToolBar.cpp
 msgid "Seek"
 msgstr ""
@@ -17807,22 +17774,6 @@ msgstr ""
 
 #: src/widgets/KeyView.cpp
 msgid "Menu"
-msgstr ""
-
-#: src/widgets/MeterPanel.cpp
-msgid "Click to Start Monitoring"
-msgstr ""
-
-#: src/widgets/MeterPanel.cpp
-msgid "Click for Monitoring"
-msgstr ""
-
-#: src/widgets/MeterPanel.cpp
-msgid "Click to Start"
-msgstr ""
-
-#: src/widgets/MeterPanel.cpp
-msgid "Click"
 msgstr ""
 
 #: src/widgets/MeterPanel.cpp
