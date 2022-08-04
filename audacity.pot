@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2022-07-27 08:23+0000\n"
+"POT-Creation-Date: 2022-08-04 08:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -10273,9 +10273,8 @@ msgstr ""
 
 #. i18n-hint kbps abbreviates "thousands of bits per second"
 #. i18n-hint: kbps is the bitrate of the MP3 file, kilobits per second
-#. i18n-hint kbps abbreviates "thousands of bits per second"
 #: src/export/ExportFFmpegDialogs.cpp src/export/ExportMP2.cpp
-#: src/export/ExportMP3.cpp src/export/ExportWavPack.cpp
+#: src/export/ExportMP3.cpp
 #, c-format
 msgid "%d kbps"
 msgstr ""
@@ -11405,6 +11404,10 @@ msgid "Low Quality (Fast)"
 msgstr ""
 
 #: src/export/ExportWavPack.cpp
+msgid "Normal Quality"
+msgstr ""
+
+#: src/export/ExportWavPack.cpp
 msgid "High Quality (Slow)"
 msgstr ""
 
@@ -11414,6 +11417,12 @@ msgstr ""
 
 #: src/export/ExportWavPack.cpp
 msgid "32 bit float "
+msgstr ""
+
+#. i18n-hint bps abbreviates "bits per sample"
+#: src/export/ExportWavPack.cpp
+#, c-format
+msgid "%.1f bps"
 msgstr ""
 
 #: src/export/ExportWavPack.cpp
