@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2022-08-05 08:22+0000\n"
+"POT-Creation-Date: 2022-08-09 08:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1312,10 +1312,6 @@ msgstr ""
 msgid "Credits"
 msgstr ""
 
-#: src/AboutDialog.cpp
-msgid "DarkAudacity Customisation"
-msgstr ""
-
 #. i18n-hint: The program's name substitutes for %s
 #: src/AboutDialog.cpp
 #, c-format
@@ -1425,6 +1421,11 @@ msgid "%s, 64 bits"
 msgstr ""
 
 #: src/AboutDialog.cpp
+#, c-format
+msgid "%s, 32 bits"
+msgstr ""
+
+#: src/AboutDialog.cpp
 msgid "Build type:"
 msgstr ""
 
@@ -1513,10 +1514,6 @@ msgstr ""
 
 #: src/AboutDialog.cpp
 msgid "Features"
-msgstr ""
-
-#: src/AboutDialog.cpp
-msgid "Dark Theme Extras"
 msgstr ""
 
 #: src/AboutDialog.cpp
