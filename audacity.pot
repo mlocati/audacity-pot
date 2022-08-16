@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2022-08-15 08:22+0000\n"
+"POT-Creation-Date: 2022-08-16 08:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,7 +38,6 @@ msgid "Problem Report for Audacity"
 msgstr ""
 
 #: crashreports/crashreporter/CrashReportApp.cpp
-#: src/widgets/ErrorReportDialog.cpp
 msgid "Click \"Send\" to submit the report to Audacity. This information is collected anonymously."
 msgstr ""
 
@@ -55,7 +54,6 @@ msgstr ""
 #. i18n-hint: %s will be replaced with "our Privacy Policy"
 #: crashreports/crashreporter/CrashReportApp.cpp src/AboutDialog.cpp
 #: src/prefs/ApplicationPrefs.cpp src/update/UpdateNoticeDialog.cpp
-#: src/widgets/ErrorReportDialog.cpp
 #, c-format
 msgid "See %s for more info."
 msgstr ""
@@ -1647,7 +1645,7 @@ msgstr ""
 
 #. i18n-hint Clear is a verb
 #: src/AdornedRulerPanel.cpp
-msgid "Clear Looping Region"
+msgid "Clear Loop"
 msgstr ""
 
 #: src/AdornedRulerPanel.cpp
@@ -1712,7 +1710,7 @@ msgstr ""
 msgid "Open &Recent..."
 msgstr ""
 
-#: src/AudacityApp.cpp src/menus/HelpMenus.cpp
+#: src/AudacityApp.cpp
 msgid "&About Audacity..."
 msgstr ""
 
@@ -3229,7 +3227,7 @@ msgstr ""
 #. i18n-hint: Clicking this menu item shows the various editing steps
 #. that have been taken.
 #: src/HistoryWindow.cpp
-msgid "&History..."
+msgid "&History"
 msgstr ""
 
 #: src/IncompatiblePluginsDialog.cpp
@@ -3241,7 +3239,7 @@ msgid "Incompatible plugin(s) found"
 msgstr ""
 
 #: src/IncompatiblePluginsDialog.cpp src/PluginRegistrationDialog.cpp
-msgid "Manage Plug-ins"
+msgid "Manage Plugins"
 msgstr ""
 
 #: src/IncompatiblePluginsDialog.cpp
@@ -3250,7 +3248,7 @@ msgstr ""
 
 #: src/IncompatiblePluginsDialog.cpp
 #, c-format
-msgid "Audacity has found %d incompatible plugins which could not be loaded and are disabled. If you wish to enable them, you can do so from \"Manage Plug-Ins\" or click \"Continue\"."
+msgid "Audacity has found %d incompatible plugins which could not be loaded. We have disabled these plugins to avoid any stalling or crashes. If you would still like to attempt to use these plugins, you can enable them using \"Manage Plugins\". Otherwise, select \"Continue\"."
 msgstr ""
 
 #: src/JournalEvents.cpp
@@ -3417,7 +3415,7 @@ msgid "Audacity Karaoke%s"
 msgstr ""
 
 #: src/LyricsWindow.cpp
-msgid "&Karaoke..."
+msgid "&Karaoke"
 msgstr ""
 
 #: src/MIDIPlay.cpp
@@ -3472,7 +3470,7 @@ msgstr ""
 
 #: src/MixerBoard.cpp
 #, c-format
-msgid "Audacity Mixer Board%s"
+msgid "Audacity Mixer%s"
 msgstr ""
 
 #. i18n-hint: title of the Gain slider, used to adjust the volume
@@ -3536,7 +3534,7 @@ msgid "Moved pan slider"
 msgstr ""
 
 #: src/MixerBoard.cpp
-msgid "&Mixer Board..."
+msgid "&Mixer"
 msgstr ""
 
 #. i18n-hint: This is for screen reader software and indicates that
@@ -4573,22 +4571,6 @@ msgstr ""
 #: src/RealtimeEffectPanel.cpp
 #, c-format
 msgid "Remove %s"
-msgstr ""
-
-#. i18n-hint: undo history record
-#. first parameter - realtime effect name
-#. second parameter - track name
-#.
-#: src/RealtimeEffectPanel.cpp
-#, c-format
-msgid "Changed %s in %s"
-msgstr ""
-
-#. i18n-hint: undo history record
-#. first parameter - realtime effect name
-#: src/RealtimeEffectPanel.cpp
-#, c-format
-msgid "Change %s"
 msgstr ""
 
 #. i18n-hint: undo history,
@@ -8761,6 +8743,12 @@ msgstr ""
 msgid "Output gain (dB)"
 msgstr ""
 
+#. i18n-hint: First %s is an effect name, second is a track name
+#: src/effects/RealtimeEffectStateUI.cpp
+#, c-format
+msgid "%s - %s"
+msgstr ""
+
 #: src/effects/Repair.cpp res/effects_menu_defaults.xml
 msgid "Repair"
 msgstr ""
@@ -12555,11 +12543,11 @@ msgid "Detac&h at Silences"
 msgstr ""
 
 #: src/menus/EditMenus.cpp
-msgid "&Metadata..."
+msgid "&Metadata"
 msgstr ""
 
 #: src/menus/EditMenus.cpp
-msgid "Pre&ferences..."
+msgid "Pre&ferences"
 msgstr ""
 
 #: src/menus/EditMenus.cpp
@@ -12885,6 +12873,10 @@ msgstr ""
 msgid "&Check for Updates..."
 msgstr ""
 
+#: src/menus/HelpMenus.cpp
+msgid "&About Audacity"
+msgstr ""
+
 #: src/menus/LabelMenus.cpp src/toolbars/TranscriptionToolBar.cpp
 #: src/tracks/labeltrack/ui/LabelTrackView.cpp
 msgid "Added label"
@@ -13172,7 +13164,7 @@ msgstr ""
 
 #: src/menus/PluginMenus.cpp
 #, c-format
-msgid "Plug-in %d to %d"
+msgid "Plugin %d to %d"
 msgstr ""
 
 #: src/menus/PluginMenus.cpp
@@ -13216,7 +13208,7 @@ msgid "Repeat Last Tool"
 msgstr ""
 
 #: src/menus/PluginMenus.cpp
-msgid "&Macros..."
+msgid "&Macro Manager"
 msgstr ""
 
 #: src/menus/PluginMenus.cpp
@@ -17744,6 +17736,24 @@ msgstr ""
 msgid "%.2fx"
 msgstr ""
 
+#: src/widgets/ErrorReportDialog.cpp
+#, c-format
+msgid "More information about this error may be available %s."
+msgstr ""
+
+#: src/widgets/ErrorReportDialog.cpp
+msgid "here"
+msgstr ""
+
+#: src/widgets/ErrorReportDialog.cpp
+msgid "Would you like to send a report to help us fix this issue?"
+msgstr ""
+
+#: src/widgets/ErrorReportDialog.cpp
+#, c-format
+msgid "All reports are anonymous. See %s for more info."
+msgstr ""
+
 #: src/widgets/FileDialog/gtk/FileDialogPrivate.cpp
 #, c-format
 msgid "File '%s' already exists, do you really want to overwrite it?"
@@ -18830,7 +18840,7 @@ msgid "Create labels based on"
 msgstr ""
 
 #: plug-ins/equalabel.ny
-msgid "Number & Interval"
+msgid "Number and Interval"
 msgstr ""
 
 #: plug-ins/equalabel.ny
