@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2022-08-19 08:22+0000\n"
+"POT-Creation-Date: 2022-08-23 08:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -565,6 +565,11 @@ msgstr ""
 
 #: libraries/lib-module-manager/PluginManager.h
 msgid "Nyquist Prompt"
+msgstr ""
+
+#: libraries/lib-network-manager/MultipartData.cpp
+#, c-format
+msgid "Failed to open the file for upload: %s"
 msgstr ""
 
 #: libraries/lib-project-history/ProjectHistory.cpp
