@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2022-08-23 08:23+0000\n"
+"POT-Creation-Date: 2022-08-26 08:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1166,8 +1166,8 @@ msgstr ""
 msgid "Start script"
 msgstr ""
 
-#: modules/mod-nyq-bench/NyqBench.cpp src/effects/EffectUI.cpp
-#: src/toolbars/ControlToolBar.cpp src/widgets/ProgressDialog.cpp
+#: modules/mod-nyq-bench/NyqBench.cpp src/toolbars/ControlToolBar.cpp
+#: src/widgets/ProgressDialog.cpp
 msgid "Stop"
 msgstr ""
 
@@ -3765,8 +3765,7 @@ msgstr ""
 msgid "C&lear All"
 msgstr ""
 
-#: src/PluginRegistrationDialog.cpp src/effects/EffectUI.cpp
-#: src/prefs/RecordingPrefs.cpp
+#: src/PluginRegistrationDialog.cpp src/prefs/RecordingPrefs.cpp
 msgid "&Enable"
 msgstr ""
 
@@ -4906,6 +4905,8 @@ msgstr ""
 msgid "Warning - Truncating Overlong Block File"
 msgstr ""
 
+#. i18n-hint: The access key "&P" should be the same in
+#. "Stop &Preview" and "Start &Preview"
 #: src/ShuttleGui.cpp src/effects/EffectUI.cpp
 msgid "&Preview"
 msgstr ""
@@ -5118,7 +5119,7 @@ msgstr ""
 #.
 #: src/TimeDialog.h src/TimerRecordDialog.cpp src/effects/DtmfGen.cpp
 #: src/effects/Noise.cpp src/effects/Silence.cpp src/effects/ToneGen.cpp
-#: src/effects/VST/VSTEffect.cpp src/effects/VST3/VST3Effect.cpp
+#: src/effects/VST/VSTEffect.cpp src/effects/VST3/VST3UIValidator.cpp
 #: src/effects/ladspa/LadspaEffect.cpp src/effects/lv2/LV2Validator.cpp
 msgid "Duration"
 msgstr ""
@@ -5196,7 +5197,7 @@ msgid "Recording start:"
 msgstr ""
 
 #: src/TimerRecordDialog.cpp src/effects/VST/VSTEffect.cpp
-#: src/effects/VST3/VST3Effect.cpp src/effects/ladspa/LadspaEffect.cpp
+#: src/effects/VST3/VST3UIValidator.cpp src/effects/ladspa/LadspaEffect.cpp
 msgid "Duration:"
 msgstr ""
 
@@ -7645,50 +7646,28 @@ msgstr ""
 msgid "Command failed to initialize"
 msgstr ""
 
+#: src/effects/EffectUI.cpp src/menus/PluginMenus.cpp
+msgid "&Generate"
+msgstr ""
+
+#: src/effects/EffectUI.cpp
+msgid "Enable"
+msgstr ""
+
 #: src/effects/EffectUI.cpp
 msgid "Manage presets and options"
 msgstr ""
 
 #: src/effects/EffectUI.cpp
-msgid "&Manage"
+msgid "Presets && settings"
 msgstr ""
 
 #: src/effects/EffectUI.cpp
-msgid "Start and stop playback"
-msgstr ""
-
-#. i18n-hint: The access key "&P" should be the same in
-#. "Stop &Playback" and "Start &Playback"
-#: src/effects/EffectUI.cpp
-msgid "Start &Playback"
+msgid "Start and stop preview"
 msgstr ""
 
 #: src/effects/EffectUI.cpp
 msgid "Preview effect"
-msgstr ""
-
-#: src/effects/EffectUI.cpp
-msgid "&Preview effect"
-msgstr ""
-
-#: src/effects/EffectUI.cpp
-msgid "Skip backward"
-msgstr ""
-
-#: src/effects/EffectUI.cpp
-msgid "Skip &Backward"
-msgstr ""
-
-#: src/effects/EffectUI.cpp
-msgid "Skip forward"
-msgstr ""
-
-#: src/effects/EffectUI.cpp
-msgid "Skip &Forward"
-msgstr ""
-
-#: src/effects/EffectUI.cpp
-msgid "Enable"
 msgstr ""
 
 #: src/effects/EffectUI.cpp
@@ -7769,13 +7748,9 @@ msgid ""
 msgstr ""
 
 #. i18n-hint: The access key "&P" should be the same in
-#. "Stop &Playback" and "Start &Playback"
+#. "Stop &Preview" and "Start &Preview"
 #: src/effects/EffectUI.cpp
-msgid "Stop &Playback"
-msgstr ""
-
-#: src/effects/EffectUI.cpp src/toolbars/ControlToolBar.cpp
-msgid "Play"
+msgid "Stop &Preview"
 msgstr ""
 
 #. i18n-hint: Technical term for a kind of curve.
@@ -13178,10 +13153,6 @@ msgid "Plugin %d to %d"
 msgstr ""
 
 #: src/menus/PluginMenus.cpp
-msgid "&Generate"
-msgstr ""
-
-#: src/menus/PluginMenus.cpp
 msgid "Plugin Manager"
 msgstr ""
 
@@ -16299,6 +16270,10 @@ msgstr ""
 
 #: src/toolbars/ControlToolBar.cpp
 msgid "Pause"
+msgstr ""
+
+#: src/toolbars/ControlToolBar.cpp
+msgid "Play"
 msgstr ""
 
 #: src/toolbars/ControlToolBar.cpp
