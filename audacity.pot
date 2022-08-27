@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2022-08-26 08:23+0000\n"
+"POT-Creation-Date: 2022-08-27 08:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2357,8 +2357,8 @@ msgid "Run"
 msgstr ""
 
 #. i18n-hint verb
-#: src/Benchmark.cpp src/tracks/ui/TrackButtonHandles.cpp
-#: src/widgets/HelpSystem.cpp
+#: src/Benchmark.cpp src/RealtimeEffectPanel.cpp
+#: src/tracks/ui/TrackButtonHandles.cpp src/widgets/HelpSystem.cpp
 msgid "Close"
 msgstr ""
 
@@ -4554,11 +4554,29 @@ msgid ""
 msgstr ""
 
 #: src/ProjectWindow.cpp
+msgid "Realtime effects"
+msgstr ""
+
+#: src/ProjectWindow.cpp
 msgid "Horizontal Scrollbar"
 msgstr ""
 
 #: src/ProjectWindow.cpp
 msgid "Vertical Scrollbar"
+msgstr ""
+
+#. i18n-hint: argument - position of the effect in the effect stack
+#: src/RealtimeEffectPanel.cpp
+#, c-format
+msgid "Effect %d"
+msgstr ""
+
+#: src/RealtimeEffectPanel.cpp
+msgid "Power"
+msgstr ""
+
+#: src/RealtimeEffectPanel.cpp
+msgid "Replace effect"
 msgstr ""
 
 #: src/RealtimeEffectPanel.cpp
@@ -4661,6 +4679,12 @@ msgstr ""
 
 #: src/RealtimeEffectPanel.cpp
 msgid "Realtime Effects"
+msgstr ""
+
+#. i18n-hint: argument - track name
+#: src/RealtimeEffectPanel.cpp
+#, c-format
+msgid "Realtime effects for %s"
 msgstr ""
 
 #: src/Screenshot.cpp
