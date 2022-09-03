@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2022-08-27 08:22+0000\n"
+"POT-Creation-Date: 2022-09-03 08:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -4943,7 +4943,7 @@ msgstr ""
 msgid "&Settings"
 msgstr ""
 
-#: src/ShuttleGui.cpp
+#: src/ShuttleGui.cpp src/effects/EffectUI.cpp
 msgid "Debu&g"
 msgstr ""
 
@@ -7692,6 +7692,10 @@ msgstr ""
 
 #: src/effects/EffectUI.cpp
 msgid "Preview effect"
+msgstr ""
+
+#: src/effects/EffectUI.cpp
+msgid "&Apply"
 msgstr ""
 
 #: src/effects/EffectUI.cpp
