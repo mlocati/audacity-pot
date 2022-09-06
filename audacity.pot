@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2022-09-03 08:22+0000\n"
+"POT-Creation-Date: 2022-09-06 08:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1045,7 +1045,7 @@ msgstr ""
 msgid "Save script as..."
 msgstr ""
 
-#: modules/mod-nyq-bench/NyqBench.cpp
+#: modules/mod-nyq-bench/NyqBench.cpp src/cloud/audiocom/ShareAudioDialog.cpp
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackView.cpp
 msgid "Copy"
 msgstr ""
@@ -2211,7 +2211,8 @@ msgstr ""
 msgid "File"
 msgstr ""
 
-#: src/BatchProcessDialog.cpp
+#: src/BatchProcessDialog.cpp src/cloud/audiocom/LinkAccountDialog.cpp
+#: src/cloud/audiocom/ShareAudioDialog.cpp
 msgid "&Cancel"
 msgstr ""
 
@@ -3401,8 +3402,8 @@ msgstr ""
 msgid "Cl&ear"
 msgstr ""
 
-#: src/LogWindow.cpp src/ShuttleGui.cpp src/effects/Contrast.cpp
-#: src/menus/FileMenus.cpp
+#: src/LogWindow.cpp src/ShuttleGui.cpp src/cloud/audiocom/LinkFailedDialog.cpp
+#: src/effects/Contrast.cpp src/menus/FileMenus.cpp
 msgid "&Close"
 msgstr ""
 
@@ -5634,6 +5635,134 @@ msgstr ""
 
 #: src/WaveTrack.cpp
 msgid "There is not enough room available to expand the cut line"
+msgstr ""
+
+#. i18n-hint: Share audio button text, keep as short as possible
+#: src/cloud/ShareAudioToolbar.cpp src/cloud/audiocom/ShareAudioDialog.cpp
+msgid "Share Audio"
+msgstr ""
+
+#. i18n-hint: Clicking this menu item shows the toolbar
+#. that opens Share Audio dialog
+#: src/cloud/ShareAudioToolbar.cpp
+msgid "&Share Audio Toolbar"
+msgstr ""
+
+#: src/cloud/audiocom/LinkAccountDialog.cpp
+msgid "Link account"
+msgstr ""
+
+#: src/cloud/audiocom/LinkAccountDialog.cpp
+msgid "Enter token to link your account"
+msgstr ""
+
+#: src/cloud/audiocom/LinkAccountDialog.cpp
+msgid "Token"
+msgstr ""
+
+#: src/cloud/audiocom/LinkAccountDialog.cpp
+#: src/cloud/audiocom/ShareAudioDialog.cpp
+msgid "C&ontinue"
+msgstr ""
+
+#: src/cloud/audiocom/LinkFailedDialog.cpp
+msgid "AccountError"
+msgstr ""
+
+#: src/cloud/audiocom/LinkFailedDialog.cpp
+msgid "There has been a problem with verifying your linked account. Please visit audio.com to confirm your details and try again."
+msgstr ""
+
+#: src/cloud/audiocom/LinkFailedDialog.cpp
+msgid "&Go to audio.com"
+msgstr ""
+
+#: src/cloud/audiocom/ShareAudioDialog.cpp src/menus/FileMenus.cpp
+msgid "Cannot proceed to export."
+msgstr ""
+
+#: src/cloud/audiocom/ShareAudioDialog.cpp
+msgid "&Go to my file"
+msgstr ""
+
+#: src/cloud/audiocom/ShareAudioDialog.cpp
+msgid "C&lose"
+msgstr ""
+
+#: src/cloud/audiocom/ShareAudioDialog.cpp
+msgid "Uploading audio..."
+msgstr ""
+
+#: src/cloud/audiocom/ShareAudioDialog.cpp
+msgid "Upload complete!"
+msgstr ""
+
+#: src/cloud/audiocom/ShareAudioDialog.cpp
+msgid "Upload error"
+msgstr ""
+
+#: src/cloud/audiocom/ShareAudioDialog.cpp
+msgid "We are unable to upload this file. Please try again and make sure to link to your audio.com account before uploading."
+msgstr ""
+
+#: src/cloud/audiocom/ShareAudioDialog.cpp
+msgid "Export error"
+msgstr ""
+
+#: src/cloud/audiocom/ShareAudioDialog.cpp
+msgid "We are unable to prepare this file for uploading."
+msgstr ""
+
+#: src/cloud/audiocom/ShareAudioDialog.cpp
+msgid "Finalizing upload..."
+msgstr ""
+
+#: src/cloud/audiocom/ShareAudioDialog.cpp
+msgid "Anonymous"
+msgstr ""
+
+#: src/cloud/audiocom/ShareAudioDialog.cpp
+msgid "&Link Account"
+msgstr ""
+
+#: src/cloud/audiocom/ShareAudioDialog.cpp
+msgid "Press \"Continue\" to upload to audio.com"
+msgstr ""
+
+#: src/cloud/audiocom/ShareAudioDialog.cpp
+#, c-format
+msgid ""
+"Your audio will be uploaded to our sharing service: %s,%%which requires a free account to use.\n"
+"\n"
+"If you have problems uploading, try the Link Account button."
+msgstr ""
+
+#: src/cloud/audiocom/ShareAudioDialog.cpp
+msgid "audio.com"
+msgstr ""
+
+#: src/cloud/audiocom/ShareAudioDialog.cpp
+msgid "&Unlink Account"
+msgstr ""
+
+#: src/cloud/audiocom/ShareAudioDialog.cpp
+msgid "Preparing audio..."
+msgstr ""
+
+#: src/cloud/audiocom/ShareAudioDialog.cpp src/widgets/ProgressDialog.cpp
+msgid "Elapsed Time:"
+msgstr ""
+
+#: src/cloud/audiocom/ShareAudioDialog.cpp src/widgets/ProgressDialog.cpp
+msgid "Remaining Time:"
+msgstr ""
+
+#: src/cloud/audiocom/ShareAudioDialog.cpp
+msgid "Sharable link"
+msgstr ""
+
+#: src/cloud/audiocom/ShareAudioDialog.cpp
+msgid "Only people you share this link with can access your audio"
 msgstr ""
 
 #: src/commands/AudacityCommand.cpp src/effects/Effect.cpp
@@ -12628,10 +12757,6 @@ msgid "&Full Screen (on/off)"
 msgstr ""
 
 #: src/menus/FileMenus.cpp
-msgid "Cannot proceed to export."
-msgstr ""
-
-#: src/menus/FileMenus.cpp
 #, c-format
 msgid ""
 "Cannot create directory '%s'. \n"
@@ -12880,6 +13005,10 @@ msgstr ""
 
 #: src/menus/HelpMenus.cpp
 msgid "&Generate Support Data..."
+msgstr ""
+
+#: src/menus/HelpMenus.cpp
+msgid "L&ink audio.com account..."
 msgstr ""
 
 #: src/menus/HelpMenus.cpp
@@ -16263,8 +16392,29 @@ msgstr ""
 msgid "Waveform dB &range:"
 msgstr ""
 
+#. i18n-hint: Audio setup button text, keep as short as possible
 #: src/toolbars/AudioSetupToolBar.cpp
 msgid "Audio Setup"
+msgstr ""
+
+#. i18n-hint: Audio setup menu
+#: src/toolbars/AudioSetupToolBar.cpp
+msgid "&Host"
+msgstr ""
+
+#. i18n-hint: Audio setup menu
+#: src/toolbars/AudioSetupToolBar.cpp
+msgid "&Playback Device"
+msgstr ""
+
+#. i18n-hint: Audio setup menu
+#: src/toolbars/AudioSetupToolBar.cpp
+msgid "&Recording Device"
+msgstr ""
+
+#. i18n-hint: Audio setup menu
+#: src/toolbars/AudioSetupToolBar.cpp
+msgid "Recording &Channels"
 msgstr ""
 
 #: src/toolbars/AudioSetupToolBar.cpp
@@ -18255,14 +18405,6 @@ msgid "%s (%s)"
 msgstr ""
 
 #: src/widgets/ProgressDialog.cpp
-msgid "Elapsed Time:"
-msgstr ""
-
-#: src/widgets/ProgressDialog.cpp
-msgid "Remaining Time:"
-msgstr ""
-
-#: src/widgets/ProgressDialog.cpp
 msgid "Cancel"
 msgstr ""
 
@@ -18931,6 +19073,11 @@ msgstr ""
 
 #: plug-ins/equalabel.ny
 msgid "Warnings only"
+msgstr ""
+
+#: plug-ins/equalabel.ny
+#, lisp-format
+msgid "Error: There is insufficient space to create labels.~%"
 msgstr ""
 
 #: plug-ins/equalabel.ny
