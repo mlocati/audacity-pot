@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2022-09-06 08:24+0000\n"
+"POT-Creation-Date: 2022-09-10 08:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3766,6 +3766,10 @@ msgstr ""
 msgid "C&lear All"
 msgstr ""
 
+#: src/PluginRegistrationDialog.cpp
+msgid "Rescan"
+msgstr ""
+
 #: src/PluginRegistrationDialog.cpp src/prefs/RecordingPrefs.cpp
 msgid "&Enable"
 msgstr ""
@@ -5758,7 +5762,7 @@ msgid "Remaining Time:"
 msgstr ""
 
 #: src/cloud/audiocom/ShareAudioDialog.cpp
-msgid "Sharable link"
+msgid "Shareable link"
 msgstr ""
 
 #: src/cloud/audiocom/ShareAudioDialog.cpp
@@ -7823,6 +7827,12 @@ msgstr ""
 msgid "Preview effect"
 msgstr ""
 
+#. i18n-hint: The access key "&P" should be the same in
+#. "Stop &Preview" and "Start &Preview"
+#: src/effects/EffectUI.cpp
+msgid "Stop &Preview"
+msgstr ""
+
 #: src/effects/EffectUI.cpp
 msgid "&Apply"
 msgstr ""
@@ -7902,12 +7912,6 @@ msgid ""
 "Preset already exists.\n"
 "\n"
 "Replace?"
-msgstr ""
-
-#. i18n-hint: The access key "&P" should be the same in
-#. "Stop &Preview" and "Start &Preview"
-#: src/effects/EffectUI.cpp
-msgid "Stop &Preview"
 msgstr ""
 
 #. i18n-hint: Technical term for a kind of curve.
@@ -18526,13 +18530,8 @@ msgstr ""
 msgid "File Dialog"
 msgstr ""
 
-#: plug-ins/SpectralEditMulti.ny resources/EffectsMenuDefaults.xml
-msgid "Spectral edit multi tool"
-msgstr ""
-
-#: plug-ins/SpectralEditMulti.ny plug-ins/SpectralEditParametricEQ.ny
-#: plug-ins/SpectralEditShelves.ny
-msgid "Filtering..."
+#: plug-ins/SpectralEditMulti.ny
+msgid "Spectral Edit Multi Tool"
 msgstr ""
 
 #: plug-ins/SpectralEditMulti.ny plug-ins/SpectralEditParametricEQ.ny
@@ -18541,12 +18540,10 @@ msgid "Paul Licameli"
 msgstr ""
 
 #: plug-ins/SpectralEditMulti.ny plug-ins/SpectralEditParametricEQ.ny
-#: plug-ins/SpectralEditShelves.ny plug-ins/beat.ny plug-ins/delay.ny
-#: plug-ins/equalabel.ny plug-ins/highpass.ny plug-ins/lowpass.ny
-#: plug-ins/notch.ny plug-ins/nyquist-plug-in-installer.ny plug-ins/pluck.ny
-#: plug-ins/rhythmtrack.ny plug-ins/rissetdrum.ny plug-ins/tremolo.ny
+#: plug-ins/beat.ny plug-ins/clipfix.ny plug-ins/delay.ny plug-ins/highpass.ny
+#: plug-ins/lowpass.ny plug-ins/pluck.ny plug-ins/rhythmtrack.ny
 #: plug-ins/vocalrediso.ny plug-ins/vocoder.ny
-msgid "Released under terms of the GNU General Public License version 2"
+msgid "GNU General Public License v2.0"
 msgstr ""
 
 #: plug-ins/SpectralEditMulti.ny plug-ins/SpectralEditParametricEQ.ny
@@ -18577,8 +18574,8 @@ msgstr ""
 msgid "Error.~%"
 msgstr ""
 
-#: plug-ins/SpectralEditParametricEQ.ny resources/EffectsMenuDefaults.xml
-msgid "Spectral edit parametric EQ"
+#: plug-ins/SpectralEditParametricEQ.ny
+msgid "Spectral Edit Parametric EQ"
 msgstr ""
 
 #: plug-ins/SpectralEditParametricEQ.ny plug-ins/SpectralEditShelves.ny
@@ -18616,16 +18613,23 @@ msgid ""
 "                         Please select a frequency range."
 msgstr ""
 
-#: plug-ins/SpectralEditShelves.ny resources/EffectsMenuDefaults.xml
-msgid "Spectral edit shelves"
+#: plug-ins/SpectralEditShelves.ny
+msgid "Spectral Edit Shelves"
+msgstr ""
+
+#: plug-ins/SpectralEditShelves.ny plug-ins/StudioFadeOut.ny
+#: plug-ins/adjustable-fade.ny plug-ins/crossfadeclips.ny
+#: plug-ins/crossfadetracks.ny plug-ins/eq-xml-to-txt-converter.ny
+#: plug-ins/equalabel.ny plug-ins/label-sounds.ny plug-ins/limiter.ny
+#: plug-ins/noisegate.ny plug-ins/notch.ny
+#: plug-ins/nyquist-plug-in-installer.ny plug-ins/rissetdrum.ny
+#: plug-ins/sample-data-export.ny plug-ins/sample-data-import.ny
+#: plug-ins/spectral-delete.ny plug-ins/tremolo.ny
+msgid "GNU General Public License v2.0 or later"
 msgstr ""
 
 #: plug-ins/StudioFadeOut.ny resources/EffectsMenuDefaults.xml
 msgid "Studio Fade Out"
-msgstr ""
-
-#: plug-ins/StudioFadeOut.ny plug-ins/adjustable-fade.ny
-msgid "Applying Fade..."
 msgstr ""
 
 #: plug-ins/StudioFadeOut.ny plug-ins/adjustable-fade.ny
@@ -18635,14 +18639,6 @@ msgstr ""
 #: plug-ins/sample-data-export.ny plug-ins/sample-data-import.ny
 #: plug-ins/spectral-delete.ny plug-ins/tremolo.ny
 msgid "Steve Daulton"
-msgstr ""
-
-#: plug-ins/StudioFadeOut.ny plug-ins/adjustable-fade.ny
-#: plug-ins/crossfadeclips.ny plug-ins/crossfadetracks.ny
-#: plug-ins/eq-xml-to-txt-converter.ny plug-ins/label-sounds.ny
-#: plug-ins/limiter.ny plug-ins/noisegate.ny plug-ins/sample-data-export.ny
-#: plug-ins/sample-data-import.ny plug-ins/spectral-delete.ny
-msgid "GNU General Public License v2.0 or later"
 msgstr ""
 
 #: plug-ins/StudioFadeOut.ny
@@ -18782,10 +18778,6 @@ msgid "Beat Finder"
 msgstr ""
 
 #: plug-ins/beat.ny
-msgid "Finding beats..."
-msgstr ""
-
-#: plug-ins/beat.ny
 msgid "Threshold Percentage"
 msgstr ""
 
@@ -18794,15 +18786,7 @@ msgid "Clip Fix"
 msgstr ""
 
 #: plug-ins/clipfix.ny
-msgid "Reconstructing clips..."
-msgstr ""
-
-#: plug-ins/clipfix.ny
 msgid "Benjamin Schwartz and Steve Daulton"
-msgstr ""
-
-#: plug-ins/clipfix.ny
-msgid "Licensing confirmed under terms of the GNU General Public License version 2"
 msgstr ""
 
 #: plug-ins/clipfix.ny
@@ -18815,10 +18799,6 @@ msgstr ""
 
 #: plug-ins/crossfadeclips.ny resources/EffectsMenuDefaults.xml
 msgid "Crossfade Clips"
-msgstr ""
-
-#: plug-ins/crossfadeclips.ny plug-ins/crossfadetracks.ny
-msgid "Crossfading..."
 msgstr ""
 
 #: plug-ins/crossfadeclips.ny
@@ -18883,10 +18863,6 @@ msgstr ""
 
 #: plug-ins/delay.ny resources/EffectsMenuDefaults.xml
 msgid "Delay"
-msgstr ""
-
-#: plug-ins/delay.ny
-msgid "Applying Delay Effect..."
 msgstr ""
 
 #: plug-ins/delay.ny
@@ -18983,10 +18959,6 @@ msgstr ""
 
 #: plug-ins/equalabel.ny
 msgid "Regular Interval Labels"
-msgstr ""
-
-#: plug-ins/equalabel.ny
-msgid "Adding equally-spaced labels to the label track..."
 msgstr ""
 
 #. i18n-hint: Refers to the controls 'Number of labels' and 'Label interval'.
@@ -19109,11 +19081,7 @@ msgstr ""
 msgid "High-Pass Filter"
 msgstr ""
 
-#: plug-ins/highpass.ny
-msgid "Performing High-Pass Filter..."
-msgstr ""
-
-#: plug-ins/highpass.ny plug-ins/lowpass.ny plug-ins/rhythmtrack.ny
+#: plug-ins/highpass.ny plug-ins/lowpass.ny
 msgid "Dominic Mazzoni"
 msgstr ""
 
@@ -19255,10 +19223,6 @@ msgid "Limiter"
 msgstr ""
 
 #: plug-ins/limiter.ny
-msgid "Limiting..."
-msgstr ""
-
-#: plug-ins/limiter.ny
 msgid "Type"
 msgstr ""
 
@@ -19305,10 +19269,6 @@ msgstr ""
 
 #: plug-ins/lowpass.ny resources/EffectsMenuDefaults.xml
 msgid "Low-Pass Filter"
-msgstr ""
-
-#: plug-ins/lowpass.ny
-msgid "Performing Low-Pass Filter..."
 msgstr ""
 
 #: plug-ins/noisegate.ny resources/EffectsMenuDefaults.xml
@@ -19402,10 +19362,6 @@ msgid "Notch Filter"
 msgstr ""
 
 #: plug-ins/notch.ny
-msgid "Applying Notch Filter..."
-msgstr ""
-
-#: plug-ins/notch.ny
 msgid "Steve Daulton and Bill Wharrie"
 msgstr ""
 
@@ -19422,7 +19378,7 @@ msgid ""
 msgstr ""
 
 #: plug-ins/nyquist-plug-in-installer.ny
-msgid "Nyquist Plug-in Installer"
+msgid "Nyquist Plugin Installer"
 msgstr ""
 
 #. i18n-hint: "Browse..." is text on a button that launches a file browser.
@@ -19512,14 +19468,6 @@ msgid "Pluck"
 msgstr ""
 
 #: plug-ins/pluck.ny
-msgid "Generating pluck sound..."
-msgstr ""
-
-#: plug-ins/pluck.ny
-msgid "MIDI values for C notes: 36, 48, 60 [middle C], 72, 84, 96."
-msgstr ""
-
-#: plug-ins/pluck.ny
 msgid "David R.Sky"
 msgstr ""
 
@@ -19548,7 +19496,7 @@ msgid "Rhythm Track"
 msgstr ""
 
 #: plug-ins/rhythmtrack.ny
-msgid "Generating Rhythm..."
+msgid "Dominic Mazzoni, David R. Sky and Steve Daulton"
 msgstr ""
 
 #: plug-ins/rhythmtrack.ny
@@ -19662,10 +19610,6 @@ msgid "Risset Drum"
 msgstr ""
 
 #: plug-ins/rissetdrum.ny
-msgid "Generating Risset Drum..."
-msgstr ""
-
-#: plug-ins/rissetdrum.ny
 msgid "Steven Jones"
 msgstr ""
 
@@ -19691,10 +19635,6 @@ msgstr ""
 
 #: plug-ins/sample-data-export.ny
 msgid "Sample Data Export"
-msgstr ""
-
-#: plug-ins/sample-data-export.ny
-msgid "Analyzing..."
 msgstr ""
 
 #: plug-ins/sample-data-export.ny
@@ -19968,10 +19908,6 @@ msgid "Sample Data Import"
 msgstr ""
 
 #: plug-ins/sample-data-import.ny
-msgid "Reading and rendering samples..."
-msgstr ""
-
-#: plug-ins/sample-data-import.ny
 msgid "Select file"
 msgstr ""
 
@@ -20030,10 +19966,6 @@ msgid "Tremolo"
 msgstr ""
 
 #: plug-ins/tremolo.ny
-msgid "Applying Tremolo..."
-msgstr ""
-
-#: plug-ins/tremolo.ny
 msgid "Waveform type"
 msgstr ""
 
@@ -20051,10 +19983,6 @@ msgstr ""
 
 #: plug-ins/vocalrediso.ny resources/EffectsMenuDefaults.xml
 msgid "Vocal Reduction and Isolation"
-msgstr ""
-
-#: plug-ins/vocalrediso.ny
-msgid "Applying Action..."
 msgstr ""
 
 #: plug-ins/vocalrediso.ny
@@ -20181,10 +20109,6 @@ msgid "Vocoder"
 msgstr ""
 
 #: plug-ins/vocoder.ny
-msgid "Processing Vocoder..."
-msgstr ""
-
-#: plug-ins/vocoder.ny
 msgid "Edgar-RFT and Steve Daulton"
 msgstr ""
 
@@ -20270,4 +20194,16 @@ msgstr ""
 
 #: resources/EffectsMenuDefaults.xml
 msgid "Spectral Tools"
+msgstr ""
+
+#: resources/EffectsMenuDefaults.xml
+msgid "Spectral edit multi tool"
+msgstr ""
+
+#: resources/EffectsMenuDefaults.xml
+msgid "Spectral edit parametric EQ"
+msgstr ""
+
+#: resources/EffectsMenuDefaults.xml
+msgid "Spectral edit shelves"
 msgstr ""
