@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2022-09-10 08:24+0000\n"
+"POT-Creation-Date: 2022-09-16 08:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -218,6 +218,10 @@ msgstr ""
 #: libraries/lib-exceptions/AudacityException.h src/commands/MessageCommand.cpp
 #: src/widgets/AudacityMessageBox.h
 msgid "Message"
+msgstr ""
+
+#: libraries/lib-cloud-audiocom/UploadService.cpp
+msgid "Cannot proceed to upload."
 msgstr ""
 
 #: libraries/lib-exceptions/InconsistencyException.cpp
@@ -2212,6 +2216,7 @@ msgid "File"
 msgstr ""
 
 #: src/BatchProcessDialog.cpp src/cloud/audiocom/LinkAccountDialog.cpp
+#: src/cloud/audiocom/LinkFailedDialog.cpp
 #: src/cloud/audiocom/ShareAudioDialog.cpp
 msgid "&Cancel"
 msgstr ""
@@ -3402,7 +3407,7 @@ msgstr ""
 msgid "Cl&ear"
 msgstr ""
 
-#: src/LogWindow.cpp src/ShuttleGui.cpp src/cloud/audiocom/LinkFailedDialog.cpp
+#: src/LogWindow.cpp src/ShuttleGui.cpp src/cloud/audiocom/ShareAudioDialog.cpp
 #: src/effects/Contrast.cpp src/menus/FileMenus.cpp
 msgid "&Close"
 msgstr ""
@@ -5653,6 +5658,8 @@ msgid "&Share Audio Toolbar"
 msgstr ""
 
 #: src/cloud/audiocom/LinkAccountDialog.cpp
+#: src/cloud/audiocom/LinkFailedDialog.cpp
+#: src/cloud/audiocom/LinkSucceededDialog.cpp
 msgid "Link account"
 msgstr ""
 
@@ -5670,19 +5677,19 @@ msgid "C&ontinue"
 msgstr ""
 
 #: src/cloud/audiocom/LinkFailedDialog.cpp
-msgid "AccountError"
+msgid "We were unable to link your account. Please try again."
 msgstr ""
 
 #: src/cloud/audiocom/LinkFailedDialog.cpp
-msgid "There has been a problem with verifying your linked account. Please visit audio.com to confirm your details and try again."
+msgid "&Try again"
 msgstr ""
 
-#: src/cloud/audiocom/LinkFailedDialog.cpp
-msgid "&Go to audio.com"
+#: src/cloud/audiocom/LinkSucceededDialog.cpp
+msgid "Account linked successfully!"
 msgstr ""
 
-#: src/cloud/audiocom/ShareAudioDialog.cpp src/menus/FileMenus.cpp
-msgid "Cannot proceed to export."
+#: src/cloud/audiocom/LinkSucceededDialog.cpp
+msgid "&Ok"
 msgstr ""
 
 #: src/cloud/audiocom/ShareAudioDialog.cpp
@@ -5690,7 +5697,11 @@ msgid "&Go to my file"
 msgstr ""
 
 #: src/cloud/audiocom/ShareAudioDialog.cpp
-msgid "C&lose"
+msgid "Are you sure you want to cancel?"
+msgstr ""
+
+#: src/cloud/audiocom/ShareAudioDialog.cpp
+msgid "Cancel upload to Audio.com"
 msgstr ""
 
 #: src/cloud/audiocom/ShareAudioDialog.cpp
@@ -12761,6 +12772,10 @@ msgid "&Full Screen (on/off)"
 msgstr ""
 
 #: src/menus/FileMenus.cpp
+msgid "Cannot proceed to export."
+msgstr ""
+
+#: src/menus/FileMenus.cpp
 #, c-format
 msgid ""
 "Cannot create directory '%s'. \n"
@@ -18530,7 +18545,7 @@ msgstr ""
 msgid "File Dialog"
 msgstr ""
 
-#: plug-ins/SpectralEditMulti.ny
+#: plug-ins/SpectralEditMulti.ny resources/EffectsMenuDefaults.xml
 msgid "Spectral Edit Multi Tool"
 msgstr ""
 
@@ -18574,7 +18589,7 @@ msgstr ""
 msgid "Error.~%"
 msgstr ""
 
-#: plug-ins/SpectralEditParametricEQ.ny
+#: plug-ins/SpectralEditParametricEQ.ny resources/EffectsMenuDefaults.xml
 msgid "Spectral Edit Parametric EQ"
 msgstr ""
 
@@ -18613,7 +18628,7 @@ msgid ""
 "                         Please select a frequency range."
 msgstr ""
 
-#: plug-ins/SpectralEditShelves.ny
+#: plug-ins/SpectralEditShelves.ny resources/EffectsMenuDefaults.xml
 msgid "Spectral Edit Shelves"
 msgstr ""
 
@@ -20194,16 +20209,4 @@ msgstr ""
 
 #: resources/EffectsMenuDefaults.xml
 msgid "Spectral Tools"
-msgstr ""
-
-#: resources/EffectsMenuDefaults.xml
-msgid "Spectral edit multi tool"
-msgstr ""
-
-#: resources/EffectsMenuDefaults.xml
-msgid "Spectral edit parametric EQ"
-msgstr ""
-
-#: resources/EffectsMenuDefaults.xml
-msgid "Spectral edit shelves"
 msgstr ""
