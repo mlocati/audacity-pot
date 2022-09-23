@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2022-09-16 08:25+0000\n"
+"POT-Creation-Date: 2022-09-23 08:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15022,10 +15022,6 @@ msgstr ""
 
 #: src/prefs/GUIPrefs.cpp
 msgid "&Language:"
-msgstr ""
-
-#: src/prefs/GUIPrefs.cpp
-msgid "Location of &Manual:"
 msgstr ""
 
 #: src/prefs/GUIPrefs.cpp
