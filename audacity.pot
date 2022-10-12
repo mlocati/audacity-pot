@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2022-10-04 08:29+0000\n"
+"POT-Creation-Date: 2022-10-12 08:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3254,17 +3254,28 @@ msgstr ""
 msgid "Incompatible plugin(s) found"
 msgstr ""
 
-#: src/IncompatiblePluginsDialog.cpp src/PluginRegistrationDialog.cpp
-msgid "Manage Plugins"
+#: src/IncompatiblePluginsDialog.cpp
+msgid "&Manage Plugins"
 msgstr ""
 
-#: src/IncompatiblePluginsDialog.cpp
-msgid "Continue"
+#: src/IncompatiblePluginsDialog.cpp src/cloud/audiocom/LinkAccountDialog.cpp
+#: src/cloud/audiocom/ShareAudioDialog.cpp
+msgid "C&ontinue"
+msgstr ""
+
+#: src/IncompatiblePluginsDialog.cpp src/export/ExportCL.cpp
+#: src/update/UpdateNoticeDialog.cpp
+msgid "&OK"
 msgstr ""
 
 #: src/IncompatiblePluginsDialog.cpp
 #, c-format
 msgid "Audacity has found %d incompatible plugins which could not be loaded. We have disabled these plugins to avoid any stalling or crashes. If you would still like to attempt to use these plugins, you can enable them using \"Manage Plugins\". Otherwise, select \"Continue\"."
+msgstr ""
+
+#: src/IncompatiblePluginsDialog.cpp
+#, c-format
+msgid "Audacity has found %d incompatible plugins which could not be loaded. We have disabled these plugins to avoid any stalling or crashes."
 msgstr ""
 
 #: src/JournalEvents.cpp
@@ -3704,6 +3715,10 @@ msgstr ""
 #. i18n-hint: Two, alternate names of a musical note in the 12-tone chromatic scale
 #: src/PitchName.cpp
 msgid "A♯/B♭"
+msgstr ""
+
+#: src/PluginRegistrationDialog.cpp
+msgid "Manage Plugins"
 msgstr ""
 
 #: src/PluginRegistrationDialog.cpp
@@ -5669,11 +5684,6 @@ msgstr ""
 
 #: src/cloud/audiocom/LinkAccountDialog.cpp
 msgid "Token"
-msgstr ""
-
-#: src/cloud/audiocom/LinkAccountDialog.cpp
-#: src/cloud/audiocom/ShareAudioDialog.cpp
-msgid "C&ontinue"
 msgstr ""
 
 #: src/cloud/audiocom/LinkFailedDialog.cpp
@@ -10256,10 +10266,6 @@ msgstr ""
 
 #: src/export/ExportCL.cpp
 msgid "Command Output"
-msgstr ""
-
-#: src/export/ExportCL.cpp src/update/UpdateNoticeDialog.cpp
-msgid "&OK"
 msgstr ""
 
 #: src/export/ExportCL.cpp
