@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2022-10-12 08:27+0000\n"
+"POT-Creation-Date: 2022-10-29 08:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -4579,10 +4579,6 @@ msgid ""
 msgstr ""
 
 #: src/ProjectWindow.cpp
-msgid "Realtime effects"
-msgstr ""
-
-#: src/ProjectWindow.cpp
 msgid "Horizontal Scrollbar"
 msgstr ""
 
@@ -4700,6 +4696,10 @@ msgstr ""
 #: src/RealtimeEffectPanel.cpp
 #, c-format
 msgid "Add %s"
+msgstr ""
+
+#: src/RealtimeEffectPanel.cpp
+msgid "Realtime effects"
 msgstr ""
 
 #: src/RealtimeEffectPanel.cpp
