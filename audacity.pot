@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2022-12-01 08:21+0000\n"
+"POT-Creation-Date: 2022-12-18 08:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -4033,7 +4033,7 @@ msgstr ""
 msgid "Warning: Problems in Automatic Recovery"
 msgstr ""
 
-#: src/ProjectFileIO.cpp src/menus/WindowMenus.cpp
+#: src/ProjectFileIO.cpp
 msgid "<untitled>"
 msgstr ""
 
@@ -14436,9 +14436,7 @@ msgstr ""
 msgid "&View"
 msgstr ""
 
-#. i18n-hint: Standard Macintosh Window menu item:  Make (the current
-#. * window) full sized
-#: src/menus/ViewMenus.cpp src/menus/WindowMenus.cpp
+#: src/menus/ViewMenus.cpp
 msgid "&Zoom"
 msgstr ""
 
@@ -14512,28 +14510,6 @@ msgstr ""
 
 #: src/menus/ViewMenus.cpp
 msgid "&Show Clipping (on/off)"
-msgstr ""
-
-#: src/menus/WindowMenus.cpp
-msgid "&Window"
-msgstr ""
-
-#. i18n-hint: Standard Macintosh Window menu item:  Make (the current
-#. * window) shrink to an icon on the dock
-#: src/menus/WindowMenus.cpp
-msgid "&Minimize"
-msgstr ""
-
-#. i18n-hint: Standard Macintosh Window menu item:  Make all project
-#. * windows un-hidden
-#: src/menus/WindowMenus.cpp
-msgid "&Bring All to Front"
-msgstr ""
-
-#. i18n-hint: Shrink all project windows to icons on the Macintosh
-#. tooldock
-#: src/menus/WindowMenus.cpp
-msgid "Minimize All Projects"
 msgstr ""
 
 #: src/prefs/ApplicationPrefs.cpp
