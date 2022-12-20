@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2022-12-18 08:17+0000\n"
+"POT-Creation-Date: 2022-12-20 08:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -4686,6 +4686,16 @@ msgstr ""
 
 #: src/RealtimeEffectPanel.cpp
 msgid "Realtime effects are non-destructive and can be changed at any time."
+msgstr ""
+
+#: src/RealtimeEffectPanel.cpp src/effects/EffectUI.cpp
+msgid ""
+"This plugin could not be loaded.\n"
+"It may have been deleted."
+msgstr ""
+
+#: src/RealtimeEffectPanel.cpp src/effects/EffectUI.cpp
+msgid "Plugin Error"
 msgstr ""
 
 #. i18n-hint: undo history record
@@ -18061,6 +18071,24 @@ msgstr ""
 
 #: src/widgets/MeterPanel.cpp
 msgid "Vertical"
+msgstr ""
+
+#: src/widgets/MissingPluginsErrorDialog.cpp
+msgid "Missing Plugins"
+msgstr ""
+
+#: src/widgets/MissingPluginsErrorDialog.cpp
+msgid "This project contains some realtime effect plugins that cannot be found on this system."
+msgstr ""
+
+#. i18n-hint: %s will be replaced with "Learn more"
+#: src/widgets/MissingPluginsErrorDialog.cpp
+#, c-format
+msgid "The project may sound different than intended. %s"
+msgstr ""
+
+#: src/widgets/MissingPluginsErrorDialog.cpp
+msgid "Learn more"
 msgstr ""
 
 #: src/widgets/MultiDialog.cpp
