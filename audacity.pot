@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2022-12-20 08:19+0000\n"
+"POT-Creation-Date: 2022-12-23 08:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -613,6 +613,14 @@ msgstr ""
 
 #: libraries/lib-screen-geometry/ViewInfo.cpp
 msgid "&Loop On/Off"
+msgstr ""
+
+#: libraries/lib-strings/FutureStrings.h
+msgid "Cut/Copy/Paste"
+msgstr ""
+
+#: libraries/lib-strings/FutureStrings.h
+msgid "&Cut/Copy/Paste Toolbar"
 msgstr ""
 
 #: libraries/lib-strings/Internat.cpp
@@ -2821,7 +2829,7 @@ msgid "Only avformat.dll"
 msgstr ""
 
 #: src/FFmpeg.cpp
-msgid "Only ffmpeg.*.dylib"
+msgid "Only libavformat.dylib"
 msgstr ""
 
 #: src/FFmpeg.cpp
@@ -4830,10 +4838,6 @@ msgstr ""
 msgid "Transport"
 msgstr ""
 
-#: src/Screenshot.cpp
-msgid "Mixer"
-msgstr ""
-
 #. i18n-hint: Noun (the meter is used for playback or record level monitoring)
 #: src/Screenshot.cpp src/commands/ScreenshotCommand.cpp
 #: src/widgets/MeterPanel.cpp
@@ -5715,6 +5719,22 @@ msgid "&Ok"
 msgstr ""
 
 #: src/cloud/audiocom/ShareAudioDialog.cpp
+msgid "Public"
+msgstr ""
+
+#: src/cloud/audiocom/ShareAudioDialog.cpp
+msgid "Anyone will be able to listen to this audio."
+msgstr ""
+
+#: src/cloud/audiocom/ShareAudioDialog.cpp
+msgid "Unlisted"
+msgstr ""
+
+#: src/cloud/audiocom/ShareAudioDialog.cpp
+msgid "Only you and people you share a link with will be able to listen to this audio."
+msgstr ""
+
+#: src/cloud/audiocom/ShareAudioDialog.cpp
 msgid "&Go to my file"
 msgstr ""
 
@@ -5792,10 +5812,6 @@ msgstr ""
 
 #: src/cloud/audiocom/ShareAudioDialog.cpp
 msgid "Shareable link"
-msgstr ""
-
-#: src/cloud/audiocom/ShareAudioDialog.cpp
-msgid "Only people you share this link with can access your audio"
 msgstr ""
 
 #: src/commands/AudacityCommand.cpp src/effects/Effect.cpp
