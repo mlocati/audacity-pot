@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2022-12-23 08:18+0000\n"
+"POT-Creation-Date: 2022-12-28 08:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -615,11 +615,11 @@ msgstr ""
 msgid "&Loop On/Off"
 msgstr ""
 
-#: libraries/lib-strings/FutureStrings.h
+#: libraries/lib-strings/FutureStrings.h src/toolbars/CutCopyPasteToolBar.cpp
 msgid "Cut/Copy/Paste"
 msgstr ""
 
-#: libraries/lib-strings/FutureStrings.h
+#: libraries/lib-strings/FutureStrings.h src/toolbars/CutCopyPasteToolBar.cpp
 msgid "&Cut/Copy/Paste Toolbar"
 msgstr ""
 
@@ -1058,6 +1058,7 @@ msgid "Save script as..."
 msgstr ""
 
 #: modules/mod-nyq-bench/NyqBench.cpp src/cloud/audiocom/ShareAudioDialog.cpp
+#: src/toolbars/CutCopyPasteToolBar.cpp
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackView.cpp
 msgid "Copy"
 msgstr ""
@@ -1067,6 +1068,7 @@ msgid "Copy to clipboard"
 msgstr ""
 
 #: modules/mod-nyq-bench/NyqBench.cpp src/menus/EditMenus.cpp
+#: src/toolbars/CutCopyPasteToolBar.cpp
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackView.cpp
 msgid "Cut"
 msgstr ""
@@ -1076,6 +1078,7 @@ msgid "Cut to clipboard"
 msgstr ""
 
 #: modules/mod-nyq-bench/NyqBench.cpp src/menus/EditMenus.cpp
+#: src/toolbars/CutCopyPasteToolBar.cpp
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackView.cpp
 msgid "Paste"
 msgstr ""
@@ -1331,11 +1334,6 @@ msgstr ""
 #: src/AboutDialog.cpp
 #, c-format
 msgid "%s Team Members"
-msgstr ""
-
-#. i18n-hint: Musers are people working at Muse Group
-#: src/AboutDialog.cpp
-msgid "Former Musers"
 msgstr ""
 
 #: src/AboutDialog.cpp
@@ -3152,20 +3150,20 @@ msgstr ""
 
 #. i18n-hint: Preserve '[[help:Quick_Help|' as it's the name of a link.
 #: src/HelpText.cpp
-msgid "[[help:Quick_Help|Quick Help]] - if not installed locally, [[https://manual.audacityteam.org/quick_help.html|view online]]"
+msgid "[[help:Quick_Help|Quick Help]]"
 msgstr ""
 
 #. i18n-hint: Preserve '[[help:Main_Page|' as it's the name of a link.
 #: src/HelpText.cpp
-msgid " [[help:Main_Page|Manual]] - if not installed locally, [[https://manual.audacityteam.org/|view online]]"
+msgid " [[help:Main_Page|Manual]]"
+msgstr ""
+
+#: src/HelpText.cpp
+msgid "[[https://support.audacityteam.org/|Tutorials & How-tos]]"
 msgstr ""
 
 #: src/HelpText.cpp
 msgid " [[https://forum.audacityteam.org/|Forum]] - ask your question directly, online."
-msgstr ""
-
-#: src/HelpText.cpp
-msgid "More:</b> Visit our [[https://wiki.audacityteam.org/index.php|Wiki]] for tips, tricks, extra tutorials and effects plug-ins."
 msgstr ""
 
 #: src/HelpText.cpp
@@ -16580,6 +16578,14 @@ msgid "Zoom Out"
 msgstr ""
 
 #: src/toolbars/EditToolBar.cpp
+msgid "Fit selection to width"
+msgstr ""
+
+#: src/toolbars/EditToolBar.cpp
+msgid "Fit project to width"
+msgstr ""
+
+#: src/toolbars/EditToolBar.cpp
 msgid "Trim audio outside selection"
 msgstr ""
 
@@ -16589,14 +16595,6 @@ msgstr ""
 
 #: src/toolbars/EditToolBar.cpp
 msgid "Sync-Lock Tracks"
-msgstr ""
-
-#: src/toolbars/EditToolBar.cpp
-msgid "Fit selection to width"
-msgstr ""
-
-#: src/toolbars/EditToolBar.cpp
-msgid "Fit project to width"
 msgstr ""
 
 #. i18n-hint: Clicking this menu item shows the toolbar for editing
