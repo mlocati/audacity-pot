@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2022-12-28 08:18+0000\n"
+"POT-Creation-Date: 2023-01-04 08:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1915,8 +1915,9 @@ msgid ""
 msgstr ""
 
 #: src/AudacityFileConfig.cpp src/ShuttleGui.cpp src/commands/HelpCommand.cpp
-#: src/effects/Equalization.cpp src/export/Export.cpp src/menus/HelpMenus.cpp
-#: src/widgets/ErrorReportDialog.cpp src/widgets/MultiDialog.cpp
+#: src/effects/EqualizationCurvesDialog.cpp src/export/Export.cpp
+#: src/menus/HelpMenus.cpp src/widgets/ErrorReportDialog.cpp
+#: src/widgets/MultiDialog.cpp
 msgid "Help"
 msgstr ""
 
@@ -2231,7 +2232,7 @@ msgstr ""
 msgid "Remo&ve"
 msgstr ""
 
-#: src/BatchProcessDialog.cpp src/effects/Equalization.cpp
+#: src/BatchProcessDialog.cpp src/effects/EqualizationCurvesDialog.cpp
 msgid "&Rename..."
 msgstr ""
 
@@ -2239,12 +2240,13 @@ msgstr ""
 msgid "Re&store"
 msgstr ""
 
-#: src/BatchProcessDialog.cpp src/LabelDialog.cpp src/effects/Equalization.cpp
+#: src/BatchProcessDialog.cpp src/LabelDialog.cpp
+#: src/effects/EqualizationCurvesDialog.cpp
 msgid "I&mport..."
 msgstr ""
 
 #: src/BatchProcessDialog.cpp src/effects/Contrast.cpp
-#: src/effects/Equalization.cpp
+#: src/effects/EqualizationCurvesDialog.cpp
 msgid "E&xport..."
 msgstr ""
 
@@ -2277,11 +2279,11 @@ msgstr ""
 msgid "De&lete"
 msgstr ""
 
-#: src/BatchProcessDialog.cpp src/effects/Equalization.cpp
+#: src/BatchProcessDialog.cpp src/effects/EqualizationCurvesDialog.cpp
 msgid "Move &Up"
 msgstr ""
 
-#: src/BatchProcessDialog.cpp src/effects/Equalization.cpp
+#: src/BatchProcessDialog.cpp src/effects/EqualizationCurvesDialog.cpp
 msgid "Move &Down"
 msgstr ""
 
@@ -2932,7 +2934,7 @@ msgstr ""
 #. i18n-hint: short form of 'decibels'.
 #: src/FreqWindow.cpp src/commands/SetTrackInfoCommand.cpp
 #: src/effects/AutoDuck.cpp src/effects/Compressor.cpp
-#: src/effects/Equalization.cpp src/effects/Loudness.cpp
+#: src/effects/EqualizationUI.cpp src/effects/Loudness.cpp
 #: src/effects/Normalize.cpp src/effects/ScienFilter.cpp
 #: src/effects/TruncSilence.cpp src/prefs/WaveformSettings.cpp
 #: src/widgets/MeterPanel.cpp plug-ins/sample-data-export.ny
@@ -2950,9 +2952,9 @@ msgstr ""
 #. i18n-hint: This is the abbreviation for "Hertz", or
 #. cycles per second.
 #. i18n-hint: Name of display format that shows frequency in hertz
-#: src/FreqWindow.cpp src/effects/ChangePitch.cpp src/effects/Equalization.cpp
-#: src/effects/ScienFilter.cpp src/import/ImportRaw.cpp
-#: src/widgets/NumericTextCtrl.cpp
+#: src/FreqWindow.cpp src/effects/ChangePitch.cpp
+#: src/effects/EqualizationUI.cpp src/effects/ScienFilter.cpp
+#: src/import/ImportRaw.cpp src/widgets/NumericTextCtrl.cpp
 msgid "Hz"
 msgstr ""
 
@@ -5832,8 +5834,8 @@ msgstr ""
 
 #. i18n-hint: An item name followed by a value, with appropriate separating punctuation
 #: src/commands/AudacityCommand.cpp src/effects/Effect.cpp
-#: src/effects/vamp/VampEffect.cpp src/import/ImportRaw.cpp
-#: src/menus/PluginMenus.cpp
+#: src/effects/EqualizationCurves.cpp src/effects/vamp/VampEffect.cpp
+#: src/import/ImportRaw.cpp src/menus/PluginMenus.cpp
 #: src/tracks/playabletrack/notetrack/ui/NoteTrackSliderHandles.cpp
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackSliderHandles.cpp
 #: src/widgets/ASlider.cpp
@@ -7957,19 +7959,6 @@ msgid ""
 "Replace?"
 msgstr ""
 
-#. i18n-hint: Technical term for a kind of curve.
-#: src/effects/Equalization.cpp
-msgid "B-spline"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "Cosine"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "Cubic"
-msgstr ""
-
 #: src/effects/Equalization.cpp
 msgid "Equalization"
 msgstr ""
@@ -7979,8 +7968,8 @@ msgstr ""
 msgid "Filter Curve EQ"
 msgstr ""
 
-#: src/effects/Equalization.cpp plug-ins/eq-xml-to-txt-converter.ny
-#: resources/EffectsMenuDefaults.xml
+#: src/effects/Equalization.cpp src/effects/EqualizationUI.cpp
+#: plug-ins/eq-xml-to-txt-converter.ny resources/EffectsMenuDefaults.xml
 msgid "Graphic EQ"
 msgstr ""
 
@@ -8025,16 +8014,6 @@ msgid "Treble Cut"
 msgstr ""
 
 #: src/effects/Equalization.cpp
-msgid ""
-"To use this filter curve in a macro, please choose a new name for it.\n"
-"Choose the 'Save/Manage Curves...' button and rename the 'unnamed' curve, then use that one."
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "Filter Curve EQ needs a different name"
-msgstr ""
-
-#: src/effects/Equalization.cpp
 msgid "To apply Equalization, all selected tracks must have the same sample rate."
 msgstr ""
 
@@ -8046,294 +8025,6 @@ msgstr ""
 msgid "Effect Unavailable"
 msgstr ""
 
-#: src/effects/Equalization.cpp src/effects/ScienFilter.cpp
-msgid "+ dB"
-msgstr ""
-
-#: src/effects/Equalization.cpp src/effects/ScienFilter.cpp
-msgid "Max dB"
-msgstr ""
-
-#: src/effects/Equalization.cpp src/effects/ScienFilter.cpp
-#, c-format
-msgid "%d dB"
-msgstr ""
-
-#: src/effects/Equalization.cpp src/effects/ScienFilter.cpp
-msgid "Min dB"
-msgstr ""
-
-#: src/effects/Equalization.cpp src/effects/ScienFilter.cpp
-msgid "- dB"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-#, c-format
-msgid "%d Hz"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-#, c-format
-msgid "%g kHz"
-msgstr ""
-
-#. i18n-hint k is SI abbreviation for x1,000.  Usually unchanged in translation.
-#: src/effects/Equalization.cpp
-#, c-format
-msgid "%gk"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "&EQ Type:"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "Draw Curves"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "&Draw"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "&Graphic"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "Interpolation type"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "Linear Frequency Scale"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "Li&near Frequency Scale"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "Length of &Filter:"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "Length of Filter"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "&Select Curve:"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "Select Curve"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "S&ave/Manage Curves..."
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "Fla&tten"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "&Invert"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "Show grid lines"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "Show g&rid lines"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "&Processing: "
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "D&efault"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "&SSE"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "SSE &Threaded"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "A&VX"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "AV&X Threaded"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "&Bench"
-msgstr ""
-
-#. i18n-hint: name of the 'unnamed' custom curve
-#: src/effects/Equalization.cpp
-msgid "unnamed"
-msgstr ""
-
-#. i18n-hint: EQ stands for 'Equalization'.
-#: src/effects/Equalization.cpp
-#, c-format
-msgid ""
-"Error Loading EQ Curves from file:\n"
-"%s\n"
-"Error message says:\n"
-"%s"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "Error Loading EQ Curves"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "Error Saving Equalization Curves"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "Requested curve not found, using 'unnamed'"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "Curve not found"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "Manage Curves List"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "Manage Curves"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "&Curves"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "Curve Name"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "D&elete..."
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "&Get More..."
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "De&faults"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid ""
-"Rename 'unnamed' to save a new entry.\n"
-"'OK' saves all changes, 'Cancel' doesn't."
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "'unnamed' always stays at the bottom of the list"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "'unnamed' is special"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-#, c-format
-msgid "Rename '%s' to..."
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "Rename..."
-msgstr ""
-
-#: src/effects/Equalization.cpp
-#, c-format
-msgid "Rename '%s'"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "Name is the same as the original one"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "Same name"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-#, c-format
-msgid "Overwrite existing curve '%s'?"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "Curve exists"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "You cannot delete the 'unnamed' curve."
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "Can't delete 'unnamed'"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-#, c-format
-msgid "Delete '%s'?"
-msgstr ""
-
-#: src/effects/Equalization.cpp src/export/ExportFFmpegDialogs.cpp
-msgid "Confirm Deletion"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-#, c-format
-msgid "Delete %d items?"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "You cannot delete the 'unnamed' curve, it is special."
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "Choose an EQ curve file"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "Export EQ curves as..."
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "You cannot export 'unnamed' curve, it is special."
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "Cannot Export 'unnamed'"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-#, c-format
-msgid "%d curves exported to %s"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "Curves exported"
-msgstr ""
-
-#: src/effects/Equalization.cpp
-msgid "No curves exported"
-msgstr ""
-
 #: src/effects/Equalization48x.cpp
 #, c-format
 msgid ""
@@ -8343,6 +8034,290 @@ msgid ""
 "Default Threaded: %s\n"
 "SSE: %s\n"
 "SSE Threaded: %s\n"
+msgstr ""
+
+#: src/effects/EqualizationBandSliders.cpp
+#, c-format
+msgid "%d Hz"
+msgstr ""
+
+#: src/effects/EqualizationBandSliders.cpp
+#, c-format
+msgid "%g kHz"
+msgstr ""
+
+#. i18n-hint k is SI abbreviation for x1,000.  Usually unchanged in translation.
+#: src/effects/EqualizationBandSliders.cpp
+#, c-format
+msgid "%gk"
+msgstr ""
+
+#: src/effects/EqualizationBandSliders.cpp src/effects/EqualizationUI.cpp
+#: src/effects/ScienFilter.cpp
+#, c-format
+msgid "%d dB"
+msgstr ""
+
+#. i18n-hint: name of the 'unnamed' custom curve
+#: src/effects/EqualizationCurves.cpp
+msgid "unnamed"
+msgstr ""
+
+#. i18n-hint: EQ stands for 'Equalization'.
+#: src/effects/EqualizationCurves.cpp
+#, c-format
+msgid ""
+"Error Loading EQ Curves from file:\n"
+"%s\n"
+"Error message says:\n"
+"%s"
+msgstr ""
+
+#: src/effects/EqualizationCurves.cpp
+msgid "Error Loading EQ Curves"
+msgstr ""
+
+#: src/effects/EqualizationCurves.cpp
+msgid "Error Saving Equalization Curves"
+msgstr ""
+
+#: src/effects/EqualizationCurvesDialog.cpp
+msgid "Manage Curves List"
+msgstr ""
+
+#: src/effects/EqualizationCurvesDialog.cpp
+msgid "Manage Curves"
+msgstr ""
+
+#: src/effects/EqualizationCurvesDialog.cpp
+msgid "&Curves"
+msgstr ""
+
+#: src/effects/EqualizationCurvesDialog.cpp
+msgid "Curve Name"
+msgstr ""
+
+#: src/effects/EqualizationCurvesDialog.cpp
+msgid "D&elete..."
+msgstr ""
+
+#: src/effects/EqualizationCurvesDialog.cpp
+msgid "&Get More..."
+msgstr ""
+
+#: src/effects/EqualizationCurvesDialog.cpp
+msgid "De&faults"
+msgstr ""
+
+#: src/effects/EqualizationCurvesDialog.cpp
+msgid ""
+"Rename 'unnamed' to save a new entry.\n"
+"'OK' saves all changes, 'Cancel' doesn't."
+msgstr ""
+
+#: src/effects/EqualizationCurvesDialog.cpp
+msgid "'unnamed' always stays at the bottom of the list"
+msgstr ""
+
+#: src/effects/EqualizationCurvesDialog.cpp
+msgid "'unnamed' is special"
+msgstr ""
+
+#: src/effects/EqualizationCurvesDialog.cpp
+#, c-format
+msgid "Rename '%s' to..."
+msgstr ""
+
+#: src/effects/EqualizationCurvesDialog.cpp
+msgid "Rename..."
+msgstr ""
+
+#: src/effects/EqualizationCurvesDialog.cpp
+#, c-format
+msgid "Rename '%s'"
+msgstr ""
+
+#: src/effects/EqualizationCurvesDialog.cpp
+msgid "Name is the same as the original one"
+msgstr ""
+
+#: src/effects/EqualizationCurvesDialog.cpp
+msgid "Same name"
+msgstr ""
+
+#: src/effects/EqualizationCurvesDialog.cpp
+#, c-format
+msgid "Overwrite existing curve '%s'?"
+msgstr ""
+
+#: src/effects/EqualizationCurvesDialog.cpp
+msgid "Curve exists"
+msgstr ""
+
+#: src/effects/EqualizationCurvesDialog.cpp
+msgid "You cannot delete the 'unnamed' curve."
+msgstr ""
+
+#: src/effects/EqualizationCurvesDialog.cpp
+msgid "Can't delete 'unnamed'"
+msgstr ""
+
+#: src/effects/EqualizationCurvesDialog.cpp
+#, c-format
+msgid "Delete '%s'?"
+msgstr ""
+
+#: src/effects/EqualizationCurvesDialog.cpp src/export/ExportFFmpegDialogs.cpp
+msgid "Confirm Deletion"
+msgstr ""
+
+#: src/effects/EqualizationCurvesDialog.cpp
+#, c-format
+msgid "Delete %d items?"
+msgstr ""
+
+#: src/effects/EqualizationCurvesDialog.cpp
+msgid "You cannot delete the 'unnamed' curve, it is special."
+msgstr ""
+
+#: src/effects/EqualizationCurvesDialog.cpp
+msgid "Choose an EQ curve file"
+msgstr ""
+
+#: src/effects/EqualizationCurvesDialog.cpp
+msgid "Export EQ curves as..."
+msgstr ""
+
+#: src/effects/EqualizationCurvesDialog.cpp
+msgid "You cannot export 'unnamed' curve, it is special."
+msgstr ""
+
+#: src/effects/EqualizationCurvesDialog.cpp
+msgid "Cannot Export 'unnamed'"
+msgstr ""
+
+#: src/effects/EqualizationCurvesDialog.cpp
+#, c-format
+msgid "%d curves exported to %s"
+msgstr ""
+
+#: src/effects/EqualizationCurvesDialog.cpp
+msgid "Curves exported"
+msgstr ""
+
+#: src/effects/EqualizationCurvesDialog.cpp
+msgid "No curves exported"
+msgstr ""
+
+#. i18n-hint: Technical term for a kind of curve.
+#: src/effects/EqualizationParameters.cpp
+msgid "B-spline"
+msgstr ""
+
+#: src/effects/EqualizationParameters.cpp
+msgid "Cosine"
+msgstr ""
+
+#: src/effects/EqualizationParameters.cpp
+msgid "Cubic"
+msgstr ""
+
+#: src/effects/EqualizationUI.cpp
+msgid ""
+"To use this filter curve in a macro, please choose a new name for it.\n"
+"Choose the 'Save/Manage Curves...' button and rename the 'unnamed' curve, then use that one."
+msgstr ""
+
+#: src/effects/EqualizationUI.cpp
+msgid "Filter Curve EQ needs a different name"
+msgstr ""
+
+#: src/effects/EqualizationUI.cpp src/effects/ScienFilter.cpp
+msgid "+ dB"
+msgstr ""
+
+#: src/effects/EqualizationUI.cpp src/effects/ScienFilter.cpp
+msgid "Max dB"
+msgstr ""
+
+#: src/effects/EqualizationUI.cpp src/effects/ScienFilter.cpp
+msgid "Min dB"
+msgstr ""
+
+#: src/effects/EqualizationUI.cpp src/effects/ScienFilter.cpp
+msgid "- dB"
+msgstr ""
+
+#: src/effects/EqualizationUI.cpp
+msgid "&EQ Type:"
+msgstr ""
+
+#: src/effects/EqualizationUI.cpp
+msgid "Draw Curves"
+msgstr ""
+
+#: src/effects/EqualizationUI.cpp
+msgid "&Draw"
+msgstr ""
+
+#: src/effects/EqualizationUI.cpp
+msgid "&Graphic"
+msgstr ""
+
+#: src/effects/EqualizationUI.cpp
+msgid "Interpolation type"
+msgstr ""
+
+#: src/effects/EqualizationUI.cpp
+msgid "Linear Frequency Scale"
+msgstr ""
+
+#: src/effects/EqualizationUI.cpp
+msgid "Li&near Frequency Scale"
+msgstr ""
+
+#: src/effects/EqualizationUI.cpp
+msgid "Length of &Filter:"
+msgstr ""
+
+#: src/effects/EqualizationUI.cpp
+msgid "Length of Filter"
+msgstr ""
+
+#: src/effects/EqualizationUI.cpp
+msgid "&Select Curve:"
+msgstr ""
+
+#: src/effects/EqualizationUI.cpp
+msgid "Select Curve"
+msgstr ""
+
+#: src/effects/EqualizationUI.cpp
+msgid "S&ave/Manage Curves..."
+msgstr ""
+
+#: src/effects/EqualizationUI.cpp
+msgid "Fla&tten"
+msgstr ""
+
+#: src/effects/EqualizationUI.cpp
+msgid "&Invert"
+msgstr ""
+
+#: src/effects/EqualizationUI.cpp
+msgid "Show grid lines"
+msgstr ""
+
+#: src/effects/EqualizationUI.cpp
+msgid "Show g&rid lines"
+msgstr ""
+
+#: src/effects/EqualizationUI.cpp
+msgid "Requested curve not found, using 'unnamed'"
+msgstr ""
+
+#: src/effects/EqualizationUI.cpp
+msgid "Curve not found"
 msgstr ""
 
 #: src/effects/Fade.cpp resources/EffectsMenuDefaults.xml
@@ -9115,7 +9090,7 @@ msgstr ""
 msgid "Highpass"
 msgstr ""
 
-#: src/effects/ScienFilter.cpp
+#: src/effects/ScienFilter.cpp resources/EffectsMenuDefaults.xml
 msgid "Classic Filters"
 msgstr ""
 
