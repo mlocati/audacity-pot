@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-01-04 08:19+0000\n"
+"POT-Creation-Date: 2023-01-07 08:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -4815,64 +4815,6 @@ msgstr ""
 msgid "All Preferences"
 msgstr ""
 
-#: src/Screenshot.cpp
-msgid "SelectionBar"
-msgstr ""
-
-#: src/Screenshot.cpp src/commands/ScreenshotCommand.cpp
-#: src/toolbars/SpectralSelectionBar.cpp
-msgid "Spectral Selection"
-msgstr ""
-
-#: src/Screenshot.cpp src/commands/ScreenshotCommand.cpp
-msgid "Timer"
-msgstr ""
-
-#: src/Screenshot.cpp src/commands/ScreenshotCommand.cpp
-#: src/toolbars/ToolsToolBar.cpp
-msgid "Tools"
-msgstr ""
-
-#: src/Screenshot.cpp src/commands/ScreenshotCommand.cpp
-#: src/toolbars/ControlToolBar.cpp
-msgid "Transport"
-msgstr ""
-
-#. i18n-hint: Noun (the meter is used for playback or record level monitoring)
-#: src/Screenshot.cpp src/commands/ScreenshotCommand.cpp
-#: src/widgets/MeterPanel.cpp
-msgid "Meter"
-msgstr ""
-
-#: src/Screenshot.cpp src/commands/ScreenshotCommand.cpp
-msgid "Play Meter"
-msgstr ""
-
-#: src/Screenshot.cpp src/commands/ScreenshotCommand.cpp
-#: src/toolbars/MeterToolBar.cpp
-msgid "Record Meter"
-msgstr ""
-
-#: src/Screenshot.cpp src/commands/ScreenshotCommand.cpp
-#: src/toolbars/EditToolBar.cpp
-msgid "Edit"
-msgstr ""
-
-#: src/Screenshot.cpp src/commands/ScreenshotCommand.cpp
-#: src/prefs/DevicePrefs.h src/toolbars/DeviceToolBar.cpp
-msgid "Device"
-msgstr ""
-
-#: src/Screenshot.cpp src/commands/ScreenshotCommand.cpp
-#: src/toolbars/TranscriptionToolBar.cpp
-msgid "Play-at-Speed"
-msgstr ""
-
-#: src/Screenshot.cpp src/commands/ScreenshotCommand.cpp
-#: src/toolbars/ScrubbingToolBar.cpp
-msgid "Scrub"
-msgstr ""
-
 #: src/Screenshot.cpp src/TrackPanel.cpp
 msgid "Track Panel"
 msgstr ""
@@ -6222,10 +6164,6 @@ msgid "Scriptables"
 msgstr ""
 
 #: src/commands/ScreenshotCommand.cpp
-msgid "Selectionbar"
-msgstr ""
-
-#: src/commands/ScreenshotCommand.cpp
 msgid "Trackpanel"
 msgstr ""
 
@@ -6431,6 +6369,7 @@ msgid "Time:"
 msgstr ""
 
 #: src/commands/SetEnvelopeCommand.cpp src/menus/EditMenus.cpp
+#: src/toolbars/CutCopyPasteToolBar.cpp
 msgid "Delete"
 msgstr ""
 
@@ -14626,6 +14565,10 @@ msgstr ""
 msgid "2 (Stereo)"
 msgstr ""
 
+#: src/prefs/DevicePrefs.h src/toolbars/DeviceToolBar.cpp
+msgid "Device"
+msgstr ""
+
 #. i18n-hint:  Directories, also called directories, in computer file systems
 #: src/prefs/DirectoriesPrefs.cpp src/prefs/DirectoriesPrefs.h
 #: src/widgets/UnwritableLocationErrorDialog.cpp
@@ -16396,17 +16339,14 @@ msgstr ""
 msgid "&Host"
 msgstr ""
 
-#. i18n-hint: Audio setup menu
 #: src/toolbars/AudioSetupToolBar.cpp
 msgid "&Playback Device"
 msgstr ""
 
-#. i18n-hint: Audio setup menu
 #: src/toolbars/AudioSetupToolBar.cpp
 msgid "&Recording Device"
 msgstr ""
 
-#. i18n-hint: Audio setup menu
 #: src/toolbars/AudioSetupToolBar.cpp
 msgid "Recording &Channels"
 msgstr ""
@@ -16438,6 +16378,10 @@ msgstr ""
 #. progressive verb form
 #: src/toolbars/ControlToolBar.cpp
 msgid "Stopped"
+msgstr ""
+
+#: src/toolbars/ControlToolBar.cpp
+msgid "Transport"
 msgstr ""
 
 #: src/toolbars/ControlToolBar.cpp
@@ -16572,6 +16516,10 @@ msgstr ""
 msgid "Sync-Lock Tracks"
 msgstr ""
 
+#: src/toolbars/EditToolBar.cpp
+msgid "Edit"
+msgstr ""
+
 #. i18n-hint: Clicking this menu item shows the toolbar for editing
 #: src/toolbars/EditToolBar.cpp
 msgid "&Edit Toolbar"
@@ -16600,15 +16548,7 @@ msgid " Clipped "
 msgstr ""
 
 #: src/toolbars/MeterToolBar.cpp
-msgid "Combined Meter"
-msgstr ""
-
-#: src/toolbars/MeterToolBar.cpp
-msgid "Recording Meter"
-msgstr ""
-
-#: src/toolbars/MeterToolBar.cpp
-msgid "Playback Meter"
+msgid "Record Meter"
 msgstr ""
 
 #. i18n-hint: (noun) The meter that shows the loudness of the audio being recorded.
@@ -16623,6 +16563,10 @@ msgstr ""
 msgid "Meter-Record"
 msgstr ""
 
+#: src/toolbars/MeterToolBar.cpp
+msgid "Playback Meter"
+msgstr ""
+
 #. i18n-hint: (noun) The meter that shows the loudness of the audio playing.
 #: src/toolbars/MeterToolBar.cpp
 msgid "Playback Level"
@@ -16635,16 +16579,24 @@ msgstr ""
 msgid "Meter-Play"
 msgstr ""
 
-#. i18n-hint: Clicking this menu item shows the toolbar
-#. with the recording level meters
+#: src/toolbars/MeterToolBar.cpp
+msgid "Recording Meter"
+msgstr ""
+
+#: src/toolbars/MeterToolBar.cpp
+msgid "Combined Meter"
+msgstr ""
+
 #: src/toolbars/MeterToolBar.cpp
 msgid "&Recording Meter Toolbar"
 msgstr ""
 
-#. i18n-hint: Clicking this menu item shows the toolbar
-#. with the playback level meter
 #: src/toolbars/MeterToolBar.cpp
 msgid "&Playback Meter Toolbar"
+msgstr ""
+
+#: src/toolbars/ScrubbingToolBar.cpp
+msgid "Scrub"
 msgstr ""
 
 #: src/toolbars/ScrubbingToolBar.cpp
@@ -16774,6 +16726,10 @@ msgid "&Selection Toolbar"
 msgstr ""
 
 #: src/toolbars/SpectralSelectionBar.cpp
+msgid "Spectral Selection"
+msgstr ""
+
+#: src/toolbars/SpectralSelectionBar.cpp
 msgid "Center frequency and Width"
 msgstr ""
 
@@ -16817,6 +16773,10 @@ msgstr ""
 
 #: src/toolbars/ToolDock.cpp
 msgid "ToolDock"
+msgstr ""
+
+#: src/toolbars/ToolsToolBar.cpp
+msgid "Tools"
 msgstr ""
 
 #: src/toolbars/ToolsToolBar.cpp
@@ -16867,6 +16827,10 @@ msgid "&Next Tool"
 msgstr ""
 
 #: src/toolbars/TranscriptionToolBar.cpp
+msgid "Play-at-Speed"
+msgstr ""
+
+#: src/toolbars/TranscriptionToolBar.cpp
 msgid "Play at selected speed"
 msgstr ""
 
@@ -16878,8 +16842,6 @@ msgstr ""
 msgid "Play-at-Speed Once"
 msgstr ""
 
-#. i18n-hint: Clicking this menu item shows the toolbar
-#. for transcription (currently just vary play speed)
 #: src/toolbars/TranscriptionToolBar.cpp
 msgid "Pla&y-at-Speed Toolbar"
 msgstr ""
@@ -17997,6 +17959,11 @@ msgstr ""
 
 #: src/widgets/KeyView.cpp
 msgid "Menu"
+msgstr ""
+
+#. i18n-hint: Noun (the meter is used for playback or record level monitoring)
+#: src/widgets/MeterPanel.cpp
+msgid "Meter"
 msgstr ""
 
 #: src/widgets/MeterPanel.cpp
