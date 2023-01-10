@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-01-07 08:18+0000\n"
+"POT-Creation-Date: 2023-01-10 08:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1669,6 +1669,10 @@ msgstr ""
 
 #: src/AdornedRulerPanel.cpp
 msgid "Pinned Play Head"
+msgstr ""
+
+#: src/AdornedRulerPanel.cpp
+msgid "Pinned Play/Record &Head (on/off)"
 msgstr ""
 
 #: src/AudacityApp.cpp
@@ -3846,6 +3850,15 @@ msgstr ""
 msgid "Print"
 msgstr ""
 
+#: src/Printing.cpp
+msgid "Pa&ge Setup..."
+msgstr ""
+
+#. i18n-hint: (verb) It's item on a menu.
+#: src/Printing.cpp
+msgid "&Print..."
+msgstr ""
+
 #: src/ProjectAudioManager.cpp
 #, c-format
 msgid "Actual Rate: %d"
@@ -3857,22 +3870,24 @@ msgid ""
 "Try changing the audio host, playback device and the project sample rate."
 msgstr ""
 
-#: src/ProjectAudioManager.cpp src/menus/TransportMenus.cpp
+#: src/ProjectAudioManager.cpp src/TimerRecordDialog.cpp
+#: src/menus/TransportMenus.cpp
 msgid "The tracks selected for recording must all have the same sampling rate"
 msgstr ""
 
-#: src/ProjectAudioManager.cpp src/menus/TransportMenus.cpp
+#: src/ProjectAudioManager.cpp src/TimerRecordDialog.cpp
+#: src/menus/TransportMenus.cpp
 msgid "Mismatched Sampling Rates"
 msgstr ""
 
-#: src/ProjectAudioManager.cpp src/menus/TransportMenus.cpp
+#: src/ProjectAudioManager.cpp src/TimerRecordDialog.cpp
 msgid ""
 "Too few tracks are selected for recording at this sample rate.\n"
 "(Audacity requires two channels at the same sample rate for\n"
 "each stereo track)"
 msgstr ""
 
-#: src/ProjectAudioManager.cpp src/menus/TransportMenus.cpp
+#: src/ProjectAudioManager.cpp src/TimerRecordDialog.cpp
 msgid "Too Few Compatible Tracks Selected"
 msgstr ""
 
@@ -4889,6 +4904,10 @@ msgstr ""
 msgid "Long Message"
 msgstr ""
 
+#: src/Screenshot.cpp
+msgid "&Screenshot..."
+msgstr ""
+
 #: src/SelectFile.cpp
 msgid "The specified filename could not be converted due to Unicode character use."
 msgstr ""
@@ -5116,6 +5135,18 @@ msgstr ""
 msgid "Error Saving Tags File"
 msgstr ""
 
+#: src/TagsEditor.cpp src/export/Export.cpp src/export/ExportMultiple.cpp
+msgid "Edit Metadata Tags"
+msgstr ""
+
+#: src/TagsEditor.cpp
+msgid "Metadata Tags"
+msgstr ""
+
+#: src/TagsEditor.cpp
+msgid "&Metadata"
+msgstr ""
+
 #. i18n-hint: This string is used to configure the controls which shows the recording
 #. * duration. As such it is important that only the alphabetic parts of the string
 #. * are translated, with the numbers left exactly as they are.
@@ -5284,7 +5315,7 @@ msgid ""
 "'%s' has been canceled as the recording was stopped."
 msgstr ""
 
-#: src/TimerRecordDialog.cpp src/menus/TransportMenus.cpp
+#: src/TimerRecordDialog.cpp
 msgid "Timer Recording"
 msgstr ""
 
@@ -5413,6 +5444,24 @@ msgstr ""
 
 #: src/TimerRecordDialog.cpp
 msgid "Audacity Timer Record - Waiting"
+msgstr ""
+
+#: src/TimerRecordDialog.cpp
+msgid ""
+"Timer Recording cannot be used with more than one open project.\n"
+"\n"
+"Please close any additional projects and try again."
+msgstr ""
+
+#: src/TimerRecordDialog.cpp
+msgid ""
+"Timer Recording cannot be used while you have unsaved changes.\n"
+"\n"
+"Please save or close this project and try again."
+msgstr ""
+
+#: src/TimerRecordDialog.cpp
+msgid "&Timer Record..."
 msgstr ""
 
 #: src/TrackInfo.cpp
@@ -5642,6 +5691,10 @@ msgstr ""
 
 #: src/cloud/audiocom/LinkAccountDialog.cpp
 msgid "Token"
+msgstr ""
+
+#: src/cloud/audiocom/LinkAccountDialog.cpp
+msgid "L&ink audio.com account..."
 msgstr ""
 
 #: src/cloud/audiocom/LinkFailedDialog.cpp
@@ -10063,10 +10116,6 @@ msgstr ""
 msgid "Export Audio"
 msgstr ""
 
-#: src/export/Export.cpp src/export/ExportMultiple.cpp src/menus/EditMenus.cpp
-msgid "Edit Metadata Tags"
-msgstr ""
-
 #: src/export/Export.cpp
 msgid "Exported Tags"
 msgstr ""
@@ -10963,6 +11012,40 @@ msgstr ""
 
 #: src/export/ExportFLAC.cpp
 msgid "Exporting the audio as FLAC"
+msgstr ""
+
+#: src/export/ExportMIDI.cpp
+msgid "Please select only one Note Track at a time."
+msgstr ""
+
+#: src/export/ExportMIDI.cpp
+msgid "Please select a Note Track."
+msgstr ""
+
+#: src/export/ExportMIDI.cpp
+msgid "Export MIDI As:"
+msgstr ""
+
+#: src/export/ExportMIDI.cpp
+msgid "MIDI file"
+msgstr ""
+
+#: src/export/ExportMIDI.cpp
+msgid "Allegro file"
+msgstr ""
+
+#: src/export/ExportMIDI.cpp
+msgid ""
+"You have selected a filename with an unrecognized file extension.\n"
+"Do you want to continue?"
+msgstr ""
+
+#: src/export/ExportMIDI.cpp
+msgid "Export MIDI"
+msgstr ""
+
+#: src/export/ExportMIDI.cpp
+msgid "Export MI&DI..."
 msgstr ""
 
 #: src/export/ExportMP2.cpp
@@ -11969,6 +12052,26 @@ msgstr ""
 msgid "Could not open file %s."
 msgstr ""
 
+#: src/import/ImportMIDI.cpp
+msgid "Select a MIDI file"
+msgstr ""
+
+#: src/import/ImportMIDI.cpp
+msgid "MIDI and Allegro files"
+msgstr ""
+
+#: src/import/ImportMIDI.cpp
+msgid "MIDI files"
+msgstr ""
+
+#: src/import/ImportMIDI.cpp
+msgid "Allegro files"
+msgstr ""
+
+#: src/import/ImportMIDI.cpp
+msgid "&MIDI..."
+msgstr ""
+
 #: src/import/ImportMP3_MAD.cpp src/import/ImportMP3_MPG123.cpp
 msgid "MP3 files"
 msgstr ""
@@ -12568,10 +12671,6 @@ msgid "Detach"
 msgstr ""
 
 #: src/menus/EditMenus.cpp
-msgid "Metadata Tags"
-msgstr ""
-
-#: src/menus/EditMenus.cpp
 msgid "&Edit"
 msgstr ""
 
@@ -12642,10 +12741,6 @@ msgid "Detac&h at Silences"
 msgstr ""
 
 #: src/menus/EditMenus.cpp
-msgid "&Metadata"
-msgstr ""
-
-#: src/menus/EditMenus.cpp
 msgid "Pre&ferences"
 msgstr ""
 
@@ -12659,54 +12754,6 @@ msgstr ""
 
 #: src/menus/ExtraMenus.cpp
 msgid "Ext&ra"
-msgstr ""
-
-#: src/menus/ExtraMenus.cpp
-msgid "Mi&xer"
-msgstr ""
-
-#: src/menus/ExtraMenus.cpp
-msgid "Ad&just Playback Volume..."
-msgstr ""
-
-#: src/menus/ExtraMenus.cpp
-msgid "&Increase Playback Volume"
-msgstr ""
-
-#: src/menus/ExtraMenus.cpp
-msgid "&Decrease Playback Volume"
-msgstr ""
-
-#: src/menus/ExtraMenus.cpp
-msgid "Adj&ust Recording Volume..."
-msgstr ""
-
-#: src/menus/ExtraMenus.cpp
-msgid "I&ncrease Recording Volume"
-msgstr ""
-
-#: src/menus/ExtraMenus.cpp
-msgid "D&ecrease Recording Volume"
-msgstr ""
-
-#: src/menus/ExtraMenus.cpp
-msgid "De&vice"
-msgstr ""
-
-#: src/menus/ExtraMenus.cpp
-msgid "Change &Recording Device..."
-msgstr ""
-
-#: src/menus/ExtraMenus.cpp
-msgid "Change &Playback Device..."
-msgstr ""
-
-#: src/menus/ExtraMenus.cpp
-msgid "Change Audio &Host..."
-msgstr ""
-
-#: src/menus/ExtraMenus.cpp
-msgid "Change Recording Cha&nnels..."
 msgstr ""
 
 #: src/menus/ExtraMenus.cpp
@@ -12738,58 +12785,12 @@ msgid "There are no label tracks to export."
 msgstr ""
 
 #: src/menus/FileMenus.cpp
-msgid "Please select only one Note Track at a time."
-msgstr ""
-
-#: src/menus/FileMenus.cpp
-msgid "Please select a Note Track."
-msgstr ""
-
-#: src/menus/FileMenus.cpp
-msgid "Export MIDI As:"
-msgstr ""
-
-#: src/menus/FileMenus.cpp
-msgid "MIDI file"
-msgstr ""
-
-#: src/menus/FileMenus.cpp
-msgid "Allegro file"
-msgstr ""
-
-#: src/menus/FileMenus.cpp
-msgid ""
-"You have selected a filename with an unrecognized file extension.\n"
-"Do you want to continue?"
-msgstr ""
-
-#: src/menus/FileMenus.cpp
-msgid "Export MIDI"
-msgstr ""
-
-#: src/menus/FileMenus.cpp
 #, c-format
 msgid "Imported labels from '%s'"
 msgstr ""
 
 #: src/menus/FileMenus.cpp
 msgid "Import Labels"
-msgstr ""
-
-#: src/menus/FileMenus.cpp
-msgid "Select a MIDI file"
-msgstr ""
-
-#: src/menus/FileMenus.cpp
-msgid "MIDI and Allegro files"
-msgstr ""
-
-#: src/menus/FileMenus.cpp
-msgid "MIDI files"
-msgstr ""
-
-#: src/menus/FileMenus.cpp
-msgid "Allegro files"
 msgstr ""
 
 #: src/menus/FileMenus.cpp
@@ -12851,10 +12852,6 @@ msgid "Export &Multiple..."
 msgstr ""
 
 #: src/menus/FileMenus.cpp
-msgid "Export MI&DI..."
-msgstr ""
-
-#: src/menus/FileMenus.cpp
 msgid "&Audio..."
 msgstr ""
 
@@ -12863,20 +12860,7 @@ msgid "&Labels..."
 msgstr ""
 
 #: src/menus/FileMenus.cpp
-msgid "&MIDI..."
-msgstr ""
-
-#: src/menus/FileMenus.cpp
 msgid "&Raw Data..."
-msgstr ""
-
-#: src/menus/FileMenus.cpp
-msgid "Pa&ge Setup..."
-msgstr ""
-
-#. i18n-hint: (verb) It's item on a menu.
-#: src/menus/FileMenus.cpp
-msgid "&Print..."
 msgstr ""
 
 #. i18n-hint: (verb) It's item on a menu.
@@ -12966,10 +12950,6 @@ msgstr ""
 
 #: src/menus/HelpMenus.cpp
 msgid "&Generate Support Data..."
-msgstr ""
-
-#: src/menus/HelpMenus.cpp
-msgid "L&ink audio.com account..."
 msgstr ""
 
 #: src/menus/HelpMenus.cpp
@@ -13323,10 +13303,6 @@ msgid "Reset &Configuration"
 msgstr ""
 
 #: src/menus/PluginMenus.cpp
-msgid "&Screenshot..."
-msgstr ""
-
-#: src/menus/PluginMenus.cpp
 msgid "&Run Benchmark..."
 msgstr ""
 
@@ -13526,22 +13502,6 @@ msgstr ""
 
 #: src/menus/SelectMenus.cpp
 msgid "Retrieve Selectio&n"
-msgstr ""
-
-#: src/menus/SelectMenus.cpp
-msgid "S&pectral"
-msgstr ""
-
-#: src/menus/SelectMenus.cpp
-msgid "To&ggle Spectral Selection"
-msgstr ""
-
-#: src/menus/SelectMenus.cpp
-msgid "Next &Higher Peak Frequency"
-msgstr ""
-
-#: src/menus/SelectMenus.cpp
-msgid "Next &Lower Peak Frequency"
 msgstr ""
 
 #: src/menus/SelectMenus.cpp
@@ -14161,20 +14121,6 @@ msgid "Set Loop &Out"
 msgstr ""
 
 #: src/menus/TransportMenus.cpp
-msgid ""
-"Timer Recording cannot be used with more than one open project.\n"
-"\n"
-"Please close any additional projects and try again."
-msgstr ""
-
-#: src/menus/TransportMenus.cpp
-msgid ""
-"Timer Recording cannot be used while you have unsaved changes.\n"
-"\n"
-"Please save or close this project and try again."
-msgstr ""
-
-#: src/menus/TransportMenus.cpp
 msgid "Please select in a mono track."
 msgstr ""
 
@@ -14236,10 +14182,6 @@ msgid "Record &New Track"
 msgstr ""
 
 #: src/menus/TransportMenus.cpp
-msgid "&Timer Record..."
-msgstr ""
-
-#: src/menus/TransportMenus.cpp
 msgid "Punch and Rol&l Record"
 msgstr ""
 
@@ -14269,10 +14211,6 @@ msgstr ""
 
 #: src/menus/TransportMenus.cpp
 msgid "Sound A&ctivated Recording (on/off)"
-msgstr ""
-
-#: src/menus/TransportMenus.cpp
-msgid "Pinned Play/Record &Head (on/off)"
 msgstr ""
 
 #: src/menus/TransportMenus.cpp
@@ -14335,31 +14273,6 @@ msgstr ""
 
 #: src/menus/TransportMenus.cpp
 msgid "Play C&ut Preview"
-msgstr ""
-
-#. i18n-hint: 'Normal Play-at-Speed' doesn't loop or cut preview.
-#: src/menus/TransportMenus.cpp
-msgid "&Play-at-Speed"
-msgstr ""
-
-#: src/menus/TransportMenus.cpp
-msgid "Play-at-Speed &Once"
-msgstr ""
-
-#: src/menus/TransportMenus.cpp
-msgid "Play C&ut Preview-at-Speed"
-msgstr ""
-
-#: src/menus/TransportMenus.cpp
-msgid "Ad&just Playback Speed..."
-msgstr ""
-
-#: src/menus/TransportMenus.cpp
-msgid "&Increase Playback Speed"
-msgstr ""
-
-#: src/menus/TransportMenus.cpp
-msgid "&Decrease Playback Speed"
 msgstr ""
 
 #: src/menus/TransportMenus.cpp
@@ -16482,6 +16395,26 @@ msgstr ""
 msgid "&Device Toolbar"
 msgstr ""
 
+#: src/toolbars/DeviceToolBar.cpp
+msgid "De&vice"
+msgstr ""
+
+#: src/toolbars/DeviceToolBar.cpp
+msgid "Change &Recording Device..."
+msgstr ""
+
+#: src/toolbars/DeviceToolBar.cpp
+msgid "Change &Playback Device..."
+msgstr ""
+
+#: src/toolbars/DeviceToolBar.cpp
+msgid "Change Audio &Host..."
+msgstr ""
+
+#: src/toolbars/DeviceToolBar.cpp
+msgid "Change Recording Cha&nnels..."
+msgstr ""
+
 #: src/toolbars/EditToolBar.cpp
 #: src/tracks/playabletrack/notetrack/ui/NoteTrackVZoomHandle.cpp
 #: src/tracks/playabletrack/wavetrack/ui/SpectrumVZoomHandle.cpp
@@ -16593,6 +16526,34 @@ msgstr ""
 
 #: src/toolbars/MeterToolBar.cpp
 msgid "&Playback Meter Toolbar"
+msgstr ""
+
+#: src/toolbars/MeterToolBar.cpp
+msgid "Mi&xer"
+msgstr ""
+
+#: src/toolbars/MeterToolBar.cpp
+msgid "Ad&just Playback Volume..."
+msgstr ""
+
+#: src/toolbars/MeterToolBar.cpp
+msgid "&Increase Playback Volume"
+msgstr ""
+
+#: src/toolbars/MeterToolBar.cpp
+msgid "&Decrease Playback Volume"
+msgstr ""
+
+#: src/toolbars/MeterToolBar.cpp
+msgid "Adj&ust Recording Volume..."
+msgstr ""
+
+#: src/toolbars/MeterToolBar.cpp
+msgid "I&ncrease Recording Volume"
+msgstr ""
+
+#: src/toolbars/MeterToolBar.cpp
+msgid "D&ecrease Recording Volume"
 msgstr ""
 
 #: src/toolbars/ScrubbingToolBar.cpp
@@ -16846,6 +16807,31 @@ msgstr ""
 msgid "Pla&y-at-Speed Toolbar"
 msgstr ""
 
+#. i18n-hint: 'Normal Play-at-Speed' doesn't loop or cut preview.
+#: src/toolbars/TranscriptionToolBar.cpp
+msgid "&Play-at-Speed"
+msgstr ""
+
+#: src/toolbars/TranscriptionToolBar.cpp
+msgid "Play-at-Speed &Once"
+msgstr ""
+
+#: src/toolbars/TranscriptionToolBar.cpp
+msgid "Play C&ut Preview-at-Speed"
+msgstr ""
+
+#: src/toolbars/TranscriptionToolBar.cpp
+msgid "Ad&just Playback Speed..."
+msgstr ""
+
+#: src/toolbars/TranscriptionToolBar.cpp
+msgid "&Increase Playback Speed"
+msgstr ""
+
+#: src/toolbars/TranscriptionToolBar.cpp
+msgid "&Decrease Playback Speed"
+msgstr ""
+
 #: src/tracks/labeltrack/ui/LabelGlyphHandle.cpp
 msgid "Drag label. Hold shift and drag to move all labels on the same track."
 msgstr ""
@@ -17054,6 +17040,22 @@ msgstr ""
 
 #: src/tracks/playabletrack/wavetrack/ui/SpectrumView.cpp
 msgid "S&pectrogram Settings..."
+msgstr ""
+
+#: src/tracks/playabletrack/wavetrack/ui/SpectrumView.cpp
+msgid "S&pectral"
+msgstr ""
+
+#: src/tracks/playabletrack/wavetrack/ui/SpectrumView.cpp
+msgid "To&ggle Spectral Selection"
+msgstr ""
+
+#: src/tracks/playabletrack/wavetrack/ui/SpectrumView.cpp
+msgid "Next &Higher Peak Frequency"
+msgstr ""
+
+#: src/tracks/playabletrack/wavetrack/ui/SpectrumView.cpp
+msgid "Next &Lower Peak Frequency"
 msgstr ""
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveClipTrimHandle.cpp
