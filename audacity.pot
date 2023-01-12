@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-01-10 08:19+0000\n"
+"POT-Creation-Date: 2023-01-12 08:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2337,6 +2337,45 @@ msgstr ""
 #: src/BatchProcessDialog.cpp
 #, c-format
 msgid "Are you sure you want to delete %s?"
+msgstr ""
+
+#: src/BatchProcessDialog.cpp
+#, c-format
+msgid "&Repeat %s"
+msgstr ""
+
+#. i18n-hint: %s will be the name of the effect which will be
+#. * repeated if this menu item is chosen
+#: src/BatchProcessDialog.cpp src/commands/CommandManager.cpp
+#: src/effects/EffectUI.cpp src/menus/PluginMenus.cpp
+#, c-format
+msgid "Repeat %s"
+msgstr ""
+
+#: src/BatchProcessDialog.cpp
+msgid "Repeat Last Tool"
+msgstr ""
+
+#: src/BatchProcessDialog.cpp
+msgid "&Macro Manager"
+msgstr ""
+
+#: src/BatchProcessDialog.cpp
+msgid "&Apply Macro"
+msgstr ""
+
+#: src/BatchProcessDialog.cpp
+msgid "Palette..."
+msgstr ""
+
+#. i18n-hint: Scriptables are commands normally used from Python, Perl etc.
+#: src/BatchProcessDialog.cpp
+msgid "Script&ables I"
+msgstr ""
+
+#. i18n-hint: Scriptables are commands normally used from Python, Perl etc.
+#: src/BatchProcessDialog.cpp
+msgid "Scripta&bles II"
 msgstr ""
 
 #. i18n-hint: Benchmark means a software speed test
@@ -5363,7 +5402,7 @@ msgstr ""
 msgid "Save Project As:"
 msgstr ""
 
-#: src/TimerRecordDialog.cpp src/menus/PluginMenus.cpp
+#: src/TimerRecordDialog.cpp src/commands/SelectCommand.cpp
 msgid "Select..."
 msgstr ""
 
@@ -5861,14 +5900,6 @@ msgstr ""
 msgid "Command"
 msgstr ""
 
-#. i18n-hint: %s will be the name of the effect which will be
-#. * repeated if this menu item is chosen
-#: src/commands/CommandManager.cpp src/effects/EffectUI.cpp
-#: src/menus/PluginMenus.cpp
-#, c-format
-msgid "Repeat %s"
-msgstr ""
-
 #: src/commands/CommandManager.cpp
 #, c-format
 msgid ""
@@ -5890,6 +5921,10 @@ msgstr ""
 
 #: src/commands/CompareAudioCommand.cpp
 msgid "Threshold:"
+msgstr ""
+
+#: src/commands/CompareAudioCommand.cpp
+msgid "Compare Audio..."
 msgstr ""
 
 #: src/commands/CompareAudioCommand.h
@@ -5962,6 +5997,10 @@ msgstr ""
 msgid "Relative To:"
 msgstr ""
 
+#: src/commands/DragCommand.cpp
+msgid "Move Mouse..."
+msgstr ""
+
 #: src/commands/DragCommand.h
 msgid "Drags mouse from one place to another."
 msgstr ""
@@ -6017,6 +6056,10 @@ msgstr ""
 msgid "Format:"
 msgstr ""
 
+#: src/commands/GetInfoCommand.cpp
+msgid "Get Info..."
+msgstr ""
+
 #: src/commands/GetInfoCommand.h
 msgid "Gets information in JSON format."
 msgstr ""
@@ -6045,6 +6088,10 @@ msgstr ""
 msgid "_"
 msgstr ""
 
+#: src/commands/HelpCommand.cpp
+msgid "Help..."
+msgstr ""
+
 #: src/commands/HelpCommand.h
 msgid "Gives help on a command."
 msgstr ""
@@ -6067,6 +6114,14 @@ msgstr ""
 
 #: src/commands/ImportExportCommands.cpp
 msgid "Number of Channels:"
+msgstr ""
+
+#: src/commands/ImportExportCommands.cpp src/effects/EffectUI.cpp
+msgid "Import..."
+msgstr ""
+
+#: src/commands/ImportExportCommands.cpp src/effects/EffectUI.cpp
+msgid "Export..."
 msgstr ""
 
 #: src/commands/ImportExportCommands.h
@@ -6101,6 +6156,10 @@ msgstr ""
 msgid "Text:"
 msgstr ""
 
+#: src/commands/MessageCommand.cpp
+msgid "Message..."
+msgstr ""
+
 #: src/commands/MessageCommand.h
 msgid "Echos a message."
 msgstr ""
@@ -6127,6 +6186,14 @@ msgstr ""
 
 #: src/commands/OpenSaveCommands.cpp
 msgid "Clear Log"
+msgstr ""
+
+#: src/commands/OpenSaveCommands.cpp
+msgid "Open Project..."
+msgstr ""
+
+#: src/commands/OpenSaveCommands.cpp
+msgid "Save Project..."
 msgstr ""
 
 #: src/commands/OpenSaveCommands.h
@@ -6171,6 +6238,14 @@ msgstr ""
 
 #: src/commands/PreferenceCommands.cpp
 msgid "Reload"
+msgstr ""
+
+#: src/commands/PreferenceCommands.cpp
+msgid "Get Preference..."
+msgstr ""
+
+#: src/commands/PreferenceCommands.cpp
+msgid "Set Preference..."
 msgstr ""
 
 #: src/commands/PreferenceCommands.h
@@ -6279,6 +6354,11 @@ msgstr ""
 msgid "Error trying to save file: %s"
 msgstr ""
 
+#. i18n-hint: Screenshot in the help menu has a much bigger dialog.
+#: src/commands/ScreenshotCommand.cpp
+msgid "Screenshot (short format)..."
+msgstr ""
+
 #: src/commands/ScreenshotCommand.h
 msgid "Takes screenshots."
 msgstr ""
@@ -6361,6 +6441,18 @@ msgstr ""
 msgid "Mode:"
 msgstr ""
 
+#: src/commands/SelectCommand.cpp
+msgid "Select Time..."
+msgstr ""
+
+#: src/commands/SelectCommand.cpp
+msgid "Select Frequencies..."
+msgstr ""
+
+#: src/commands/SelectCommand.cpp
+msgid "Select Tracks..."
+msgstr ""
+
 #: src/commands/SelectCommand.h
 msgid "Selects a time range."
 msgstr ""
@@ -6409,6 +6501,10 @@ msgstr ""
 msgid "Start:"
 msgstr ""
 
+#: src/commands/SetClipCommand.cpp
+msgid "Set Clip..."
+msgstr ""
+
 #: src/commands/SetClipCommand.h
 msgid "Sets various values for a clip."
 msgstr ""
@@ -6436,6 +6532,10 @@ msgstr ""
 msgid "Envelope"
 msgstr ""
 
+#: src/commands/SetEnvelopeCommand.cpp
+msgid "Set Envelope..."
+msgstr ""
+
 #: src/commands/SetEnvelopeCommand.h
 msgid "Sets an envelope point position."
 msgstr ""
@@ -6458,6 +6558,10 @@ msgstr ""
 
 #: src/commands/SetLabelCommand.cpp
 msgid "Edited Label"
+msgstr ""
+
+#: src/commands/SetLabelCommand.cpp
+msgid "Set Label..."
 msgstr ""
 
 #: src/commands/SetLabelCommand.h
@@ -6490,6 +6594,10 @@ msgstr ""
 
 #: src/commands/SetProjectCommand.cpp src/commands/SetTrackInfoCommand.cpp
 msgid "Height:"
+msgstr ""
+
+#: src/commands/SetProjectCommand.cpp
+msgid "Set Project..."
 msgstr ""
 
 #: src/commands/SetProjectCommand.h
@@ -6587,6 +6695,22 @@ msgstr ""
 
 #: src/commands/SetTrackInfoCommand.cpp
 msgid "Set Track"
+msgstr ""
+
+#: src/commands/SetTrackInfoCommand.cpp
+msgid "Set Track Status..."
+msgstr ""
+
+#: src/commands/SetTrackInfoCommand.cpp
+msgid "Set Track Audio..."
+msgstr ""
+
+#: src/commands/SetTrackInfoCommand.cpp
+msgid "Set Track Visuals..."
+msgstr ""
+
+#: src/commands/SetTrackInfoCommand.cpp
+msgid "Set Track..."
 msgstr ""
 
 #: src/commands/SetTrackInfoCommand.h
@@ -7884,14 +8008,6 @@ msgstr ""
 
 #: src/effects/EffectUI.cpp
 msgid "Defaults"
-msgstr ""
-
-#: src/effects/EffectUI.cpp src/menus/PluginMenus.cpp
-msgid "Import..."
-msgstr ""
-
-#: src/effects/EffectUI.cpp src/menus/PluginMenus.cpp
-msgid "Export..."
 msgstr ""
 
 #: src/effects/EffectUI.cpp src/widgets/MeterPanel.cpp
@@ -13242,11 +13358,6 @@ msgstr ""
 
 #: src/menus/PluginMenus.cpp
 #, c-format
-msgid "&Repeat %s"
-msgstr ""
-
-#: src/menus/PluginMenus.cpp
-#, c-format
 msgid "Plugin %d to %d"
 msgstr ""
 
@@ -13283,22 +13394,6 @@ msgid "T&ools"
 msgstr ""
 
 #: src/menus/PluginMenus.cpp
-msgid "Repeat Last Tool"
-msgstr ""
-
-#: src/menus/PluginMenus.cpp
-msgid "&Macro Manager"
-msgstr ""
-
-#: src/menus/PluginMenus.cpp
-msgid "&Apply Macro"
-msgstr ""
-
-#: src/menus/PluginMenus.cpp
-msgid "Palette..."
-msgstr ""
-
-#: src/menus/PluginMenus.cpp
 msgid "Reset &Configuration"
 msgstr ""
 
@@ -13318,101 +13413,6 @@ msgstr ""
 #. the user's interactions with the application
 #: src/menus/PluginMenus.cpp
 msgid "Write Journal"
-msgstr ""
-
-#. i18n-hint: Scriptables are commands normally used from Python, Perl etc.
-#: src/menus/PluginMenus.cpp
-msgid "Script&ables I"
-msgstr ""
-
-#: src/menus/PluginMenus.cpp
-msgid "Select Time..."
-msgstr ""
-
-#: src/menus/PluginMenus.cpp
-msgid "Select Frequencies..."
-msgstr ""
-
-#: src/menus/PluginMenus.cpp
-msgid "Select Tracks..."
-msgstr ""
-
-#: src/menus/PluginMenus.cpp
-msgid "Set Track Status..."
-msgstr ""
-
-#: src/menus/PluginMenus.cpp
-msgid "Set Track Audio..."
-msgstr ""
-
-#: src/menus/PluginMenus.cpp
-msgid "Set Track Visuals..."
-msgstr ""
-
-#: src/menus/PluginMenus.cpp
-msgid "Get Preference..."
-msgstr ""
-
-#: src/menus/PluginMenus.cpp
-msgid "Set Preference..."
-msgstr ""
-
-#: src/menus/PluginMenus.cpp
-msgid "Set Clip..."
-msgstr ""
-
-#: src/menus/PluginMenus.cpp
-msgid "Set Envelope..."
-msgstr ""
-
-#: src/menus/PluginMenus.cpp
-msgid "Set Label..."
-msgstr ""
-
-#: src/menus/PluginMenus.cpp
-msgid "Set Project..."
-msgstr ""
-
-#. i18n-hint: Scriptables are commands normally used from Python, Perl etc.
-#: src/menus/PluginMenus.cpp
-msgid "Scripta&bles II"
-msgstr ""
-
-#: src/menus/PluginMenus.cpp
-msgid "Set Track..."
-msgstr ""
-
-#: src/menus/PluginMenus.cpp
-msgid "Get Info..."
-msgstr ""
-
-#: src/menus/PluginMenus.cpp
-msgid "Message..."
-msgstr ""
-
-#: src/menus/PluginMenus.cpp
-msgid "Help..."
-msgstr ""
-
-#: src/menus/PluginMenus.cpp
-msgid "Open Project..."
-msgstr ""
-
-#: src/menus/PluginMenus.cpp
-msgid "Save Project..."
-msgstr ""
-
-#: src/menus/PluginMenus.cpp
-msgid "Move Mouse..."
-msgstr ""
-
-#: src/menus/PluginMenus.cpp
-msgid "Compare Audio..."
-msgstr ""
-
-#. i18n-hint: Screenshot in the help menu has a much bigger dialog.
-#: src/menus/PluginMenus.cpp
-msgid "Screenshot (short format)..."
 msgstr ""
 
 #: src/menus/SelectMenus.cpp
