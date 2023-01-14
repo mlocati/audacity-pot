@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-01-12 08:21+0000\n"
+"POT-Creation-Date: 2023-01-14 08:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -214,6 +214,86 @@ msgstr ""
 msgid "Recording volume is native\n"
 msgstr ""
 
+#: libraries/lib-audio-io/AudioIO.cpp
+msgid "Could not find any audio devices.\n"
+msgstr ""
+
+#: libraries/lib-audio-io/AudioIO.cpp
+msgid ""
+"You will not be able to play or record audio.\n"
+"\n"
+msgstr ""
+
+#: libraries/lib-audio-io/AudioIO.cpp src/MIDIPlay.cpp
+#, c-format
+msgid "Error: %s"
+msgstr ""
+
+#: libraries/lib-audio-io/AudioIO.cpp
+msgid "Error Initializing Audio"
+msgstr ""
+
+#: libraries/lib-audio-io/AudioIO.cpp
+msgid "Audacity Audio"
+msgstr ""
+
+#: libraries/lib-audio-io/AudioIO.cpp src/ProjectAudioManager.cpp
+#, c-format
+msgid ""
+"Error opening recording device.\n"
+"Error code: %s"
+msgstr ""
+
+#: libraries/lib-audio-io/AudioIO.cpp libraries/lib-files/FileNames.cpp
+#: src/ProjectAudioManager.cpp src/TimerRecordDialog.cpp
+#: src/effects/Contrast.cpp src/effects/EffectBase.cpp
+#: src/effects/Generator.cpp src/effects/VST3/VST3Effect.cpp
+#: src/effects/nyquist/Nyquist.cpp src/export/ExportFFmpeg.cpp
+#: src/export/ExportMP2.cpp src/menus/TrackMenus.cpp
+#: src/menus/TransportMenus.cpp src/prefs/DirectoriesPrefs.cpp
+#: src/prefs/KeyConfigPrefs.cpp
+#: src/tracks/playabletrack/wavetrack/ui/WaveTrackControls.cpp
+#: src/widgets/FileDialog/gtk/FileDialogPrivate.cpp
+#: src/widgets/UnwritableLocationErrorDialog.cpp
+#: plug-ins/eq-xml-to-txt-converter.ny
+msgid "Error"
+msgstr ""
+
+#: libraries/lib-audio-io/AudioIO.cpp
+msgid "Out of memory!"
+msgstr ""
+
+#: libraries/lib-audio-io/AudioIO.cpp
+msgid "Automated Recording Level Adjustment stopped. It was not possible to optimize it more. Still too high."
+msgstr ""
+
+#: libraries/lib-audio-io/AudioIO.cpp
+#, c-format
+msgid "Automated Recording Level Adjustment decreased the volume to %f."
+msgstr ""
+
+#: libraries/lib-audio-io/AudioIO.cpp
+msgid "Automated Recording Level Adjustment stopped. It was not possible to optimize it more. Still too low."
+msgstr ""
+
+#: libraries/lib-audio-io/AudioIO.cpp
+#, c-format
+msgid "Automated Recording Level Adjustment increased the volume to %.2f."
+msgstr ""
+
+#: libraries/lib-audio-io/AudioIO.cpp
+msgid "Automated Recording Level Adjustment stopped. The total number of analyses has been exceeded without finding an acceptable volume. Still too high."
+msgstr ""
+
+#: libraries/lib-audio-io/AudioIO.cpp
+msgid "Automated Recording Level Adjustment stopped. The total number of analyses has been exceeded without finding an acceptable volume. Still too low."
+msgstr ""
+
+#: libraries/lib-audio-io/AudioIO.cpp
+#, c-format
+msgid "Automated Recording Level Adjustment stopped. %.2f seems an acceptable volume."
+msgstr ""
+
 #: libraries/lib-basic-ui/BasicUI.cpp
 #: libraries/lib-exceptions/AudacityException.h src/commands/MessageCommand.cpp
 #: src/widgets/AudacityMessageBox.h
@@ -319,21 +399,6 @@ msgstr ""
 msgid ""
 "\n"
 "%s does not have write permissions."
-msgstr ""
-
-#: libraries/lib-files/FileNames.cpp src/AudioIO.cpp
-#: src/ProjectAudioManager.cpp src/TimerRecordDialog.cpp
-#: src/effects/Contrast.cpp src/effects/EffectBase.cpp
-#: src/effects/Generator.cpp src/effects/VST3/VST3Effect.cpp
-#: src/effects/nyquist/Nyquist.cpp src/export/ExportFFmpeg.cpp
-#: src/export/ExportMP2.cpp src/menus/TrackMenus.cpp
-#: src/menus/TransportMenus.cpp src/prefs/DirectoriesPrefs.cpp
-#: src/prefs/KeyConfigPrefs.cpp
-#: src/tracks/playabletrack/wavetrack/ui/WaveTrackControls.cpp
-#: src/widgets/FileDialog/gtk/FileDialogPrivate.cpp
-#: src/widgets/UnwritableLocationErrorDialog.cpp
-#: plug-ins/eq-xml-to-txt-converter.ny
-msgid "Error"
 msgstr ""
 
 #: libraries/lib-files/TempDirectory.cpp
@@ -1931,71 +1996,6 @@ msgstr ""
 
 #: src/AudacityFileConfig.cpp
 msgid "&Retry"
-msgstr ""
-
-#: src/AudioIO.cpp
-msgid "Could not find any audio devices.\n"
-msgstr ""
-
-#: src/AudioIO.cpp
-msgid ""
-"You will not be able to play or record audio.\n"
-"\n"
-msgstr ""
-
-#: src/AudioIO.cpp src/MIDIPlay.cpp
-#, c-format
-msgid "Error: %s"
-msgstr ""
-
-#: src/AudioIO.cpp
-msgid "Error Initializing Audio"
-msgstr ""
-
-#: src/AudioIO.cpp
-msgid "Audacity Audio"
-msgstr ""
-
-#: src/AudioIO.cpp src/ProjectAudioManager.cpp
-#, c-format
-msgid ""
-"Error opening recording device.\n"
-"Error code: %s"
-msgstr ""
-
-#: src/AudioIO.cpp
-msgid "Out of memory!"
-msgstr ""
-
-#: src/AudioIO.cpp
-msgid "Automated Recording Level Adjustment stopped. It was not possible to optimize it more. Still too high."
-msgstr ""
-
-#: src/AudioIO.cpp
-#, c-format
-msgid "Automated Recording Level Adjustment decreased the volume to %f."
-msgstr ""
-
-#: src/AudioIO.cpp
-msgid "Automated Recording Level Adjustment stopped. It was not possible to optimize it more. Still too low."
-msgstr ""
-
-#: src/AudioIO.cpp
-#, c-format
-msgid "Automated Recording Level Adjustment increased the volume to %.2f."
-msgstr ""
-
-#: src/AudioIO.cpp
-msgid "Automated Recording Level Adjustment stopped. The total number of analyses has been exceeded without finding an acceptable volume. Still too high."
-msgstr ""
-
-#: src/AudioIO.cpp
-msgid "Automated Recording Level Adjustment stopped. The total number of analyses has been exceeded without finding an acceptable volume. Still too low."
-msgstr ""
-
-#: src/AudioIO.cpp
-#, c-format
-msgid "Automated Recording Level Adjustment stopped. %.2f seems an acceptable volume."
 msgstr ""
 
 #: src/AutoRecoveryDialog.cpp
