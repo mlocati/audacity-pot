@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-01-14 08:17+0000\n"
+"POT-Creation-Date: 2023-01-25 08:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15522,10 +15522,6 @@ msgid "Lo&ng period:"
 msgstr ""
 
 #: src/prefs/PlaybackPrefs.cpp
-msgid "&Vari-Speed Play"
-msgstr ""
-
-#: src/prefs/PlaybackPrefs.cpp
 msgid "&Micro-fades"
 msgstr ""
 
@@ -17096,6 +17092,7 @@ msgid "Clip Name Edit"
 msgstr ""
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackAffordanceControls.cpp
+#: src/tracks/playabletrack/wavetrack/ui/WaveTrackView.cpp
 msgid "Rename Clip..."
 msgstr ""
 
@@ -17351,10 +17348,6 @@ msgstr ""
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackView.cpp
 msgid "Mute/Unmute Track"
-msgstr ""
-
-#: src/tracks/playabletrack/wavetrack/ui/WaveTrackView.cpp
-msgid "Rename clip..."
 msgstr ""
 
 #. i18n-hint:
