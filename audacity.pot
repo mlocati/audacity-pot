@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-02-08 08:19+0000\n"
+"POT-Creation-Date: 2023-02-14 08:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -878,13 +878,67 @@ msgid "Database error.  Sorry, but we don't have more details."
 msgstr ""
 
 #: libraries/lib-transactions/TransactionScope.cpp
+#: libraries/lib-wave-track/WaveClip.cpp libraries/lib-wave-track/WaveTrack.cpp
 #: modules/mod-nyq-bench/NyqBench.cpp src/DBConnection.cpp src/LogWindow.cpp
-#: src/ProjectFileIO.cpp src/SqliteSampleBlock.cpp src/WaveClip.cpp
-#: src/WaveTrack.cpp src/export/Export.cpp src/export/ExportCL.cpp
-#: src/export/ExportMultiple.cpp src/import/RawAudioGuess.cpp
-#: src/menus/EditMenus.cpp src/prefs/DirectoriesPrefs.cpp
-#: src/prefs/KeyConfigPrefs.cpp src/widgets/Warning.cpp
+#: src/ProjectFileIO.cpp src/SqliteSampleBlock.cpp src/export/Export.cpp
+#: src/export/ExportCL.cpp src/export/ExportMultiple.cpp
+#: src/import/RawAudioGuess.cpp src/menus/EditMenus.cpp
+#: src/prefs/DirectoriesPrefs.cpp src/prefs/KeyConfigPrefs.cpp
+#: src/widgets/Warning.cpp
 msgid "Warning"
+msgstr ""
+
+#: libraries/lib-wave-track/MixAndRender.cpp src/menus/TrackMenus.cpp
+msgid "Mix and Render"
+msgstr ""
+
+#: libraries/lib-wave-track/MixAndRender.cpp
+msgid "Mixing and rendering tracks"
+msgstr ""
+
+#: libraries/lib-wave-track/Sequence.cpp
+#, c-format
+msgid ""
+"Sequence has block file exceeding maximum %s samples per block.\n"
+"Truncating to this maximum length."
+msgstr ""
+
+#: libraries/lib-wave-track/Sequence.cpp
+msgid "Warning - Truncating Overlong Block File"
+msgstr ""
+
+#: libraries/lib-wave-track/WaveClip.cpp
+msgid "Resampling failed."
+msgstr ""
+
+#: libraries/lib-wave-track/WaveTrack.cpp src/export/ExportFFmpegDialogs.cpp
+msgid "Audio"
+msgstr ""
+
+#: libraries/lib-wave-track/WaveTrack.cpp
+msgid "Wave Track"
+msgstr ""
+
+#. i18n-hint Template for clip name generation on copy-paste
+#: libraries/lib-wave-track/WaveTrack.cpp
+#, c-format
+msgctxt "clip name template"
+msgid "%s.%i"
+msgstr ""
+
+#. i18n-hint Template for clip name generation on inserting new empty clip
+#: libraries/lib-wave-track/WaveTrack.cpp
+#, c-format
+msgctxt "clip name template"
+msgid "%s %i"
+msgstr ""
+
+#: libraries/lib-wave-track/WaveTrack.cpp
+msgid "There is not enough room available to paste the selection"
+msgstr ""
+
+#: libraries/lib-wave-track/WaveTrack.cpp
+msgid "There is not enough room available to expand the cut line"
 msgstr ""
 
 #: libraries/lib-xml/XMLFileReader.cpp src/effects/Effect.cpp
@@ -3538,14 +3592,6 @@ msgstr ""
 msgid "Disallowed"
 msgstr ""
 
-#: src/MixAndRender.cpp src/menus/TrackMenus.cpp
-msgid "Mix and Render"
-msgstr ""
-
-#: src/MixAndRender.cpp
-msgid "Mixing and rendering tracks"
-msgstr ""
-
 #: src/MixerBoard.cpp
 #, c-format
 msgid "Audacity Mixer%s"
@@ -4959,17 +5005,6 @@ msgstr ""
 msgid "Position"
 msgstr ""
 
-#: src/Sequence.cpp
-#, c-format
-msgid ""
-"Sequence has block file exceeding maximum %s samples per block.\n"
-"Truncating to this maximum length."
-msgstr ""
-
-#: src/Sequence.cpp
-msgid "Warning - Truncating Overlong Block File"
-msgstr ""
-
 #. i18n-hint: The access key "&P" should be the same in
 #. "Stop &Preview" and "Start &Preview"
 #: src/ShuttleGui.cpp src/effects/EffectUI.cpp
@@ -5671,40 +5706,6 @@ msgstr ""
 
 #: src/VoiceKey.cpp
 msgid "Calibration Complete"
-msgstr ""
-
-#: src/WaveClip.cpp
-msgid "Resampling failed."
-msgstr ""
-
-#: src/WaveTrack.cpp src/export/ExportFFmpegDialogs.cpp
-msgid "Audio"
-msgstr ""
-
-#: src/WaveTrack.cpp
-msgid "Wave Track"
-msgstr ""
-
-#. i18n-hint Template for clip name generation on copy-paste
-#: src/WaveTrack.cpp
-#, c-format
-msgctxt "clip name template"
-msgid "%s.%i"
-msgstr ""
-
-#. i18n-hint Template for clip name generation on inserting new empty clip
-#: src/WaveTrack.cpp
-#, c-format
-msgctxt "clip name template"
-msgid "%s %i"
-msgstr ""
-
-#: src/WaveTrack.cpp
-msgid "There is not enough room available to paste the selection"
-msgstr ""
-
-#: src/WaveTrack.cpp
-msgid "There is not enough room available to expand the cut line"
 msgstr ""
 
 #. i18n-hint: Share audio button text, keep as short as possible
