@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-02-14 08:20+0000\n"
+"POT-Creation-Date: 2023-02-21 08:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -247,7 +247,7 @@ msgstr ""
 #: libraries/lib-audio-io/AudioIO.cpp libraries/lib-files/FileNames.cpp
 #: src/ProjectAudioManager.cpp src/TimerRecordDialog.cpp
 #: src/effects/Contrast.cpp src/effects/EffectBase.cpp
-#: src/effects/Generator.cpp src/effects/VST3/VST3Effect.cpp
+#: src/effects/Generator.cpp src/effects/VST3/VST3Wrapper.cpp
 #: src/effects/nyquist/Nyquist.cpp src/export/ExportFFmpeg.cpp
 #: src/export/ExportMP2.cpp src/menus/TrackMenus.cpp
 #: src/menus/TransportMenus.cpp src/prefs/DirectoriesPrefs.cpp
@@ -2050,6 +2050,44 @@ msgstr ""
 
 #: src/AudacityFileConfig.cpp
 msgid "&Retry"
+msgstr ""
+
+#: src/AudioPasteDialog.cpp src/prefs/TracksBehaviorsPrefs.cpp
+msgid ""
+"Smart clip.\n"
+"The entire source clip will be pasted into your project, allowing you to access\n"
+"trimmed audio data anytime."
+msgstr ""
+
+#: src/AudioPasteDialog.cpp src/prefs/TracksBehaviorsPrefs.cpp
+msgid ""
+"Selected audio only.\n"
+"Only the selected portion of the source clip will be pasted."
+msgstr ""
+
+#: src/AudioPasteDialog.cpp
+msgid "Paste audio"
+msgstr ""
+
+#: src/AudioPasteDialog.cpp
+msgid "How would you like to paste your audio?"
+msgstr ""
+
+#: src/AudioPasteDialog.cpp
+#, c-format
+msgid "Audio data is %s. Larger sizes will take longer to paste."
+msgstr ""
+
+#: src/AudioPasteDialog.cpp
+msgid "Remember my choice and don't ask again"
+msgstr ""
+
+#: src/AudioPasteDialog.cpp src/widgets/ProgressDialog.cpp
+msgid "Cancel"
+msgstr ""
+
+#: src/AudioPasteDialog.cpp
+msgid "Continue"
 msgstr ""
 
 #: src/AutoRecoveryDialog.cpp
@@ -9665,27 +9703,8 @@ msgstr ""
 msgid "VST3 preset file"
 msgstr ""
 
-#. i18n-hint: VST3 preset export error
-#: src/effects/VST3/VST3Effect.cpp
-msgid "Cannot open file"
-msgstr ""
-
-#: src/effects/VST3/VST3Effect.cpp
-msgid "Failed to save VST3 preset to file"
-msgstr ""
-
 #: src/effects/VST3/VST3Effect.cpp
 msgid "Load VST3 preset:"
-msgstr ""
-
-#: src/effects/VST3/VST3Effect.cpp
-#, c-format
-msgid "Cannot open VST3 preset file %s"
-msgstr ""
-
-#: src/effects/VST3/VST3Effect.cpp
-#, c-format
-msgid "Unable to apply VST3 preset file %s"
 msgstr ""
 
 #: src/effects/VST3/VST3EffectsModule.cpp
@@ -9707,6 +9726,15 @@ msgstr ""
 
 #: src/effects/VST3/VST3OptionsDialog.cpp
 msgid "Most VST3 effects have a graphical interface for setting parameter values. A basic text-only method is also available.  Reopen the effect for this to take effect."
+msgstr ""
+
+#: src/effects/VST3/VST3Wrapper.cpp
+#, c-format
+msgid "Unable to apply VST3 preset file %s"
+msgstr ""
+
+#: src/effects/VST3/VST3Wrapper.cpp
+msgid "Failed to save VST3 preset to file"
 msgstr ""
 
 #: src/effects/Wahwah.cpp resources/EffectsMenuDefaults.xml
@@ -12701,6 +12729,14 @@ msgstr ""
 #: src/menus/EditMenus.cpp
 #, c-format
 msgid "Deleted %.2f seconds at t=%.2f"
+msgstr ""
+
+#: src/menus/EditMenus.cpp
+msgid "Paste clip"
+msgstr ""
+
+#: src/menus/EditMenus.cpp
+msgid "Pasting clip contents, please wait"
 msgstr ""
 
 #: src/menus/EditMenus.cpp
@@ -16013,6 +16049,12 @@ msgid "Multi-track"
 msgstr ""
 
 #: src/prefs/TracksBehaviorsPrefs.cpp
+msgid ""
+"Ask me each time.\n"
+"Show dialog each time audio is pasted."
+msgstr ""
+
+#: src/prefs/TracksBehaviorsPrefs.cpp
 msgid "&Select all audio, if selection required"
 msgstr ""
 
@@ -16051,6 +16093,14 @@ msgstr ""
 
 #: src/prefs/TracksBehaviorsPrefs.cpp
 msgid "Solo &Button:"
+msgstr ""
+
+#: src/prefs/TracksBehaviorsPrefs.cpp
+msgid "Pasted audio"
+msgstr ""
+
+#: src/prefs/TracksBehaviorsPrefs.cpp
+msgid "Paste audio from other Audacity project as"
 msgstr ""
 
 #: src/prefs/TracksPrefs.cpp
@@ -18054,6 +18104,21 @@ msgstr ""
 msgid "01000,01000 seconds"
 msgstr ""
 
+#. i18n-hint: Name of time display format that shows time in seconds
+#. * and milliseconds (1/1000 second)
+#: src/widgets/NumericTextCtrl.cpp
+msgid "seconds + milliseconds"
+msgstr ""
+
+#. i18n-hint: Format string for displaying time in seconds and milliseconds
+#. * as fractional seconds. Change the comma in the middle to the 1000s separator
+#. * for your locale, and the 'seconds' on the end to the word for seconds.
+#. * Don't change the numbers. The decimal separator is specified using '<' if
+#. * your languages uses a ',' or to '>' if your language uses a '.'.
+#: src/widgets/NumericTextCtrl.cpp
+msgid "01000,01000>01000 seconds"
+msgstr ""
+
 #. i18n-hint: Name of time display format that shows time in hours, minutes
 #. * and seconds
 #: src/widgets/NumericTextCtrl.cpp
@@ -18388,10 +18453,6 @@ msgstr ""
 #: src/widgets/PopupMenuTable.h
 #, c-format
 msgid "%s (%s)"
-msgstr ""
-
-#: src/widgets/ProgressDialog.cpp
-msgid "Cancel"
 msgstr ""
 
 #: src/widgets/ProgressDialog.cpp
