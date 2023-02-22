@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-02-21 08:20+0000\n"
+"POT-Creation-Date: 2023-02-22 08:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,71 +17,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-
-#. i18n-hint C++ programming assertion
-#: crashreports/crashreporter/CrashReportApp.cpp
-#, c-format
-msgid "Exception code 0x%x"
-msgstr ""
-
-#. i18n-hint C++ programming assertion
-#: crashreports/crashreporter/CrashReportApp.cpp
-msgid "Unknown exception"
-msgstr ""
-
-#: crashreports/crashreporter/CrashReportApp.cpp
-msgid "Unknown error"
-msgstr ""
-
-#: crashreports/crashreporter/CrashReportApp.cpp
-msgid "Problem Report for Audacity"
-msgstr ""
-
-#: crashreports/crashreporter/CrashReportApp.cpp
-msgid "Click \"Send\" to submit the report to Audacity. This information is collected anonymously."
-msgstr ""
-
-#: crashreports/crashreporter/CrashReportApp.cpp
-#: src/widgets/ErrorReportDialog.cpp
-msgid "Problem details"
-msgstr ""
-
-#: crashreports/crashreporter/CrashReportApp.cpp src/TagsEditor.cpp
-#: src/prefs/MousePrefs.cpp src/widgets/ErrorReportDialog.cpp
-msgid "Comments"
-msgstr ""
-
-#. i18n-hint: %s will be replaced with "our Privacy Policy"
-#: crashreports/crashreporter/CrashReportApp.cpp src/AboutDialog.cpp
-#: src/prefs/ApplicationPrefs.cpp src/update/UpdateNoticeDialog.cpp
-#, c-format
-msgid "See %s for more info."
-msgstr ""
-
-#. i18n-hint: Title of hyperlink to the privacy policy. This is an
-#. object of "See".
-#. i18n-hint: Title of hyperlink to the privacy policy. This is an object of "See".
-#: crashreports/crashreporter/CrashReportApp.cpp src/AboutDialog.cpp
-#: src/prefs/ApplicationPrefs.cpp src/update/UpdateNoticeDialog.cpp
-#: src/widgets/ErrorReportDialog.cpp
-msgid "our Privacy Policy"
-msgstr ""
-
-#: crashreports/crashreporter/CrashReportApp.cpp
-#: src/widgets/ErrorReportDialog.cpp
-msgctxt "crash reporter button"
-msgid "&Don't send"
-msgstr ""
-
-#: crashreports/crashreporter/CrashReportApp.cpp
-#: src/widgets/ErrorReportDialog.cpp
-msgctxt "crash reporter button"
-msgid "&Send"
-msgstr ""
-
-#: crashreports/crashreporter/CrashReportApp.cpp
-msgid "Failed to send crash report"
-msgstr ""
 
 #: libraries/lib-audio-devices/AudioIOBase.cpp src/NoteTrack.cpp
 msgid "Stream is active ... unable to gather information.\n"
@@ -389,7 +324,7 @@ msgid "%s files"
 msgstr ""
 
 #: libraries/lib-files/FileNames.cpp src/BatchCommands.cpp
-#: src/effects/lv2/LV2Validator.cpp
+#: src/effects/lv2/LV2Editor.cpp
 #, c-format
 msgid "(%s)"
 msgstr ""
@@ -941,7 +876,7 @@ msgstr ""
 msgid "There is not enough room available to expand the cut line"
 msgstr ""
 
-#: libraries/lib-xml/XMLFileReader.cpp src/effects/Effect.cpp
+#: libraries/lib-xml/XMLFileReader.cpp src/effects/BasicEffectUIServices.cpp
 #: src/effects/VST/VSTEffect.cpp
 #, c-format
 msgid "Could not open file: \"%s\""
@@ -1681,6 +1616,19 @@ msgstr ""
 
 #: src/AboutDialog.cpp
 msgid "App update checking and error reporting require network access. These features are optional."
+msgstr ""
+
+#. i18n-hint: %s will be replaced with "our Privacy Policy"
+#: src/AboutDialog.cpp src/prefs/ApplicationPrefs.cpp
+#: src/update/UpdateNoticeDialog.cpp
+#, c-format
+msgid "See %s for more info."
+msgstr ""
+
+#. i18n-hint: Title of hyperlink to the privacy policy. This is an object of "See".
+#: src/AboutDialog.cpp src/prefs/ApplicationPrefs.cpp
+#: src/update/UpdateNoticeDialog.cpp src/widgets/ErrorReportDialog.cpp
+msgid "our Privacy Policy"
 msgstr ""
 
 #: src/AdornedRulerPanel.cpp
@@ -5163,6 +5111,11 @@ msgstr ""
 msgid "Genre"
 msgstr ""
 
+#: src/TagsEditor.cpp src/prefs/MousePrefs.cpp
+#: src/widgets/ErrorReportDialog.cpp
+msgid "Comments"
+msgstr ""
+
 #: src/TagsEditor.cpp
 msgid "Use arrow keys (or ENTER key after editing) to navigate fields."
 msgstr ""
@@ -5269,8 +5222,8 @@ msgstr ""
 #.
 #: src/TimeDialog.h src/TimerRecordDialog.cpp src/effects/DtmfGen.cpp
 #: src/effects/Noise.cpp src/effects/Silence.cpp src/effects/ToneGen.cpp
-#: src/effects/VST/VSTEffect.cpp src/effects/VST3/VST3UIValidator.cpp
-#: src/effects/ladspa/LadspaEffect.cpp src/effects/lv2/LV2Validator.cpp
+#: src/effects/VST/VSTEffect.cpp src/effects/VST3/VST3Editor.cpp
+#: src/effects/ladspa/LadspaEffect.cpp src/effects/lv2/LV2Editor.cpp
 msgid "Duration"
 msgstr ""
 
@@ -5347,7 +5300,7 @@ msgid "Recording start:"
 msgstr ""
 
 #: src/TimerRecordDialog.cpp src/effects/VST/VSTEffect.cpp
-#: src/effects/VST3/VST3UIValidator.cpp src/effects/ladspa/LadspaEffect.cpp
+#: src/effects/VST3/VST3Editor.cpp src/effects/ladspa/LadspaEffect.cpp
 msgid "Duration:"
 msgstr ""
 
@@ -5907,8 +5860,9 @@ msgstr ""
 
 #. i18n-hint: An item name followed by a value, with appropriate separating punctuation
 #: src/commands/AudacityCommand.cpp src/effects/Effect.cpp
-#: src/effects/EqualizationCurves.cpp src/effects/vamp/VampEffect.cpp
-#: src/import/ImportRaw.cpp src/menus/PluginMenus.cpp
+#: src/effects/EffectUIServices.cpp src/effects/EqualizationCurves.cpp
+#: src/effects/vamp/VampEffect.cpp src/import/ImportRaw.cpp
+#: src/menus/PluginMenus.cpp
 #: src/tracks/playabletrack/notetrack/ui/NoteTrackSliderHandles.cpp
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackSliderHandles.cpp
 #: src/widgets/ASlider.cpp
@@ -6844,6 +6798,39 @@ msgstr ""
 
 #: src/effects/AutoDuck.cpp
 msgid "Preview not available"
+msgstr ""
+
+#: src/effects/BasicEffectUIServices.cpp
+msgid "Presets"
+msgstr ""
+
+#: src/effects/BasicEffectUIServices.cpp
+msgid "Export Effect Parameters"
+msgstr ""
+
+#: src/effects/BasicEffectUIServices.cpp src/effects/VST/VSTEffect.cpp
+msgid "Error Saving Effect Presets"
+msgstr ""
+
+#: src/effects/BasicEffectUIServices.cpp src/effects/VST/VSTEffect.cpp
+#, c-format
+msgid "Error writing to file: \"%s\""
+msgstr ""
+
+#: src/effects/BasicEffectUIServices.cpp
+msgid "Import Effect Parameters"
+msgstr ""
+
+#. i18n-hint %s will be replaced by a file name
+#: src/effects/BasicEffectUIServices.cpp
+#, c-format
+msgid "%s: is not a valid presets file.\n"
+msgstr ""
+
+#. i18n-hint %s will be replaced by a file name
+#: src/effects/BasicEffectUIServices.cpp
+#, c-format
+msgid "%s: is for a different Effect, Generator or Analyzer.\n"
 msgstr ""
 
 #: src/effects/BassTreble.cpp resources/EffectsMenuDefaults.xml
@@ -7830,7 +7817,7 @@ msgstr ""
 
 #: src/effects/DtmfGen.cpp src/effects/Noise.cpp src/effects/Silence.cpp
 #: src/effects/ToneGen.cpp src/effects/TruncSilence.cpp
-#: src/effects/lv2/LV2Validator.cpp
+#: src/effects/lv2/LV2Editor.cpp
 msgid "&Duration:"
 msgstr ""
 
@@ -7890,39 +7877,6 @@ msgstr ""
 
 #: src/effects/Effect.cpp
 msgid "Built-in"
-msgstr ""
-
-#: src/effects/Effect.cpp
-msgid "Presets"
-msgstr ""
-
-#: src/effects/Effect.cpp
-msgid "Export Effect Parameters"
-msgstr ""
-
-#: src/effects/Effect.cpp src/effects/VST/VSTEffect.cpp
-msgid "Error Saving Effect Presets"
-msgstr ""
-
-#: src/effects/Effect.cpp src/effects/VST/VSTEffect.cpp
-#, c-format
-msgid "Error writing to file: \"%s\""
-msgstr ""
-
-#: src/effects/Effect.cpp
-msgid "Import Effect Parameters"
-msgstr ""
-
-#. i18n-hint %s will be replaced by a file name
-#: src/effects/Effect.cpp
-#, c-format
-msgid "%s: is not a valid presets file.\n"
-msgstr ""
-
-#. i18n-hint %s will be replaced by a file name
-#: src/effects/Effect.cpp
-#, c-format
-msgid "%s: is for a different Effect, Generator or Analyzer.\n"
 msgstr ""
 
 #: src/effects/EffectBase.cpp
@@ -9962,6 +9916,10 @@ msgstr ""
 msgid "LADSPA"
 msgstr ""
 
+#: src/effects/lv2/LV2Editor.cpp
+msgid "Generator"
+msgstr ""
+
 #: src/effects/lv2/LV2Effect.cpp
 msgid "Couldn't instantiate effect"
 msgstr ""
@@ -9987,10 +9945,6 @@ msgstr ""
 
 #: src/effects/lv2/LV2Preferences.cpp
 msgid "LV2 effects can have a graphical interface for setting parameter values. A basic text-only method is also available.  Reopen the effect for this to take effect."
-msgstr ""
-
-#: src/effects/lv2/LV2Validator.cpp
-msgid "Generator"
 msgstr ""
 
 #: src/effects/lv2/LoadLV2.cpp
@@ -17950,6 +17904,20 @@ msgstr ""
 #: src/widgets/ErrorReportDialog.cpp
 #, c-format
 msgid "All reports are anonymous. See %s for more info."
+msgstr ""
+
+#: src/widgets/ErrorReportDialog.cpp
+msgid "Problem details"
+msgstr ""
+
+#: src/widgets/ErrorReportDialog.cpp
+msgctxt "crash reporter button"
+msgid "&Don't send"
+msgstr ""
+
+#: src/widgets/ErrorReportDialog.cpp
+msgctxt "crash reporter button"
+msgid "&Send"
 msgstr ""
 
 #: src/widgets/FileDialog/gtk/FileDialogPrivate.cpp
