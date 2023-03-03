@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-03-01 08:21+0000\n"
+"POT-Creation-Date: 2023-03-03 08:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12077,6 +12077,52 @@ msgstr ""
 msgid "Exporting the audio as WavPack"
 msgstr ""
 
+#: src/export/FFmpegPrefs.cpp
+msgid "FFmpeg Import/Export Library"
+msgstr ""
+
+#: src/export/FFmpegPrefs.cpp
+msgid "No compatible FFmpeg library was found"
+msgstr ""
+
+#: src/export/FFmpegPrefs.cpp
+msgid "FFmpeg support is not compiled in"
+msgstr ""
+
+#: src/export/FFmpegPrefs.cpp
+msgid "FFmpeg Library Version:"
+msgstr ""
+
+#: src/export/FFmpegPrefs.cpp
+msgid "FFmpeg Library:"
+msgstr ""
+
+#: src/export/FFmpegPrefs.cpp
+msgid "Loca&te..."
+msgstr ""
+
+#: src/export/FFmpegPrefs.cpp
+msgid "Dow&nload"
+msgstr ""
+
+#: src/export/FFmpegPrefs.cpp
+msgid ""
+"Audacity has automatically detected valid FFmpeg libraries.\n"
+"Do you still want to locate them manually?"
+msgstr ""
+
+#: src/export/FFmpegPrefs.cpp
+msgid "Success"
+msgstr ""
+
+#: src/export/MP3Prefs.cpp
+msgid "LAME MP3 Export Library"
+msgstr ""
+
+#: src/export/MP3Prefs.cpp
+msgid "MP3 Library Version:"
+msgstr ""
+
 #: src/import/Import.cpp
 msgid "All supported files"
 msgstr ""
@@ -12233,12 +12279,6 @@ msgid ""
 "Audacity did not recognize the type of the file '%s'.\n"
 "\n"
 "%sFor uncompressed files, also try File > Import > Raw Data."
-msgstr ""
-
-#: src/import/Import.cpp
-msgid ""
-"Try installing FFmpeg.\n"
-"\n"
 msgstr ""
 
 #: src/import/Import.cpp src/menus/ClipMenus.cpp
@@ -12403,6 +12443,10 @@ msgstr ""
 
 #: src/import/ImportFFmpeg.cpp
 msgid "FFmpeg-compatible files"
+msgstr ""
+
+#: src/import/ImportFFmpeg.cpp
+msgid "Try installing FFmpeg.\n"
 msgstr ""
 
 #. i18n-hint: "codec" is short for a "coder-decoder" algorithm
@@ -15480,52 +15524,6 @@ msgstr ""
 
 #: src/prefs/LibraryPrefs.cpp
 msgid "Preferences for Library"
-msgstr ""
-
-#: src/prefs/LibraryPrefs.cpp
-msgid "LAME MP3 Export Library"
-msgstr ""
-
-#: src/prefs/LibraryPrefs.cpp
-msgid "MP3 Library Version:"
-msgstr ""
-
-#: src/prefs/LibraryPrefs.cpp
-msgid "FFmpeg Import/Export Library"
-msgstr ""
-
-#: src/prefs/LibraryPrefs.cpp
-msgid "No compatible FFmpeg library was found"
-msgstr ""
-
-#: src/prefs/LibraryPrefs.cpp
-msgid "FFmpeg support is not compiled in"
-msgstr ""
-
-#: src/prefs/LibraryPrefs.cpp
-msgid "FFmpeg Library Version:"
-msgstr ""
-
-#: src/prefs/LibraryPrefs.cpp
-msgid "FFmpeg Library:"
-msgstr ""
-
-#: src/prefs/LibraryPrefs.cpp
-msgid "Loca&te..."
-msgstr ""
-
-#: src/prefs/LibraryPrefs.cpp
-msgid "Dow&nload"
-msgstr ""
-
-#: src/prefs/LibraryPrefs.cpp
-msgid ""
-"Audacity has automatically detected valid FFmpeg libraries.\n"
-"Do you still want to locate them manually?"
-msgstr ""
-
-#: src/prefs/LibraryPrefs.cpp
-msgid "Success"
 msgstr ""
 
 #: src/prefs/LibraryPrefs.h
