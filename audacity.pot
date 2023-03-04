@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-03-03 08:19+0000\n"
+"POT-Creation-Date: 2023-03-04 08:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -5100,16 +5100,8 @@ msgstr ""
 msgid "Replace %s"
 msgstr ""
 
-#: src/RealtimeEffectPanel.cpp src/menus/PluginMenus.cpp
+#: src/RealtimeEffectPanel.cpp src/menus/MenuHelper.cpp
 msgid "Unknown"
-msgstr ""
-
-#: src/RealtimeEffectPanel.cpp
-msgid "No Effect"
-msgstr ""
-
-#: src/RealtimeEffectPanel.cpp
-msgid "Get more effects..."
 msgstr ""
 
 #: src/RealtimeEffectPanel.cpp
@@ -5141,6 +5133,18 @@ msgstr ""
 
 #: src/RealtimeEffectPanel.cpp
 msgid "Change effect order"
+msgstr ""
+
+#: src/RealtimeEffectPanel.cpp
+msgid "No Effect"
+msgstr ""
+
+#: src/RealtimeEffectPanel.cpp
+msgid "Get more effects..."
+msgstr ""
+
+#: src/RealtimeEffectPanel.cpp plug-ins/vocalrediso.ny
+msgid "Analyze"
 msgstr ""
 
 #: src/RealtimeEffectPanel.cpp
@@ -6219,7 +6223,7 @@ msgstr ""
 #: src/commands/AudacityCommand.cpp src/effects/Effect.cpp
 #: src/effects/EffectUIServices.cpp src/effects/EqualizationCurves.cpp
 #: src/effects/vamp/VampEffect.cpp src/import/ImportRaw.cpp
-#: src/menus/PluginMenus.cpp
+#: src/menus/MenuHelper.cpp
 #: src/tracks/playabletrack/notetrack/ui/NoteTrackSliderHandles.cpp
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackSliderHandles.cpp
 #: src/widgets/ASlider.cpp
@@ -8933,7 +8937,7 @@ msgstr ""
 msgid "Old"
 msgstr ""
 
-#: src/effects/NoiseReduction.cpp src/menus/PluginMenus.cpp
+#: src/effects/NoiseReduction.cpp src/menus/MenuHelper.cpp
 #: resources/EffectsMenuDefaults.xml
 msgid "Noise Reduction"
 msgstr ""
@@ -10132,8 +10136,7 @@ msgid "Unable to read the preset from \"%s\""
 msgstr ""
 
 #. i18n-hint: the name of an Apple audio software protocol
-#. i18n-hint: Audio Unit is the name of an Apple audio software protocol
-#: src/effects/audiounits/AudioUnitEffect.h src/prefs/EffectsPrefs.cpp
+#: src/effects/audiounits/AudioUnitEffect.h
 msgid "Audio Unit"
 msgstr ""
 
@@ -13669,6 +13672,14 @@ msgstr ""
 msgid "&Label Track"
 msgstr ""
 
+#: src/menus/MenuHelper.cpp
+msgid "..."
+msgstr ""
+
+#: src/menus/MenuHelper.cpp
+msgid "Uncategorized"
+msgstr ""
+
 #: src/menus/NavigationMenus.cpp
 msgid "Move Backward Through Active Windows"
 msgstr ""
@@ -13721,14 +13732,6 @@ msgstr ""
 msgid "Toggle Focuse&d Track"
 msgstr ""
 
-#: src/menus/PluginMenus.cpp
-msgid "..."
-msgstr ""
-
-#: src/menus/PluginMenus.cpp
-msgid "Uncategorized"
-msgstr ""
-
 #. i18n-hint a "journal" is a text file that records
 #. the user's interactions with the application
 #: src/menus/PluginMenus.cpp
@@ -13739,11 +13742,6 @@ msgstr ""
 #. the user's interactions with the application
 #: src/menus/PluginMenus.cpp
 msgid "No journal will be recorded after Audacity restarts."
-msgstr ""
-
-#: src/menus/PluginMenus.cpp
-#, c-format
-msgid "Plugin %d to %d"
 msgstr ""
 
 #: src/menus/PluginMenus.cpp
@@ -15028,64 +15026,31 @@ msgid "Preferences for Effects"
 msgstr ""
 
 #: src/prefs/EffectsPrefs.cpp
-msgid "Sorted by Effect Name"
+msgid "Sort by effect name"
 msgstr ""
 
 #: src/prefs/EffectsPrefs.cpp
-msgid "Sorted by Publisher and Effect Name"
+msgid "Sort by publisher and effect name"
 msgstr ""
 
 #: src/prefs/EffectsPrefs.cpp
-msgid "Sorted by Type and Effect Name"
+msgid "Sort by type and effect name"
 msgstr ""
 
 #: src/prefs/EffectsPrefs.cpp
-msgid "Grouped by Publisher"
+msgid "Group by publisher"
 msgstr ""
 
 #: src/prefs/EffectsPrefs.cpp
-msgid "Grouped by Type"
+msgid "Group by type"
 msgstr ""
 
 #: src/prefs/EffectsPrefs.cpp
-msgid "Default"
-msgstr ""
-
-#. i18n-hint: abbreviates "Linux Audio Developer's Simple Plugin API"
-#. (Application programming interface)
-#.
-#: src/prefs/EffectsPrefs.cpp
-msgid "&LADSPA"
-msgstr ""
-
-#. i18n-hint: abbreviates
-#. "Linux Audio Developer's Simple Plugin API (LADSPA) version 2"
-#: src/prefs/EffectsPrefs.cpp
-msgid "LV&2"
-msgstr ""
-
-#. i18n-hint: "Nyquist" is an embedded interpreted programming language in
-#. Audacity, named in honor of the Swedish-American Harry Nyquist (or Nyqvist).
-#. In the translations of this and other strings, you may transliterate the
-#. name into another alphabet.
-#: src/prefs/EffectsPrefs.cpp
-msgid "N&yquist"
-msgstr ""
-
-#. i18n-hint: Vamp is the proper name of a software protocol for sound analysis.
-#. It is not an abbreviation for anything.  See http://vamp-plugins.org
-#: src/prefs/EffectsPrefs.cpp
-msgid "&Vamp"
-msgstr ""
-
-#. i18n-hint: Abbreviates Virtual Studio Technology, an audio software protocol
-#. developed by Steinberg GmbH
-#: src/prefs/EffectsPrefs.cpp
-msgid "V&ST"
+msgid "Group by category"
 msgstr ""
 
 #: src/prefs/EffectsPrefs.cpp
-msgid "Enable Effects"
+msgid "Group by type and publisher"
 msgstr ""
 
 #: src/prefs/EffectsPrefs.cpp
@@ -15093,11 +15058,11 @@ msgid "Effect Options"
 msgstr ""
 
 #: src/prefs/EffectsPrefs.cpp
-msgid "S&ort or Group:"
+msgid "Effect menu &organization:"
 msgstr ""
 
 #: src/prefs/EffectsPrefs.cpp
-msgid "&Maximum effects per group (0 to disable):"
+msgid "Realtime effect o&rganization:"
 msgstr ""
 
 #: src/prefs/EffectsPrefs.cpp
@@ -15106,6 +15071,10 @@ msgstr ""
 
 #: src/prefs/EffectsPrefs.cpp
 msgid "&Use SSE/SSE2/.../AVX"
+msgstr ""
+
+#: src/prefs/EffectsPrefs.cpp
+msgid "Open Plugin Manager"
 msgstr ""
 
 #. i18n-hint:  Title of dialog governing "Extended", or "advanced,"
@@ -20033,10 +20002,6 @@ msgstr ""
 
 #: plug-ins/vocalrediso.ny
 msgid "Isolate Center and Invert"
-msgstr ""
-
-#: plug-ins/vocalrediso.ny
-msgid "Analyze"
 msgstr ""
 
 #: plug-ins/vocalrediso.ny
