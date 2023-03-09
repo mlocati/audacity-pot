@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-03-07 08:21+0000\n"
+"POT-Creation-Date: 2023-03-09 08:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -300,6 +300,14 @@ msgstr ""
 
 #: libraries/lib-effects/LoadEffects.cpp
 msgid "Unknown built-in effect name"
+msgstr ""
+
+#: libraries/lib-effects/MixAndRender.cpp src/menus/TrackMenus.cpp
+msgid "Mix and Render"
+msgstr ""
+
+#: libraries/lib-effects/MixAndRender.cpp
+msgid "Mixing and rendering tracks"
 msgstr ""
 
 #: libraries/lib-exceptions/InconsistencyException.cpp
@@ -1394,10 +1402,6 @@ msgstr ""
 msgid "Writable Sample Track"
 msgstr ""
 
-#: libraries/lib-screen-geometry/ViewInfo.cpp
-msgid "&Loop On/Off"
-msgstr ""
-
 #: libraries/lib-strings/FutureStrings.h src/toolbars/CutCopyPasteToolBar.cpp
 msgid "Cut/Copy/Paste"
 msgstr ""
@@ -1579,6 +1583,10 @@ msgstr ""
 msgid "Custom"
 msgstr ""
 
+#: libraries/lib-time-frequency-selection/ViewInfo.cpp
+msgid "&Loop On/Off"
+msgstr ""
+
 #: libraries/lib-track/Track.cpp
 msgid "Generic Track"
 msgstr ""
@@ -1593,14 +1601,6 @@ msgstr ""
 
 #: libraries/lib-transactions/TransactionScope.cpp
 msgid "Database error.  Sorry, but we don't have more details."
-msgstr ""
-
-#: libraries/lib-wave-track/MixAndRender.cpp src/menus/TrackMenus.cpp
-msgid "Mix and Render"
-msgstr ""
-
-#: libraries/lib-wave-track/MixAndRender.cpp
-msgid "Mixing and rendering tracks"
 msgstr ""
 
 #: libraries/lib-wave-track/Sequence.cpp
