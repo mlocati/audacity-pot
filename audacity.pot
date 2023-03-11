@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-03-10 08:20+0000\n"
+"POT-Creation-Date: 2023-03-11 08:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3723,13 +3723,12 @@ msgstr ""
 msgid "Log frequency"
 msgstr ""
 
-#. i18n-hint: abbreviates decibels
 #. i18n-hint: short form of 'decibels'.
-#: src/FreqWindow.cpp src/commands/SetTrackInfoCommand.cpp
-#: src/effects/AutoDuck.cpp src/effects/Compressor.cpp
+#: src/FreqWindow.cpp src/effects/AutoDuck.cpp src/effects/Compressor.cpp
 #: src/effects/EqualizationUI.cpp src/effects/Loudness.cpp
 #: src/effects/Normalize.cpp src/effects/ScienFilter.cpp
-#: src/effects/TruncSilence.cpp src/prefs/WaveformSettings.cpp
+#: src/effects/TruncSilence.cpp
+#: src/tracks/playabletrack/wavetrack/ui/WaveformVRulerControls.cpp
 #: src/widgets/MeterPanel.cpp plug-ins/sample-data-export.ny
 msgid "dB"
 msgstr ""
@@ -7024,11 +7023,22 @@ msgstr ""
 msgid "Set Track Visuals"
 msgstr ""
 
-#: src/commands/SetTrackInfoCommand.cpp src/effects/ToneGen.cpp
-#: src/prefs/SpectrogramSettings.cpp src/prefs/TracksPrefs.cpp
-#: src/prefs/WaveformSettings.cpp src/widgets/MeterPanel.cpp
-#: plug-ins/sample-data-export.ny
-msgid "Linear"
+#. i18n-hint: abbreviates amplitude
+#: src/commands/SetTrackInfoCommand.cpp src/prefs/TracksPrefs.cpp
+#: src/prefs/WaveformSettings.cpp
+msgid "Linear (amp)"
+msgstr ""
+
+#. i18n-hint: abbreviates decibels
+#: src/commands/SetTrackInfoCommand.cpp src/prefs/TracksPrefs.cpp
+#: src/prefs/WaveformSettings.cpp
+msgid "Logarithmic (dB)"
+msgstr ""
+
+#. i18n-hint: abbreviates decibels
+#: src/commands/SetTrackInfoCommand.cpp src/prefs/TracksPrefs.cpp
+#: src/prefs/WaveformSettings.cpp
+msgid "Linear (dB)"
 msgstr ""
 
 #: src/commands/SetTrackInfoCommand.cpp
@@ -9746,6 +9756,11 @@ msgstr ""
 
 #: src/effects/TimeScale.cpp
 msgid "(s&emitones) [-12 to 12]:"
+msgstr ""
+
+#: src/effects/ToneGen.cpp src/prefs/SpectrogramSettings.cpp
+#: src/widgets/MeterPanel.cpp plug-ins/sample-data-export.ny
+msgid "Linear"
 msgstr ""
 
 #: src/effects/ToneGen.cpp src/prefs/SpectrogramSettings.cpp
@@ -16366,10 +16381,6 @@ msgstr ""
 
 #: src/prefs/TracksBehaviorsPrefs.cpp
 msgid "Paste audio from other Audacity project as"
-msgstr ""
-
-#: src/prefs/TracksPrefs.cpp
-msgid "Logarithmic (dB)"
 msgstr ""
 
 #: src/prefs/TracksPrefs.cpp src/prefs/WaveformPrefs.h
