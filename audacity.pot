@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-03-11 08:18+0000\n"
+"POT-Creation-Date: 2023-03-16 08:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -180,14 +180,15 @@ msgid ""
 msgstr ""
 
 #: libraries/lib-audio-io/AudioIO.cpp libraries/lib-effects/EffectBase.cpp
-#: libraries/lib-files/FileNames.cpp src/ProjectAudioManager.cpp
-#: src/TimerRecordDialog.cpp src/effects/Contrast.cpp src/effects/Generator.cpp
+#: libraries/lib-files/FileNames.cpp
+#: libraries/lib-wx-wrappers/FileDialog/gtk/FileDialogPrivate.cpp
+#: src/ProjectAudioManager.cpp src/TimerRecordDialog.cpp
+#: src/effects/Contrast.cpp src/effects/Generator.cpp
 #: src/effects/VST3/VST3Wrapper.cpp src/effects/nyquist/Nyquist.cpp
 #: src/export/ExportFFmpeg.cpp src/export/ExportMP2.cpp
 #: src/menus/TrackMenus.cpp src/menus/TransportMenus.cpp
 #: src/prefs/DirectoriesPrefs.cpp src/prefs/KeyConfigPrefs.cpp
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackControls.cpp
-#: src/widgets/FileDialog/gtk/FileDialogPrivate.cpp
 #: src/widgets/UnwritableLocationErrorDialog.cpp
 #: plug-ins/eq-xml-to-txt-converter.ny
 msgid "Error"
@@ -229,8 +230,8 @@ msgid "Automated Recording Level Adjustment stopped. %.2f seems an acceptable vo
 msgstr ""
 
 #: libraries/lib-basic-ui/BasicUI.cpp
-#: libraries/lib-exceptions/AudacityException.h src/commands/MessageCommand.cpp
-#: src/widgets/AudacityMessageBox.h
+#: libraries/lib-exceptions/AudacityException.h
+#: libraries/lib-wx-init/AudacityMessageBox.h src/commands/MessageCommand.cpp
 msgid "Message"
 msgstr ""
 
@@ -1061,8 +1062,8 @@ msgstr ""
 #: libraries/lib-project-file-io/SqliteSampleBlock.cpp
 #: libraries/lib-transactions/TransactionScope.cpp
 #: libraries/lib-wave-track/WaveClip.cpp libraries/lib-wave-track/WaveTrack.cpp
-#: modules/mod-nyq-bench/NyqBench.cpp src/LogWindow.cpp src/export/Export.cpp
-#: src/export/ExportCL.cpp src/export/ExportMultiple.cpp
+#: libraries/lib-wx-init/LogWindow.cpp modules/mod-nyq-bench/NyqBench.cpp
+#: src/export/Export.cpp src/export/ExportCL.cpp src/export/ExportMultiple.cpp
 #: src/import/RawAudioGuess.cpp src/menus/EditMenus.cpp
 #: src/prefs/DirectoriesPrefs.cpp src/prefs/KeyConfigPrefs.cpp
 #: src/widgets/Warning.cpp
@@ -1402,6 +1403,38 @@ msgstr ""
 msgid "Writable Sample Track"
 msgstr ""
 
+#: libraries/lib-shuttlegui/ShuttleGui.cpp libraries/lib-wx-init/LogWindow.cpp
+#: src/cloud/audiocom/ShareAudioDialog.cpp src/effects/Contrast.cpp
+#: src/menus/FileMenus.cpp
+msgid "&Close"
+msgstr ""
+
+#: libraries/lib-shuttlegui/ShuttleGui.cpp
+#: libraries/lib-wx-init/MultiDialog.cpp src/AudacityFileConfig.cpp
+#: src/commands/HelpCommand.cpp src/effects/EqualizationCurvesDialog.cpp
+#: src/export/Export.cpp src/menus/HelpMenus.cpp
+#: src/widgets/ErrorReportDialog.cpp
+msgid "Help"
+msgstr ""
+
+#. i18n-hint: The access key "&P" should be the same in
+#. "Stop &Preview" and "Start &Preview"
+#: libraries/lib-shuttlegui/ShuttleGui.cpp src/effects/EffectUI.cpp
+msgid "&Preview"
+msgstr ""
+
+#: libraries/lib-shuttlegui/ShuttleGui.cpp
+msgid "Dry Previe&w"
+msgstr ""
+
+#: libraries/lib-shuttlegui/ShuttleGui.cpp
+msgid "&Settings"
+msgstr ""
+
+#: libraries/lib-shuttlegui/ShuttleGui.cpp src/effects/EffectUI.cpp
+msgid "Debu&g"
+msgstr ""
+
 #: libraries/lib-strings/FutureStrings.h src/toolbars/CutCopyPasteToolBar.cpp
 msgid "Cut/Copy/Paste"
 msgstr ""
@@ -1646,6 +1679,302 @@ msgstr ""
 
 #: libraries/lib-wave-track/WaveTrack.cpp
 msgid "There is not enough room available to expand the cut line"
+msgstr ""
+
+#: libraries/lib-wx-init/ErrorDialog.cpp src/menus/HelpMenus.cpp
+msgid "Show &Log..."
+msgstr ""
+
+#: libraries/lib-wx-init/HelpSystem.cpp
+msgid "Backwards"
+msgstr ""
+
+#. i18n-hint arrowhead meaning backward movement
+#: libraries/lib-wx-init/HelpSystem.cpp
+msgid "<"
+msgstr ""
+
+#: libraries/lib-wx-init/HelpSystem.cpp
+msgid "Forwards"
+msgstr ""
+
+#. i18n-hint arrowhead meaning forward movement
+#: libraries/lib-wx-init/HelpSystem.cpp
+msgid ">"
+msgstr ""
+
+#. i18n-hint verb
+#: libraries/lib-wx-init/HelpSystem.cpp src/Benchmark.cpp
+#: src/RealtimeEffectPanel.cpp src/tracks/ui/TrackButtonHandles.cpp
+msgid "Close"
+msgstr ""
+
+#: libraries/lib-wx-init/HelpSystem.cpp
+msgid "Help on the Internet"
+msgstr ""
+
+#: libraries/lib-wx-init/HelpSystem.cpp
+msgid "Local"
+msgstr ""
+
+#: libraries/lib-wx-init/HelpSystem.cpp
+msgid "From Internet"
+msgstr ""
+
+#: libraries/lib-wx-init/HelpText.cpp
+msgid "Welcome!"
+msgstr ""
+
+#. i18n-hint: Title for a topic.
+#: libraries/lib-wx-init/HelpText.cpp
+msgid "Playing Audio"
+msgstr ""
+
+#. i18n-hint: Title for a topic.
+#: libraries/lib-wx-init/HelpText.cpp
+msgid "Recording Audio"
+msgstr ""
+
+#. i18n-hint: Title for a topic.
+#: libraries/lib-wx-init/HelpText.cpp
+msgid "Recording - Choosing the Recording Device"
+msgstr ""
+
+#. i18n-hint: Title for a topic.
+#: libraries/lib-wx-init/HelpText.cpp
+msgid "Recording - Choosing the Recording Source"
+msgstr ""
+
+#. i18n-hint: Title for a topic.
+#: libraries/lib-wx-init/HelpText.cpp
+msgid "Recording - Setting the Recording Level"
+msgstr ""
+
+#. i18n-hint: Title for a topic.
+#: libraries/lib-wx-init/HelpText.cpp
+msgid "Editing and greyed out Menus"
+msgstr ""
+
+#. i18n-hint: Title for a topic.
+#: libraries/lib-wx-init/HelpText.cpp
+msgid "Exporting an Audio File"
+msgstr ""
+
+#. i18n-hint: Title for a topic.
+#: libraries/lib-wx-init/HelpText.cpp
+msgid "Saving an Audacity Project"
+msgstr ""
+
+#. i18n-hint: Title for a topic.
+#: libraries/lib-wx-init/HelpText.cpp
+msgid "Support for Other Formats"
+msgstr ""
+
+#. i18n-hint: Title for a topic.
+#: libraries/lib-wx-init/HelpText.cpp
+msgid "Burn to CD"
+msgstr ""
+
+#: libraries/lib-wx-init/HelpText.cpp
+msgid "No Local Help"
+msgstr ""
+
+#: libraries/lib-wx-init/HelpText.cpp
+msgid "<br><br>The version of Audacity you are using is an <b>Alpha test version</b>."
+msgstr ""
+
+#: libraries/lib-wx-init/HelpText.cpp
+msgid "<br><br>The version of Audacity you are using is a <b>Beta test version</b>."
+msgstr ""
+
+#: libraries/lib-wx-init/HelpText.cpp
+msgid "Get the Official Released Version of Audacity"
+msgstr ""
+
+#: libraries/lib-wx-init/HelpText.cpp
+msgid "We strongly recommend that you use our latest stable released version, which has full documentation and support.<br><br>"
+msgstr ""
+
+#: libraries/lib-wx-init/HelpText.cpp
+msgid "You can help us get Audacity ready for release by joining our [[https://www.audacityteam.org/community/|community]].<hr><br><br>"
+msgstr ""
+
+#. i18n-hint: %s is replaced with Audacity version
+#: libraries/lib-wx-init/HelpText.cpp
+#, c-format
+msgid "What's new in Audacity %s"
+msgstr ""
+
+#: libraries/lib-wx-init/HelpText.cpp
+msgid "How to get help"
+msgstr ""
+
+#: libraries/lib-wx-init/HelpText.cpp
+msgid "These are our support methods:"
+msgstr ""
+
+#. i18n-hint: Preserve '[[help:Quick_Help|' as it's the name of a link.
+#: libraries/lib-wx-init/HelpText.cpp
+msgid "[[help:Quick_Help|Quick Help]]"
+msgstr ""
+
+#. i18n-hint: Preserve '[[help:Main_Page|' as it's the name of a link.
+#: libraries/lib-wx-init/HelpText.cpp
+msgid " [[help:Main_Page|Manual]]"
+msgstr ""
+
+#: libraries/lib-wx-init/HelpText.cpp
+msgid "[[https://support.audacityteam.org/|Tutorials & How-tos]]"
+msgstr ""
+
+#: libraries/lib-wx-init/HelpText.cpp
+msgid " [[https://forum.audacityteam.org/|Forum]] - ask your question directly, online."
+msgstr ""
+
+#: libraries/lib-wx-init/HelpText.cpp
+msgid "Audacity can import unprotected files in many other formats (such as M4A and WMA, compressed WAV files from portable recorders and audio from video files) if you download and install the optional [[https://manual.audacityteam.org/man/faq_opening_and_saving_files.html#foreign| FFmpeg library]] to your computer."
+msgstr ""
+
+#: libraries/lib-wx-init/HelpText.cpp
+msgid "You can also read our help on importing [[https://manual.audacityteam.org/man/playing_and_recording.html#midi|MIDI files]] and tracks from [[https://manual.audacityteam.org/man/faq_opening_and_saving_files.html#fromcd| audio CDs]]."
+msgstr ""
+
+#: libraries/lib-wx-init/HelpText.cpp
+msgid "The Manual does not appear to be installed. Please [[*URL*|view the Manual online]].<br><br>To always view the Manual online, change \"Location of Manual\" in Interface Preferences to \"From Internet\"."
+msgstr ""
+
+#: libraries/lib-wx-init/HelpText.cpp
+msgid "The Manual does not appear to be installed. Please [[*URL*|view the Manual online]] or [[https://manual.audacityteam.org/man/unzipping_the_manual.html| download the Manual]].<br><br>To always view the Manual online, change \"Location of Manual\" in Interface Preferences to \"From Internet\"."
+msgstr ""
+
+#: libraries/lib-wx-init/HelpText.cpp
+msgid "Check Online"
+msgstr ""
+
+#: libraries/lib-wx-init/LogWindow.cpp
+msgid "Audacity Log"
+msgstr ""
+
+#: libraries/lib-wx-init/LogWindow.cpp src/TagsEditor.cpp
+msgid "&Save..."
+msgstr ""
+
+#. i18n-hint: (verb)
+#: libraries/lib-wx-init/LogWindow.cpp src/TagsEditor.cpp
+#: src/prefs/KeyConfigPrefs.cpp
+msgid "Cl&ear"
+msgstr ""
+
+#: libraries/lib-wx-init/LogWindow.cpp
+msgid "log.txt"
+msgstr ""
+
+#: libraries/lib-wx-init/LogWindow.cpp
+msgid "Save log to:"
+msgstr ""
+
+#: libraries/lib-wx-init/LogWindow.cpp
+#, c-format
+msgid "Couldn't save log to file: %s"
+msgstr ""
+
+#: libraries/lib-wx-init/MultiDialog.cpp
+msgid "Show Log for Details"
+msgstr ""
+
+#. i18n-hint: In most languages OK is to be translated as OK.  It appears on a button.
+#: libraries/lib-wx-init/MultiDialog.cpp src/AboutDialog.cpp
+#: src/Dependencies.cpp src/SplashDialog.cpp src/effects/nyquist/Nyquist.cpp
+msgid "OK"
+msgstr ""
+
+#: libraries/lib-wx-init/ProgressDialog.cpp src/PluginStartupRegistration.cpp
+#: src/cloud/audiocom/ShareAudioDialog.cpp
+msgid "Elapsed Time:"
+msgstr ""
+
+#: libraries/lib-wx-init/ProgressDialog.cpp
+#: src/cloud/audiocom/ShareAudioDialog.cpp
+msgid "Remaining Time:"
+msgstr ""
+
+#: libraries/lib-wx-init/ProgressDialog.cpp modules/mod-nyq-bench/NyqBench.cpp
+#: src/toolbars/ControlToolBar.cpp
+msgid "Stop"
+msgstr ""
+
+#: libraries/lib-wx-init/ProgressDialog.cpp src/AudioPasteDialog.cpp
+msgid "Cancel"
+msgstr ""
+
+#: libraries/lib-wx-init/ProgressDialog.cpp
+msgid "Are you sure you wish to cancel?"
+msgstr ""
+
+#: libraries/lib-wx-init/ProgressDialog.cpp
+msgid "Confirm Cancel"
+msgstr ""
+
+#: libraries/lib-wx-init/ProgressDialog.cpp
+msgid "Are you sure you wish to stop?"
+msgstr ""
+
+#: libraries/lib-wx-init/ProgressDialog.cpp
+msgid "Confirm Stop"
+msgstr ""
+
+#: libraries/lib-wx-init/ProgressDialog.cpp
+msgid "Are you sure you wish to close?"
+msgstr ""
+
+#: libraries/lib-wx-init/ProgressDialog.cpp
+msgid "Confirm Close"
+msgstr ""
+
+#: libraries/lib-wx-init/SelectFile.cpp
+msgid "The specified filename could not be converted due to Unicode character use."
+msgstr ""
+
+#: libraries/lib-wx-init/SelectFile.cpp
+msgid "Specify New Filename:"
+msgstr ""
+
+#: libraries/lib-wx-wrappers/FileDialog/gtk/FileDialogPrivate.cpp
+#, c-format
+msgid "File '%s' already exists, do you really want to overwrite it?"
+msgstr ""
+
+#: libraries/lib-wx-wrappers/FileDialog/gtk/FileDialogPrivate.cpp
+#: src/LangChoice.cpp src/effects/VST/VSTEffect.cpp
+msgid "Confirm"
+msgstr ""
+
+#: libraries/lib-wx-wrappers/FileDialog/gtk/FileDialogPrivate.cpp
+msgid "Please choose an existing file."
+msgstr ""
+
+#: libraries/lib-wx-wrappers/FileDialog/mac/FileDialogPrivate.mm
+msgid "File type:"
+msgstr ""
+
+#: libraries/lib-wx-wrappers/wxPanelWrapper.h src/commands/DragCommand.cpp
+msgid "Panel"
+msgstr ""
+
+#: libraries/lib-wx-wrappers/wxPanelWrapper.h
+msgid "Dialog"
+msgstr ""
+
+#: libraries/lib-wx-wrappers/wxPanelWrapper.h
+msgid "Select a directory"
+msgstr ""
+
+#: libraries/lib-wx-wrappers/wxPanelWrapper.h
+msgid "Directory Dialog"
+msgstr ""
+
+#: libraries/lib-wx-wrappers/wxPanelWrapper.h
+msgid "File Dialog"
 msgstr ""
 
 #: libraries/lib-xml/XMLFileReader.cpp src/effects/BasicEffectUIServices.cpp
@@ -2007,11 +2336,6 @@ msgstr ""
 msgid "Start script"
 msgstr ""
 
-#: modules/mod-nyq-bench/NyqBench.cpp src/toolbars/ControlToolBar.cpp
-#: src/widgets/ProgressDialog.cpp
-msgid "Stop"
-msgstr ""
-
 #: modules/mod-nyq-bench/NyqBench.cpp
 msgid "Stop script"
 msgstr ""
@@ -2125,12 +2449,6 @@ msgstr ""
 #: src/AboutDialog.cpp
 #, c-format
 msgid "About %s"
-msgstr ""
-
-#. i18n-hint: In most languages OK is to be translated as OK.  It appears on a button.
-#: src/AboutDialog.cpp src/Dependencies.cpp src/SplashDialog.cpp
-#: src/effects/nyquist/Nyquist.cpp src/widgets/MultiDialog.cpp
-msgid "OK"
 msgstr ""
 
 #. i18n-hint: The translation of "translator_credits" will appear
@@ -2757,13 +3075,6 @@ msgid ""
 "If you choose to \"Quit Audacity\", your project may be left in an unsaved state which will be recovered the next time you open it."
 msgstr ""
 
-#: src/AudacityFileConfig.cpp src/ShuttleGui.cpp src/commands/HelpCommand.cpp
-#: src/effects/EqualizationCurvesDialog.cpp src/export/Export.cpp
-#: src/menus/HelpMenus.cpp src/widgets/ErrorReportDialog.cpp
-#: src/widgets/MultiDialog.cpp
-msgid "Help"
-msgstr ""
-
 #: src/AudacityFileConfig.cpp src/AutoRecoveryDialog.cpp
 msgid "&Quit Audacity"
 msgstr ""
@@ -2800,10 +3111,6 @@ msgstr ""
 
 #: src/AudioPasteDialog.cpp
 msgid "Remember my choice and don't ask again"
-msgstr ""
-
-#: src/AudioPasteDialog.cpp src/widgets/ProgressDialog.cpp
-msgid "Cancel"
 msgstr ""
 
 #: src/AudioPasteDialog.cpp
@@ -3223,12 +3530,6 @@ msgstr ""
 
 #: src/Benchmark.cpp
 msgid "Run"
-msgstr ""
-
-#. i18n-hint verb
-#: src/Benchmark.cpp src/RealtimeEffectPanel.cpp
-#: src/tracks/ui/TrackButtonHandles.cpp src/widgets/HelpSystem.cpp
-msgid "Close"
 msgstr ""
 
 #. i18n-hint: Benchmark means a software speed test;
@@ -3841,136 +4142,6 @@ msgstr ""
 msgid "Plot Spectrum..."
 msgstr ""
 
-#: src/HelpText.cpp
-msgid "Welcome!"
-msgstr ""
-
-#. i18n-hint: Title for a topic.
-#: src/HelpText.cpp
-msgid "Playing Audio"
-msgstr ""
-
-#. i18n-hint: Title for a topic.
-#: src/HelpText.cpp
-msgid "Recording Audio"
-msgstr ""
-
-#. i18n-hint: Title for a topic.
-#: src/HelpText.cpp
-msgid "Recording - Choosing the Recording Device"
-msgstr ""
-
-#. i18n-hint: Title for a topic.
-#: src/HelpText.cpp
-msgid "Recording - Choosing the Recording Source"
-msgstr ""
-
-#. i18n-hint: Title for a topic.
-#: src/HelpText.cpp
-msgid "Recording - Setting the Recording Level"
-msgstr ""
-
-#. i18n-hint: Title for a topic.
-#: src/HelpText.cpp
-msgid "Editing and greyed out Menus"
-msgstr ""
-
-#. i18n-hint: Title for a topic.
-#: src/HelpText.cpp
-msgid "Exporting an Audio File"
-msgstr ""
-
-#. i18n-hint: Title for a topic.
-#: src/HelpText.cpp
-msgid "Saving an Audacity Project"
-msgstr ""
-
-#. i18n-hint: Title for a topic.
-#: src/HelpText.cpp
-msgid "Support for Other Formats"
-msgstr ""
-
-#. i18n-hint: Title for a topic.
-#: src/HelpText.cpp
-msgid "Burn to CD"
-msgstr ""
-
-#: src/HelpText.cpp
-msgid "No Local Help"
-msgstr ""
-
-#: src/HelpText.cpp
-msgid "<br><br>The version of Audacity you are using is an <b>Alpha test version</b>."
-msgstr ""
-
-#: src/HelpText.cpp
-msgid "<br><br>The version of Audacity you are using is a <b>Beta test version</b>."
-msgstr ""
-
-#: src/HelpText.cpp
-msgid "Get the Official Released Version of Audacity"
-msgstr ""
-
-#: src/HelpText.cpp
-msgid "We strongly recommend that you use our latest stable released version, which has full documentation and support.<br><br>"
-msgstr ""
-
-#: src/HelpText.cpp
-msgid "You can help us get Audacity ready for release by joining our [[https://www.audacityteam.org/community/|community]].<hr><br><br>"
-msgstr ""
-
-#. i18n-hint: %s is replaced with Audacity version
-#: src/HelpText.cpp
-#, c-format
-msgid "What's new in Audacity %s"
-msgstr ""
-
-#: src/HelpText.cpp
-msgid "How to get help"
-msgstr ""
-
-#: src/HelpText.cpp
-msgid "These are our support methods:"
-msgstr ""
-
-#. i18n-hint: Preserve '[[help:Quick_Help|' as it's the name of a link.
-#: src/HelpText.cpp
-msgid "[[help:Quick_Help|Quick Help]]"
-msgstr ""
-
-#. i18n-hint: Preserve '[[help:Main_Page|' as it's the name of a link.
-#: src/HelpText.cpp
-msgid " [[help:Main_Page|Manual]]"
-msgstr ""
-
-#: src/HelpText.cpp
-msgid "[[https://support.audacityteam.org/|Tutorials & How-tos]]"
-msgstr ""
-
-#: src/HelpText.cpp
-msgid " [[https://forum.audacityteam.org/|Forum]] - ask your question directly, online."
-msgstr ""
-
-#: src/HelpText.cpp
-msgid "Audacity can import unprotected files in many other formats (such as M4A and WMA, compressed WAV files from portable recorders and audio from video files) if you download and install the optional [[https://manual.audacityteam.org/man/faq_opening_and_saving_files.html#foreign| FFmpeg library]] to your computer."
-msgstr ""
-
-#: src/HelpText.cpp
-msgid "You can also read our help on importing [[https://manual.audacityteam.org/man/playing_and_recording.html#midi|MIDI files]] and tracks from [[https://manual.audacityteam.org/man/faq_opening_and_saving_files.html#fromcd| audio CDs]]."
-msgstr ""
-
-#: src/HelpText.cpp
-msgid "The Manual does not appear to be installed. Please [[*URL*|view the Manual online]].<br><br>To always view the Manual online, change \"Location of Manual\" in Interface Preferences to \"From Internet\"."
-msgstr ""
-
-#: src/HelpText.cpp
-msgid "The Manual does not appear to be installed. Please [[*URL*|view the Manual online]] or [[https://manual.audacityteam.org/man/unzipping_the_manual.html| download the Manual]].<br><br>To always view the Manual online, change \"Location of Manual\" in Interface Preferences to \"From Internet\"."
-msgstr ""
-
-#: src/HelpText.cpp
-msgid "Check Online"
-msgstr ""
-
 #: src/HelpUtilities.cpp
 #, c-format
 msgid "Save %s"
@@ -4176,11 +4347,6 @@ msgstr ""
 msgid "The language you have chosen, %s (%s), is not the same as the system language, %s (%s)."
 msgstr ""
 
-#: src/LangChoice.cpp src/effects/VST/VSTEffect.cpp
-#: src/widgets/FileDialog/gtk/FileDialogPrivate.cpp
-msgid "Confirm"
-msgstr ""
-
 #: src/Legacy.cpp
 msgid "Error Converting Legacy Project File"
 msgstr ""
@@ -4194,37 +4360,6 @@ msgstr ""
 
 #: src/Legacy.cpp
 msgid "Opening Audacity Project"
-msgstr ""
-
-#: src/LogWindow.cpp
-msgid "Audacity Log"
-msgstr ""
-
-#: src/LogWindow.cpp src/TagsEditor.cpp
-msgid "&Save..."
-msgstr ""
-
-#. i18n-hint: (verb)
-#: src/LogWindow.cpp src/TagsEditor.cpp src/prefs/KeyConfigPrefs.cpp
-msgid "Cl&ear"
-msgstr ""
-
-#: src/LogWindow.cpp src/ShuttleGui.cpp src/cloud/audiocom/ShareAudioDialog.cpp
-#: src/effects/Contrast.cpp src/menus/FileMenus.cpp
-msgid "&Close"
-msgstr ""
-
-#: src/LogWindow.cpp
-msgid "log.txt"
-msgstr ""
-
-#: src/LogWindow.cpp
-msgid "Save log to:"
-msgstr ""
-
-#: src/LogWindow.cpp
-#, c-format
-msgid "Couldn't save log to file: %s"
 msgstr ""
 
 #: src/LyricsWindow.cpp
@@ -4602,11 +4737,6 @@ msgstr ""
 msgid ""
 "Effect or Command at %s failed to register:\n"
 "%s"
-msgstr ""
-
-#: src/PluginStartupRegistration.cpp src/cloud/audiocom/ShareAudioDialog.cpp
-#: src/widgets/ProgressDialog.cpp
-msgid "Elapsed Time:"
 msgstr ""
 
 #: src/PluginStartupRegistration.cpp
@@ -5404,34 +5534,8 @@ msgstr ""
 msgid "&Screenshot..."
 msgstr ""
 
-#: src/SelectFile.cpp
-msgid "The specified filename could not be converted due to Unicode character use."
-msgstr ""
-
-#: src/SelectFile.cpp
-msgid "Specify New Filename:"
-msgstr ""
-
 #: src/SelectUtilities.cpp
 msgid "Position"
-msgstr ""
-
-#. i18n-hint: The access key "&P" should be the same in
-#. "Stop &Preview" and "Start &Preview"
-#: src/ShuttleGui.cpp src/effects/EffectUI.cpp
-msgid "&Preview"
-msgstr ""
-
-#: src/ShuttleGui.cpp
-msgid "Dry Previe&w"
-msgstr ""
-
-#: src/ShuttleGui.cpp
-msgid "&Settings"
-msgstr ""
-
-#: src/ShuttleGui.cpp src/effects/EffectUI.cpp
-msgid "Debu&g"
 msgstr ""
 
 #: src/Snap.cpp src/export/ExportFFmpegDialogs.cpp
@@ -6249,10 +6353,6 @@ msgstr ""
 msgid "Preparing audio..."
 msgstr ""
 
-#: src/cloud/audiocom/ShareAudioDialog.cpp src/widgets/ProgressDialog.cpp
-msgid "Remaining Time:"
-msgstr ""
-
 #: src/cloud/audiocom/ShareAudioDialog.cpp
 msgid "Shareable link"
 msgstr ""
@@ -6340,10 +6440,6 @@ msgstr ""
 
 #: src/commands/DragCommand.cpp
 msgid "Drag"
-msgstr ""
-
-#: src/commands/DragCommand.cpp src/widgets/wxPanelWrapper.h
-msgid "Panel"
 msgstr ""
 
 #: src/commands/DragCommand.cpp src/prefs/ApplicationPrefs.cpp
@@ -13457,10 +13553,6 @@ msgstr ""
 msgid "Au&dio Device Info..."
 msgstr ""
 
-#: src/menus/HelpMenus.cpp src/widgets/ErrorDialog.cpp
-msgid "Show &Log..."
-msgstr ""
-
 #: src/menus/HelpMenus.cpp
 msgid "&Generate Support Data..."
 msgstr ""
@@ -15204,14 +15296,6 @@ msgstr ""
 
 #: src/prefs/GUIPrefs.cpp
 msgid "-145 dB (PCM range of 24 bit samples)"
-msgstr ""
-
-#: src/prefs/GUIPrefs.cpp
-msgid "Local"
-msgstr ""
-
-#: src/prefs/GUIPrefs.cpp
-msgid "From Internet"
 msgstr ""
 
 #: src/prefs/GUIPrefs.cpp src/prefs/TracksPrefs.cpp src/prefs/WaveformPrefs.cpp
@@ -18242,19 +18326,6 @@ msgctxt "crash reporter button"
 msgid "&Send"
 msgstr ""
 
-#: src/widgets/FileDialog/gtk/FileDialogPrivate.cpp
-#, c-format
-msgid "File '%s' already exists, do you really want to overwrite it?"
-msgstr ""
-
-#: src/widgets/FileDialog/gtk/FileDialogPrivate.cpp
-msgid "Please choose an existing file."
-msgstr ""
-
-#: src/widgets/FileDialog/mac/FileDialogPrivate.mm
-msgid "File type:"
-msgstr ""
-
 #: src/widgets/FileHistory.cpp
 msgid "&Clear"
 msgstr ""
@@ -18269,28 +18340,6 @@ msgstr ""
 
 #: src/widgets/Grid.cpp
 msgid "Empty"
-msgstr ""
-
-#: src/widgets/HelpSystem.cpp
-msgid "Backwards"
-msgstr ""
-
-#. i18n-hint arrowhead meaning backward movement
-#: src/widgets/HelpSystem.cpp
-msgid "<"
-msgstr ""
-
-#: src/widgets/HelpSystem.cpp
-msgid "Forwards"
-msgstr ""
-
-#. i18n-hint arrowhead meaning forward movement
-#: src/widgets/HelpSystem.cpp
-msgid ">"
-msgstr ""
-
-#: src/widgets/HelpSystem.cpp
-msgid "Help on the Internet"
 msgstr ""
 
 #: src/widgets/KeyView.cpp
@@ -18383,10 +18432,6 @@ msgstr ""
 msgid "Learn more"
 msgstr ""
 
-#: src/widgets/MultiDialog.cpp
-msgid "Show Log for Details"
-msgstr ""
-
 #: src/widgets/NumericTextCtrl.cpp
 msgid "(Use context menu to change format.)"
 msgstr ""
@@ -18398,30 +18443,6 @@ msgstr ""
 #: src/widgets/PopupMenuTable.h
 #, c-format
 msgid "%s (%s)"
-msgstr ""
-
-#: src/widgets/ProgressDialog.cpp
-msgid "Are you sure you wish to cancel?"
-msgstr ""
-
-#: src/widgets/ProgressDialog.cpp
-msgid "Confirm Cancel"
-msgstr ""
-
-#: src/widgets/ProgressDialog.cpp
-msgid "Are you sure you wish to stop?"
-msgstr ""
-
-#: src/widgets/ProgressDialog.cpp
-msgid "Confirm Stop"
-msgstr ""
-
-#: src/widgets/ProgressDialog.cpp
-msgid "Are you sure you wish to close?"
-msgstr ""
-
-#: src/widgets/ProgressDialog.cpp
-msgid "Confirm Close"
 msgstr ""
 
 #. i18n-hint: %s is replaced with a directory path.
@@ -18500,22 +18521,6 @@ msgstr ""
 #: src/widgets/valnum.cpp
 #, c-format
 msgid "Value must not be greater than %s"
-msgstr ""
-
-#: src/widgets/wxPanelWrapper.h
-msgid "Dialog"
-msgstr ""
-
-#: src/widgets/wxPanelWrapper.h
-msgid "Select a directory"
-msgstr ""
-
-#: src/widgets/wxPanelWrapper.h
-msgid "Directory Dialog"
-msgstr ""
-
-#: src/widgets/wxPanelWrapper.h
-msgid "File Dialog"
 msgstr ""
 
 #: plug-ins/SpectralEditMulti.ny resources/EffectsMenuDefaults.xml
