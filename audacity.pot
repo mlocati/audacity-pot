@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-03-16 08:19+0000\n"
+"POT-Creation-Date: 2023-03-17 08:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -648,6 +648,19 @@ msgstr ""
 msgid "Failed to open the file for upload: %s"
 msgstr ""
 
+#: libraries/lib-numeric-formats/NumericConverter.cpp
+msgid "Invalid tempo"
+msgstr ""
+
+#: libraries/lib-numeric-formats/NumericConverter.cpp
+msgid "Invalid time signature"
+msgstr ""
+
+#: libraries/lib-numeric-formats/NumericConverter.cpp
+#, c-format
+msgid "01000 bars 0%d beats|%f"
+msgstr ""
+
 #. i18n-hint: Name of time display format that shows time in seconds
 #: libraries/lib-numeric-formats/NumericConverter.cpp src/effects/AutoDuck.cpp
 #: src/effects/TruncSilence.cpp src/prefs/PlaybackPrefs.cpp
@@ -914,6 +927,11 @@ msgstr ""
 #. * translate 'frames' and leave the rest alone
 #: libraries/lib-numeric-formats/NumericConverter.cpp
 msgid "01000,01000 frames|75"
+msgstr ""
+
+#. i18n-hint: Name of time display format that shows time beats and measures
+#: libraries/lib-numeric-formats/NumericConverter.cpp
+msgid "beats and measures"
 msgstr ""
 
 #. i18n-hint: Name of display format that shows frequency in hertz
@@ -2805,6 +2823,14 @@ msgstr ""
 
 #: src/AdornedRulerPanel.cpp
 msgid "Timeline Options"
+msgstr ""
+
+#: src/AdornedRulerPanel.cpp
+msgid "Minutes and Seconds"
+msgstr ""
+
+#: src/AdornedRulerPanel.cpp
+msgid "Beats and Measures"
 msgstr ""
 
 #: src/AdornedRulerPanel.cpp
@@ -15312,6 +15338,18 @@ msgstr ""
 
 #: src/prefs/GUIPrefs.cpp
 msgid "Meter dB &range:"
+msgstr ""
+
+#: src/prefs/GUIPrefs.cpp
+msgid "Beats per &minute:"
+msgstr ""
+
+#: src/prefs/GUIPrefs.cpp
+msgid "Upper time &signature:"
+msgstr ""
+
+#: src/prefs/GUIPrefs.cpp
+msgid "Lower time &signature:"
 msgstr ""
 
 #: src/prefs/GUIPrefs.cpp
