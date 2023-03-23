@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-03-17 08:19+0000\n"
+"POT-Creation-Date: 2023-03-23 08:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -180,14 +180,14 @@ msgid ""
 msgstr ""
 
 #: libraries/lib-audio-io/AudioIO.cpp libraries/lib-effects/EffectBase.cpp
-#: libraries/lib-files/FileNames.cpp
+#: libraries/lib-files/FileNames.cpp libraries/lib-vst3/VST3Wrapper.cpp
 #: libraries/lib-wx-wrappers/FileDialog/gtk/FileDialogPrivate.cpp
 #: src/ProjectAudioManager.cpp src/TimerRecordDialog.cpp
 #: src/effects/Contrast.cpp src/effects/Generator.cpp
-#: src/effects/VST3/VST3Wrapper.cpp src/effects/nyquist/Nyquist.cpp
-#: src/export/ExportFFmpeg.cpp src/export/ExportMP2.cpp
-#: src/menus/TrackMenus.cpp src/menus/TransportMenus.cpp
-#: src/prefs/DirectoriesPrefs.cpp src/prefs/KeyConfigPrefs.cpp
+#: src/effects/nyquist/Nyquist.cpp src/export/ExportFFmpeg.cpp
+#: src/export/ExportMP2.cpp src/menus/TrackMenus.cpp
+#: src/menus/TransportMenus.cpp src/prefs/DirectoriesPrefs.cpp
+#: src/prefs/KeyConfigPrefs.cpp
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackControls.cpp
 #: src/widgets/UnwritableLocationErrorDialog.cpp
 #: plug-ins/eq-xml-to-txt-converter.ny
@@ -287,8 +287,9 @@ msgstr ""
 msgid "Builtin Effects"
 msgstr ""
 
-#: libraries/lib-effects/LoadEffects.cpp src/commands/LoadCommands.cpp
-#: src/effects/VST/VSTEffect.cpp src/effects/VST3/VST3EffectsModule.cpp
+#: libraries/lib-effects/LoadEffects.cpp
+#: libraries/lib-vst3/VST3EffectsModule.cpp src/commands/LoadCommands.cpp
+#: src/effects/VST/VSTEffect.cpp
 #: src/effects/audiounits/AudioUnitEffectsModule.cpp
 #: src/effects/ladspa/LadspaEffect.cpp src/effects/lv2/LoadLV2.cpp
 #: src/effects/nyquist/LoadNyquist.cpp src/effects/vamp/LoadVamp.cpp
@@ -1638,6 +1639,12 @@ msgstr ""
 msgid "&Loop On/Off"
 msgstr ""
 
+#. i18n-hint: This is for screen reader software and indicates that
+#. this is a Time track.
+#: libraries/lib-time-track/TimeTrack.cpp src/TrackPanelAx.cpp
+msgid "Time Track"
+msgstr ""
+
 #: libraries/lib-track/Track.cpp
 msgid "Generic Track"
 msgstr ""
@@ -1652,6 +1659,38 @@ msgstr ""
 
 #: libraries/lib-transactions/TransactionScope.cpp
 msgid "Database error.  Sorry, but we don't have more details."
+msgstr ""
+
+#: libraries/lib-vst3/VST3EffectBase.cpp
+msgid "VST3"
+msgstr ""
+
+#. i18n-hint VST3 effect description string
+#: libraries/lib-vst3/VST3EffectBase.cpp
+#, c-format
+msgid "SubCategories: %s"
+msgstr ""
+
+#: libraries/lib-vst3/VST3EffectsModule.cpp
+msgid "VST3 Effects"
+msgstr ""
+
+#: libraries/lib-vst3/VST3EffectsModule.cpp
+msgid "Adds the ability to use VST3 effects in Audacity."
+msgstr ""
+
+#: libraries/lib-vst3/VST3EffectsModule.cpp
+#, c-format
+msgid "VST3 module error: %s"
+msgstr ""
+
+#: libraries/lib-vst3/VST3Wrapper.cpp
+#, c-format
+msgid "Unable to apply VST3 preset file %s"
+msgstr ""
+
+#: libraries/lib-vst3/VST3Wrapper.cpp
+msgid "Failed to save VST3 preset to file"
 msgstr ""
 
 #: libraries/lib-wave-track/Sequence.cpp
@@ -5772,12 +5811,6 @@ msgstr ""
 #: src/effects/VST/VSTEffect.cpp src/effects/VST3/VST3Editor.cpp
 #: src/effects/ladspa/LadspaEffect.cpp src/effects/lv2/LV2Editor.cpp
 msgid "Duration"
-msgstr ""
-
-#. i18n-hint: This is for screen reader software and indicates that
-#. this is a Time track.
-#: src/TimeTrack.cpp src/TrackPanelAx.cpp
-msgid "Time Track"
 msgstr ""
 
 #: src/TimerRecordDialog.cpp
@@ -10125,16 +10158,6 @@ msgid "VST"
 msgstr ""
 
 #: src/effects/VST3/VST3Effect.cpp
-msgid "VST3"
-msgstr ""
-
-#. i18n-hint VST3 effect description string
-#: src/effects/VST3/VST3Effect.cpp
-#, c-format
-msgid "SubCategories: %s"
-msgstr ""
-
-#: src/effects/VST3/VST3Effect.cpp
 msgid "Save VST3 Preset As:"
 msgstr ""
 
@@ -10146,34 +10169,12 @@ msgstr ""
 msgid "Load VST3 preset:"
 msgstr ""
 
-#: src/effects/VST3/VST3EffectsModule.cpp
-msgid "VST3 Effects"
-msgstr ""
-
-#: src/effects/VST3/VST3EffectsModule.cpp
-msgid "Adds the ability to use VST3 effects in Audacity."
-msgstr ""
-
-#: src/effects/VST3/VST3EffectsModule.cpp
-#, c-format
-msgid "VST3 module error: %s"
-msgstr ""
-
 #: src/effects/VST3/VST3OptionsDialog.cpp
 msgid "As part of their processing, some VST3 effects must delay returning audio to Audacity. When not compensating for this delay, you will notice that small silences have been inserted into the audio. Enabling this option will provide that compensation, but it may not work for all VST3 effects."
 msgstr ""
 
 #: src/effects/VST3/VST3OptionsDialog.cpp
 msgid "Most VST3 effects have a graphical interface for setting parameter values. A basic text-only method is also available.  Reopen the effect for this to take effect."
-msgstr ""
-
-#: src/effects/VST3/VST3Wrapper.cpp
-#, c-format
-msgid "Unable to apply VST3 preset file %s"
-msgstr ""
-
-#: src/effects/VST3/VST3Wrapper.cpp
-msgid "Failed to save VST3 preset to file"
 msgstr ""
 
 #: src/effects/Wahwah.cpp resources/EffectsMenuDefaults.xml
