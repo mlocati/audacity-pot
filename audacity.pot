@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-03-23 08:18+0000\n"
+"POT-Creation-Date: 2023-03-30 08:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18562,6 +18562,53 @@ msgstr ""
 msgid "Value must not be greater than %s"
 msgstr ""
 
+#: plug-ins/ShelfFilter.ny
+msgid "Shelf Filter"
+msgstr ""
+
+#: plug-ins/ShelfFilter.ny plug-ins/StudioFadeOut.ny
+#: plug-ins/adjustable-fade.ny plug-ins/crossfadeclips.ny
+#: plug-ins/crossfadetracks.ny plug-ins/delay.ny
+#: plug-ins/eq-xml-to-txt-converter.ny plug-ins/equalabel.ny
+#: plug-ins/label-sounds.ny plug-ins/limiter.ny plug-ins/noisegate.ny
+#: plug-ins/sample-data-export.ny plug-ins/sample-data-import.ny
+#: plug-ins/spectral-delete.ny plug-ins/tremolo.ny
+msgid "Steve Daulton"
+msgstr ""
+
+#: plug-ins/ShelfFilter.ny plug-ins/SpectralEditMulti.ny
+#: plug-ins/SpectralEditParametricEQ.ny plug-ins/beat.ny plug-ins/clipfix.ny
+#: plug-ins/delay.ny plug-ins/highpass.ny plug-ins/lowpass.ny plug-ins/pluck.ny
+#: plug-ins/rhythmtrack.ny plug-ins/vocalrediso.ny plug-ins/vocoder.ny
+msgid "GNU General Public License v2.0"
+msgstr ""
+
+#: plug-ins/ShelfFilter.ny
+msgid "Filter type"
+msgstr ""
+
+#: plug-ins/ShelfFilter.ny
+msgid "Low-shelf"
+msgstr ""
+
+#: plug-ins/ShelfFilter.ny
+msgid "High-shelf"
+msgstr ""
+
+#: plug-ins/ShelfFilter.ny plug-ins/highpass.ny plug-ins/lowpass.ny
+#: plug-ins/notch.ny plug-ins/rissetdrum.ny plug-ins/tremolo.ny
+msgid "Frequency (Hz)"
+msgstr ""
+
+#: plug-ins/ShelfFilter.ny
+msgid "Amount (dB)"
+msgstr ""
+
+#: plug-ins/ShelfFilter.ny
+#, lisp-format
+msgid "Error.~%Frequency set too high for selected track."
+msgstr ""
+
 #: plug-ins/SpectralEditMulti.ny resources/EffectsMenuDefaults.xml
 msgid "Spectral Edit Multi Tool"
 msgstr ""
@@ -18569,13 +18616,6 @@ msgstr ""
 #: plug-ins/SpectralEditMulti.ny plug-ins/SpectralEditParametricEQ.ny
 #: plug-ins/SpectralEditShelves.ny
 msgid "Paul Licameli"
-msgstr ""
-
-#: plug-ins/SpectralEditMulti.ny plug-ins/SpectralEditParametricEQ.ny
-#: plug-ins/beat.ny plug-ins/clipfix.ny plug-ins/delay.ny plug-ins/highpass.ny
-#: plug-ins/lowpass.ny plug-ins/pluck.ny plug-ins/rhythmtrack.ny
-#: plug-ins/vocalrediso.ny plug-ins/vocoder.ny
-msgid "GNU General Public License v2.0"
 msgstr ""
 
 #: plug-ins/SpectralEditMulti.ny plug-ins/SpectralEditParametricEQ.ny
@@ -18662,15 +18702,6 @@ msgstr ""
 
 #: plug-ins/StudioFadeOut.ny resources/EffectsMenuDefaults.xml
 msgid "Studio Fade Out"
-msgstr ""
-
-#: plug-ins/StudioFadeOut.ny plug-ins/adjustable-fade.ny
-#: plug-ins/crossfadeclips.ny plug-ins/crossfadetracks.ny plug-ins/delay.ny
-#: plug-ins/eq-xml-to-txt-converter.ny plug-ins/equalabel.ny
-#: plug-ins/label-sounds.ny plug-ins/limiter.ny plug-ins/noisegate.ny
-#: plug-ins/sample-data-export.ny plug-ins/sample-data-import.ny
-#: plug-ins/spectral-delete.ny plug-ins/tremolo.ny
-msgid "Steve Daulton"
 msgstr ""
 
 #: plug-ins/StudioFadeOut.ny
@@ -19115,11 +19146,6 @@ msgstr ""
 
 #: plug-ins/highpass.ny plug-ins/lowpass.ny
 msgid "Dominic Mazzoni"
-msgstr ""
-
-#: plug-ins/highpass.ny plug-ins/lowpass.ny plug-ins/notch.ny
-#: plug-ins/rissetdrum.ny plug-ins/tremolo.ny
-msgid "Frequency (Hz)"
 msgstr ""
 
 #: plug-ins/highpass.ny plug-ins/lowpass.ny
