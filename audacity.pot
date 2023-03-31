@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-03-30 08:19+0000\n"
+"POT-Creation-Date: 2023-03-31 08:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2779,6 +2779,14 @@ msgid "our Privacy Policy"
 msgstr ""
 
 #: src/AdornedRulerPanel.cpp
+msgid "Minutes and Seconds"
+msgstr ""
+
+#: src/AdornedRulerPanel.cpp
+msgid "Beats and Measures"
+msgstr ""
+
+#: src/AdornedRulerPanel.cpp
 msgid "Click and drag to define a looping region."
 msgstr ""
 
@@ -2862,14 +2870,6 @@ msgstr ""
 
 #: src/AdornedRulerPanel.cpp
 msgid "Timeline Options"
-msgstr ""
-
-#: src/AdornedRulerPanel.cpp
-msgid "Minutes and Seconds"
-msgstr ""
-
-#: src/AdornedRulerPanel.cpp
-msgid "Beats and Measures"
 msgstr ""
 
 #: src/AdornedRulerPanel.cpp
@@ -18562,7 +18562,7 @@ msgstr ""
 msgid "Value must not be greater than %s"
 msgstr ""
 
-#: plug-ins/ShelfFilter.ny
+#: plug-ins/ShelfFilter.ny resources/EffectsMenuDefaults.xml
 msgid "Shelf Filter"
 msgstr ""
 
