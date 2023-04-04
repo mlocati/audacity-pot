@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-03-31 08:18+0000\n"
+"POT-Creation-Date: 2023-04-04 08:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -649,36 +649,82 @@ msgstr ""
 msgid "Failed to open the file for upload: %s"
 msgstr ""
 
-#: libraries/lib-numeric-formats/NumericConverter.cpp
-msgid "Invalid tempo"
-msgstr ""
-
-#: libraries/lib-numeric-formats/NumericConverter.cpp
-msgid "Invalid time signature"
-msgstr ""
-
-#: libraries/lib-numeric-formats/NumericConverter.cpp
-#, c-format
-msgid "01000 bars 0%d beats|%f"
+#. i18n-hint: Name of time display format that shows time in hours,
+#. * minutes, seconds and samples (at the current project sample rate)
+#: libraries/lib-numeric-formats/NumericConverterFormats.cpp
+msgid "hh:mm:ss + samples"
 msgstr ""
 
 #. i18n-hint: Name of time display format that shows time in seconds
-#: libraries/lib-numeric-formats/NumericConverter.cpp src/effects/AutoDuck.cpp
-#: src/effects/TruncSilence.cpp src/prefs/PlaybackPrefs.cpp
-#: src/prefs/RecordingPrefs.cpp
+#: libraries/lib-numeric-formats/NumericConverterFormats.cpp
+#: src/effects/AutoDuck.cpp src/effects/TruncSilence.cpp
+#: src/prefs/PlaybackPrefs.cpp src/prefs/RecordingPrefs.cpp
 msgid "seconds"
+msgstr ""
+
+#. i18n-hint: Name of time display format that shows time in hours, minutes
+#. * and seconds
+#: libraries/lib-numeric-formats/NumericConverterFormats.cpp
+msgid "hh:mm:ss"
+msgstr ""
+
+#. i18n-hint: Name of time display format that shows time in hours,
+#. * minutes, seconds and milliseconds (1/1000 second)
+#: libraries/lib-numeric-formats/NumericConverterFormats.cpp
+msgid "hh:mm:ss + milliseconds"
+msgstr ""
+
+#. i18n-hint: Name of time display format that shows time in hours,
+#. * minutes, seconds and hundredths of a second (1/100 second)
+#: libraries/lib-numeric-formats/NumericConverterFormats.cpp
+msgid "hh:mm:ss + hundredths"
+msgstr ""
+
+#. i18n-hint: Name of display format that shows frequency in hertz
+#. i18n-hint: This is the abbreviation for "Hertz", or
+#. cycles per second.
+#: libraries/lib-numeric-formats/NumericConverterFormats.cpp src/FreqWindow.cpp
+#: src/effects/ChangePitch.cpp src/effects/EqualizationUI.cpp
+#: src/effects/ScienFilter.cpp src/import/ImportRaw.cpp
+msgid "Hz"
+msgstr ""
+
+#. i18n-hint: Name of display format that shows log of frequency
+#. * in octaves
+#: libraries/lib-numeric-formats/NumericConverterFormats.cpp
+msgid "octaves"
+msgstr ""
+
+#. i18n-hint: The music theory "bar"
+#: libraries/lib-numeric-formats/formatters/BeatsNumericConverterFormatter.cpp
+msgid "bar"
+msgstr ""
+
+#. i18n-hint: The music theory "beat"
+#: libraries/lib-numeric-formats/formatters/BeatsNumericConverterFormatter.cpp
+msgid "beat"
+msgstr ""
+
+#. i18n-hint: The music theory "beats"
+#: libraries/lib-numeric-formats/formatters/BeatsNumericConverterFormatter.cpp
+msgid "beats"
+msgstr ""
+
+#. i18n-hint: The music theory "beats". 16th is a note duration.
+#: libraries/lib-numeric-formats/formatters/BeatsNumericConverterFormatter.cpp
+msgid "beats and 16th"
 msgstr ""
 
 #. i18n-hint: Format string for displaying time in seconds. Change the comma
 #. * in the middle to the 1000s separator for your locale, and the 'seconds'
 #. * on the end to the word for seconds. Don't change the numbers.
-#: libraries/lib-numeric-formats/NumericConverter.cpp
+#: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
 msgid "01000,01000 seconds"
 msgstr ""
 
 #. i18n-hint: Name of time display format that shows time in seconds
 #. * and milliseconds (1/1000 second)
-#: libraries/lib-numeric-formats/NumericConverter.cpp
+#: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
 msgid "seconds + milliseconds"
 msgstr ""
 
@@ -687,14 +733,13 @@ msgstr ""
 #. * for your locale, and the 'seconds' on the end to the word for seconds.
 #. * Don't change the numbers. The decimal separator is specified using '<' if
 #. * your languages uses a ',' or to '>' if your language uses a '.'.
-#: libraries/lib-numeric-formats/NumericConverter.cpp
+#: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
 msgid "01000,01000>01000 seconds"
 msgstr ""
 
-#. i18n-hint: Name of time display format that shows time in hours, minutes
-#. * and seconds
-#: libraries/lib-numeric-formats/NumericConverter.cpp
-msgid "hh:mm:ss"
+#: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
+#: src/prefs/DevicePrefs.cpp src/prefs/RecordingPrefs.cpp
+msgid "milliseconds"
 msgstr ""
 
 #. i18n-hint: Format string for displaying time in hours, minutes and
@@ -702,13 +747,13 @@ msgstr ""
 #. * abbreviation for minutes and 's' to the abbreviation for seconds. Don't
 #. * change the numbers unless there aren't 60 seconds in a minute in your
 #. * locale
-#: libraries/lib-numeric-formats/NumericConverter.cpp
+#: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
 msgid "0100 h 060 m 060 s"
 msgstr ""
 
 #. i18n-hint: Name of time display format that shows time in days, hours,
 #. * minutes and seconds
-#: libraries/lib-numeric-formats/NumericConverter.cpp
+#: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
 msgid "dd:hh:mm:ss"
 msgstr ""
 
@@ -717,14 +762,8 @@ msgstr ""
 #. * for hours, 'm' to the abbreviation for minutes and 's' to the
 #. * abbreviation for seconds. Don't change the numbers unless there aren't
 #. * 24 hours in a day in your locale
-#: libraries/lib-numeric-formats/NumericConverter.cpp
+#: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
 msgid "0100 days 024 h 060 m 060 s"
-msgstr ""
-
-#. i18n-hint: Name of time display format that shows time in hours,
-#. * minutes, seconds and hundredths of a second (1/100 second)
-#: libraries/lib-numeric-formats/NumericConverter.cpp
-msgid "hh:mm:ss + hundredths"
 msgstr ""
 
 #. i18n-hint: Format string for displaying time in hours, minutes, seconds
@@ -734,14 +773,12 @@ msgstr ""
 #. * unless there aren't 60 minutes in an hour in your locale.
 #. * The decimal separator is specified using '<' if your language uses a ',' or
 #. * to '>' if your language uses a '.'.
-#: libraries/lib-numeric-formats/NumericConverter.cpp
+#: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
 msgid "0100 h 060 m 060>0100 s"
 msgstr ""
 
-#. i18n-hint: Name of time display format that shows time in hours,
-#. * minutes, seconds and milliseconds (1/1000 second)
-#: libraries/lib-numeric-formats/NumericConverter.cpp
-msgid "hh:mm:ss + milliseconds"
+#: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
+msgid "centiseconds"
 msgstr ""
 
 #. i18n-hint: Format string for displaying time in hours, minutes, seconds
@@ -751,14 +788,8 @@ msgstr ""
 #. * unless there aren't 60 minutes in an hour in your locale.
 #. * The decimal separator is specified using '<' if your language uses a ',' or
 #. * to '>' if your language uses a '.'.
-#: libraries/lib-numeric-formats/NumericConverter.cpp
+#: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
 msgid "0100 h 060 m 060>01000 s"
-msgstr ""
-
-#. i18n-hint: Name of time display format that shows time in hours,
-#. * minutes, seconds and samples (at the current project sample rate)
-#: libraries/lib-numeric-formats/NumericConverter.cpp
-msgid "hh:mm:ss + samples"
 msgstr ""
 
 #. i18n-hint: Format string for displaying time in hours, minutes, seconds
@@ -768,7 +799,7 @@ msgstr ""
 #. * unless there aren't 60 seconds in a minute in your locale.
 #. * The decimal separator is specified using '<' if your language uses a ',' or
 #. * to '>' if your language uses a '.'.
-#: libraries/lib-numeric-formats/NumericConverter.cpp
+#: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
 msgid "0100 h 060 m 060 s+># samples"
 msgstr ""
 
@@ -776,7 +807,7 @@ msgstr ""
 #. * current project sample rate).  For example the number of a sample at 1
 #. * second into a recording at 44.1KHz would be 44,100.
 #.
-#: libraries/lib-numeric-formats/NumericConverter.cpp
+#: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
 #: plug-ins/sample-data-export.ny
 msgid "samples"
 msgstr ""
@@ -785,13 +816,13 @@ msgstr ""
 #. * Change the ',' to the 1000s separator for your locale, and translate
 #. * samples. If 1000s aren't a base multiple for your number system, then you
 #. * can change the numbers to an appropriate one, and put a 0 on the front
-#: libraries/lib-numeric-formats/NumericConverter.cpp
+#: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
 msgid "01000,01000,01000 samples|#"
 msgstr ""
 
 #. i18n-hint: Name of time display format that shows time in hours, minutes,
 #. * seconds and frames at 24 frames per second (commonly used for films)
-#: libraries/lib-numeric-formats/NumericConverter.cpp
+#: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
 msgid "hh:mm:ss + film frames (24 fps)"
 msgstr ""
 
@@ -802,13 +833,13 @@ msgstr ""
 #. * unless there aren't 60 seconds in a minute in your locale.
 #. * The decimal separator is specified using '<' if your language uses a ',' or
 #. * to '>' if your language uses a '.'.
-#: libraries/lib-numeric-formats/NumericConverter.cpp
+#: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
 msgid "0100 h 060 m 060 s+>24 frames"
 msgstr ""
 
 #. i18n-hint: Name of time display format that shows time in frames (lots of
 #. * frames) at 24 frames per second (commonly used for films)
-#: libraries/lib-numeric-formats/NumericConverter.cpp
+#: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
 msgid "film frames (24 fps)"
 msgstr ""
 
@@ -816,14 +847,14 @@ msgstr ""
 #. * second. Change the comma
 #. * in the middle to the 1000s separator for your locale,
 #. * translate 'frames' and leave the rest alone
-#: libraries/lib-numeric-formats/NumericConverter.cpp
+#: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
 msgid "01000,01000 frames|24"
 msgstr ""
 
 #. i18n-hint: Name of time display format that shows time in hours, minutes,
 #. * seconds and frames at NTSC TV drop-frame rate (used for American /
 #. * Japanese TV, and very odd)
-#: libraries/lib-numeric-formats/NumericConverter.cpp
+#: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
 msgid "hh:mm:ss + NTSC drop frames"
 msgstr ""
 
@@ -833,14 +864,14 @@ msgstr ""
 #. * for seconds and translate 'frames'. Leave the |N alone, it's important!
 #. * The decimal separator is specified using '<' if your language uses a ',' or
 #. * to '>' if your language uses a '.'.
-#: libraries/lib-numeric-formats/NumericConverter.cpp
+#: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
 msgid "0100 h 060 m 060 s+>30 frames|N"
 msgstr ""
 
 #. i18n-hint: Name of time display format that shows time in hours, minutes,
 #. * seconds and frames at NTSC TV non-drop-frame rate (used for American /
 #. * Japanese TV, and doesn't quite match wall time
-#: libraries/lib-numeric-formats/NumericConverter.cpp
+#: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
 msgid "hh:mm:ss + NTSC non-drop frames"
 msgstr ""
 
@@ -851,13 +882,13 @@ msgstr ""
 #. * the whole things really is slightly off-speed!
 #. * The decimal separator is specified using '<' if your language uses a ',' or
 #. * to '>' if your language uses a '.'.
-#: libraries/lib-numeric-formats/NumericConverter.cpp
+#: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
 msgid "0100 h 060 m 060 s+>030 frames| .999000999"
 msgstr ""
 
 #. i18n-hint: Name of time display format that shows time in frames at NTSC
 #. * TV frame rate (used for American / Japanese TV
-#: libraries/lib-numeric-formats/NumericConverter.cpp
+#: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
 msgid "NTSC frames"
 msgstr ""
 
@@ -866,13 +897,13 @@ msgstr ""
 #. * in the middle to the 1000s separator for your locale,
 #. * translate 'frames' and leave the rest alone. That really is the frame
 #. * rate!
-#: libraries/lib-numeric-formats/NumericConverter.cpp
+#: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
 msgid "01000,01000 frames|29.97002997"
 msgstr ""
 
 #. i18n-hint: Name of time display format that shows time in hours, minutes,
 #. * seconds and frames at PAL TV frame rate (used for European TV)
-#: libraries/lib-numeric-formats/NumericConverter.cpp
+#: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
 msgid "hh:mm:ss + PAL frames (25 fps)"
 msgstr ""
 
@@ -882,13 +913,14 @@ msgstr ""
 #. * for seconds and translate 'frames'. Nice simple time code!
 #. * The decimal separator is specified using '<' if your language uses a ',' or
 #. * to '>' if your language uses a '.'.
-#: libraries/lib-numeric-formats/NumericConverter.cpp
+#: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
 msgid "0100 h 060 m 060 s+>25 frames"
 msgstr ""
 
 #. i18n-hint: Name of time display format that shows time in frames at PAL
 #. * TV frame rate (used for European TV)
-#: libraries/lib-numeric-formats/NumericConverter.cpp
+#: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
+#: libraries/lib-snapping/SnapUtils.cpp
 msgid "PAL frames (25 fps)"
 msgstr ""
 
@@ -896,13 +928,13 @@ msgstr ""
 #. * Change the comma
 #. * in the middle to the 1000s separator for your locale,
 #. * translate 'frames' and leave the rest alone.
-#: libraries/lib-numeric-formats/NumericConverter.cpp
+#: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
 msgid "01000,01000 frames|25"
 msgstr ""
 
 #. i18n-hint: Name of time display format that shows time in hours, minutes,
 #. * seconds and frames at CD Audio frame rate (75 frames per second)
-#: libraries/lib-numeric-formats/NumericConverter.cpp
+#: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
 msgid "hh:mm:ss + CDDA frames (75 fps)"
 msgstr ""
 
@@ -912,13 +944,14 @@ msgstr ""
 #. * for seconds and translate 'frames'.
 #. * The decimal separator is specified using '<' if your language uses a ',' or
 #. * to '>' if your language uses a '.'.
-#: libraries/lib-numeric-formats/NumericConverter.cpp
+#: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
 msgid "0100 h 060 m 060 s+>75 frames"
 msgstr ""
 
 #. i18n-hint: Name of time display format that shows time in frames at CD
 #. * Audio frame rate (75 frames per second)
-#: libraries/lib-numeric-formats/NumericConverter.cpp
+#: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
+#: libraries/lib-snapping/SnapUtils.cpp
 msgid "CDDA frames (75 fps)"
 msgstr ""
 
@@ -926,38 +959,24 @@ msgstr ""
 #. * frames. Change the comma
 #. * in the middle to the 1000s separator for your locale,
 #. * translate 'frames' and leave the rest alone
-#: libraries/lib-numeric-formats/NumericConverter.cpp
+#: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
 msgid "01000,01000 frames|75"
-msgstr ""
-
-#. i18n-hint: Name of time display format that shows time beats and measures
-#: libraries/lib-numeric-formats/NumericConverter.cpp
-msgid "beats and measures"
-msgstr ""
-
-#. i18n-hint: Name of display format that shows frequency in hertz
-#. i18n-hint: This is the abbreviation for "Hertz", or
-#. cycles per second.
-#: libraries/lib-numeric-formats/NumericConverter.cpp src/FreqWindow.cpp
-#: src/effects/ChangePitch.cpp src/effects/EqualizationUI.cpp
-#: src/effects/ScienFilter.cpp src/import/ImportRaw.cpp
-msgid "Hz"
 msgstr ""
 
 #. i18n-hint: Format string for displaying frequency in hertz. Change
 #. * the decimal point for your locale. Don't change the numbers.
 #. * The decimal separator is specified using '<' if your language uses a ',' or
 #. * to '>' if your language uses a '.'.
-#: libraries/lib-numeric-formats/NumericConverter.cpp
+#: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
 msgid "010,01000>0100 Hz"
 msgstr ""
 
-#: libraries/lib-numeric-formats/NumericConverter.cpp
+#: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
 msgid "centihertz"
 msgstr ""
 
 #. i18n-hint: Name of display format that shows frequency in kilohertz
-#: libraries/lib-numeric-formats/NumericConverter.cpp
+#: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
 msgid "kHz"
 msgstr ""
 
@@ -965,36 +984,30 @@ msgstr ""
 #. * the decimal point for your locale. Don't change the numbers.
 #. * The decimal separator is specified using '<' if your language uses a ',' or
 #. * to '>' if your language uses a '.'.
-#: libraries/lib-numeric-formats/NumericConverter.cpp
+#: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
 msgid "01000>01000 kHz|0.001"
 msgstr ""
 
-#: libraries/lib-numeric-formats/NumericConverter.cpp
+#: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
 msgid "hertz"
-msgstr ""
-
-#. i18n-hint: Name of display format that shows log of frequency
-#. * in octaves
-#: libraries/lib-numeric-formats/NumericConverter.cpp
-msgid "octaves"
 msgstr ""
 
 #. i18n-hint: Format string for displaying log of frequency in octaves.
 #. * Change the decimal points for your locale. Don't change the numbers.
 #. * The decimal separator is specified using '<' if your language uses a ',' or
 #. * to '>' if your language uses a '.'.
-#: libraries/lib-numeric-formats/NumericConverter.cpp
+#: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
 msgid "100>01000 octaves|1.442695041"
 msgstr ""
 
 #. i18n-hint: an octave is a doubling of frequency
-#: libraries/lib-numeric-formats/NumericConverter.cpp
+#: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
 msgid "thousandths of octaves"
 msgstr ""
 
 #. i18n-hint: Name of display format that shows log of frequency
 #. * in semitones and cents
-#: libraries/lib-numeric-formats/NumericConverter.cpp
+#: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
 msgid "semitones + cents"
 msgstr ""
 
@@ -1003,29 +1016,29 @@ msgstr ""
 #. * Change the decimal points for your locale. Don't change the numbers.
 #. * The decimal separator is specified using '<' if your language uses a ',' or
 #. * to '>' if your language uses a '.'.
-#: libraries/lib-numeric-formats/NumericConverter.cpp
+#: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
 msgid "1000 semitones >0100 cents|17.312340491"
 msgstr ""
 
 #. i18n-hint: a cent is a hundredth of a semitone (which is 1/12 octave)
-#: libraries/lib-numeric-formats/NumericConverter.cpp
+#: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
 msgid "hundredths of cents"
 msgstr ""
 
 #. i18n-hint: Name of display format that shows log of frequency
 #. * in decades
-#: libraries/lib-numeric-formats/NumericConverter.cpp
+#: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
 msgid "decades"
 msgstr ""
 
 #. i18n-hint: Format string for displaying log of frequency in decades.
 #. * Change the decimal points for your locale. Don't change the numbers.
-#: libraries/lib-numeric-formats/NumericConverter.cpp
+#: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
 msgid "10>01000 decades|0.434294482"
 msgstr ""
 
 #. i18n-hint: a decade is a tenfold increase of frequency
-#: libraries/lib-numeric-formats/NumericConverter.cpp
+#: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
 msgid "thousandths of decades"
 msgstr ""
 
@@ -1452,6 +1465,122 @@ msgstr ""
 
 #: libraries/lib-shuttlegui/ShuttleGui.cpp src/effects/EffectUI.cpp
 msgid "Debu&g"
+msgstr ""
+
+#. i18n-hint: The music theory "beat"
+#: libraries/lib-snapping/SnapUtils.cpp
+msgid "Beats"
+msgstr ""
+
+#. i18n-hint: The music theory "bar"
+#: libraries/lib-snapping/SnapUtils.cpp
+msgid "Bar"
+msgstr ""
+
+#: libraries/lib-snapping/SnapUtils.cpp
+msgid "1/2"
+msgstr ""
+
+#: libraries/lib-snapping/SnapUtils.cpp
+msgid "1/4"
+msgstr ""
+
+#: libraries/lib-snapping/SnapUtils.cpp
+msgid "1/8"
+msgstr ""
+
+#: libraries/lib-snapping/SnapUtils.cpp
+msgid "1/16"
+msgstr ""
+
+#: libraries/lib-snapping/SnapUtils.cpp
+msgid "1/32"
+msgstr ""
+
+#: libraries/lib-snapping/SnapUtils.cpp
+msgid "1/64"
+msgstr ""
+
+#: libraries/lib-snapping/SnapUtils.cpp
+msgid "1/128"
+msgstr ""
+
+#. i18n-hint: The music theory "triplet"
+#: libraries/lib-snapping/SnapUtils.cpp
+msgid "Triplets"
+msgstr ""
+
+#: libraries/lib-snapping/SnapUtils.cpp
+msgid "1/2 (triplets)"
+msgstr ""
+
+#: libraries/lib-snapping/SnapUtils.cpp
+msgid "1/4 (triplets)"
+msgstr ""
+
+#: libraries/lib-snapping/SnapUtils.cpp
+msgid "1/8 (triplets)"
+msgstr ""
+
+#: libraries/lib-snapping/SnapUtils.cpp
+msgid "1/16 (triplets)"
+msgstr ""
+
+#: libraries/lib-snapping/SnapUtils.cpp
+msgid "1/32 (triplets)"
+msgstr ""
+
+#: libraries/lib-snapping/SnapUtils.cpp
+msgid "1/64 (triplets)"
+msgstr ""
+
+#: libraries/lib-snapping/SnapUtils.cpp
+msgid "1/128 (triplets)"
+msgstr ""
+
+#: libraries/lib-snapping/SnapUtils.cpp
+msgid "Seconds && samples"
+msgstr ""
+
+#: libraries/lib-snapping/SnapUtils.cpp src/prefs/TracksPrefs.cpp
+#: plug-ins/sample-data-export.ny
+msgid "Seconds"
+msgstr ""
+
+#: libraries/lib-snapping/SnapUtils.cpp
+msgid "Deciseconds"
+msgstr ""
+
+#: libraries/lib-snapping/SnapUtils.cpp
+msgid "Centiseconds"
+msgstr ""
+
+#: libraries/lib-snapping/SnapUtils.cpp
+msgid "Milliseconds"
+msgstr ""
+
+#: libraries/lib-snapping/SnapUtils.cpp src/prefs/TracksPrefs.cpp
+msgid "Samples"
+msgstr ""
+
+#: libraries/lib-snapping/SnapUtils.cpp
+msgid "Video frames"
+msgstr ""
+
+#: libraries/lib-snapping/SnapUtils.cpp
+msgid "Film frames (24 fps)"
+msgstr ""
+
+#: libraries/lib-snapping/SnapUtils.cpp
+msgid "NTSC frames (29.97 fps)"
+msgstr ""
+
+#: libraries/lib-snapping/SnapUtils.cpp
+msgid "NTSC frames (30 fps)"
+msgstr ""
+
+#: libraries/lib-snapping/SnapUtils.cpp
+msgid "CD frames"
 msgstr ""
 
 #: libraries/lib-strings/FutureStrings.h src/toolbars/CutCopyPasteToolBar.cpp
@@ -2559,6 +2688,7 @@ msgstr ""
 msgid "Translators"
 msgstr ""
 
+#. i18n-hint: refers to optional plug-in software libraries
 #: src/AboutDialog.cpp src/prefs/LibraryPrefs.cpp
 msgid "Libraries"
 msgstr ""
@@ -5352,6 +5482,7 @@ msgid "Replace %s"
 msgstr ""
 
 #: src/RealtimeEffectPanel.cpp src/menus/MenuHelper.cpp
+#: src/toolbars/SnappingToolBar.cpp
 msgid "Unknown"
 msgstr ""
 
@@ -5601,18 +5732,6 @@ msgstr ""
 
 #: src/SelectUtilities.cpp
 msgid "Position"
-msgstr ""
-
-#: src/Snap.cpp src/export/ExportFFmpegDialogs.cpp
-msgid "Off"
-msgstr ""
-
-#: src/Snap.cpp
-msgid "Nearest"
-msgstr ""
-
-#: src/Snap.cpp
-msgid "Prior"
 msgstr ""
 
 #: src/SoundActivatedRecord.cpp
@@ -11056,6 +11175,10 @@ msgid "10"
 msgstr ""
 
 #: src/export/ExportFFmpegDialogs.cpp
+msgid "Off"
+msgstr ""
+
+#: src/export/ExportFFmpegDialogs.cpp
 msgid "On"
 msgstr ""
 
@@ -11760,7 +11883,8 @@ msgstr ""
 
 #. i18n-hint: meaning accuracy in reproduction of sounds
 #: src/export/ExportMP3.cpp src/export/ExportWavPack.cpp
-#: src/prefs/QualityPrefs.cpp src/prefs/QualityPrefs.h
+#: src/prefs/DevicePrefs.cpp src/prefs/QualityPrefs.cpp
+#: src/prefs/QualityPrefs.h
 msgid "Quality"
 msgstr ""
 
@@ -14910,11 +15034,16 @@ msgid "&Don't apply effects in batch mode"
 msgstr ""
 
 #: src/prefs/DevicePrefs.cpp
-msgid "Devices"
+msgid "Audio Settings"
 msgstr ""
 
 #: src/prefs/DevicePrefs.cpp
-msgid "Preferences for Device"
+#, c-format
+msgid "%i Hz"
+msgstr ""
+
+#: src/prefs/DevicePrefs.cpp
+msgid "Other..."
 msgstr ""
 
 #. i18n-hint Software interface to audio devices
@@ -14957,12 +15086,23 @@ msgid "Cha&nnels:"
 msgstr ""
 
 #: src/prefs/DevicePrefs.cpp
-msgid "Latency"
+msgid "&Project Sample Rate:"
 msgstr ""
 
-#: src/prefs/DevicePrefs.cpp src/prefs/RecordingPrefs.cpp
-#: src/widgets/NumericTextCtrl.cpp
-msgid "milliseconds"
+#: src/prefs/DevicePrefs.cpp
+msgid "Project Sample Rate used when recording new tracks and for playback, mixdowns and exports in this project"
+msgstr ""
+
+#: src/prefs/DevicePrefs.cpp
+msgid "D&efault Sample Rate:"
+msgstr ""
+
+#: src/prefs/DevicePrefs.cpp
+msgid "Default Sample &Format:"
+msgstr ""
+
+#: src/prefs/DevicePrefs.cpp
+msgid "Latency"
 msgstr ""
 
 #: src/prefs/DevicePrefs.cpp
@@ -15342,18 +15482,6 @@ msgid "Meter dB &range:"
 msgstr ""
 
 #: src/prefs/GUIPrefs.cpp
-msgid "Beats per &minute:"
-msgstr ""
-
-#: src/prefs/GUIPrefs.cpp
-msgid "Upper time &signature:"
-msgstr ""
-
-#: src/prefs/GUIPrefs.cpp
-msgid "Lower time &signature:"
-msgstr ""
-
-#: src/prefs/GUIPrefs.cpp
 msgid "Show 'How to Get &Help' at launch"
 msgstr ""
 
@@ -15431,6 +15559,7 @@ msgstr ""
 msgid "&Seconds"
 msgstr ""
 
+#. i18n-hint: The music theory "beat"
 #: src/prefs/ImportExportPrefs.cpp
 msgid "&Beats"
 msgstr ""
@@ -15986,27 +16115,6 @@ msgid "Preferences for Quality"
 msgstr ""
 
 #: src/prefs/QualityPrefs.cpp
-#, c-format
-msgid "%i Hz"
-msgstr ""
-
-#: src/prefs/QualityPrefs.cpp
-msgid "Other..."
-msgstr ""
-
-#: src/prefs/QualityPrefs.cpp
-msgid "Sampling"
-msgstr ""
-
-#: src/prefs/QualityPrefs.cpp
-msgid "Default Sample &Rate:"
-msgstr ""
-
-#: src/prefs/QualityPrefs.cpp
-msgid "Default Sample &Format:"
-msgstr ""
-
-#: src/prefs/QualityPrefs.cpp
 msgid "Real-time Conversion"
 msgstr ""
 
@@ -16538,10 +16646,6 @@ msgstr ""
 msgid "Minutes"
 msgstr ""
 
-#: src/prefs/TracksPrefs.cpp plug-ins/sample-data-export.ny
-msgid "Seconds"
-msgstr ""
-
 #: src/prefs/TracksPrefs.cpp
 msgid "5ths of Seconds"
 msgstr ""
@@ -16568,10 +16672,6 @@ msgstr ""
 
 #: src/prefs/TracksPrefs.cpp
 msgid "MilliSeconds"
-msgstr ""
-
-#: src/prefs/TracksPrefs.cpp
-msgid "Samples"
 msgstr ""
 
 #: src/prefs/TracksPrefs.cpp
@@ -16720,10 +16820,6 @@ msgstr ""
 
 #: src/toolbars/AudioSetupToolBar.cpp src/toolbars/DeviceToolBar.cpp
 msgid "2 (Stereo) Recording Channels"
-msgstr ""
-
-#: src/toolbars/AudioSetupToolBar.cpp
-msgid "Audio Settings:"
 msgstr ""
 
 #. i18n-hint: Clicking this menu item shows the toolbar
@@ -17060,16 +17156,20 @@ msgstr ""
 msgid "Scru&b Toolbar"
 msgstr ""
 
+#. i18n-hint noun
 #: src/toolbars/SelectionBar.cpp
-msgid "Project Rate (Hz)"
+msgid "Length"
+msgstr ""
+
+#. i18n-hint noun
+#: src/toolbars/SelectionBar.cpp
+#: src/tracks/playabletrack/wavetrack/ui/WaveTrackSliderHandles.cpp
+#: src/widgets/ASlider.cpp
+msgid "Center"
 msgstr ""
 
 #: src/toolbars/SelectionBar.cpp
-msgid "Snap-To"
-msgstr ""
-
-#: src/toolbars/SelectionBar.cpp src/toolbars/TimeToolBar.cpp
-msgid "Audio Position"
+msgid "Selection Toolbar Setup"
 msgstr ""
 
 #: src/toolbars/SelectionBar.cpp
@@ -17088,48 +17188,24 @@ msgstr ""
 msgid "Length and Center of Selection"
 msgstr ""
 
-#: src/toolbars/SelectionBar.cpp src/toolbars/SpectralSelectionBar.cpp
-msgid "Show"
-msgstr ""
-
-#: src/toolbars/SelectionBar.cpp
-msgid "Snap To"
-msgstr ""
-
-#: src/toolbars/SelectionBar.cpp
-msgid "Length"
-msgstr ""
-
-#: src/toolbars/SelectionBar.cpp
-#: src/tracks/playabletrack/wavetrack/ui/WaveTrackSliderHandles.cpp
-#: src/widgets/ASlider.cpp
-msgid "Center"
-msgstr ""
-
-#: src/toolbars/SelectionBar.cpp
-#, c-format
-msgid "Snap Clicks/Selections to %s"
-msgstr ""
-
-#. i18n-hint: %s is replaced e.g by one of 'Length', 'Center',
-#. 'Start', or 'End' (translated), to indicate that it will be
-#. calculated from other parameters.
-#: src/toolbars/SelectionBar.cpp
-#, c-format
-msgid "%s - driven"
-msgstr ""
-
-#. i18n-hint: each string is replaced by one of 'Length', 'Center',
-#. 'Start', or 'End' (translated)
-#: src/toolbars/SelectionBar.cpp
-#, c-format
-msgid "Selection %s. %s won't change."
-msgstr ""
-
 #. i18n-hint: Clicking this menu item shows the toolbar
 #. for selecting a time range of audio
 #: src/toolbars/SelectionBar.cpp
 msgid "&Selection Toolbar"
+msgstr ""
+
+#: src/toolbars/SnappingToolBar.cpp
+msgid "Snapping"
+msgstr ""
+
+#: src/toolbars/SnappingToolBar.cpp
+msgid "Snap"
+msgstr ""
+
+#. i18n-hint: Clicking this menu item shows the toolbar
+#. for selecting a time range of audio
+#: src/toolbars/SnappingToolBar.cpp
+msgid "&Snapping Toolbar"
 msgstr ""
 
 #: src/toolbars/SpectralSelectionBar.cpp
@@ -17142,6 +17218,10 @@ msgstr ""
 
 #: src/toolbars/SpectralSelectionBar.cpp
 msgid "Low and High Frequencies"
+msgstr ""
+
+#: src/toolbars/SpectralSelectionBar.cpp
+msgid "Show"
 msgstr ""
 
 #: src/toolbars/SpectralSelectionBar.cpp
@@ -17158,8 +17238,46 @@ msgstr ""
 msgid "Spe&ctral Selection Toolbar"
 msgstr ""
 
+#: src/toolbars/TimeSignatureToolBar.cpp
+msgid "Time Signature"
+msgstr ""
+
+#: src/toolbars/TimeSignatureToolBar.cpp
+msgid "Tempo"
+msgstr ""
+
+#: src/toolbars/TimeSignatureToolBar.cpp
+msgid "Upper Time Signature"
+msgstr ""
+
+#: src/toolbars/TimeSignatureToolBar.cpp
+msgid "Lower Time Signature"
+msgstr ""
+
+#: src/toolbars/TimeSignatureToolBar.cpp
+msgid "Tempo Changed"
+msgstr ""
+
+#: src/toolbars/TimeSignatureToolBar.cpp
+msgid "Upper Time Signature Changed"
+msgstr ""
+
+#: src/toolbars/TimeSignatureToolBar.cpp
+msgid "Lower Time Signature Changed"
+msgstr ""
+
+#. i18n-hint: Clicking this menu item shows the toolbar
+#. for selecting a time range of audio
+#: src/toolbars/TimeSignatureToolBar.cpp
+msgid "Time Signature Toolbar (Beta)"
+msgstr ""
+
 #: src/toolbars/TimeToolBar.cpp
 msgid "Time"
+msgstr ""
+
+#: src/toolbars/TimeToolBar.cpp
+msgid "Audio Position"
 msgstr ""
 
 #. i18n-hint: Clicking this menu item shows the toolbar
@@ -18244,14 +18362,17 @@ msgstr ""
 msgid "App update checking"
 msgstr ""
 
+#. i18n-hint: The first paragraph of app update notice dialog.
 #: src/update/UpdateNoticeDialog.cpp
 msgid "To stay up to date, you will receive an in-app notification whenever there is a new version of Audacity available to download."
 msgstr ""
 
+#. i18n-hint: The second paragraph of app update notice dialog
 #: src/update/UpdateNoticeDialog.cpp
 msgid "In order to protect your privacy, Audacity does not collect any personal information. However, app update checking does require network access."
 msgstr ""
 
+#. i18n-hint: Hint to the user about how to turn the app update off. %s is replaced with "Preferences > Application" link
 #: src/update/UpdateNoticeDialog.cpp
 #, c-format
 msgid "You can turn off app update checking at any time in %s."
@@ -18473,10 +18594,6 @@ msgstr ""
 
 #: src/widgets/NumericTextCtrl.cpp
 msgid "(Use context menu to change format.)"
-msgstr ""
-
-#: src/widgets/NumericTextCtrl.cpp
-msgid "centiseconds"
 msgstr ""
 
 #: src/widgets/PopupMenuTable.h
@@ -18962,6 +19079,10 @@ msgstr ""
 
 #: plug-ins/delay.ny
 msgid "Low-quality Pitch Shift"
+msgstr ""
+
+#: plug-ins/delay.ny
+msgid "High-quality Pitch Shift"
 msgstr ""
 
 #: plug-ins/delay.ny
