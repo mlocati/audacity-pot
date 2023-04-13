@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-04-04 08:18+0000\n"
+"POT-Creation-Date: 2023-04-13 08:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -705,14 +705,15 @@ msgstr ""
 msgid "beat"
 msgstr ""
 
-#. i18n-hint: The music theory "beats"
+#. i18n-hint: "bar" and "beat" are musical notation elements.
 #: libraries/lib-numeric-formats/formatters/BeatsNumericConverterFormatter.cpp
-msgid "beats"
+msgid "bar:beat"
 msgstr ""
 
-#. i18n-hint: The music theory "beats". 16th is a note duration.
+#. i18n-hint: "bar" and "beat" are musical notation elements. "tick"
+#. corresponds to a 16th note.
 #: libraries/lib-numeric-formats/formatters/BeatsNumericConverterFormatter.cpp
-msgid "beats and 16th"
+msgid "bar:beat:tick"
 msgstr ""
 
 #. i18n-hint: Format string for displaying time in seconds. Change the comma
@@ -17200,6 +17201,11 @@ msgstr ""
 
 #: src/toolbars/SnappingToolBar.cpp
 msgid "Snap"
+msgstr ""
+
+#. i18n-hint: combo box is the type of the control/widget
+#: src/toolbars/SnappingToolBar.cpp
+msgid "Snap to combo box"
 msgstr ""
 
 #. i18n-hint: Clicking this menu item shows the toolbar
