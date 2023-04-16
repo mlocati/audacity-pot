@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-04-13 08:18+0000\n"
+"POT-Creation-Date: 2023-04-16 08:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2909,11 +2909,11 @@ msgstr ""
 msgid "our Privacy Policy"
 msgstr ""
 
-#: src/AdornedRulerPanel.cpp
+#: src/AdornedRulerPanel.cpp src/menus/TimelineMenus.cpp
 msgid "Minutes and Seconds"
 msgstr ""
 
-#: src/AdornedRulerPanel.cpp
+#: src/AdornedRulerPanel.cpp src/menus/TimelineMenus.cpp
 msgid "Beats and Measures"
 msgstr ""
 
@@ -14310,6 +14310,10 @@ msgstr ""
 
 #: src/menus/SelectMenus.cpp
 msgid "Long Seek Rig&ht During Playback"
+msgstr ""
+
+#: src/menus/TimelineMenus.cpp
+msgid "&Timeline"
 msgstr ""
 
 #: src/menus/ToolbarMenus.cpp
