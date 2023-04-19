@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-04-16 08:16+0000\n"
+"POT-Creation-Date: 2023-04-19 08:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -287,9 +287,8 @@ msgstr ""
 msgid "Builtin Effects"
 msgstr ""
 
-#: libraries/lib-effects/LoadEffects.cpp
+#: libraries/lib-effects/LoadEffects.cpp libraries/lib-vst/VSTEffectsModule.cpp
 #: libraries/lib-vst3/VST3EffectsModule.cpp src/commands/LoadCommands.cpp
-#: src/effects/VST/VSTEffect.cpp
 #: src/effects/audiounits/AudioUnitEffectsModule.cpp
 #: src/effects/ladspa/LadspaEffect.cpp src/effects/lv2/LoadLV2.cpp
 #: src/effects/nyquist/LoadNyquist.cpp src/effects/vamp/LoadVamp.cpp
@@ -1791,6 +1790,72 @@ msgstr ""
 msgid "Database error.  Sorry, but we don't have more details."
 msgstr ""
 
+#: libraries/lib-vst/VSTEffectBase.cpp
+#, c-format
+msgid "Audio In: %d, Audio Out: %d"
+msgstr ""
+
+#. i18n-hint: Abbreviates Virtual Studio Technology, an audio software protocol
+#. developed by Steinberg GmbH
+#: libraries/lib-vst/VSTEffectBase.h
+msgid "VST"
+msgstr ""
+
+#: libraries/lib-vst/VSTEffectsModule.cpp
+msgid "VST Effects"
+msgstr ""
+
+#: libraries/lib-vst/VSTEffectsModule.cpp
+msgid "Adds the ability to use VST effects in Audacity."
+msgstr ""
+
+#: libraries/lib-vst/VSTEffectsModule.cpp src/effects/ladspa/LadspaEffect.cpp
+#: src/effects/lv2/LoadLV2.cpp src/effects/vamp/LoadVamp.cpp
+msgid "Could not load the library"
+msgstr ""
+
+#: libraries/lib-vst/VSTWrapper.cpp
+msgid "Unable to allocate memory when loading presets file."
+msgstr ""
+
+#: libraries/lib-vst/VSTWrapper.cpp src/effects/VST/VSTEffect.cpp
+msgid "Error Loading VST Presets"
+msgstr ""
+
+#: libraries/lib-vst/VSTWrapper.cpp
+msgid "Unable to read presets file."
+msgstr ""
+
+#: libraries/lib-vst/VSTWrapper.cpp libraries/lib-xml/XMLFileReader.cpp
+#: src/effects/BasicEffectUIServices.cpp
+#, c-format
+msgid "Could not open file: \"%s\""
+msgstr ""
+
+#: libraries/lib-vst/VSTWrapper.cpp src/effects/VST/VSTEffect.cpp
+msgid "Error Saving VST Presets"
+msgstr ""
+
+#: libraries/lib-vst/VSTWrapper.cpp src/effects/BasicEffectUIServices.cpp
+#, c-format
+msgid "Error writing to file: \"%s\""
+msgstr ""
+
+#: libraries/lib-vst/VSTWrapper.cpp src/effects/BasicEffectUIServices.cpp
+msgid "Error Saving Effect Presets"
+msgstr ""
+
+#: libraries/lib-vst/VSTWrapper.cpp
+#, c-format
+msgid "This parameter file was saved from %s. Continue?"
+msgstr ""
+
+#: libraries/lib-vst/VSTWrapper.cpp
+#: libraries/lib-wx-wrappers/FileDialog/gtk/FileDialogPrivate.cpp
+#: src/LangChoice.cpp
+msgid "Confirm"
+msgstr ""
+
 #: libraries/lib-vst3/VST3EffectBase.cpp
 msgid "VST3"
 msgstr ""
@@ -2132,11 +2197,6 @@ msgid "File '%s' already exists, do you really want to overwrite it?"
 msgstr ""
 
 #: libraries/lib-wx-wrappers/FileDialog/gtk/FileDialogPrivate.cpp
-#: src/LangChoice.cpp src/effects/VST/VSTEffect.cpp
-msgid "Confirm"
-msgstr ""
-
-#: libraries/lib-wx-wrappers/FileDialog/gtk/FileDialogPrivate.cpp
 msgid "Please choose an existing file."
 msgstr ""
 
@@ -2162,12 +2222,6 @@ msgstr ""
 
 #: libraries/lib-wx-wrappers/wxPanelWrapper.h
 msgid "File Dialog"
-msgstr ""
-
-#: libraries/lib-xml/XMLFileReader.cpp src/effects/BasicEffectUIServices.cpp
-#: src/effects/VST/VSTEffect.cpp
-#, c-format
-msgid "Could not open file: \"%s\""
 msgstr ""
 
 #: libraries/lib-xml/XMLFileReader.cpp
@@ -5928,7 +5982,7 @@ msgstr ""
 #.
 #: src/TimeDialog.h src/TimerRecordDialog.cpp src/effects/DtmfGen.cpp
 #: src/effects/Noise.cpp src/effects/Silence.cpp src/effects/ToneGen.cpp
-#: src/effects/VST/VSTEffect.cpp src/effects/VST3/VST3Editor.cpp
+#: src/effects/VST/VSTEditor.cpp src/effects/VST3/VST3Editor.cpp
 #: src/effects/ladspa/LadspaEffect.cpp src/effects/lv2/LV2Editor.cpp
 msgid "Duration"
 msgstr ""
@@ -5999,7 +6053,7 @@ msgstr ""
 msgid "Recording start:"
 msgstr ""
 
-#: src/TimerRecordDialog.cpp src/effects/VST/VSTEffect.cpp
+#: src/TimerRecordDialog.cpp src/effects/VST/VSTEditor.cpp
 #: src/effects/VST3/VST3Editor.cpp src/effects/ladspa/LadspaEffect.cpp
 msgid "Duration:"
 msgstr ""
@@ -7475,15 +7529,6 @@ msgstr ""
 
 #: src/effects/BasicEffectUIServices.cpp
 msgid "Export Effect Parameters"
-msgstr ""
-
-#: src/effects/BasicEffectUIServices.cpp src/effects/VST/VSTEffect.cpp
-msgid "Error Saving Effect Presets"
-msgstr ""
-
-#: src/effects/BasicEffectUIServices.cpp src/effects/VST/VSTEffect.cpp
-#, c-format
-msgid "Error writing to file: \"%s\""
 msgstr ""
 
 #: src/effects/BasicEffectUIServices.cpp
@@ -10147,70 +10192,9 @@ msgstr ""
 msgid "Trunc&ate tracks independently"
 msgstr ""
 
-#: src/effects/VST/VSTEffect.cpp
-msgid "VST Effects"
-msgstr ""
-
-#: src/effects/VST/VSTEffect.cpp
-msgid "Adds the ability to use VST effects in Audacity."
-msgstr ""
-
-#: src/effects/VST/VSTEffect.cpp src/effects/ladspa/LadspaEffect.cpp
-#: src/effects/lv2/LoadLV2.cpp src/effects/vamp/LoadVamp.cpp
-msgid "Could not load the library"
-msgstr ""
-
-#: src/effects/VST/VSTEffect.cpp src/effects/VST3/VST3OptionsDialog.cpp
-msgid "VST Effect Options"
-msgstr ""
-
-#: src/effects/VST/VSTEffect.cpp src/effects/VST3/VST3OptionsDialog.cpp
-#: src/effects/lv2/LV2Preferences.cpp
-msgid "Buffer Size"
-msgstr ""
-
-#: src/effects/VST/VSTEffect.cpp src/effects/VST3/VST3OptionsDialog.cpp
-#: src/effects/lv2/LV2Preferences.cpp
-msgid "The buffer size controls the number of samples sent to the effect on each iteration. Smaller values will cause slower processing and some effects require 8192 samples or less to work properly. However most effects can accept large buffers and using them will greatly reduce processing time."
-msgstr ""
-
-#: src/effects/VST/VSTEffect.cpp src/effects/VST3/VST3OptionsDialog.cpp
-msgid "&Buffer Size (8 to 1048576 samples):"
-msgstr ""
-
-#: src/effects/VST/VSTEffect.cpp src/effects/VST3/VST3OptionsDialog.cpp
-#: src/effects/audiounits/AudioUnitEffectOptionsDialog.cpp
-#: src/effects/ladspa/LadspaEffect.cpp src/effects/lv2/LV2Preferences.cpp
-msgid "Latency Compensation"
-msgstr ""
-
-#: src/effects/VST/VSTEffect.cpp
-msgid "As part of their processing, some VST effects must delay returning audio to Audacity. When not compensating for this delay, you will notice that small silences have been inserted into the audio. Enabling this option will provide that compensation, but it may not work for all VST effects."
-msgstr ""
-
-#: src/effects/VST/VSTEffect.cpp src/effects/VST3/VST3OptionsDialog.cpp
-#: src/effects/audiounits/AudioUnitEffectOptionsDialog.cpp
-#: src/effects/ladspa/LadspaEffect.cpp src/effects/lv2/LV2Preferences.cpp
-msgid "Enable &compensation"
-msgstr ""
-
-#: src/effects/VST/VSTEffect.cpp src/effects/VST3/VST3OptionsDialog.cpp
-#: src/effects/lv2/LV2Preferences.cpp
-msgid "Graphical Mode"
-msgstr ""
-
-#: src/effects/VST/VSTEffect.cpp
-msgid "Most VST effects have a graphical interface for setting parameter values. A basic text-only method is also available.  Reopen the effect for this to take effect."
-msgstr ""
-
-#: src/effects/VST/VSTEffect.cpp src/effects/VST3/VST3OptionsDialog.cpp
-#: src/effects/lv2/LV2Preferences.cpp
-msgid "Enable &graphical interface"
-msgstr ""
-
-#: src/effects/VST/VSTEffect.cpp
-#, c-format
-msgid "Audio In: %d, Audio Out: %d"
+#: src/effects/VST/VSTEditor.cpp src/effects/ladspa/LadspaEffect.cpp
+#: src/effects/lv2/LV2Ports.cpp
+msgid "Effect Settings"
 msgstr ""
 
 #: src/effects/VST/VSTEffect.cpp
@@ -10234,10 +10218,6 @@ msgid "Unrecognized file extension."
 msgstr ""
 
 #: src/effects/VST/VSTEffect.cpp
-msgid "Error Saving VST Presets"
-msgstr ""
-
-#: src/effects/VST/VSTEffect.cpp
 msgid "Load VST Preset:"
 msgstr ""
 
@@ -10246,35 +10226,59 @@ msgid "VST preset files"
 msgstr ""
 
 #: src/effects/VST/VSTEffect.cpp
-msgid "Error Loading VST Presets"
-msgstr ""
-
-#: src/effects/VST/VSTEffect.cpp
 msgid "Unable to load presets file."
 msgstr ""
 
-#: src/effects/VST/VSTEffect.cpp src/effects/ladspa/LadspaEffect.cpp
-#: src/effects/lv2/LV2Ports.cpp
-msgid "Effect Settings"
+#: src/effects/VST/VSTEffectOptionsDialog.cpp
+#: src/effects/VST3/VST3OptionsDialog.cpp
+msgid "VST Effect Options"
 msgstr ""
 
-#: src/effects/VST/VSTEffect.cpp
-msgid "Unable to allocate memory when loading presets file."
+#: src/effects/VST/VSTEffectOptionsDialog.cpp
+#: src/effects/VST3/VST3OptionsDialog.cpp src/effects/lv2/LV2Preferences.cpp
+msgid "Buffer Size"
 msgstr ""
 
-#: src/effects/VST/VSTEffect.cpp
-msgid "Unable to read presets file."
+#: src/effects/VST/VSTEffectOptionsDialog.cpp
+#: src/effects/VST3/VST3OptionsDialog.cpp src/effects/lv2/LV2Preferences.cpp
+msgid "The buffer size controls the number of samples sent to the effect on each iteration. Smaller values will cause slower processing and some effects require 8192 samples or less to work properly. However most effects can accept large buffers and using them will greatly reduce processing time."
 msgstr ""
 
-#: src/effects/VST/VSTEffect.cpp
-#, c-format
-msgid "This parameter file was saved from %s. Continue?"
+#: src/effects/VST/VSTEffectOptionsDialog.cpp
+#: src/effects/VST3/VST3OptionsDialog.cpp
+msgid "&Buffer Size (8 to 1048576 samples):"
 msgstr ""
 
-#. i18n-hint: Abbreviates Virtual Studio Technology, an audio software protocol
-#. developed by Steinberg GmbH
-#: src/effects/VST/VSTEffect.h
-msgid "VST"
+#: src/effects/VST/VSTEffectOptionsDialog.cpp
+#: src/effects/VST3/VST3OptionsDialog.cpp
+#: src/effects/audiounits/AudioUnitEffectOptionsDialog.cpp
+#: src/effects/ladspa/LadspaEffect.cpp src/effects/lv2/LV2Preferences.cpp
+msgid "Latency Compensation"
+msgstr ""
+
+#: src/effects/VST/VSTEffectOptionsDialog.cpp
+msgid "As part of their processing, some VST effects must delay returning audio to Audacity. When not compensating for this delay, you will notice that small silences have been inserted into the audio. Enabling this option will provide that compensation, but it may not work for all VST effects."
+msgstr ""
+
+#: src/effects/VST/VSTEffectOptionsDialog.cpp
+#: src/effects/VST3/VST3OptionsDialog.cpp
+#: src/effects/audiounits/AudioUnitEffectOptionsDialog.cpp
+#: src/effects/ladspa/LadspaEffect.cpp src/effects/lv2/LV2Preferences.cpp
+msgid "Enable &compensation"
+msgstr ""
+
+#: src/effects/VST/VSTEffectOptionsDialog.cpp
+#: src/effects/VST3/VST3OptionsDialog.cpp src/effects/lv2/LV2Preferences.cpp
+msgid "Graphical Mode"
+msgstr ""
+
+#: src/effects/VST/VSTEffectOptionsDialog.cpp
+msgid "Most VST effects have a graphical interface for setting parameter values. A basic text-only method is also available.  Reopen the effect for this to take effect."
+msgstr ""
+
+#: src/effects/VST/VSTEffectOptionsDialog.cpp
+#: src/effects/VST3/VST3OptionsDialog.cpp src/effects/lv2/LV2Preferences.cpp
+msgid "Enable &graphical interface"
 msgstr ""
 
 #: src/effects/VST3/VST3Effect.cpp
@@ -17200,11 +17204,11 @@ msgid "&Selection Toolbar"
 msgstr ""
 
 #: src/toolbars/SnappingToolBar.cpp
-msgid "Snapping"
+msgid "Snap"
 msgstr ""
 
 #: src/toolbars/SnappingToolBar.cpp
-msgid "Snap"
+msgid "Snapping"
 msgstr ""
 
 #. i18n-hint: combo box is the type of the control/widget
