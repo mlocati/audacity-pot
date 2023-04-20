@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-04-19 08:18+0000\n"
+"POT-Creation-Date: 2023-04-20 08:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -287,10 +287,11 @@ msgstr ""
 msgid "Builtin Effects"
 msgstr ""
 
-#: libraries/lib-effects/LoadEffects.cpp libraries/lib-vst/VSTEffectsModule.cpp
+#: libraries/lib-effects/LoadEffects.cpp
+#: libraries/lib-ladspa/LadspaEffectsModule.cpp libraries/lib-lv2/LoadLV2.cpp
+#: libraries/lib-vst/VSTEffectsModule.cpp
 #: libraries/lib-vst3/VST3EffectsModule.cpp src/commands/LoadCommands.cpp
 #: src/effects/audiounits/AudioUnitEffectsModule.cpp
-#: src/effects/ladspa/LadspaEffect.cpp src/effects/lv2/LoadLV2.cpp
 #: src/effects/nyquist/LoadNyquist.cpp src/effects/vamp/LoadVamp.cpp
 msgid "The Audacity Team"
 msgstr ""
@@ -424,6 +425,60 @@ msgid ""
 "%s\n"
 "\n"
 "For tips on suitable drives, click the help button."
+msgstr ""
+
+#. i18n-hint: abbreviates "Linux Audio Developer's Simple Plugin API"
+#. (Application programming interface)
+#.
+#: libraries/lib-ladspa/LadspaEffectBase.h
+msgid "LADSPA"
+msgstr ""
+
+#. i18n-hint: abbreviates "Linux Audio Developer's Simple Plugin API"
+#. (Application programming interface)
+#.
+#: libraries/lib-ladspa/LadspaEffectsModule.cpp
+msgid "LADSPA Effects"
+msgstr ""
+
+#: libraries/lib-ladspa/LadspaEffectsModule.cpp
+msgid "Provides LADSPA Effects"
+msgstr ""
+
+#: libraries/lib-ladspa/LadspaEffectsModule.cpp
+msgid "Audacity no longer uses vst-bridge"
+msgstr ""
+
+#: libraries/lib-ladspa/LadspaEffectsModule.cpp libraries/lib-lv2/LoadLV2.cpp
+#: libraries/lib-vst/VSTEffectsModule.cpp src/effects/vamp/LoadVamp.cpp
+msgid "Could not load the library"
+msgstr ""
+
+#. i18n-hint: n/a is an English abbreviation meaning "not applicable".
+#. i18n-hint: Can mean "not available," "not applicable," "no answer"
+#: libraries/lib-lv2/LV2EffectBase.cpp src/effects/ChangeSpeed.cpp
+#: src/effects/EffectUI.cpp src/effects/audiounits/AudioUnitEffect.cpp
+#: src/effects/nyquist/Nyquist.cpp
+msgid "n/a"
+msgstr ""
+
+#. i18n-hint: abbreviates
+#. "Linux Audio Developer's Simple Plugin API (LADSPA) version 2"
+#: libraries/lib-lv2/LV2EffectBase.h src/effects/lv2/LV2Effect.h
+msgid "LV2"
+msgstr ""
+
+#: libraries/lib-lv2/LV2Ports.cpp src/effects/VST/VSTEditor.cpp
+#: src/effects/ladspa/LadspaEditor.cpp
+msgid "Effect Settings"
+msgstr ""
+
+#: libraries/lib-lv2/LoadLV2.cpp
+msgid "LV2 Effects"
+msgstr ""
+
+#: libraries/lib-lv2/LoadLV2.cpp
+msgid "Provides LV2 Effects support to Audacity"
 msgstr ""
 
 #: libraries/lib-math/Dither.cpp src/commands/ScreenshotCommand.cpp
@@ -1807,11 +1862,6 @@ msgstr ""
 
 #: libraries/lib-vst/VSTEffectsModule.cpp
 msgid "Adds the ability to use VST effects in Audacity."
-msgstr ""
-
-#: libraries/lib-vst/VSTEffectsModule.cpp src/effects/ladspa/LadspaEffect.cpp
-#: src/effects/lv2/LoadLV2.cpp src/effects/vamp/LoadVamp.cpp
-msgid "Could not load the library"
 msgstr ""
 
 #: libraries/lib-vst/VSTWrapper.cpp
@@ -5983,7 +6033,7 @@ msgstr ""
 #: src/TimeDialog.h src/TimerRecordDialog.cpp src/effects/DtmfGen.cpp
 #: src/effects/Noise.cpp src/effects/Silence.cpp src/effects/ToneGen.cpp
 #: src/effects/VST/VSTEditor.cpp src/effects/VST3/VST3Editor.cpp
-#: src/effects/ladspa/LadspaEffect.cpp src/effects/lv2/LV2Editor.cpp
+#: src/effects/ladspa/LadspaEditor.cpp src/effects/lv2/LV2Editor.cpp
 msgid "Duration"
 msgstr ""
 
@@ -6054,7 +6104,7 @@ msgid "Recording start:"
 msgstr ""
 
 #: src/TimerRecordDialog.cpp src/effects/VST/VSTEditor.cpp
-#: src/effects/VST3/VST3Editor.cpp src/effects/ladspa/LadspaEffect.cpp
+#: src/effects/VST3/VST3Editor.cpp src/effects/ladspa/LadspaEditor.cpp
 msgid "Duration:"
 msgstr ""
 
@@ -7701,14 +7751,6 @@ msgstr ""
 
 #: src/effects/ChangeSpeed.cpp
 msgid "78"
-msgstr ""
-
-#. i18n-hint: n/a is an English abbreviation meaning "not applicable".
-#. i18n-hint: Can mean "not available," "not applicable," "no answer"
-#: src/effects/ChangeSpeed.cpp src/effects/EffectUI.cpp
-#: src/effects/audiounits/AudioUnitEffect.cpp src/effects/lv2/LV2Effect.cpp
-#: src/effects/nyquist/Nyquist.cpp
-msgid "n/a"
 msgstr ""
 
 #: src/effects/ChangeSpeed.cpp resources/EffectsMenuDefaults.xml
@@ -10192,11 +10234,6 @@ msgstr ""
 msgid "Trunc&ate tracks independently"
 msgstr ""
 
-#: src/effects/VST/VSTEditor.cpp src/effects/ladspa/LadspaEffect.cpp
-#: src/effects/lv2/LV2Ports.cpp
-msgid "Effect Settings"
-msgstr ""
-
 #: src/effects/VST/VSTEffect.cpp
 msgid "Save VST Preset As:"
 msgstr ""
@@ -10235,12 +10272,14 @@ msgid "VST Effect Options"
 msgstr ""
 
 #: src/effects/VST/VSTEffectOptionsDialog.cpp
-#: src/effects/VST3/VST3OptionsDialog.cpp src/effects/lv2/LV2Preferences.cpp
+#: src/effects/VST3/VST3OptionsDialog.cpp
+#: src/effects/lv2/LV2PreferencesDialog.cpp
 msgid "Buffer Size"
 msgstr ""
 
 #: src/effects/VST/VSTEffectOptionsDialog.cpp
-#: src/effects/VST3/VST3OptionsDialog.cpp src/effects/lv2/LV2Preferences.cpp
+#: src/effects/VST3/VST3OptionsDialog.cpp
+#: src/effects/lv2/LV2PreferencesDialog.cpp
 msgid "The buffer size controls the number of samples sent to the effect on each iteration. Smaller values will cause slower processing and some effects require 8192 samples or less to work properly. However most effects can accept large buffers and using them will greatly reduce processing time."
 msgstr ""
 
@@ -10252,7 +10291,8 @@ msgstr ""
 #: src/effects/VST/VSTEffectOptionsDialog.cpp
 #: src/effects/VST3/VST3OptionsDialog.cpp
 #: src/effects/audiounits/AudioUnitEffectOptionsDialog.cpp
-#: src/effects/ladspa/LadspaEffect.cpp src/effects/lv2/LV2Preferences.cpp
+#: src/effects/ladspa/LadspaEffectOptionsDialog.cpp
+#: src/effects/lv2/LV2PreferencesDialog.cpp
 msgid "Latency Compensation"
 msgstr ""
 
@@ -10263,12 +10303,14 @@ msgstr ""
 #: src/effects/VST/VSTEffectOptionsDialog.cpp
 #: src/effects/VST3/VST3OptionsDialog.cpp
 #: src/effects/audiounits/AudioUnitEffectOptionsDialog.cpp
-#: src/effects/ladspa/LadspaEffect.cpp src/effects/lv2/LV2Preferences.cpp
+#: src/effects/ladspa/LadspaEffectOptionsDialog.cpp
+#: src/effects/lv2/LV2PreferencesDialog.cpp
 msgid "Enable &compensation"
 msgstr ""
 
 #: src/effects/VST/VSTEffectOptionsDialog.cpp
-#: src/effects/VST3/VST3OptionsDialog.cpp src/effects/lv2/LV2Preferences.cpp
+#: src/effects/VST3/VST3OptionsDialog.cpp
+#: src/effects/lv2/LV2PreferencesDialog.cpp
 msgid "Graphical Mode"
 msgstr ""
 
@@ -10277,7 +10319,8 @@ msgid "Most VST effects have a graphical interface for setting parameter values.
 msgstr ""
 
 #: src/effects/VST/VSTEffectOptionsDialog.cpp
-#: src/effects/VST3/VST3OptionsDialog.cpp src/effects/lv2/LV2Preferences.cpp
+#: src/effects/VST3/VST3OptionsDialog.cpp
+#: src/effects/lv2/LV2PreferencesDialog.cpp
 msgid "Enable &graphical interface"
 msgstr ""
 
@@ -10482,47 +10525,25 @@ msgstr ""
 msgid "XML data is empty after conversion"
 msgstr ""
 
-#. i18n-hint: abbreviates "Linux Audio Developer's Simple Plugin API"
-#. (Application programming interface)
-#.
-#: src/effects/ladspa/LadspaEffect.cpp
-msgid "LADSPA Effects"
-msgstr ""
-
-#: src/effects/ladspa/LadspaEffect.cpp
-msgid "Provides LADSPA Effects"
-msgstr ""
-
-#: src/effects/ladspa/LadspaEffect.cpp
-msgid "Audacity no longer uses vst-bridge"
-msgstr ""
-
-#: src/effects/ladspa/LadspaEffect.cpp
-msgid "LADSPA Effect Options"
-msgstr ""
-
-#: src/effects/ladspa/LadspaEffect.cpp
-msgid "As part of their processing, some LADSPA effects must delay returning audio to Audacity. When not compensating for this delay, you will notice that small silences have been inserted into the audio. Enabling this option will provide that compensation, but it may not work for all LADSPA effects."
-msgstr ""
-
 #. i18n-hint: An item name introducing a value, which is not part of the string but
 #. appears in a following text box window; translate with appropriate punctuation
-#: src/effects/ladspa/LadspaEffect.cpp src/effects/nyquist/Nyquist.cpp
+#: src/effects/ladspa/LadspaEditor.cpp src/effects/nyquist/Nyquist.cpp
 #: src/effects/vamp/VampEffect.cpp
 #: src/tracks/playabletrack/wavetrack/ui/SpectrumView.cpp
 #, c-format
 msgid "%s:"
 msgstr ""
 
-#: src/effects/ladspa/LadspaEffect.cpp
+#: src/effects/ladspa/LadspaEditor.cpp
 msgid "Effect Output"
 msgstr ""
 
-#. i18n-hint: abbreviates "Linux Audio Developer's Simple Plugin API"
-#. (Application programming interface)
-#.
-#: src/effects/ladspa/LadspaEffect.h
-msgid "LADSPA"
+#: src/effects/ladspa/LadspaEffectOptionsDialog.cpp
+msgid "LADSPA Effect Options"
+msgstr ""
+
+#: src/effects/ladspa/LadspaEffectOptionsDialog.cpp
+msgid "As part of their processing, some LADSPA effects must delay returning audio to Audacity. When not compensating for this delay, you will notice that small silences have been inserted into the audio. Enabling this option will provide that compensation, but it may not work for all LADSPA effects."
 msgstr ""
 
 #: src/effects/lv2/LV2Editor.cpp
@@ -10533,35 +10554,21 @@ msgstr ""
 msgid "Couldn't instantiate effect"
 msgstr ""
 
-#. i18n-hint: abbreviates
-#. "Linux Audio Developer's Simple Plugin API (LADSPA) version 2"
-#: src/effects/lv2/LV2Effect.h
-msgid "LV2"
-msgstr ""
-
-#: src/effects/lv2/LV2Preferences.cpp
+#: src/effects/lv2/LV2PreferencesDialog.cpp
 msgid "LV2 Effect Settings"
 msgstr ""
 
-#: src/effects/lv2/LV2Preferences.cpp
+#: src/effects/lv2/LV2PreferencesDialog.cpp
 #, c-format
 msgid "&Buffer Size (8 to %d) samples:"
 msgstr ""
 
-#: src/effects/lv2/LV2Preferences.cpp
+#: src/effects/lv2/LV2PreferencesDialog.cpp
 msgid "As part of their processing, some LV2 effects must delay returning audio to Audacity. When not compensating for this delay, you will notice that small silences have been inserted into the audio. Enabling this setting will provide that compensation, but it may not work for all LV2 effects."
 msgstr ""
 
-#: src/effects/lv2/LV2Preferences.cpp
+#: src/effects/lv2/LV2PreferencesDialog.cpp
 msgid "LV2 effects can have a graphical interface for setting parameter values. A basic text-only method is also available.  Reopen the effect for this to take effect."
-msgstr ""
-
-#: src/effects/lv2/LoadLV2.cpp
-msgid "LV2 Effects"
-msgstr ""
-
-#: src/effects/lv2/LoadLV2.cpp
-msgid "Provides LV2 Effects support to Audacity"
 msgstr ""
 
 #: src/effects/nyquist/LoadNyquist.cpp
