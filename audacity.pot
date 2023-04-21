@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-04-20 08:18+0000\n"
+"POT-Creation-Date: 2023-04-21 08:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -975,7 +975,7 @@ msgstr ""
 #. i18n-hint: Name of time display format that shows time in frames at PAL
 #. * TV frame rate (used for European TV)
 #: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
-#: libraries/lib-snapping/SnapUtils.cpp
+#: libraries/lib-snapping/details/FrameSnapFunctions.cpp
 msgid "PAL frames (25 fps)"
 msgstr ""
 
@@ -1006,7 +1006,7 @@ msgstr ""
 #. i18n-hint: Name of time display format that shows time in frames at CD
 #. * Audio frame rate (75 frames per second)
 #: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
-#: libraries/lib-snapping/SnapUtils.cpp
+#: libraries/lib-snapping/details/FrameSnapFunctions.cpp
 msgid "CDDA frames (75 fps)"
 msgstr ""
 
@@ -1523,119 +1523,120 @@ msgid "Debu&g"
 msgstr ""
 
 #. i18n-hint: The music theory "beat"
-#: libraries/lib-snapping/SnapUtils.cpp
+#: libraries/lib-snapping/details/BeatsSnapFunctions.cpp
 msgid "Beats"
 msgstr ""
 
 #. i18n-hint: The music theory "bar"
-#: libraries/lib-snapping/SnapUtils.cpp
+#: libraries/lib-snapping/details/BeatsSnapFunctions.cpp
 msgid "Bar"
 msgstr ""
 
-#: libraries/lib-snapping/SnapUtils.cpp
+#: libraries/lib-snapping/details/BeatsSnapFunctions.cpp
 msgid "1/2"
 msgstr ""
 
-#: libraries/lib-snapping/SnapUtils.cpp
+#: libraries/lib-snapping/details/BeatsSnapFunctions.cpp
 msgid "1/4"
 msgstr ""
 
-#: libraries/lib-snapping/SnapUtils.cpp
+#: libraries/lib-snapping/details/BeatsSnapFunctions.cpp
 msgid "1/8"
 msgstr ""
 
-#: libraries/lib-snapping/SnapUtils.cpp
+#: libraries/lib-snapping/details/BeatsSnapFunctions.cpp
 msgid "1/16"
 msgstr ""
 
-#: libraries/lib-snapping/SnapUtils.cpp
+#: libraries/lib-snapping/details/BeatsSnapFunctions.cpp
 msgid "1/32"
 msgstr ""
 
-#: libraries/lib-snapping/SnapUtils.cpp
+#: libraries/lib-snapping/details/BeatsSnapFunctions.cpp
 msgid "1/64"
 msgstr ""
 
-#: libraries/lib-snapping/SnapUtils.cpp
+#: libraries/lib-snapping/details/BeatsSnapFunctions.cpp
 msgid "1/128"
 msgstr ""
 
 #. i18n-hint: The music theory "triplet"
-#: libraries/lib-snapping/SnapUtils.cpp
+#: libraries/lib-snapping/details/BeatsSnapFunctions.cpp
 msgid "Triplets"
 msgstr ""
 
-#: libraries/lib-snapping/SnapUtils.cpp
+#: libraries/lib-snapping/details/BeatsSnapFunctions.cpp
 msgid "1/2 (triplets)"
 msgstr ""
 
-#: libraries/lib-snapping/SnapUtils.cpp
+#: libraries/lib-snapping/details/BeatsSnapFunctions.cpp
 msgid "1/4 (triplets)"
 msgstr ""
 
-#: libraries/lib-snapping/SnapUtils.cpp
+#: libraries/lib-snapping/details/BeatsSnapFunctions.cpp
 msgid "1/8 (triplets)"
 msgstr ""
 
-#: libraries/lib-snapping/SnapUtils.cpp
+#: libraries/lib-snapping/details/BeatsSnapFunctions.cpp
 msgid "1/16 (triplets)"
 msgstr ""
 
-#: libraries/lib-snapping/SnapUtils.cpp
+#: libraries/lib-snapping/details/BeatsSnapFunctions.cpp
 msgid "1/32 (triplets)"
 msgstr ""
 
-#: libraries/lib-snapping/SnapUtils.cpp
+#: libraries/lib-snapping/details/BeatsSnapFunctions.cpp
 msgid "1/64 (triplets)"
 msgstr ""
 
-#: libraries/lib-snapping/SnapUtils.cpp
+#: libraries/lib-snapping/details/BeatsSnapFunctions.cpp
 msgid "1/128 (triplets)"
 msgstr ""
 
-#: libraries/lib-snapping/SnapUtils.cpp
-msgid "Seconds && samples"
-msgstr ""
-
-#: libraries/lib-snapping/SnapUtils.cpp src/prefs/TracksPrefs.cpp
-#: plug-ins/sample-data-export.ny
-msgid "Seconds"
-msgstr ""
-
-#: libraries/lib-snapping/SnapUtils.cpp
-msgid "Deciseconds"
-msgstr ""
-
-#: libraries/lib-snapping/SnapUtils.cpp
-msgid "Centiseconds"
-msgstr ""
-
-#: libraries/lib-snapping/SnapUtils.cpp
-msgid "Milliseconds"
-msgstr ""
-
-#: libraries/lib-snapping/SnapUtils.cpp src/prefs/TracksPrefs.cpp
-msgid "Samples"
-msgstr ""
-
-#: libraries/lib-snapping/SnapUtils.cpp
+#: libraries/lib-snapping/details/FrameSnapFunctions.cpp
 msgid "Video frames"
 msgstr ""
 
-#: libraries/lib-snapping/SnapUtils.cpp
+#: libraries/lib-snapping/details/FrameSnapFunctions.cpp
 msgid "Film frames (24 fps)"
 msgstr ""
 
-#: libraries/lib-snapping/SnapUtils.cpp
+#: libraries/lib-snapping/details/FrameSnapFunctions.cpp
 msgid "NTSC frames (29.97 fps)"
 msgstr ""
 
-#: libraries/lib-snapping/SnapUtils.cpp
+#: libraries/lib-snapping/details/FrameSnapFunctions.cpp
 msgid "NTSC frames (30 fps)"
 msgstr ""
 
-#: libraries/lib-snapping/SnapUtils.cpp
+#: libraries/lib-snapping/details/FrameSnapFunctions.cpp
 msgid "CD frames"
+msgstr ""
+
+#: libraries/lib-snapping/details/TimeSnapFunctions.cpp
+msgid "Seconds && samples"
+msgstr ""
+
+#: libraries/lib-snapping/details/TimeSnapFunctions.cpp
+#: src/prefs/TracksPrefs.cpp plug-ins/sample-data-export.ny
+msgid "Seconds"
+msgstr ""
+
+#: libraries/lib-snapping/details/TimeSnapFunctions.cpp
+msgid "Deciseconds"
+msgstr ""
+
+#: libraries/lib-snapping/details/TimeSnapFunctions.cpp
+msgid "Centiseconds"
+msgstr ""
+
+#: libraries/lib-snapping/details/TimeSnapFunctions.cpp
+msgid "Milliseconds"
+msgstr ""
+
+#: libraries/lib-snapping/details/TimeSnapFunctions.cpp
+#: src/prefs/TracksPrefs.cpp
+msgid "Samples"
 msgstr ""
 
 #: libraries/lib-strings/FutureStrings.h src/toolbars/CutCopyPasteToolBar.cpp
