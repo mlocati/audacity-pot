@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-04-21 08:17+0000\n"
+"POT-Creation-Date: 2023-04-22 08:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -229,6 +229,105 @@ msgstr ""
 msgid "Automated Recording Level Adjustment stopped. %.2f seems an acceptable volume."
 msgstr ""
 
+#: libraries/lib-audio-unit/AudioUnitEffectBase.cpp
+#, c-format
+msgid "Failed to encode preset from \"%s\""
+msgstr ""
+
+#: libraries/lib-audio-unit/AudioUnitEffectBase.cpp
+msgid "Unable to store preset in config file"
+msgstr ""
+
+#. i18n-hint: Can mean "not available," "not applicable," "no answer"
+#. i18n-hint: n/a is an English abbreviation meaning "not applicable".
+#: libraries/lib-audio-unit/AudioUnitEffectBase.cpp
+#: libraries/lib-lv2/LV2EffectBase.cpp src/effects/ChangeSpeed.cpp
+#: src/effects/EffectUI.cpp src/effects/nyquist/Nyquist.cpp
+msgid "n/a"
+msgstr ""
+
+#: libraries/lib-audio-unit/AudioUnitEffectBase.cpp
+#, c-format
+msgid "Couldn't open \"%s\""
+msgstr ""
+
+#: libraries/lib-audio-unit/AudioUnitEffectBase.cpp
+#, c-format
+msgid "Failed to write XML preset to \"%s\""
+msgstr ""
+
+#: libraries/lib-audio-unit/AudioUnitEffectBase.cpp
+#, c-format
+msgid "Unable to read the preset from \"%s\""
+msgstr ""
+
+#. i18n-hint: the name of an Apple audio software protocol
+#: libraries/lib-audio-unit/AudioUnitEffectBase.h
+msgid "Audio Unit"
+msgstr ""
+
+#. i18n-hint: Audio Unit is the name of an Apple audio software protocol
+#: libraries/lib-audio-unit/AudioUnitEffectsModule.cpp
+msgid "Audio Unit Effects"
+msgstr ""
+
+#: libraries/lib-audio-unit/AudioUnitEffectsModule.cpp
+#: libraries/lib-effects/LoadEffects.cpp
+#: libraries/lib-ladspa/LadspaEffectsModule.cpp libraries/lib-lv2/LoadLV2.cpp
+#: libraries/lib-vst/VSTEffectsModule.cpp
+#: libraries/lib-vst3/VST3EffectsModule.cpp src/commands/LoadCommands.cpp
+#: src/effects/nyquist/LoadNyquist.cpp src/effects/vamp/LoadVamp.cpp
+msgid "The Audacity Team"
+msgstr ""
+
+#: libraries/lib-audio-unit/AudioUnitEffectsModule.cpp
+msgid "Provides Audio Unit Effects support to Audacity"
+msgstr ""
+
+#: libraries/lib-audio-unit/AudioUnitEffectsModule.cpp
+msgid "Could not find component"
+msgstr ""
+
+#: libraries/lib-audio-unit/AudioUnitEffectsModule.cpp
+msgid "Could not initialize component"
+msgstr ""
+
+#: libraries/lib-audio-unit/AudioUnitWrapper.cpp
+#, c-format
+msgid "Failed to decode \"%s\" preset"
+msgstr ""
+
+#: libraries/lib-audio-unit/AudioUnitWrapper.cpp
+#, c-format
+msgid "Failed to convert \"%s\" preset to internal format"
+msgstr ""
+
+#: libraries/lib-audio-unit/AudioUnitWrapper.cpp
+#, c-format
+msgid "Failed to create property list for \"%s\" preset"
+msgstr ""
+
+#: libraries/lib-audio-unit/AudioUnitWrapper.cpp
+#, c-format
+msgid "Failed to set class info for \"%s\" preset"
+msgstr ""
+
+#: libraries/lib-audio-unit/AudioUnitWrapper.cpp
+msgid "Failed to set preset name"
+msgstr ""
+
+#: libraries/lib-audio-unit/AudioUnitWrapper.cpp
+msgid "Failed to retrieve preset content"
+msgstr ""
+
+#: libraries/lib-audio-unit/AudioUnitWrapper.cpp
+msgid "Failed to convert property list to XML data"
+msgstr ""
+
+#: libraries/lib-audio-unit/AudioUnitWrapper.cpp
+msgid "XML data is empty after conversion"
+msgstr ""
+
 #: libraries/lib-basic-ui/BasicUI.cpp
 #: libraries/lib-exceptions/AudacityException.h
 #: libraries/lib-wx-init/AudacityMessageBox.h src/commands/MessageCommand.cpp
@@ -285,15 +384,6 @@ msgstr ""
 
 #: libraries/lib-effects/LoadEffects.cpp
 msgid "Builtin Effects"
-msgstr ""
-
-#: libraries/lib-effects/LoadEffects.cpp
-#: libraries/lib-ladspa/LadspaEffectsModule.cpp libraries/lib-lv2/LoadLV2.cpp
-#: libraries/lib-vst/VSTEffectsModule.cpp
-#: libraries/lib-vst3/VST3EffectsModule.cpp src/commands/LoadCommands.cpp
-#: src/effects/audiounits/AudioUnitEffectsModule.cpp
-#: src/effects/nyquist/LoadNyquist.cpp src/effects/vamp/LoadVamp.cpp
-msgid "The Audacity Team"
 msgstr ""
 
 #: libraries/lib-effects/LoadEffects.cpp
@@ -452,14 +542,6 @@ msgstr ""
 #: libraries/lib-ladspa/LadspaEffectsModule.cpp libraries/lib-lv2/LoadLV2.cpp
 #: libraries/lib-vst/VSTEffectsModule.cpp src/effects/vamp/LoadVamp.cpp
 msgid "Could not load the library"
-msgstr ""
-
-#. i18n-hint: n/a is an English abbreviation meaning "not applicable".
-#. i18n-hint: Can mean "not available," "not applicable," "no answer"
-#: libraries/lib-lv2/LV2EffectBase.cpp src/effects/ChangeSpeed.cpp
-#: src/effects/EffectUI.cpp src/effects/audiounits/AudioUnitEffect.cpp
-#: src/effects/nyquist/Nyquist.cpp
-msgid "n/a"
 msgstr ""
 
 #. i18n-hint: abbreviates
@@ -10375,15 +10457,6 @@ msgstr ""
 
 #: src/effects/audiounits/AudioUnitEffect.cpp
 #, c-format
-msgid "Failed to encode preset from \"%s\""
-msgstr ""
-
-#: src/effects/audiounits/AudioUnitEffect.cpp
-msgid "Unable to store preset in config file"
-msgstr ""
-
-#: src/effects/audiounits/AudioUnitEffect.cpp
-#, c-format
 msgid "Export Audio Unit Preset As %s:"
 msgstr ""
 
@@ -10420,26 +10493,6 @@ msgstr ""
 msgid "Import Audio Unit Presets"
 msgstr ""
 
-#: src/effects/audiounits/AudioUnitEffect.cpp
-#, c-format
-msgid "Couldn't open \"%s\""
-msgstr ""
-
-#: src/effects/audiounits/AudioUnitEffect.cpp
-#, c-format
-msgid "Failed to write XML preset to \"%s\""
-msgstr ""
-
-#: src/effects/audiounits/AudioUnitEffect.cpp
-#, c-format
-msgid "Unable to read the preset from \"%s\""
-msgstr ""
-
-#. i18n-hint: the name of an Apple audio software protocol
-#: src/effects/audiounits/AudioUnitEffect.h
-msgid "Audio Unit"
-msgstr ""
-
 #: src/effects/audiounits/AudioUnitEffectOptionsDialog.cpp
 msgid "Audio Unit Effect Options"
 msgstr ""
@@ -10471,59 +10524,6 @@ msgstr ""
 
 #: src/effects/audiounits/AudioUnitEffectOptionsDialog.h
 msgid "Basic"
-msgstr ""
-
-#. i18n-hint: Audio Unit is the name of an Apple audio software protocol
-#: src/effects/audiounits/AudioUnitEffectsModule.cpp
-msgid "Audio Unit Effects"
-msgstr ""
-
-#: src/effects/audiounits/AudioUnitEffectsModule.cpp
-msgid "Provides Audio Unit Effects support to Audacity"
-msgstr ""
-
-#: src/effects/audiounits/AudioUnitEffectsModule.cpp
-msgid "Could not find component"
-msgstr ""
-
-#: src/effects/audiounits/AudioUnitEffectsModule.cpp
-msgid "Could not initialize component"
-msgstr ""
-
-#: src/effects/audiounits/AudioUnitWrapper.cpp
-#, c-format
-msgid "Failed to decode \"%s\" preset"
-msgstr ""
-
-#: src/effects/audiounits/AudioUnitWrapper.cpp
-#, c-format
-msgid "Failed to convert \"%s\" preset to internal format"
-msgstr ""
-
-#: src/effects/audiounits/AudioUnitWrapper.cpp
-#, c-format
-msgid "Failed to create property list for \"%s\" preset"
-msgstr ""
-
-#: src/effects/audiounits/AudioUnitWrapper.cpp
-#, c-format
-msgid "Failed to set class info for \"%s\" preset"
-msgstr ""
-
-#: src/effects/audiounits/AudioUnitWrapper.cpp
-msgid "Failed to set preset name"
-msgstr ""
-
-#: src/effects/audiounits/AudioUnitWrapper.cpp
-msgid "Failed to retrieve preset content"
-msgstr ""
-
-#: src/effects/audiounits/AudioUnitWrapper.cpp
-msgid "Failed to convert property list to XML data"
-msgstr ""
-
-#: src/effects/audiounits/AudioUnitWrapper.cpp
-msgid "XML data is empty after conversion"
 msgstr ""
 
 #. i18n-hint: An item name introducing a value, which is not part of the string but
