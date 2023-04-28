@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-04-25 08:18+0000\n"
+"POT-Creation-Date: 2023-04-28 08:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -160,6 +160,7 @@ msgid ""
 msgstr ""
 
 #: libraries/lib-audio-io/AudioIO.cpp src/MIDIPlay.cpp
+#: src/cloud/audiocom/ShareAudioDialog.cpp
 #, c-format
 msgid "Error: %s"
 msgstr ""
@@ -1579,15 +1580,13 @@ msgid "&Close"
 msgstr ""
 
 #: libraries/lib-shuttlegui/ShuttleGui.cpp
+#: libraries/lib-wx-init/ErrorReportDialog.cpp
 #: libraries/lib-wx-init/MultiDialog.cpp src/AudacityFileConfig.cpp
 #: src/commands/HelpCommand.cpp src/effects/EqualizationCurvesDialog.cpp
 #: src/export/Export.cpp src/menus/HelpMenus.cpp
-#: src/widgets/ErrorReportDialog.cpp
 msgid "Help"
 msgstr ""
 
-#. i18n-hint: The access key "&P" should be the same in
-#. "Stop &Preview" and "Start &Preview"
 #: libraries/lib-shuttlegui/ShuttleGui.cpp src/effects/EffectUI.cpp
 msgid "&Preview"
 msgstr ""
@@ -2068,6 +2067,49 @@ msgstr ""
 
 #: libraries/lib-wx-init/ErrorDialog.cpp src/menus/HelpMenus.cpp
 msgid "Show &Log..."
+msgstr ""
+
+#: libraries/lib-wx-init/ErrorReportDialog.cpp
+#, c-format
+msgid "More information about this error may be available %s."
+msgstr ""
+
+#: libraries/lib-wx-init/ErrorReportDialog.cpp
+msgid "here"
+msgstr ""
+
+#: libraries/lib-wx-init/ErrorReportDialog.cpp
+msgid "Would you like to send a report to help us fix this issue?"
+msgstr ""
+
+#: libraries/lib-wx-init/ErrorReportDialog.cpp
+#, c-format
+msgid "All reports are anonymous. See %s for more info."
+msgstr ""
+
+#. i18n-hint: Title of hyperlink to the privacy policy. This is an object of "See".
+#: libraries/lib-wx-init/ErrorReportDialog.cpp src/AboutDialog.cpp
+#: src/prefs/ApplicationPrefs.cpp src/update/UpdateNoticeDialog.cpp
+msgid "our Privacy Policy"
+msgstr ""
+
+#: libraries/lib-wx-init/ErrorReportDialog.cpp
+msgid "Problem details"
+msgstr ""
+
+#: libraries/lib-wx-init/ErrorReportDialog.cpp src/TagsEditor.cpp
+#: src/prefs/MousePrefs.cpp
+msgid "Comments"
+msgstr ""
+
+#: libraries/lib-wx-init/ErrorReportDialog.cpp
+msgctxt "crash reporter button"
+msgid "&Don't send"
+msgstr ""
+
+#: libraries/lib-wx-init/ErrorReportDialog.cpp
+msgctxt "crash reporter button"
+msgid "&Send"
 msgstr ""
 
 #: libraries/lib-wx-init/HelpSystem.cpp
@@ -3088,12 +3130,6 @@ msgstr ""
 #: src/update/UpdateNoticeDialog.cpp
 #, c-format
 msgid "See %s for more info."
-msgstr ""
-
-#. i18n-hint: Title of hyperlink to the privacy policy. This is an object of "See".
-#: src/AboutDialog.cpp src/prefs/ApplicationPrefs.cpp
-#: src/update/UpdateNoticeDialog.cpp src/widgets/ErrorReportDialog.cpp
-msgid "our Privacy Policy"
 msgstr ""
 
 #: src/AdornedRulerPanel.cpp src/menus/TimelineMenus.cpp
@@ -6004,11 +6040,6 @@ msgstr ""
 msgid "Genre"
 msgstr ""
 
-#: src/TagsEditor.cpp src/prefs/MousePrefs.cpp
-#: src/widgets/ErrorReportDialog.cpp
-msgid "Comments"
-msgstr ""
-
 #: src/TagsEditor.cpp
 msgid "Use arrow keys (or ENTER key after editing) to navigate fields."
 msgstr ""
@@ -6668,11 +6699,11 @@ msgid "Upload complete!"
 msgstr ""
 
 #: src/cloud/audiocom/ShareAudioDialog.cpp
-msgid "Upload error"
+msgid "We are unable to upload this file. Please try again and make sure to link to your audio.com account before uploading."
 msgstr ""
 
 #: src/cloud/audiocom/ShareAudioDialog.cpp
-msgid "We are unable to upload this file. Please try again and make sure to link to your audio.com account before uploading."
+msgid "Upload error"
 msgstr ""
 
 #: src/cloud/audiocom/ShareAudioDialog.cpp
@@ -8789,15 +8820,9 @@ msgid "Presets && settings"
 msgstr ""
 
 #: src/effects/EffectUI.cpp
-msgid "Start and stop preview"
-msgstr ""
-
-#: src/effects/EffectUI.cpp
 msgid "Preview effect"
 msgstr ""
 
-#. i18n-hint: The access key "&P" should be the same in
-#. "Stop &Preview" and "Start &Preview"
 #: src/effects/EffectUI.cpp
 msgid "Stop &Preview"
 msgstr ""
@@ -18466,38 +18491,6 @@ msgstr ""
 #: src/widgets/ASlider.cpp
 #, c-format
 msgid "%.2fx"
-msgstr ""
-
-#: src/widgets/ErrorReportDialog.cpp
-#, c-format
-msgid "More information about this error may be available %s."
-msgstr ""
-
-#: src/widgets/ErrorReportDialog.cpp
-msgid "here"
-msgstr ""
-
-#: src/widgets/ErrorReportDialog.cpp
-msgid "Would you like to send a report to help us fix this issue?"
-msgstr ""
-
-#: src/widgets/ErrorReportDialog.cpp
-#, c-format
-msgid "All reports are anonymous. See %s for more info."
-msgstr ""
-
-#: src/widgets/ErrorReportDialog.cpp
-msgid "Problem details"
-msgstr ""
-
-#: src/widgets/ErrorReportDialog.cpp
-msgctxt "crash reporter button"
-msgid "&Don't send"
-msgstr ""
-
-#: src/widgets/ErrorReportDialog.cpp
-msgctxt "crash reporter button"
-msgid "&Send"
 msgstr ""
 
 #: src/widgets/FileHistory.cpp
