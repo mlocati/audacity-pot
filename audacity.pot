@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-04-28 08:17+0000\n"
+"POT-Creation-Date: 2023-05-08 08:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1574,8 +1574,7 @@ msgid "Writable Sample Track"
 msgstr ""
 
 #: libraries/lib-shuttlegui/ShuttleGui.cpp libraries/lib-wx-init/LogWindow.cpp
-#: src/cloud/audiocom/ShareAudioDialog.cpp src/effects/Contrast.cpp
-#: src/menus/FileMenus.cpp
+#: src/effects/Contrast.cpp src/menus/FileMenus.cpp
 msgid "&Close"
 msgstr ""
 
@@ -2628,8 +2627,7 @@ msgstr ""
 msgid "Save script as..."
 msgstr ""
 
-#: modules/mod-nyq-bench/NyqBench.cpp src/cloud/audiocom/ShareAudioDialog.cpp
-#: src/toolbars/CutCopyPasteToolBar.cpp
+#: modules/mod-nyq-bench/NyqBench.cpp src/toolbars/CutCopyPasteToolBar.cpp
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackView.cpp
 msgid "Copy"
 msgstr ""
@@ -6679,10 +6677,6 @@ msgid "Only you and people you share a link with will be able to listen to this 
 msgstr ""
 
 #: src/cloud/audiocom/ShareAudioDialog.cpp
-msgid "&Go to my file"
-msgstr ""
-
-#: src/cloud/audiocom/ShareAudioDialog.cpp
 msgid "Are you sure you want to cancel?"
 msgstr ""
 
@@ -6727,19 +6721,16 @@ msgid "&Link Account"
 msgstr ""
 
 #: src/cloud/audiocom/ShareAudioDialog.cpp
-msgid "Press \"Continue\" to upload to audio.com"
-msgstr ""
-
-#: src/cloud/audiocom/ShareAudioDialog.cpp
 #, c-format
-msgid ""
-"Your audio will be uploaded to our sharing service: %s,%%which requires a free account to use.\n"
-"\n"
-"If you have problems uploading, try the Link Account button."
+msgid "Your audio will be uploaded to our sharing service: %s,%%which requires a free account to use."
 msgstr ""
 
 #: src/cloud/audiocom/ShareAudioDialog.cpp
 msgid "audio.com"
+msgstr ""
+
+#: src/cloud/audiocom/ShareAudioDialog.cpp
+msgid "Press \"Continue\" to upload to audio.com"
 msgstr ""
 
 #: src/cloud/audiocom/ShareAudioDialog.cpp
@@ -6748,10 +6739,6 @@ msgstr ""
 
 #: src/cloud/audiocom/ShareAudioDialog.cpp
 msgid "Preparing audio..."
-msgstr ""
-
-#: src/cloud/audiocom/ShareAudioDialog.cpp
-msgid "Shareable link"
 msgstr ""
 
 #. i18n-hint: An item name followed by a value, with appropriate separating punctuation
