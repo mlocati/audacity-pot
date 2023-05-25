@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-05-08 08:18+0000\n"
+"POT-Creation-Date: 2023-05-25 08:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -564,9 +564,9 @@ msgstr ""
 msgid "Provides LV2 Effects support to Audacity"
 msgstr ""
 
-#: libraries/lib-math/Dither.cpp src/commands/ScreenshotCommand.cpp
-#: src/effects/EffectManager.cpp src/effects/EffectUI.cpp
-#: src/prefs/TracksBehaviorsPrefs.cpp plug-ins/equalabel.ny
+#: libraries/lib-math/Dither.cpp libraries/lib-playable-track/PlayableTrack.cpp
+#: src/commands/ScreenshotCommand.cpp src/effects/EffectManager.cpp
+#: src/effects/EffectUI.cpp plug-ins/equalabel.ny
 #: plug-ins/sample-data-export.ny
 msgid "None"
 msgstr ""
@@ -1178,6 +1178,22 @@ msgstr ""
 #. i18n-hint: a decade is a tenfold increase of frequency
 #: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
 msgid "thousandths of decades"
+msgstr ""
+
+#: libraries/lib-playable-track/PlayableTrack.cpp
+msgid "Audio Track"
+msgstr ""
+
+#: libraries/lib-playable-track/PlayableTrack.cpp
+msgid "Playable Track"
+msgstr ""
+
+#: libraries/lib-playable-track/PlayableTrack.cpp
+msgid "Simple"
+msgstr ""
+
+#: libraries/lib-playable-track/PlayableTrack.cpp
+msgid "Multi-track"
 msgstr ""
 
 #: libraries/lib-project-file-io/DBConnection.cpp
@@ -1912,14 +1928,6 @@ msgstr ""
 
 #: libraries/lib-track/Track.cpp
 msgid "Generic Track"
-msgstr ""
-
-#: libraries/lib-track/Track.cpp
-msgid "Audio Track"
-msgstr ""
-
-#: libraries/lib-track/Track.cpp
-msgid "Playable Track"
 msgstr ""
 
 #: libraries/lib-transactions/TransactionScope.cpp
@@ -7465,14 +7473,6 @@ msgstr ""
 
 #: src/commands/SetProjectCommand.h
 msgid "Sets various values for a project."
-msgstr ""
-
-#: src/commands/SetTrackInfoCommand.cpp
-msgid "Track Index:"
-msgstr ""
-
-#: src/commands/SetTrackInfoCommand.cpp
-msgid "Channel Index:"
 msgstr ""
 
 #: src/commands/SetTrackInfoCommand.cpp
@@ -16570,14 +16570,6 @@ msgstr ""
 
 #: src/prefs/TracksBehaviorsPrefs.cpp
 msgid "Preferences for TracksBehaviors"
-msgstr ""
-
-#: src/prefs/TracksBehaviorsPrefs.cpp
-msgid "Simple"
-msgstr ""
-
-#: src/prefs/TracksBehaviorsPrefs.cpp
-msgid "Multi-track"
 msgstr ""
 
 #: src/prefs/TracksBehaviorsPrefs.cpp
