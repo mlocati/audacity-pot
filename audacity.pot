@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-05-25 08:17+0000\n"
+"POT-Creation-Date: 2023-06-02 08:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -180,15 +180,15 @@ msgid ""
 "Error code: %s"
 msgstr ""
 
-#: libraries/lib-audio-io/AudioIO.cpp libraries/lib-effects/EffectBase.cpp
-#: libraries/lib-files/FileNames.cpp libraries/lib-vst3/VST3Wrapper.cpp
+#: libraries/lib-audio-io/AudioIO.cpp libraries/lib-files/FileNames.cpp
+#: libraries/lib-vst3/VST3Wrapper.cpp
 #: libraries/lib-wx-wrappers/FileDialog/gtk/FileDialogPrivate.cpp
 #: src/ProjectAudioManager.cpp src/TimerRecordDialog.cpp
-#: src/effects/Contrast.cpp src/effects/Generator.cpp
-#: src/effects/nyquist/Nyquist.cpp src/export/ExportFFmpeg.cpp
-#: src/export/ExportMP2.cpp src/menus/TrackMenus.cpp
-#: src/menus/TransportMenus.cpp src/prefs/DirectoriesPrefs.cpp
-#: src/prefs/KeyConfigPrefs.cpp
+#: src/effects/Contrast.cpp src/effects/EffectPreview.cpp
+#: src/effects/Generator.cpp src/effects/nyquist/Nyquist.cpp
+#: src/export/ExportFFmpeg.cpp src/export/ExportMP2.cpp
+#: src/menus/TrackMenus.cpp src/menus/TransportMenus.cpp
+#: src/prefs/DirectoriesPrefs.cpp src/prefs/KeyConfigPrefs.cpp
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackControls.cpp
 #: src/widgets/UnwritableLocationErrorDialog.cpp
 #: plug-ins/eq-xml-to-txt-converter.ny
@@ -359,20 +359,6 @@ msgstr ""
 #: libraries/lib-effects/EffectBase.cpp src/commands/AudacityCommand.cpp
 #, c-format
 msgid "Applying %s..."
-msgstr ""
-
-#: libraries/lib-effects/EffectBase.cpp
-msgid "Preparing preview"
-msgstr ""
-
-#: libraries/lib-effects/EffectBase.cpp
-msgid "Previewing"
-msgstr ""
-
-#: libraries/lib-effects/EffectBase.cpp src/ProjectAudioManager.cpp
-msgid ""
-"Error opening sound device.\n"
-"Try changing the audio host, playback device and the project sample rate."
 msgstr ""
 
 #. i18n-hint: "Nyquist" is an embedded interpreted programming language in
@@ -3529,9 +3515,10 @@ msgstr ""
 msgid "How would you like to paste your audio?"
 msgstr ""
 
+#. i18n-hint: %s substitutes for a file size, e.g. "345 MB". A "smart clip" is an audio clip containing hidden trimmed data.
 #: src/AudioPasteDialog.cpp
 #, c-format
-msgid "Audio data is %s. Larger sizes will take longer to paste."
+msgid "The full smart clip is %s. Larger sizes will take longer to paste."
 msgstr ""
 
 #: src/AudioPasteDialog.cpp
@@ -5188,6 +5175,12 @@ msgstr ""
 #: src/ProjectAudioManager.cpp
 #, c-format
 msgid "Actual Rate: %d"
+msgstr ""
+
+#: src/ProjectAudioManager.cpp src/effects/EffectPreview.cpp
+msgid ""
+"Error opening sound device.\n"
+"Try changing the audio host, playback device and the project sample rate."
 msgstr ""
 
 #: src/ProjectAudioManager.cpp src/TimerRecordDialog.cpp
@@ -8792,6 +8785,14 @@ msgstr ""
 
 #: src/effects/EffectManager.cpp
 msgid "Command failed to initialize"
+msgstr ""
+
+#: src/effects/EffectPreview.cpp
+msgid "Preparing preview"
+msgstr ""
+
+#: src/effects/EffectPreview.cpp
+msgid "Previewing"
 msgstr ""
 
 #: src/effects/EffectUI.cpp src/menus/PluginMenus.cpp
