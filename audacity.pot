@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-06-08 08:17+0000\n"
+"POT-Creation-Date: 2023-06-09 08:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -6019,7 +6019,7 @@ msgstr ""
 msgid "Artist Name"
 msgstr ""
 
-#: src/TagsEditor.cpp
+#: src/TagsEditor.cpp src/cloud/audiocom/ShareAudioDialog.cpp
 msgid "Track Title"
 msgstr ""
 
@@ -6687,10 +6687,6 @@ msgstr ""
 
 #: src/cloud/audiocom/ShareAudioDialog.cpp
 msgid "Uploading audio..."
-msgstr ""
-
-#: src/cloud/audiocom/ShareAudioDialog.cpp
-msgid "Upload complete!"
 msgstr ""
 
 #: src/cloud/audiocom/ShareAudioDialog.cpp
