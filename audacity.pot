@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-06-09 08:17+0000\n"
+"POT-Creation-Date: 2023-06-10 08:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1236,9 +1236,8 @@ msgstr ""
 #: libraries/lib-wave-track/WaveClip.cpp libraries/lib-wave-track/WaveTrack.cpp
 #: libraries/lib-wx-init/LogWindow.cpp modules/mod-nyq-bench/NyqBench.cpp
 #: src/export/Export.cpp src/export/ExportCL.cpp src/export/ExportMultiple.cpp
-#: src/import/RawAudioGuess.cpp src/menus/EditMenus.cpp
-#: src/prefs/DirectoriesPrefs.cpp src/prefs/KeyConfigPrefs.cpp
-#: src/widgets/Warning.cpp
+#: src/import/RawAudioGuess.cpp src/prefs/DirectoriesPrefs.cpp
+#: src/prefs/KeyConfigPrefs.cpp src/widgets/Warning.cpp
 msgid "Warning"
 msgstr ""
 
@@ -2052,6 +2051,14 @@ msgstr ""
 
 #: libraries/lib-wave-track/WaveTrack.cpp
 msgid "There is not enough room available to paste the selection"
+msgstr ""
+
+#: libraries/lib-wave-track/WaveTrack.cpp
+msgid "A track has a corrupted sample sequence."
+msgstr ""
+
+#: libraries/lib-wave-track/WaveTrack.cpp
+msgid "This project cannot be opened because it contains a stereo track with different sample rates. This functionality is no longer supported since the release of Audacity version 3.4"
 msgstr ""
 
 #: libraries/lib-wave-track/WaveTrack.cpp
@@ -5360,6 +5367,10 @@ msgstr ""
 
 #: src/ProjectFSCK.cpp
 msgid "Warning: Problems in Automatic Recovery"
+msgstr ""
+
+#: src/ProjectFileManager.cpp
+msgid "A channel of a stereo track was missing."
 msgstr ""
 
 #: src/ProjectFileManager.cpp
@@ -13361,11 +13372,11 @@ msgid "Pasting clip contents, please wait"
 msgstr ""
 
 #: src/menus/EditMenus.cpp
-msgid "Pasting one type of track into another is not allowed."
+msgid "The content you are trying to paste will span across more tracks than you currently have available. Add more tracks and try again."
 msgstr ""
 
 #: src/menus/EditMenus.cpp
-msgid "Copying stereo audio into a mono track is not allowed."
+msgid "There are not enough tracks selected to accommodate your copied content. Select additional tracks and try again."
 msgstr ""
 
 #: src/menus/EditMenus.cpp
@@ -17797,6 +17808,10 @@ msgstr ""
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackControls.cpp
 msgid "Split Stereo to Mo&no"
+msgstr ""
+
+#: src/tracks/playabletrack/wavetrack/ui/WaveTrackControls.cpp
+msgid "Mono tracks must have the same sample rate in order to be combined into a stereo track"
 msgstr ""
 
 #. i18n-hint: The string names a track
