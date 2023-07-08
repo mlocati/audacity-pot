@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-06-10 08:15+0000\n"
+"POT-Creation-Date: 2023-07-08 08:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2629,7 +2629,7 @@ msgid "Save script as..."
 msgstr ""
 
 #: modules/mod-nyq-bench/NyqBench.cpp src/toolbars/CutCopyPasteToolBar.cpp
-#: src/tracks/playabletrack/wavetrack/ui/WaveTrackView.cpp
+#: src/tracks/playabletrack/wavetrack/ui/WaveChannelView.cpp
 msgid "Copy"
 msgstr ""
 
@@ -2639,7 +2639,7 @@ msgstr ""
 
 #: modules/mod-nyq-bench/NyqBench.cpp src/menus/EditMenus.cpp
 #: src/toolbars/CutCopyPasteToolBar.cpp
-#: src/tracks/playabletrack/wavetrack/ui/WaveTrackView.cpp
+#: src/tracks/playabletrack/wavetrack/ui/WaveChannelView.cpp
 msgid "Cut"
 msgstr ""
 
@@ -2649,7 +2649,7 @@ msgstr ""
 
 #: modules/mod-nyq-bench/NyqBench.cpp src/menus/EditMenus.cpp
 #: src/toolbars/CutCopyPasteToolBar.cpp
-#: src/tracks/playabletrack/wavetrack/ui/WaveTrackView.cpp
+#: src/tracks/playabletrack/wavetrack/ui/WaveChannelView.cpp
 msgid "Paste"
 msgstr ""
 
@@ -6467,7 +6467,7 @@ msgid "(Esc to cancel)"
 msgstr ""
 
 #: src/TrackPanelAx.cpp
-msgid "TrackView"
+msgid "ChannelView"
 msgstr ""
 
 #. i18n-hint: This is for screen reader software and indicates that
@@ -10176,14 +10176,6 @@ msgid "Converts stereo tracks to mono"
 msgstr ""
 
 #: src/effects/StereoToMono.cpp
-msgid "Resampling left channel"
-msgstr ""
-
-#: src/effects/StereoToMono.cpp
-msgid "Resampling right channel"
-msgstr ""
-
-#: src/effects/StereoToMono.cpp
 msgid "Mixing down to mono"
 msgstr ""
 
@@ -10808,10 +10800,6 @@ msgstr ""
 
 #: src/effects/vamp/LoadVamp.cpp
 msgid "Provides Vamp Effects support to Audacity"
-msgstr ""
-
-#: src/effects/vamp/VampEffect.cpp
-msgid "Sorry, Vamp Plug-ins cannot be run on stereo tracks where the individual channels of the track do not match."
 msgstr ""
 
 #: src/effects/vamp/VampEffect.cpp
@@ -17514,12 +17502,12 @@ msgid "&MIDI Device Info..."
 msgstr ""
 
 #: src/tracks/playabletrack/notetrack/ui/NoteTrackVZoomHandle.cpp
-#: src/tracks/playabletrack/wavetrack/ui/WaveTrackVZoomHandle.cpp
+#: src/tracks/playabletrack/wavetrack/ui/WaveChannelVZoomHandle.cpp
 msgid "Click to vertically zoom in. Shift-click to zoom out. Drag to specify a zoom region."
 msgstr ""
 
 #: src/tracks/playabletrack/notetrack/ui/NoteTrackVZoomHandle.cpp
-#: src/tracks/playabletrack/wavetrack/ui/WaveTrackVZoomHandle.cpp
+#: src/tracks/playabletrack/wavetrack/ui/WaveChannelVZoomHandle.cpp
 #: src/tracks/timetrack/ui/TimeTrackVZoomHandle.cpp
 msgid "Right-click for menu."
 msgstr ""
@@ -17648,6 +17636,51 @@ msgstr ""
 msgid "Next &Lower Peak Frequency"
 msgstr ""
 
+#: src/tracks/playabletrack/wavetrack/ui/WaveChannelView.cpp
+msgid "Click and drag to adjust sizes of sub-views, double-click to split evenly"
+msgstr ""
+
+#: src/tracks/playabletrack/wavetrack/ui/WaveChannelView.cpp
+msgid "Click and drag to rearrange sub-views"
+msgstr ""
+
+#: src/tracks/playabletrack/wavetrack/ui/WaveChannelView.cpp
+msgid "Rearrange sub-views"
+msgstr ""
+
+#: src/tracks/playabletrack/wavetrack/ui/WaveChannelView.cpp
+msgid "Close sub-view"
+msgstr ""
+
+#: src/tracks/playabletrack/wavetrack/ui/WaveChannelView.cpp
+msgid "Split Clip"
+msgstr ""
+
+#: src/tracks/playabletrack/wavetrack/ui/WaveChannelView.cpp
+msgid "Mute/Unmute Track"
+msgstr ""
+
+#: src/tracks/playabletrack/wavetrack/ui/WaveChannelView.cpp
+#: src/tracks/playabletrack/wavetrack/ui/WaveTrackAffordanceControls.cpp
+msgid "Rename Clip..."
+msgstr ""
+
+#. i18n-hint:
+#. string is the name of a clip
+#. first number is the position of that clip in a sequence of clips,
+#. second number counts the clips
+#: src/tracks/playabletrack/wavetrack/ui/WaveChannelView.cpp
+#, c-format
+msgid "%s, %d of %d clip"
+msgid_plural "%s, %d of %d clips"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/tracks/playabletrack/wavetrack/ui/WaveChannelViewConstants.cpp
+#: src/tracks/playabletrack/wavetrack/ui/WaveTrackControls.cpp
+msgid "&Multi-view"
+msgstr ""
+
 #: src/tracks/playabletrack/wavetrack/ui/WaveClipTrimHandle.cpp
 msgid "Clip-Trim-Left"
 msgstr ""
@@ -17683,11 +17716,6 @@ msgstr ""
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackAffordanceControls.cpp
 msgid "Clip Name Edit"
-msgstr ""
-
-#: src/tracks/playabletrack/wavetrack/ui/WaveTrackAffordanceControls.cpp
-#: src/tracks/playabletrack/wavetrack/ui/WaveTrackView.cpp
-msgid "Rename Clip..."
 msgstr ""
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackControls.cpp
@@ -17787,11 +17815,6 @@ msgstr ""
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackControls.cpp
 msgid "Set Rate"
-msgstr ""
-
-#: src/tracks/playabletrack/wavetrack/ui/WaveTrackControls.cpp
-#: src/tracks/playabletrack/wavetrack/ui/WaveTrackViewConstants.cpp
-msgid "&Multi-view"
 msgstr ""
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackControls.cpp
@@ -17896,41 +17919,6 @@ msgstr ""
 #, c-format
 msgid "%.0f%% Right"
 msgstr ""
-
-#: src/tracks/playabletrack/wavetrack/ui/WaveTrackView.cpp
-msgid "Click and drag to adjust sizes of sub-views, double-click to split evenly"
-msgstr ""
-
-#: src/tracks/playabletrack/wavetrack/ui/WaveTrackView.cpp
-msgid "Click and drag to rearrange sub-views"
-msgstr ""
-
-#: src/tracks/playabletrack/wavetrack/ui/WaveTrackView.cpp
-msgid "Rearrange sub-views"
-msgstr ""
-
-#: src/tracks/playabletrack/wavetrack/ui/WaveTrackView.cpp
-msgid "Close sub-view"
-msgstr ""
-
-#: src/tracks/playabletrack/wavetrack/ui/WaveTrackView.cpp
-msgid "Split Clip"
-msgstr ""
-
-#: src/tracks/playabletrack/wavetrack/ui/WaveTrackView.cpp
-msgid "Mute/Unmute Track"
-msgstr ""
-
-#. i18n-hint:
-#. string is the name of a clip
-#. first number is the position of that clip in a sequence of clips,
-#. second number counts the clips
-#: src/tracks/playabletrack/wavetrack/ui/WaveTrackView.cpp
-#, c-format
-msgid "%s, %d of %d clip"
-msgid_plural "%s, %d of %d clips"
-msgstr[0] ""
-msgstr[1] ""
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp
 msgid "Zoom x1/2"
