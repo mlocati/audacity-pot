@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-07-08 08:18+0000\n"
+"POT-Creation-Date: 2023-07-20 08:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16761,7 +16761,7 @@ msgid "Show Warnings/Prompts for"
 msgstr ""
 
 #: src/prefs/WarningsPrefs.cpp
-msgid "Saving &projects"
+msgid "Saving &projects versus exporting audio"
 msgstr ""
 
 #: src/prefs/WarningsPrefs.cpp
