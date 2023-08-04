@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-08-03 08:16+0000\n"
+"POT-Creation-Date: 2023-08-04 08:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -9479,16 +9479,16 @@ msgstr ""
 msgid "Reduces (ducks) the volume of one or more tracks whenever the volume of a specified \"control\" track reaches a particular level"
 msgstr ""
 
-#. i18n-hint: Auto duck is the name of an effect that 'ducks' (reduces the volume)
-#. * of the audio automatically when there is sound on another track.  Not as
-#. * in 'Donald-Duck'!
+#. i18n-hint: Auto duck is the name of an effect that 'ducks'
+#. (reduces the volume) of the audio automatically when there is
+#. sound on another track.  Not as in 'Donald-Duck'!
 #: src/effects/AutoDuck.cpp
 msgid "You selected a track which does not contain audio. AutoDuck can only process audio tracks."
 msgstr ""
 
-#. i18n-hint: Auto duck is the name of an effect that 'ducks' (reduces the volume)
-#. * of the audio automatically when there is sound on another track.  Not as
-#. * in 'Donald-Duck'!
+#. i18n-hint: Auto duck is the name of an effect that 'ducks' (reduces
+#. the volume) of the audio automatically when there is sound on another
+#. track.  Not as in 'Donald-Duck'!
 #: src/effects/AutoDuck.cpp
 msgid "Auto Duck needs a control track which must be placed below the selected track(s)."
 msgstr ""
@@ -11122,6 +11122,17 @@ msgstr ""
 
 #: src/effects/FindClipping.cpp
 msgid "Clipping"
+msgstr ""
+
+#. i18n-hint: Two numbers are substituted; the second is the
+#. size of a set, the first is the size of a subset, and not
+#. understood as an ordinal (i.e., not meaning "first", or
+#. "second", etc.)
+#.
+#: src/effects/FindClipping.cpp
+#, c-format
+msgctxt "find clipping"
+msgid "%lld of %lld"
 msgstr ""
 
 #: src/effects/FindClipping.cpp
