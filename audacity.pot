@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-08-04 08:16+0000\n"
+"POT-Creation-Date: 2023-08-05 08:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13049,18 +13049,6 @@ msgstr ""
 
 #: src/import/RawAudioGuess.cpp
 msgid "Bad data size. Could not import audio"
-msgstr ""
-
-#. i18n-hint: given the name of a track, specify its left channel
-#: src/menus/ClipMenus.cpp
-#, c-format
-msgid "%s left"
-msgstr ""
-
-#. i18n-hint: given the name of a track, specify its right channel
-#: src/menus/ClipMenus.cpp
-#, c-format
-msgid "%s right"
 msgstr ""
 
 #. i18n-hint:
