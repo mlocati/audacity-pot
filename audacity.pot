@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-08-05 08:15+0000\n"
+"POT-Creation-Date: 2023-08-16 08:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -5087,14 +5087,6 @@ msgstr ""
 msgid "See %s for more info."
 msgstr ""
 
-#: src/AdornedRulerPanel.cpp src/menus/TimelineMenus.cpp
-msgid "Minutes and Seconds"
-msgstr ""
-
-#: src/AdornedRulerPanel.cpp src/menus/TimelineMenus.cpp
-msgid "Beats and Measures"
-msgstr ""
-
 #: src/AdornedRulerPanel.cpp
 msgid "Click and drag to define a looping region."
 msgstr ""
@@ -5179,6 +5171,16 @@ msgstr ""
 
 #: src/AdornedRulerPanel.cpp
 msgid "Timeline Options"
+msgstr ""
+
+#: src/AdornedRulerPanel.cpp src/TimeDisplayMode.cpp
+#: src/menus/TimelineMenus.cpp
+msgid "Minutes and Seconds"
+msgstr ""
+
+#: src/AdornedRulerPanel.cpp src/TimeDisplayMode.cpp
+#: src/menus/TimelineMenus.cpp
+msgid "Beats and Measures"
 msgstr ""
 
 #: src/AdornedRulerPanel.cpp
