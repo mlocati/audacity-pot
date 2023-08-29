@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-08-16 08:16+0000\n"
+"POT-Creation-Date: 2023-08-29 08:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2448,7 +2448,7 @@ msgid " [[https://forum.audacityteam.org/|Forum]] - ask your question directly, 
 msgstr ""
 
 #: libraries/lib-wx-init/HelpText.cpp
-msgid "Audacity can import unprotected files in many other formats (such as M4A and WMA, compressed WAV files from portable recorders and audio from video files) if you download and install the optional [[https://manual.audacityteam.org/man/faq_opening_and_saving_files.html#foreign| FFmpeg library]] to your computer."
+msgid "Audacity can import unprotected files in many other formats (such as M4A and WMA, compressed WAV files from portable recorders and audio from video files) if you download and install the optional [[https://support.audacityteam.org/basics/installing-ffmpeg| FFmpeg library]] to your computer."
 msgstr ""
 
 #: libraries/lib-wx-init/HelpText.cpp
@@ -14942,7 +14942,7 @@ msgid "&Project Sample Rate:"
 msgstr ""
 
 #: src/prefs/DevicePrefs.cpp
-msgid "Project Sample Rate used when recording new tracks and for playback, mixdowns and exports in this project"
+msgid "Sample Rate used when recording new tracks, mixing down tracks and for playback in this project."
 msgstr ""
 
 #: src/prefs/DevicePrefs.cpp
