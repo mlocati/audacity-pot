@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-09-02 08:15+0000\n"
+"POT-Creation-Date: 2023-09-07 08:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2248,6 +2248,10 @@ msgstr ""
 
 #: libraries/lib-wave-track/WaveTrack.cpp
 msgid "This project cannot be opened because it contains a stereo track with different sample rates. This functionality is no longer supported since the release of Audacity version 3.4"
+msgstr ""
+
+#: libraries/lib-wave-track/WaveTrack.cpp
+msgid "This project cannot be opened because it contains a stereo track with different sample formats. This functionality is no longer supported since the release of Audacity version 3.4"
 msgstr ""
 
 #: libraries/lib-wave-track/WaveTrack.cpp
@@ -17653,6 +17657,10 @@ msgstr ""
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackControls.cpp
 msgid "Mono tracks must have the same sample rate in order to be combined into a stereo track"
+msgstr ""
+
+#: src/tracks/playabletrack/wavetrack/ui/WaveTrackControls.cpp
+msgid "Mono tracks must have the same sample format in order to be combinedinto a stereo track"
 msgstr ""
 
 #. i18n-hint: The string names a track
