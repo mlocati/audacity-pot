@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-09-08 08:16+0000\n"
+"POT-Creation-Date: 2023-09-14 08:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2091,7 +2091,7 @@ msgid "Custom"
 msgstr ""
 
 #: libraries/lib-time-frequency-selection/ViewInfo.cpp
-msgid "&Loop On/Off"
+msgid "Enable &Looping"
 msgstr ""
 
 #. i18n-hint: This is for screen reader software and indicates that
@@ -5188,7 +5188,7 @@ msgid "Beats and Measures"
 msgstr ""
 
 #: src/AdornedRulerPanel.cpp
-msgid "Enable dragging selection"
+msgid "Setting a loop region also makes an audio selection"
 msgstr ""
 
 #: src/AdornedRulerPanel.cpp
@@ -5209,7 +5209,7 @@ msgid "Pinned Play Head"
 msgstr ""
 
 #: src/AdornedRulerPanel.cpp
-msgid "Pinned Play/Record &Head (on/off)"
+msgid "Enable pinned play &head"
 msgstr ""
 
 #: src/AudacityApp.cpp
@@ -7991,7 +7991,7 @@ msgid "Metadata Tags"
 msgstr ""
 
 #: src/TagsEditor.cpp
-msgid "&Metadata"
+msgid "&Metadata Editor"
 msgstr ""
 
 #. i18n-hint: This string is used to configure the controls which shows the recording
@@ -13113,16 +13113,15 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: src/menus/ClipMenus.cpp
-msgid "Time shifted clips to the right"
+msgid "Moved clips to the right"
 msgstr ""
 
 #: src/menus/ClipMenus.cpp
-msgid "Time shifted clips to the left"
+msgid "Moved clips to the left"
 msgstr ""
 
-#: src/menus/ClipMenus.cpp src/prefs/MousePrefs.cpp
-#: src/tracks/ui/TimeShiftHandle.cpp
-msgid "Time-Shift"
+#: src/menus/ClipMenus.cpp
+msgid "Move audio clips"
 msgstr ""
 
 #: src/menus/ClipMenus.cpp
@@ -13385,7 +13384,7 @@ msgid "Ext&ra"
 msgstr ""
 
 #: src/menus/ExtraMenus.cpp
-msgid "&Full Screen (on/off)"
+msgid "Enable &Full Screen"
 msgstr ""
 
 #: src/menus/FileMenus.cpp
@@ -13693,7 +13692,7 @@ msgid "&Labels"
 msgstr ""
 
 #: src/menus/LabelMenus.cpp
-msgid "&Edit Labels..."
+msgid "Label &Editor"
 msgstr ""
 
 #: src/menus/LabelMenus.cpp
@@ -14523,7 +14522,7 @@ msgid "By &Name"
 msgstr ""
 
 #: src/menus/TrackMenus.cpp
-msgid "Sync-&Lock Tracks (on/off)"
+msgid "Keep tracks synchronized (Sync &Lock)"
 msgstr ""
 
 #: src/menus/TrackMenus.cpp
@@ -14705,19 +14704,19 @@ msgid "Transport &Options"
 msgstr ""
 
 #: src/menus/TransportMenus.cpp
-msgid "Sound Activation Le&vel..."
+msgid "Set sound activation le&vel..."
 msgstr ""
 
 #: src/menus/TransportMenus.cpp
-msgid "Sound A&ctivated Recording (on/off)"
+msgid "Enable sound a&ctivated recording"
 msgstr ""
 
 #: src/menus/TransportMenus.cpp
-msgid "&Overdub (on/off)"
+msgid "Hear &other tracks during recording"
 msgstr ""
 
 #: src/menus/TransportMenus.cpp
-msgid "So&ftware Playthrough (on/off)"
+msgid "Enable audible input &monitoring"
 msgstr ""
 
 #: src/menus/TransportMenus.cpp
@@ -14851,15 +14850,15 @@ msgid "Skip to Selection End"
 msgstr ""
 
 #: src/menus/ViewMenus.cpp
-msgid "&Extra Menus (on/off)"
+msgid "Enable &Extra Menus"
 msgstr ""
 
 #: src/menus/ViewMenus.cpp
-msgid "Track &Name (on/off)"
+msgid "Show Track &Name as overlay"
 msgstr ""
 
 #: src/menus/ViewMenus.cpp
-msgid "&Show Clipping (on/off)"
+msgid "&Show Clipping in Waveform"
 msgstr ""
 
 #: src/prefs/ApplicationPrefs.cpp
@@ -15424,9 +15423,8 @@ msgstr ""
 msgid "IMPORT EXPORT"
 msgstr ""
 
-#. i18n-hint: as in computer keyboard (not musical!)
 #: src/prefs/KeyConfigPrefs.cpp
-msgid "Keyboard"
+msgid "Shortcuts"
 msgstr ""
 
 #: src/prefs/KeyConfigPrefs.cpp
@@ -15795,26 +15793,6 @@ msgstr ""
 msgid "Zoom default"
 msgstr ""
 
-#: src/prefs/MousePrefs.cpp
-msgid "Move clip left/right or between tracks"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "Shift-Left-Drag"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "Move all clips in track left/right"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "-Left-Drag"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "Move clip up/down between tracks"
-msgstr ""
-
 #. i18n-hint: The envelope is a curve that controls the audio loudness.
 #: src/prefs/MousePrefs.cpp
 msgid "Change Amplification Envelope"
@@ -15838,6 +15816,10 @@ msgstr ""
 
 #: src/prefs/MousePrefs.cpp
 msgid "Change Several Samples"
+msgstr ""
+
+#: src/prefs/MousePrefs.cpp
+msgid "-Left-Drag"
 msgstr ""
 
 #: src/prefs/MousePrefs.cpp
@@ -15886,6 +15868,26 @@ msgstr ""
 
 #: src/prefs/MousePrefs.cpp
 msgid "Vertical Scale Waveform (dB) range"
+msgstr ""
+
+#: src/prefs/MousePrefs.cpp
+msgid "Shift-Left-Drag"
+msgstr ""
+
+#: src/prefs/MousePrefs.cpp
+msgid "Move all clips in track left/right"
+msgstr ""
+
+#: src/prefs/MousePrefs.cpp
+msgid "using clip handles"
+msgstr ""
+
+#: src/prefs/MousePrefs.cpp
+msgid "Move clip up/down between tracks"
+msgstr ""
+
+#: src/prefs/MousePrefs.cpp
+msgid "Move clip left/right or between tracks"
 msgstr ""
 
 #: src/prefs/PlaybackPrefs.cpp
@@ -15988,7 +15990,7 @@ msgid "Use &hardware to play other tracks"
 msgstr ""
 
 #: src/prefs/RecordingPrefs.cpp
-msgid "&Software playthrough of input"
+msgid "Audible input &monitoring"
 msgstr ""
 
 #: src/prefs/RecordingPrefs.cpp
@@ -17499,21 +17501,31 @@ msgstr[1] ""
 msgid "&Multi-view"
 msgstr ""
 
+#. i18n-hint: This is about trimming a clip, a length in seconds like "2.4 seconds" is shown
 #: src/tracks/playabletrack/wavetrack/ui/WaveClipAdjustBorderHandle.cpp
-msgid "Clip-Trim-Left"
+#, c-format
+msgid "Adjust left trim by %.02f seconds"
+msgstr ""
+
+#. i18n-hint: This is about trimming a clip, a length in seconds like "2.4s" is shown
+#: src/tracks/playabletrack/wavetrack/ui/WaveClipAdjustBorderHandle.cpp
+#, c-format
+msgid "Trim by %.02fs"
+msgstr ""
+
+#. i18n-hint: This is about trimming a clip, a length in seconds like "2.4 seconds" is shown
+#: src/tracks/playabletrack/wavetrack/ui/WaveClipAdjustBorderHandle.cpp
+#, c-format
+msgid "Adjust right trim by %.02f seconds"
+msgstr ""
+
+#: src/tracks/playabletrack/wavetrack/ui/WaveClipAdjustBorderHandle.cpp
+msgid "Clip-Trim-Between"
 msgstr ""
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveClipAdjustBorderHandle.cpp
 #, c-format
 msgid "Moved by %.02f"
-msgstr ""
-
-#: src/tracks/playabletrack/wavetrack/ui/WaveClipAdjustBorderHandle.cpp
-msgid "Clip-Trim-Right"
-msgstr ""
-
-#: src/tracks/playabletrack/wavetrack/ui/WaveClipAdjustBorderHandle.cpp
-msgid "Clip-Trim-Between"
 msgstr ""
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveClipAdjustBorderHandle.cpp
@@ -18050,6 +18062,10 @@ msgstr ""
 msgid "Time shifted tracks/clips left %.02f seconds"
 msgstr ""
 
+#: src/tracks/ui/TimeShiftHandle.cpp
+msgid "Move Clip"
+msgstr ""
+
 #: src/tracks/ui/TrackButtonHandles.cpp
 msgid "Collapse"
 msgstr ""
@@ -18297,11 +18313,11 @@ msgid "Meter"
 msgstr ""
 
 #: src/widgets/MeterPanel.cpp
-msgid "Stop Monitoring"
+msgid "Disable Silent Monitoring"
 msgstr ""
 
 #: src/widgets/MeterPanel.cpp
-msgid "Start Monitoring"
+msgid "Enable Silent Monitoring"
 msgstr ""
 
 #: src/widgets/MeterPanel.cpp
