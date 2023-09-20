@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-09-19 08:17+0000\n"
+"POT-Creation-Date: 2023-09-20 08:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -183,7 +183,7 @@ msgstr ""
 #: libraries/lib-audio-io/AudioIO.cpp libraries/lib-files/FileNames.cpp
 #: libraries/lib-vst3/VST3Wrapper.cpp
 #: libraries/lib-wx-wrappers/FileDialog/gtk/FileDialogPrivate.cpp
-#: modules/mod-mp3/ExportMP3.cpp src/ProjectAudioManager.cpp
+#: modules/mod-mp3/ExportMP3.cpp src/FreqWindow.cpp src/ProjectAudioManager.cpp
 #: src/TimerRecordDialog.cpp src/effects/Contrast.cpp
 #: src/effects/EffectPreview.cpp src/effects/Generator.cpp
 #: src/effects/nyquist/Nyquist.cpp src/menus/SelectMenus.cpp
@@ -367,6 +367,14 @@ msgstr ""
 #. name into another alphabet.
 #: libraries/lib-effects/EffectBase.h
 msgid "Nyquist"
+msgstr ""
+
+#: libraries/lib-effects/EffectOutputTracks.cpp src/effects/AutoDuck.cpp
+msgid "Pre-processing"
+msgstr ""
+
+#: libraries/lib-effects/EffectOutputTracks.cpp
+msgid "Rendering Time-Stretched Audio"
 msgstr ""
 
 #: libraries/lib-effects/LoadEffects.cpp
@@ -6345,7 +6353,13 @@ msgid "&Replot..."
 msgstr ""
 
 #: src/FreqWindow.cpp
-msgid "To plot the spectrum, all selected tracks must be the same sample rate."
+msgid "To plot the spectrum, all selected tracks must have the same sample rate."
+msgstr ""
+
+#: src/FreqWindow.cpp
+msgid ""
+"Audio could not be analyzed. This may be due to a stretched clip.\n"
+"Try resetting any stretched clips, or mixing and rendering the tracks before analyzing"
 msgstr ""
 
 #: src/FreqWindow.cpp
@@ -9499,6 +9513,10 @@ msgstr ""
 msgid "Auto Duck needs a control track which must be placed below the selected track(s)."
 msgstr ""
 
+#: src/effects/AutoDuck.cpp
+msgid "Rendering Control-Track Time-Stretched Audio"
+msgstr ""
+
 #: src/effects/AutoDuck.cpp src/effects/TruncSilence.cpp
 msgid "db"
 msgstr ""
@@ -11434,7 +11452,7 @@ msgstr ""
 msgid "512"
 msgstr ""
 
-#: src/effects/NoiseReduction.cpp
+#: src/effects/NoiseReduction.cpp src/prefs/SpectrumPrefs.cpp
 msgid "1024"
 msgstr ""
 
@@ -11695,6 +11713,10 @@ msgstr ""
 
 #: src/effects/Repair.cpp
 msgid "Sets the peak amplitude of a one or more tracks"
+msgstr ""
+
+#: src/effects/Repair.cpp
+msgid "The Repair effect cannot be applied within stretched or shrunk clips"
 msgstr ""
 
 #: src/effects/Repair.cpp
@@ -16109,10 +16131,10 @@ msgstr ""
 msgid "Period"
 msgstr ""
 
-#. i18n-hint: New color scheme for spectrograms
+#. i18n-hint: New color scheme for spectrograms, Roseus is proper name of the color scheme
 #: src/prefs/SpectrogramSettings.cpp
 msgctxt "spectrum prefs"
-msgid "Color (default)"
+msgid "Color (Roseus)"
 msgstr ""
 
 #. i18n-hint: Classic color scheme(from theme) for spectrograms
@@ -16230,10 +16252,6 @@ msgstr ""
 
 #: src/prefs/SpectrumPrefs.cpp
 msgid "8 - most wideband"
-msgstr ""
-
-#: src/prefs/SpectrumPrefs.cpp
-msgid "1024 - default"
 msgstr ""
 
 #: src/prefs/SpectrumPrefs.cpp
