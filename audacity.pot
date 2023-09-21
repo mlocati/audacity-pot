@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-09-20 08:17+0000\n"
+"POT-Creation-Date: 2023-09-21 08:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -370,10 +370,11 @@ msgid "Nyquist"
 msgstr ""
 
 #: libraries/lib-effects/EffectOutputTracks.cpp src/effects/AutoDuck.cpp
+#: src/menus/EditMenus.cpp
 msgid "Pre-processing"
 msgstr ""
 
-#: libraries/lib-effects/EffectOutputTracks.cpp
+#: libraries/lib-effects/EffectOutputTracks.cpp src/menus/EditMenus.cpp
 msgid "Rendering Time-Stretched Audio"
 msgstr ""
 
@@ -12114,7 +12115,7 @@ msgstr ""
 msgid "Square, no alias"
 msgstr ""
 
-#: src/effects/ToneGen.cpp plug-ins/tremolo.ny
+#: src/effects/ToneGen.cpp
 msgctxt "waveform"
 msgid "Triangle"
 msgstr ""
@@ -18759,8 +18760,8 @@ msgstr ""
 #, lisp-format
 msgid ""
 "~adB values cannot be more than +100 dB.~%~%~\n"
-"                                 Hint: 6 dB doubles the amplitude~%~\n"
-"                                 -6 dB halves the amplitude."
+"                                      Hint: 6 dB doubles the amplitude~%~\n"
+"                                      -6 dB halves the amplitude."
 msgstr ""
 
 #: plug-ins/beat.ny
@@ -18811,7 +18812,7 @@ msgid "Crossfade Tracks"
 msgstr ""
 
 #: plug-ins/crossfadetracks.ny
-msgid "Fade type"
+msgid "Fade TYPE"
 msgstr ""
 
 #: plug-ins/crossfadetracks.ny
@@ -19111,8 +19112,8 @@ msgstr ""
 #, lisp-format
 msgid ""
 "Error:~%~%Frequency (~a Hz) is too high for track sample rate.~%~%~\n"
-"                   Track sample rate is ~a Hz~%~\n"
-"                   Frequency must be less than ~a Hz."
+"                 Track sample rate is ~a Hz~%~\n"
+"                 Frequency must be less than ~a Hz."
 msgstr ""
 
 #. i18n-hint: Name of effect that labels sounds
@@ -19191,20 +19192,19 @@ msgstr ""
 msgid "Too many silences detected.~%Only the first 10000 labels added."
 msgstr ""
 
-#. i18n-hint: '~a' will be replaced by a time duration
 #: plug-ins/label-sounds.ny
 #, lisp-format
-msgid "Error.~%Selection must be less than ~a."
+msgid ""
+"No sounds found.~%~\n"
+"                 Try lowering 'Threshold level (dB)'."
 msgstr ""
 
 #: plug-ins/label-sounds.ny
 #, lisp-format
-msgid "No sounds found.~%Try lowering 'Threshold level (dB)'."
-msgstr ""
-
-#: plug-ins/label-sounds.ny
-#, lisp-format
-msgid "Labelling regions between sounds requires~%at least two sounds.~%Only one sound detected."
+msgid ""
+"Labelling regions between sounds requires~%~\n"
+"                 at least two sounds.~%~\n"
+"                 Only one sound detected."
 msgstr ""
 
 #: plug-ins/limiter.ny resources/EffectsMenuDefaults.xml
@@ -19311,33 +19311,25 @@ msgstr ""
 #: plug-ins/noisegate.ny
 #, lisp-format
 msgid ""
-"Error.\n"
-"\"Gate frequencies above: ~s kHz\"\n"
-"is too high for selected track.\n"
-"Set the control below ~a kHz."
+"Error.~%~\n"
+"                             Gate frequencies above: ~s kHz~%~\n"
+"                             is too high for selected track.~%~\n"
+"                             Set the control below ~a kHz."
 msgstr ""
 
 #: plug-ins/noisegate.ny
 #, lisp-format
 msgid ""
-"Error.\n"
-"Selection too long.\n"
-"Maximum length is ~a."
+"Error.~%~\n"
+"                            Insufficient audio selected.~%~\n"
+"                            Make the selection longer than ~a ms."
 msgstr ""
 
 #: plug-ins/noisegate.ny
 #, lisp-format
 msgid ""
-"Error.\n"
-"Insufficient audio selected.\n"
-"Make the selection longer than ~a ms."
-msgstr ""
-
-#: plug-ins/noisegate.ny
-#, lisp-format
-msgid ""
-"Peak based on first ~a seconds ~a dB~%\n"
-"Suggested Threshold Setting ~a dB."
+"Peak based on first ~a seconds ~a dB~%~\n"
+"               Suggested Threshold Setting ~a dB."
 msgstr ""
 
 #. i18n-hint: hours and minutes. Do not translate "~a".
@@ -19362,8 +19354,8 @@ msgstr ""
 #, lisp-format
 msgid ""
 "Error:~%~%Frequency (~a Hz) is too high for track sample rate.~%~%~\n"
-"                 Track sample rate is ~a Hz.~%~\n"
-"                 Frequency must be less than ~a Hz."
+"               Track sample rate is ~a Hz.~%~\n"
+"               Frequency must be less than ~a Hz."
 msgstr ""
 
 #: plug-ins/nyquist-plug-in-installer.ny
@@ -19589,9 +19581,10 @@ msgid "MIDI pitch of weak beat"
 msgstr ""
 
 #: plug-ins/rhythmtrack.ny
+#, lisp-format
 msgid ""
-"Set either 'Number of bars' or\n"
-"'Rhythm track duration' to greater than zero."
+"Set either 'Number of bars' or~%~\n"
+"                    'Rhythm track duration' to greater than zero."
 msgstr ""
 
 #: plug-ins/rissetdrum.ny
@@ -19956,6 +19949,10 @@ msgstr ""
 
 #: plug-ins/tremolo.ny
 msgid "Waveform type"
+msgstr ""
+
+#: plug-ins/tremolo.ny
+msgid "Triangle"
 msgstr ""
 
 #: plug-ins/tremolo.ny
