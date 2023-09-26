@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-09-23 08:15+0000\n"
+"POT-Creation-Date: 2023-09-26 08:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -4254,7 +4254,7 @@ msgid "Save script as..."
 msgstr ""
 
 #: modules/mod-nyq-bench/NyqBench.cpp src/toolbars/CutCopyPasteToolBar.cpp
-#: src/tracks/playabletrack/wavetrack/ui/WaveChannelView.cpp
+#: src/tracks/playabletrack/wavetrack/ui/WaveClipUtilities.cpp
 msgid "Copy"
 msgstr ""
 
@@ -4264,7 +4264,7 @@ msgstr ""
 
 #: modules/mod-nyq-bench/NyqBench.cpp src/menus/EditMenus.cpp
 #: src/toolbars/CutCopyPasteToolBar.cpp
-#: src/tracks/playabletrack/wavetrack/ui/WaveChannelView.cpp
+#: src/tracks/playabletrack/wavetrack/ui/WaveClipUtilities.cpp
 msgid "Cut"
 msgstr ""
 
@@ -4275,6 +4275,7 @@ msgstr ""
 #: modules/mod-nyq-bench/NyqBench.cpp src/menus/EditMenus.cpp
 #: src/toolbars/CutCopyPasteToolBar.cpp
 #: src/tracks/playabletrack/wavetrack/ui/WaveChannelView.cpp
+#: src/tracks/playabletrack/wavetrack/ui/WaveClipUtilities.cpp
 msgid "Paste"
 msgstr ""
 
@@ -7228,6 +7229,15 @@ msgstr ""
 
 #: src/ProjectFileManager.cpp
 msgid "A channel of a stereo track was missing."
+msgstr ""
+
+#: src/ProjectFileManager.cpp
+msgid ""
+"This project contained stereo tracks with non-aligned content.\n"
+"This feature is not supported in Audacity versions past 3.3.3.\n"
+"These stereo tracks have been split into mono tracks.\n"
+"As a result, some realtime effects may be missing.\n"
+"Please verify that everything works as intended before saving."
 msgstr ""
 
 #: src/ProjectFileManager.cpp
@@ -17480,16 +17490,8 @@ msgid "Close sub-view"
 msgstr ""
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveChannelView.cpp
-msgid "Split Clip"
-msgstr ""
-
-#: src/tracks/playabletrack/wavetrack/ui/WaveChannelView.cpp
+#: src/tracks/playabletrack/wavetrack/ui/WaveClipUtilities.cpp
 msgid "Mute/Unmute Track"
-msgstr ""
-
-#: src/tracks/playabletrack/wavetrack/ui/WaveChannelView.cpp
-#: src/tracks/playabletrack/wavetrack/ui/WaveTrackAffordanceControls.cpp
-msgid "Rename Clip..."
 msgstr ""
 
 #. i18n-hint:
@@ -17532,6 +17534,15 @@ msgstr ""
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveClipAdjustBorderHandle.cpp
 msgid "Click and drag to stretch clip"
+msgstr ""
+
+#: src/tracks/playabletrack/wavetrack/ui/WaveClipUtilities.cpp
+msgid "Split Clip"
+msgstr ""
+
+#: src/tracks/playabletrack/wavetrack/ui/WaveClipUtilities.cpp
+#: src/tracks/playabletrack/wavetrack/ui/WaveTrackAffordanceControls.cpp
+msgid "Rename Clip..."
 msgstr ""
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackAffordanceControls.cpp
@@ -17666,11 +17677,20 @@ msgid "Split Stereo to Mo&no"
 msgstr ""
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackControls.cpp
-msgid "Mono tracks must have the same sample rate in order to be combined into a stereo track"
+msgid ""
+"The tracks you are attempting to merge to stereo contain clips at\n"
+"different positions, or otherwise mismatching clips. Merging them\n"
+"will render the tracks.\n"
+"\n"
+"This causes any realtime effects to be applied to the waveform and\n"
+"hidden data to be removed. Additionally, the entire track will\n"
+"become one large clip.\n"
+"\n"
+"Do you wish to continue?"
 msgstr ""
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackControls.cpp
-msgid "Mono tracks must have the same sample format in order to be combined into a stereo track"
+msgid "Combine mono to stereo"
 msgstr ""
 
 #. i18n-hint: The string names a track
