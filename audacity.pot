@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-09-26 08:17+0000\n"
+"POT-Creation-Date: 2023-09-27 08:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -375,6 +375,7 @@ msgid "Pre-processing"
 msgstr ""
 
 #: libraries/lib-effects/EffectOutputTracks.cpp src/menus/EditMenus.cpp
+#: src/tracks/playabletrack/wavetrack/ui/WaveTrackAffordanceControls.cpp
 msgid "Rendering Time-Stretched Audio"
 msgstr ""
 
@@ -5729,6 +5730,7 @@ msgid "Select file(s) for batch processing..."
 msgstr ""
 
 #: src/BatchProcessDialog.cpp
+#: src/tracks/playabletrack/wavetrack/ui/WaveTrackAffordanceControls.cpp
 msgid "Applying..."
 msgstr ""
 
@@ -5740,6 +5742,7 @@ msgstr ""
 #: src/cloud/audiocom/LinkAccountDialog.cpp
 #: src/cloud/audiocom/LinkFailedDialog.cpp
 #: src/cloud/audiocom/ShareAudioDialog.cpp src/export/ExportAudioDialog.cpp
+#: src/tracks/playabletrack/wavetrack/ui/ChangeClipSpeedDialog.cpp
 msgid "&Cancel"
 msgstr ""
 
@@ -8569,6 +8572,7 @@ msgid "Account linked successfully!"
 msgstr ""
 
 #: src/cloud/audiocom/LinkSucceededDialog.cpp
+#: src/tracks/playabletrack/wavetrack/ui/ChangeClipSpeedDialog.cpp
 msgid "&Ok"
 msgstr ""
 
@@ -9741,7 +9745,9 @@ msgstr ""
 msgid "78"
 msgstr ""
 
-#: src/effects/ChangeSpeed.cpp resources/EffectsMenuDefaults.xml
+#: src/effects/ChangeSpeed.cpp
+#: src/tracks/playabletrack/wavetrack/ui/ChangeClipSpeedDialog.cpp
+#: resources/EffectsMenuDefaults.xml
 msgid "Change Speed"
 msgstr ""
 
@@ -14228,6 +14234,7 @@ msgstr ""
 #. i18n-hint: Convert the audio into a more usable form, so apply
 #. * panning and amplification and write to some external file.
 #: src/menus/TrackMenus.cpp
+#: src/tracks/playabletrack/wavetrack/ui/WaveTrackAffordanceControls.cpp
 msgid "Render"
 msgstr ""
 
@@ -14728,7 +14735,7 @@ msgstr ""
 msgid "&Set Loop to Selection"
 msgstr ""
 
-#: src/menus/TransportMenus.cpp
+#: src/menus/TransportMenus.cpp src/toolbars/AudioSetupToolBar.cpp
 msgid "R&escan Audio Devices"
 msgstr ""
 
@@ -17397,6 +17404,23 @@ msgstr ""
 msgid "Stretch"
 msgstr ""
 
+#: src/tracks/playabletrack/wavetrack/ui/ChangeClipSpeedDialog.cpp
+msgid "Clip speed"
+msgstr ""
+
+#. i18n-hint: Title of an error message shown, when invalid clip speed is set
+#: src/tracks/playabletrack/wavetrack/ui/ChangeClipSpeedDialog.cpp
+msgid "Invalid clip speed"
+msgstr ""
+
+#: src/tracks/playabletrack/wavetrack/ui/ChangeClipSpeedDialog.cpp
+msgid "Clip speed must be a positive value"
+msgstr ""
+
+#: src/tracks/playabletrack/wavetrack/ui/ChangeClipSpeedDialog.cpp
+msgid "There is not enough space to stretch the clip to the selected speed"
+msgstr ""
+
 #: src/tracks/playabletrack/wavetrack/ui/CutlineHandle.cpp
 msgid "Left-Click to expand, Right-Click to remove"
 msgstr ""
@@ -17541,8 +17565,27 @@ msgid "Split Clip"
 msgstr ""
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveClipUtilities.cpp
-#: src/tracks/playabletrack/wavetrack/ui/WaveTrackAffordanceControls.cpp
 msgid "Rename Clip..."
+msgstr ""
+
+#: src/tracks/playabletrack/wavetrack/ui/WaveClipUtilities.cpp
+msgid "Change Speed..."
+msgstr ""
+
+#: src/tracks/playabletrack/wavetrack/ui/WaveClipUtilities.cpp
+msgid "Render Clip Stretching"
+msgstr ""
+
+#. i18n-hint: This is about changing the clip playback speed, speed is in percent
+#: src/tracks/playabletrack/wavetrack/ui/WaveClipUtilities.cpp
+#, c-format
+msgid "Changed clip speed to %.01f%%"
+msgstr ""
+
+#. i18n-hint: This is about changing the clip playback speed, speed is in percent
+#: src/tracks/playabletrack/wavetrack/ui/WaveClipUtilities.cpp
+#, c-format
+msgid "Changed speed to %.01f%%"
 msgstr ""
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackAffordanceControls.cpp
@@ -17559,6 +17602,22 @@ msgstr ""
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackAffordanceControls.cpp
 msgid "Clip Name Edit"
+msgstr ""
+
+#: src/tracks/playabletrack/wavetrack/ui/WaveTrackAffordanceControls.cpp
+msgid "Rendered time-stretched audio"
+msgstr ""
+
+#: src/tracks/playabletrack/wavetrack/ui/WaveTrackAffordanceControls.cpp
+msgid "&Rename Clip..."
+msgstr ""
+
+#: src/tracks/playabletrack/wavetrack/ui/WaveTrackAffordanceControls.cpp
+msgid "Change &Speed..."
+msgstr ""
+
+#: src/tracks/playabletrack/wavetrack/ui/WaveTrackAffordanceControls.cpp
+msgid "Render Clip S&tretching"
 msgstr ""
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackControls.cpp
