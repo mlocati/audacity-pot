@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-09-27 08:17+0000\n"
+"POT-Creation-Date: 2023-09-29 08:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -9646,10 +9646,6 @@ msgid "High Quality Pitch Change"
 msgstr ""
 
 #: src/effects/ChangePitch.cpp
-msgid "Change Pitch without Changing Tempo"
-msgstr ""
-
-#: src/effects/ChangePitch.cpp
 #, c-format
 msgid "Estimated Start Pitch: %s%d (%.3f Hz)"
 msgstr ""
@@ -9745,18 +9741,12 @@ msgstr ""
 msgid "78"
 msgstr ""
 
-#: src/effects/ChangeSpeed.cpp
-#: src/tracks/playabletrack/wavetrack/ui/ChangeClipSpeedDialog.cpp
-#: resources/EffectsMenuDefaults.xml
-msgid "Change Speed"
+#: src/effects/ChangeSpeed.cpp resources/EffectsMenuDefaults.xml
+msgid "Change Speed and Pitch"
 msgstr ""
 
 #: src/effects/ChangeSpeed.cpp
 msgid "Changes the speed of a track, also changing its pitch"
-msgstr ""
-
-#: src/effects/ChangeSpeed.cpp
-msgid "Change Speed, affecting both Tempo and Pitch"
 msgstr ""
 
 #: src/effects/ChangeSpeed.cpp
@@ -9833,10 +9823,6 @@ msgstr ""
 
 #: src/effects/ChangeTempo.cpp
 msgid "High Quality Tempo Change"
-msgstr ""
-
-#: src/effects/ChangeTempo.cpp
-msgid "Change Tempo without Changing Pitch"
 msgstr ""
 
 #: src/effects/ChangeTempo.cpp
@@ -13747,7 +13733,7 @@ msgid "Paste Te&xt to New Label"
 msgstr ""
 
 #: src/menus/LabelMenus.cpp
-msgid "&Type to Create a Label (on/off)"
+msgid "&Typing Creates New Labels"
 msgstr ""
 
 #: src/menus/LabelMenus.cpp
@@ -14562,7 +14548,7 @@ msgid "By &Name"
 msgstr ""
 
 #: src/menus/TrackMenus.cpp
-msgid "Keep tracks synchronized (Sync &Lock)"
+msgid "Keep tracks synchronized (Sync-&Lock)"
 msgstr ""
 
 #: src/menus/TrackMenus.cpp
@@ -16022,7 +16008,7 @@ msgid "Preferences for Recording"
 msgstr ""
 
 #: src/prefs/RecordingPrefs.cpp
-msgid "Play &other tracks while recording (overdub)"
+msgid "Hear &other tracks while recording (overdub)"
 msgstr ""
 
 #: src/prefs/RecordingPrefs.cpp
@@ -17139,7 +17125,7 @@ msgstr ""
 #. i18n-hint: Clicking this menu item shows the toolbar
 #. for selecting a time range of audio
 #: src/toolbars/TimeSignatureToolBar.cpp
-msgid "Time Signature Toolbar (Beta)"
+msgid "Time Signature Toolbar"
 msgstr ""
 
 #: src/toolbars/TimeToolBar.cpp
@@ -17405,6 +17391,10 @@ msgid "Stretch"
 msgstr ""
 
 #: src/tracks/playabletrack/wavetrack/ui/ChangeClipSpeedDialog.cpp
+msgid "Change Speed"
+msgstr ""
+
+#: src/tracks/playabletrack/wavetrack/ui/ChangeClipSpeedDialog.cpp
 msgid "Clip speed"
 msgstr ""
 
@@ -17579,13 +17569,13 @@ msgstr ""
 #. i18n-hint: This is about changing the clip playback speed, speed is in percent
 #: src/tracks/playabletrack/wavetrack/ui/WaveClipUtilities.cpp
 #, c-format
-msgid "Changed clip speed to %.01f%%"
+msgid "Changed Clip Speed to %.01f%%"
 msgstr ""
 
 #. i18n-hint: This is about changing the clip playback speed, speed is in percent
 #: src/tracks/playabletrack/wavetrack/ui/WaveClipUtilities.cpp
 #, c-format
-msgid "Changed speed to %.01f%%"
+msgid "Changed Speed to %.01f%%"
 msgstr ""
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackAffordanceControls.cpp
