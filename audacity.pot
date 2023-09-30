@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-09-29 08:17+0000\n"
+"POT-Creation-Date: 2023-09-30 08:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2254,14 +2254,6 @@ msgstr ""
 
 #: libraries/lib-wave-track/WaveTrack.cpp
 msgid "A track has a corrupted sample sequence."
-msgstr ""
-
-#: libraries/lib-wave-track/WaveTrack.cpp
-msgid "This project cannot be opened because it contains a stereo track with different sample rates. This functionality is no longer supported since the release of Audacity version 3.4"
-msgstr ""
-
-#: libraries/lib-wave-track/WaveTrack.cpp
-msgid "This project cannot be opened because it contains a stereo track with different sample formats. This functionality is no longer supported since the release of Audacity version 3.4"
 msgstr ""
 
 #: libraries/lib-wave-track/WaveTrack.cpp
@@ -7234,9 +7226,29 @@ msgstr ""
 msgid "A channel of a stereo track was missing."
 msgstr ""
 
+#. i18n-hint: explains why opened project was auto-modified
 #: src/ProjectFileManager.cpp
+msgid "This project contained stereo tracks with different sample rates per channel."
+msgstr ""
+
+#. i18n-hint: explains why opened project was auto-modified
+#: src/ProjectFileManager.cpp
+msgid "This project contained stereo tracks with different sample formats in channels."
+msgstr ""
+
+#. i18n-hint: explains why opened project was auto-modified
+#: src/ProjectFileManager.cpp
+msgid "This project contained stereo tracks with non-aligned content."
+msgstr ""
+
+#. i18n-hint: Text of the message dialog that may appear on attempt
+#. to open a project created by Audacity version prior to 3.4.
+#. %s will be replaced with an explanation of the actual reason of
+#. project modification.
+#: src/ProjectFileManager.cpp
+#, c-format
 msgid ""
-"This project contained stereo tracks with non-aligned content.\n"
+"%s\n"
 "This feature is not supported in Audacity versions past 3.3.3.\n"
 "These stereo tracks have been split into mono tracks.\n"
 "As a result, some realtime effects may be missing.\n"
