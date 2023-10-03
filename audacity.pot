@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-09-30 08:15+0000\n"
+"POT-Creation-Date: 2023-10-03 08:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -8447,7 +8447,7 @@ msgstr ""
 
 #: src/TrackUtilities.cpp
 #, c-format
-msgid "Removed track '%s.'"
+msgid "Removed track '%s'."
 msgstr ""
 
 #: src/TrackUtilities.cpp
