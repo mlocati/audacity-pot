@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-10-04 08:18+0000\n"
+"POT-Creation-Date: 2023-10-05 08:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1386,11 +1386,11 @@ msgid "Playable Track"
 msgstr ""
 
 #: libraries/lib-playable-track/PlayableTrack.cpp
-msgid "Simple"
+msgid "Multi-track"
 msgstr ""
 
 #: libraries/lib-playable-track/PlayableTrack.cpp
-msgid "Multi-track"
+msgid "Simple"
 msgstr ""
 
 #: libraries/lib-project-file-io/DBConnection.cpp
