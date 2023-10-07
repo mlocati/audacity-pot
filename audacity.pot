@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-10-05 08:17+0000\n"
+"POT-Creation-Date: 2023-10-07 08:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -367,16 +367,6 @@ msgstr ""
 #. name into another alphabet.
 #: libraries/lib-effects/EffectBase.h
 msgid "Nyquist"
-msgstr ""
-
-#: libraries/lib-effects/EffectOutputTracks.cpp src/effects/AutoDuck.cpp
-#: src/menus/EditMenus.cpp
-msgid "Pre-processing"
-msgstr ""
-
-#: libraries/lib-effects/EffectOutputTracks.cpp src/menus/EditMenus.cpp
-#: src/tracks/playabletrack/wavetrack/ui/WaveTrackAffordanceControls.cpp
-msgid "Rendering Time-Stretched Audio"
 msgstr ""
 
 #: libraries/lib-effects/LoadEffects.cpp
@@ -2260,6 +2250,14 @@ msgstr ""
 msgid "There is not enough room available to expand the cut line"
 msgstr ""
 
+#: libraries/lib-wave-track/WaveTrackUtilities.cpp
+msgid "Pre-processing"
+msgstr ""
+
+#: libraries/lib-wave-track/WaveTrackUtilities.h
+msgid "Rendering Time-Stretched Audio"
+msgstr ""
+
 #: libraries/lib-wx-init/ErrorDialog.cpp src/menus/HelpMenus.cpp
 msgid "Show &Log..."
 msgstr ""
@@ -2618,6 +2616,19 @@ msgid ""
 "Couldn't import the project:\n"
 "\n"
 "%s"
+msgstr ""
+
+#. i18n-hint: Text of the message dialog that may appear on attempt
+#. to import an AUP project.
+#. %s will be replaced with an explanation of the actual reason of
+#. project modification.
+#: modules/mod-aup/ImportAUP.cpp
+#, c-format
+msgid ""
+"%s\n"
+"This feature is not supported in Audacity versions past 3.3.3.\n"
+"These stereo tracks have been split into mono tracks.\n"
+"Please verify that everything works as intended before saving."
 msgstr ""
 
 #: modules/mod-aup/ImportAUP.cpp
@@ -7222,25 +7233,6 @@ msgstr ""
 msgid "Warning: Problems in Automatic Recovery"
 msgstr ""
 
-#: src/ProjectFileManager.cpp
-msgid "A channel of a stereo track was missing."
-msgstr ""
-
-#. i18n-hint: explains why opened project was auto-modified
-#: src/ProjectFileManager.cpp
-msgid "This project contained stereo tracks with different sample rates per channel."
-msgstr ""
-
-#. i18n-hint: explains why opened project was auto-modified
-#: src/ProjectFileManager.cpp
-msgid "This project contained stereo tracks with different sample formats in channels."
-msgstr ""
-
-#. i18n-hint: explains why opened project was auto-modified
-#: src/ProjectFileManager.cpp
-msgid "This project contained stereo tracks with non-aligned content."
-msgstr ""
-
 #. i18n-hint: Text of the message dialog that may appear on attempt
 #. to open a project created by Audacity version prior to 3.4.
 #. %s will be replaced with an explanation of the actual reason of
@@ -7418,6 +7410,25 @@ msgstr ""
 msgid ""
 "Project resides on FAT formatted drive.\n"
 "Copy it to another drive to open it."
+msgstr ""
+
+#: src/ProjectFileManager.cpp
+msgid "A channel of a stereo track was missing."
+msgstr ""
+
+#. i18n-hint: explains why opened project was auto-modified
+#: src/ProjectFileManager.cpp
+msgid "This project contained stereo tracks with different sample rates per channel."
+msgstr ""
+
+#. i18n-hint: explains why opened project was auto-modified
+#: src/ProjectFileManager.cpp
+msgid "This project contained stereo tracks with different sample formats in channels."
+msgstr ""
+
+#. i18n-hint: explains why opened project was auto-modified
+#: src/ProjectFileManager.cpp
+msgid "This project contained stereo tracks with non-aligned content."
 msgstr ""
 
 #: src/ProjectFileManager.cpp
