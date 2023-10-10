@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-10-07 08:15+0000\n"
+"POT-Creation-Date: 2023-10-10 08:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -4616,7 +4616,7 @@ msgstr ""
 msgid "Unsigned 8 bit PCM"
 msgstr ""
 
-#: modules/mod-pcm/ImportPCM.cpp
+#: modules/mod-pcm/ImportPCM.cpp modules/mod-wavpack/ExportWavPack.cpp
 msgid "32 bit float"
 msgstr ""
 
@@ -4694,10 +4694,6 @@ msgstr ""
 
 #: modules/mod-wavpack/ExportWavPack.cpp
 msgid "Very High Quality (Slowest)"
-msgstr ""
-
-#: modules/mod-wavpack/ExportWavPack.cpp
-msgid "32 bit float "
 msgstr ""
 
 #. i18n-hint bps abbreviates "bits per sample"
@@ -9478,7 +9474,7 @@ msgstr ""
 #. i18n-hint Scheme refers to a color scheme for spectrogram colors
 #: src/commands/SetTrackInfoCommand.cpp src/prefs/SpectrumPrefs.cpp
 msgctxt "spectrum prefs"
-msgid "Sche&me"
+msgid "Sche&me:"
 msgstr ""
 
 #: src/commands/SetTrackInfoCommand.cpp
@@ -12833,8 +12829,9 @@ msgstr ""
 msgid "Custom Sample Rate"
 msgstr ""
 
-#: src/export/ExportFilePanel.cpp
-msgid "New Sample Rate (Hz)"
+#: src/export/ExportFilePanel.cpp src/menus/TrackMenus.cpp
+#: src/tracks/playabletrack/wavetrack/ui/WaveTrackControls.cpp
+msgid "New sample rate (Hz):"
 msgstr ""
 
 #: src/export/ExportFilePanel.cpp
@@ -14395,11 +14392,6 @@ msgstr ""
 
 #: src/menus/TrackMenus.cpp
 msgid "Adjusted Pan"
-msgstr ""
-
-#: src/menus/TrackMenus.cpp
-#: src/tracks/playabletrack/wavetrack/ui/WaveTrackControls.cpp
-msgid "New sample rate (Hz):"
 msgstr ""
 
 #: src/menus/TrackMenus.cpp
