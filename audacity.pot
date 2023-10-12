@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-10-10 08:17+0000\n"
+"POT-Creation-Date: 2023-10-12 08:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -432,8 +432,7 @@ msgstr ""
 #, c-format
 msgid ""
 "Audacity failed to write to a file.\n"
-"Perhaps %s is not writable or the disk is full.\n"
-"For tips on freeing up space, click the help button."
+"Perhaps %s is not writable or the disk is full."
 msgstr ""
 
 #: libraries/lib-files/FileException.h
@@ -1426,8 +1425,7 @@ msgstr ""
 #, c-format
 msgid ""
 "Disk is full.\n"
-"%s\n"
-"For tips on freeing up space, click the help button."
+"%s"
 msgstr ""
 
 #: libraries/lib-project-file-io/DBConnection.cpp
@@ -5458,7 +5456,7 @@ msgid ""
 "\n"
 "\t%s\n"
 "\n"
-"This could be caused by many reasons, but the most likely are that the disk is full or you do not have write permissions to the file. More information can be obtained by clicking the help button below.\n"
+"This could be caused by many reasons, but the most likely are that the disk is full or you do not have write permissions to the file. \n"
 "\n"
 "You can attempt to correct the issue and then click \"Retry\" to continue.\n"
 "\n"
@@ -8652,9 +8650,10 @@ msgstr ""
 msgid "&Link Account"
 msgstr ""
 
+#. i18n-hint: %s substitutes for audio.com. %% creates a linebreak in this context.
 #: src/cloud/audiocom/ShareAudioDialog.cpp
 #, c-format
-msgid "Your audio will be uploaded to our sharing service: %s,%%which requires a free account to use."
+msgid "Sharing audio requires a free %s account linked to Audacity. %%Press \"Link account\" above to proceed."
 msgstr ""
 
 #: src/cloud/audiocom/ShareAudioDialog.cpp
@@ -14543,7 +14542,7 @@ msgid "Align &Together"
 msgstr ""
 
 #: src/menus/TrackMenus.cpp
-msgid "&Move Selection with Tracks (on/off)"
+msgid "&Move Selection with Tracks"
 msgstr ""
 
 #: src/menus/TrackMenus.cpp
