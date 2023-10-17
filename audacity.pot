@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-10-14 08:15+0000\n"
+"POT-Creation-Date: 2023-10-17 08:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2215,6 +2215,7 @@ msgid "Resampling failed."
 msgstr ""
 
 #: libraries/lib-wave-track/WaveTrack.cpp modules/mod-ffmpeg/ExportFFmpeg.cpp
+#: modules/mod-opus/ExportOpus.cpp
 msgid "Audio"
 msgstr ""
 
@@ -2777,7 +2778,7 @@ msgstr ""
 #. i18n-hint kbps abbreviates "thousands of bits per second"
 #. i18n-hint: kbps is the bitrate of the MP3 file, kilobits per second
 #: modules/mod-ffmpeg/ExportFFmpeg.cpp modules/mod-mp2/ExportMP2.cpp
-#: modules/mod-mp3/ExportMP3.cpp
+#: modules/mod-mp3/ExportMP3.cpp modules/mod-opus/ExportOpus.cpp
 #, c-format
 msgid "%d kbps"
 msgstr ""
@@ -2788,7 +2789,7 @@ msgid "%.2f kbps"
 msgstr ""
 
 #: modules/mod-ffmpeg/ExportFFmpeg.cpp modules/mod-mp2/ExportMP2.cpp
-#: modules/mod-wavpack/ExportWavPack.cpp
+#: modules/mod-opus/ExportOpus.cpp modules/mod-wavpack/ExportWavPack.cpp
 msgid "Bit Rate"
 msgstr ""
 
@@ -2800,31 +2801,31 @@ msgstr ""
 msgid "Compression"
 msgstr ""
 
-#: modules/mod-ffmpeg/ExportFFmpeg.cpp
+#: modules/mod-ffmpeg/ExportFFmpeg.cpp modules/mod-opus/ExportOpus.cpp
 msgid "Frame Duration"
 msgstr ""
 
-#: modules/mod-ffmpeg/ExportFFmpeg.cpp
+#: modules/mod-ffmpeg/ExportFFmpeg.cpp modules/mod-opus/ExportOpus.cpp
 msgid "2.5 ms"
 msgstr ""
 
-#: modules/mod-ffmpeg/ExportFFmpeg.cpp
+#: modules/mod-ffmpeg/ExportFFmpeg.cpp modules/mod-opus/ExportOpus.cpp
 msgid "5 ms"
 msgstr ""
 
-#: modules/mod-ffmpeg/ExportFFmpeg.cpp
+#: modules/mod-ffmpeg/ExportFFmpeg.cpp modules/mod-opus/ExportOpus.cpp
 msgid "10 ms"
 msgstr ""
 
-#: modules/mod-ffmpeg/ExportFFmpeg.cpp
+#: modules/mod-ffmpeg/ExportFFmpeg.cpp modules/mod-opus/ExportOpus.cpp
 msgid "20 ms"
 msgstr ""
 
-#: modules/mod-ffmpeg/ExportFFmpeg.cpp
+#: modules/mod-ffmpeg/ExportFFmpeg.cpp modules/mod-opus/ExportOpus.cpp
 msgid "40 ms"
 msgstr ""
 
-#: modules/mod-ffmpeg/ExportFFmpeg.cpp
+#: modules/mod-ffmpeg/ExportFFmpeg.cpp modules/mod-opus/ExportOpus.cpp
 msgid "60 ms"
 msgstr ""
 
@@ -2832,15 +2833,15 @@ msgstr ""
 msgid "Vbr Mode"
 msgstr ""
 
-#: modules/mod-ffmpeg/ExportFFmpeg.cpp
+#: modules/mod-ffmpeg/ExportFFmpeg.cpp modules/mod-opus/ExportOpus.cpp
 msgid "Off"
 msgstr ""
 
-#: modules/mod-ffmpeg/ExportFFmpeg.cpp
+#: modules/mod-ffmpeg/ExportFFmpeg.cpp modules/mod-opus/ExportOpus.cpp
 msgid "On"
 msgstr ""
 
-#: modules/mod-ffmpeg/ExportFFmpeg.cpp
+#: modules/mod-ffmpeg/ExportFFmpeg.cpp modules/mod-opus/ExportOpus.cpp
 msgid "Constrained"
 msgstr ""
 
@@ -2854,11 +2855,11 @@ msgstr ""
 msgid "VOIP"
 msgstr ""
 
-#: modules/mod-ffmpeg/ExportFFmpeg.cpp
+#: modules/mod-ffmpeg/ExportFFmpeg.cpp modules/mod-opus/ExportOpus.cpp
 msgid "Low Delay"
 msgstr ""
 
-#: modules/mod-ffmpeg/ExportFFmpeg.cpp
+#: modules/mod-ffmpeg/ExportFFmpeg.cpp modules/mod-opus/ExportOpus.cpp
 msgid "Cutoff"
 msgstr ""
 
@@ -2867,23 +2868,23 @@ msgstr ""
 msgid "Disabled"
 msgstr ""
 
-#: modules/mod-ffmpeg/ExportFFmpeg.cpp
+#: modules/mod-ffmpeg/ExportFFmpeg.cpp modules/mod-opus/ExportOpus.cpp
 msgid "Narrowband"
 msgstr ""
 
-#: modules/mod-ffmpeg/ExportFFmpeg.cpp
+#: modules/mod-ffmpeg/ExportFFmpeg.cpp modules/mod-opus/ExportOpus.cpp
 msgid "Mediumband"
 msgstr ""
 
-#: modules/mod-ffmpeg/ExportFFmpeg.cpp
+#: modules/mod-ffmpeg/ExportFFmpeg.cpp modules/mod-opus/ExportOpus.cpp
 msgid "Wideband"
 msgstr ""
 
-#: modules/mod-ffmpeg/ExportFFmpeg.cpp
+#: modules/mod-ffmpeg/ExportFFmpeg.cpp modules/mod-opus/ExportOpus.cpp
 msgid "Super Wideband"
 msgstr ""
 
-#: modules/mod-ffmpeg/ExportFFmpeg.cpp
+#: modules/mod-ffmpeg/ExportFFmpeg.cpp modules/mod-opus/ExportOpus.cpp
 msgid "Fullband"
 msgstr ""
 
@@ -3714,7 +3715,8 @@ msgid "Cannot export MP2 with this sample rate and bit rate"
 msgstr ""
 
 #: modules/mod-mp2/ExportMP2.cpp modules/mod-mp3/ExportMP3.cpp
-#: modules/mod-ogg/ExportOGG.cpp modules/mod-wavpack/ExportWavPack.cpp
+#: modules/mod-ogg/ExportOGG.cpp modules/mod-opus/ExportOpus.cpp
+#: modules/mod-wavpack/ExportWavPack.cpp
 msgid "Unable to open target file for writing"
 msgstr ""
 
@@ -3825,8 +3827,9 @@ msgstr ""
 
 #. i18n-hint: meaning accuracy in reproduction of sounds
 #: modules/mod-mp3/ExportMP3.cpp modules/mod-ogg/ExportOGG.cpp
-#: modules/mod-wavpack/ExportWavPack.cpp src/prefs/DevicePrefs.cpp
-#: src/prefs/QualityPrefs.cpp src/prefs/QualityPrefs.h
+#: modules/mod-opus/ExportOpus.cpp modules/mod-wavpack/ExportWavPack.cpp
+#: src/prefs/DevicePrefs.cpp src/prefs/QualityPrefs.cpp
+#: src/prefs/QualityPrefs.h
 msgid "Quality"
 msgstr ""
 
@@ -4386,6 +4389,167 @@ msgstr ""
 
 #: modules/mod-ogg/ImportOGG.cpp
 msgid "Internal logic fault"
+msgstr ""
+
+#: modules/mod-opus/ExportOpus.cpp
+msgid "no error"
+msgstr ""
+
+#: modules/mod-opus/ExportOpus.cpp modules/mod-opus/ImportOpus.cpp
+msgid "invalid argument"
+msgstr ""
+
+#: modules/mod-opus/ExportOpus.cpp
+msgid "buffer too small"
+msgstr ""
+
+#: modules/mod-opus/ExportOpus.cpp modules/mod-opus/ImportOpus.cpp
+msgid "internal error"
+msgstr ""
+
+#: modules/mod-opus/ExportOpus.cpp modules/mod-opus/ImportOpus.cpp
+msgid "invalid packet"
+msgstr ""
+
+#: modules/mod-opus/ExportOpus.cpp modules/mod-opus/ImportOpus.cpp
+msgid "not implemented"
+msgstr ""
+
+#: modules/mod-opus/ExportOpus.cpp
+msgid "invalid state"
+msgstr ""
+
+#: modules/mod-opus/ExportOpus.cpp
+msgid "memory allocation has failed"
+msgstr ""
+
+#: modules/mod-opus/ExportOpus.cpp
+msgid "Unknown error"
+msgstr ""
+
+#: modules/mod-opus/ExportOpus.cpp
+msgid "Auto"
+msgstr ""
+
+#: modules/mod-opus/ExportOpus.cpp
+msgid "Maximum"
+msgstr ""
+
+#: modules/mod-opus/ExportOpus.cpp
+msgid "VBR Mode"
+msgstr ""
+
+#: modules/mod-opus/ExportOpus.cpp
+msgid "Optimize for"
+msgstr ""
+
+#: modules/mod-opus/ExportOpus.cpp
+msgid "Speech"
+msgstr ""
+
+#: modules/mod-opus/ExportOpus.cpp
+msgid "Buffer overflow in OGG packet"
+msgstr ""
+
+#: modules/mod-opus/ExportOpus.cpp
+msgid "Unable to write OGG page header"
+msgstr ""
+
+#: modules/mod-opus/ExportOpus.cpp
+msgid "Unable to write OGG page"
+msgstr ""
+
+#: modules/mod-opus/ExportOpus.cpp
+msgid "Opus Files"
+msgstr ""
+
+#: modules/mod-opus/ExportOpus.cpp
+msgid "Unsupported sample rate"
+msgstr ""
+
+#: modules/mod-opus/ExportOpus.cpp
+msgid "Exporting selected audio as Opus"
+msgstr ""
+
+#: modules/mod-opus/ExportOpus.cpp
+msgid "Exporting the audio as Opus"
+msgstr ""
+
+#: modules/mod-opus/ExportOpus.cpp
+msgid "Unable to create Opus encoder"
+msgstr ""
+
+#: modules/mod-opus/ExportOpus.cpp
+msgid "Unable to set bitrate"
+msgstr ""
+
+#: modules/mod-opus/ExportOpus.cpp
+msgid "Unable to set complexity"
+msgstr ""
+
+#: modules/mod-opus/ExportOpus.cpp
+msgid "Unable to set bandwidth"
+msgstr ""
+
+#: modules/mod-opus/ExportOpus.cpp
+msgid "Unable to set VBR mode"
+msgstr ""
+
+#: modules/mod-opus/ExportOpus.cpp
+msgid "Unable to set CVBR mode"
+msgstr ""
+
+#: modules/mod-opus/ExportOpus.cpp
+msgid "Unable to get lookahead"
+msgstr ""
+
+#: modules/mod-opus/ExportOpus.cpp
+msgid "Failed to calculate correct preskip"
+msgstr ""
+
+#: modules/mod-opus/ExportOpus.cpp
+msgid "Failed to encode input buffer"
+msgstr ""
+
+#: modules/mod-opus/ImportOpus.cpp
+msgid "Opus files"
+msgstr ""
+
+#: modules/mod-opus/ImportOpus.cpp
+msgid "file has changed the number of channels in the middle."
+msgstr ""
+
+#: modules/mod-opus/ImportOpus.cpp
+msgid "IO error reading from file"
+msgstr ""
+
+#: modules/mod-opus/ImportOpus.cpp
+msgid "not an Opus file"
+msgstr ""
+
+#: modules/mod-opus/ImportOpus.cpp
+msgid "invalid header"
+msgstr ""
+
+#: modules/mod-opus/ImportOpus.cpp
+msgid "unsupported version"
+msgstr ""
+
+#: modules/mod-opus/ImportOpus.cpp
+msgid "invalid stream structure"
+msgstr ""
+
+#: modules/mod-opus/ImportOpus.cpp
+msgid "stream is not seekable"
+msgstr ""
+
+#: modules/mod-opus/ImportOpus.cpp
+msgid "invalid timestamp"
+msgstr ""
+
+#: modules/mod-opus/ImportOpus.cpp
+#, c-format
+msgid "Failed to decode Opus file: %s"
 msgstr ""
 
 #: modules/mod-pcm/ExportPCM.cpp modules/mod-pcm/ImportPCM.cpp
@@ -4966,7 +5130,22 @@ msgid "File Format Support"
 msgstr ""
 
 #: src/AboutDialog.cpp
-msgid "MP3 Importing"
+msgid "MP3 Import"
+msgstr ""
+
+#. i18n-hint: LAME is the codec name. This name should not be translated
+#.
+#: src/AboutDialog.cpp
+msgid "MP3 Export"
+msgstr ""
+
+#. i18n-hint: Opus is the codec name. This name should not be translated
+#.
+#. i18n-hint: Opus is the codec name. This name should not be translated
+#. i18n-hint: Opus is the codec name. This name should not be translated
+#.
+#: src/AboutDialog.cpp
+msgid "Opus Import and Export"
 msgstr ""
 
 #. i18n-hint: Ogg is the container format. Vorbis is the compression codec.
@@ -4987,10 +5166,6 @@ msgstr ""
 
 #: src/AboutDialog.cpp
 msgid "MP2 export"
-msgstr ""
-
-#: src/AboutDialog.cpp
-msgid "Import via QuickTime"
 msgstr ""
 
 #: src/AboutDialog.cpp
