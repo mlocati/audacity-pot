@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.4.0\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-10-20 08:17+0000\n"
+"POT-Creation-Date: 2023-10-27 08:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3887,7 +3887,7 @@ msgid "Only libmp3lame.dylib"
 msgstr ""
 
 #: modules/mod-mp3/ExportMP3.cpp
-msgid "Only libmp3lame.so.0"
+msgid "Only libmp3lame.so"
 msgstr ""
 
 #: modules/mod-mp3/ExportMP3.cpp
@@ -3896,6 +3896,10 @@ msgstr ""
 
 #: modules/mod-mp3/ExportMP3.cpp
 msgid "Extended libraries"
+msgstr ""
+
+#: modules/mod-mp3/ExportMP3.cpp
+msgid "Only libmp3lame.so.0"
 msgstr ""
 
 #: modules/mod-mp3/ExportMP3.cpp
