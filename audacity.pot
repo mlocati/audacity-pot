@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.4.0\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-10-27 08:16+0000\n"
+"POT-Creation-Date: 2023-11-10 08:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -4520,7 +4520,7 @@ msgid "Opus files"
 msgstr ""
 
 #: modules/mod-opus/ImportOpus.cpp
-msgid "file has changed the number of channels in the middle."
+msgid "File has changed the number of channels in the middle."
 msgstr ""
 
 #: modules/mod-opus/ImportOpus.cpp
@@ -6785,32 +6785,30 @@ msgstr ""
 msgid "Error Initializing Midi"
 msgstr ""
 
-#: src/Menus.cpp
+#: src/MenuCreator.cpp
 #, c-format
 msgid "&Undo %s"
 msgstr ""
 
-#: src/Menus.cpp src/menus/EditMenus.cpp
+#: src/MenuCreator.cpp src/menus/EditMenus.cpp
 msgid "&Undo"
 msgstr ""
 
-#: src/Menus.cpp
+#: src/MenuCreator.cpp
 #, c-format
 msgid "&Redo %s"
 msgstr ""
 
-#: src/Menus.cpp src/menus/EditMenus.cpp
+#: src/MenuCreator.cpp src/menus/EditMenus.cpp
 msgid "&Redo"
 msgstr ""
 
-#: src/Menus.cpp
-msgid ""
-"There was a problem with your last action. If you think\n"
-"this is a bug, please tell us exactly where it occurred."
+#: src/MenuCreator.cpp
+msgid "The following commands have had their shortcuts removed, because their default shortcut is new or changed, and is the same shortcut that you have assigned to another command."
 msgstr ""
 
-#: src/Menus.cpp
-msgid "Disallowed"
+#: src/MenuCreator.cpp
+msgid "Shortcuts have been removed"
 msgstr ""
 
 #: src/MixerBoard.cpp
@@ -7975,7 +7973,7 @@ msgstr ""
 msgid "Capture failed!"
 msgstr ""
 
-#: src/Screenshot.cpp src/commands/CommandTargets.cpp
+#: src/Screenshot.cpp src/commands/wxCommandTargets.cpp
 msgid "Long Message"
 msgstr ""
 
@@ -8904,11 +8902,13 @@ msgid ""
 msgstr ""
 
 #: src/commands/CommandManager.cpp
-msgid "The following commands have had their shortcuts removed, because their default shortcut is new or changed, and is the same shortcut that you have assigned to another command."
+msgid ""
+"There was a problem with your last action. If you think\n"
+"this is a bug, please tell us exactly where it occurred."
 msgstr ""
 
 #: src/commands/CommandManager.cpp
-msgid "Shortcuts have been removed"
+msgid "Disallowed"
 msgstr ""
 
 #: src/commands/CompareAudioCommand.cpp
