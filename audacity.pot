@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.4.0\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-11-10 08:16+0000\n"
+"POT-Creation-Date: 2023-11-11 08:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -853,6 +853,54 @@ msgstr ""
 
 #: libraries/lib-math/SampleFormat.cpp
 msgid "Unknown format"
+msgstr ""
+
+#: libraries/lib-menus/CommandManager.cpp src/prefs/MousePrefs.cpp
+#: src/widgets/KeyView.cpp
+msgid "Command"
+msgstr ""
+
+#. i18n-hint: %s will be the name of the effect which will be
+#. * repeated if this menu item is chosen
+#: libraries/lib-menus/CommandManager.cpp src/BatchProcessDialog.cpp
+#: src/effects/EffectUI.cpp src/menus/PluginMenus.cpp
+#, c-format
+msgid "Repeat %s"
+msgstr ""
+
+#: libraries/lib-menus/CommandManager.cpp
+#, c-format
+msgid ""
+"\n"
+"* %s, because you have assigned the shortcut %s to %s"
+msgstr ""
+
+#: libraries/lib-menus/CommandManager.cpp
+msgid ""
+"There was a problem with your last action. If you think\n"
+"this is a bug, please tell us exactly where it occurred."
+msgstr ""
+
+#: libraries/lib-menus/CommandManager.cpp
+msgid "Disallowed"
+msgstr ""
+
+#: libraries/lib-menus/CommandManager.cpp
+#, c-format
+msgid "&Undo %s"
+msgstr ""
+
+#: libraries/lib-menus/CommandManager.cpp src/menus/EditMenus.cpp
+msgid "&Undo"
+msgstr ""
+
+#: libraries/lib-menus/CommandManager.cpp
+#, c-format
+msgid "&Redo %s"
+msgstr ""
+
+#: libraries/lib-menus/CommandManager.cpp src/menus/EditMenus.cpp
+msgid "&Redo"
 msgstr ""
 
 #: libraries/lib-module-manager/ModuleManager.cpp
@@ -5978,14 +6026,6 @@ msgstr ""
 msgid "&Repeat %s"
 msgstr ""
 
-#. i18n-hint: %s will be the name of the effect which will be
-#. * repeated if this menu item is chosen
-#: src/BatchProcessDialog.cpp src/commands/CommandManager.cpp
-#: src/effects/EffectUI.cpp src/menus/PluginMenus.cpp
-#, c-format
-msgid "Repeat %s"
-msgstr ""
-
 #: src/BatchProcessDialog.cpp
 msgid "Repeat Last Tool"
 msgstr ""
@@ -6783,24 +6823,6 @@ msgstr ""
 
 #: src/MIDIPlay.cpp
 msgid "Error Initializing Midi"
-msgstr ""
-
-#: src/MenuCreator.cpp
-#, c-format
-msgid "&Undo %s"
-msgstr ""
-
-#: src/MenuCreator.cpp src/menus/EditMenus.cpp
-msgid "&Undo"
-msgstr ""
-
-#: src/MenuCreator.cpp
-#, c-format
-msgid "&Redo %s"
-msgstr ""
-
-#: src/MenuCreator.cpp src/menus/EditMenus.cpp
-msgid "&Redo"
 msgstr ""
 
 #: src/MenuCreator.cpp
@@ -8887,28 +8909,6 @@ msgstr ""
 #: src/commands/Command.cpp
 #, c-format
 msgid "Invalid value for parameter '%s': should be %s"
-msgstr ""
-
-#: src/commands/CommandManager.cpp src/prefs/MousePrefs.cpp
-#: src/widgets/KeyView.cpp
-msgid "Command"
-msgstr ""
-
-#: src/commands/CommandManager.cpp
-#, c-format
-msgid ""
-"\n"
-"* %s, because you have assigned the shortcut %s to %s"
-msgstr ""
-
-#: src/commands/CommandManager.cpp
-msgid ""
-"There was a problem with your last action. If you think\n"
-"this is a bug, please tell us exactly where it occurred."
-msgstr ""
-
-#: src/commands/CommandManager.cpp
-msgid "Disallowed"
 msgstr ""
 
 #: src/commands/CompareAudioCommand.cpp
@@ -16635,6 +16635,10 @@ msgstr ""
 
 #: src/prefs/TracksBehaviorsPrefs.cpp
 msgid "Editing a clip can &move other clips"
+msgstr ""
+
+#: src/prefs/TracksBehaviorsPrefs.cpp
+msgid "&Always paste audio as new clips"
 msgstr ""
 
 #: src/prefs/TracksBehaviorsPrefs.cpp
