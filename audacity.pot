@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.4.0\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-11-22 08:18+0000\n"
+"POT-Creation-Date: 2023-11-25 08:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -7178,23 +7178,6 @@ msgstr ""
 
 #: src/PluginStartupRegistration.cpp
 msgid "Searching for plugins"
-msgstr ""
-
-#: src/Printing.cpp
-msgid "There was a problem printing."
-msgstr ""
-
-#: src/Printing.cpp
-msgid "Print"
-msgstr ""
-
-#: src/Printing.cpp
-msgid "Pa&ge Setup..."
-msgstr ""
-
-#. i18n-hint: (verb) It's item on a menu.
-#: src/Printing.cpp
-msgid "&Print..."
 msgstr ""
 
 #: src/ProjectAudioManager.cpp
