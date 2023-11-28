@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.4.0\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-11-25 08:15+0000\n"
+"POT-Creation-Date: 2023-11-28 08:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -541,15 +541,6 @@ msgstr ""
 
 #: libraries/lib-import-export/Import.cpp
 msgid "All supported files"
-msgstr ""
-
-#: libraries/lib-import-export/Import.cpp
-#, c-format
-msgid ""
-"\"%s\" \n"
-"is a MIDI file, not an audio file. \n"
-"Audacity cannot open this type of file for playing, but you can\n"
-"edit it by clicking File > Import > MIDI."
 msgstr ""
 
 #: libraries/lib-import-export/Import.cpp
@@ -3816,6 +3807,88 @@ msgstr ""
 msgid "Invalid track offset in LOF file."
 msgstr ""
 
+#: modules/mod-midi-import-export/ExportMIDI.cpp
+msgid "Exported Allegro (.gro) files save time as:"
+msgstr ""
+
+#: modules/mod-midi-import-export/ExportMIDI.cpp
+msgid "Please select only one Note Track at a time."
+msgstr ""
+
+#: modules/mod-midi-import-export/ExportMIDI.cpp
+msgid "Please select a Note Track."
+msgstr ""
+
+#: modules/mod-midi-import-export/ExportMIDI.cpp
+msgid "Export MIDI As:"
+msgstr ""
+
+#: modules/mod-midi-import-export/ExportMIDI.cpp
+msgid "MIDI file"
+msgstr ""
+
+#: modules/mod-midi-import-export/ExportMIDI.cpp
+msgid "Allegro file"
+msgstr ""
+
+#: modules/mod-midi-import-export/ExportMIDI.cpp
+msgid ""
+"You have selected a filename with an unrecognized file extension.\n"
+"Do you want to continue?"
+msgstr ""
+
+#: modules/mod-midi-import-export/ExportMIDI.cpp
+msgid "Export MIDI"
+msgstr ""
+
+#: modules/mod-midi-import-export/ExportMIDI.cpp
+msgid "Export MI&DI..."
+msgstr ""
+
+#: modules/mod-midi-import-export/ImportMIDI.cpp
+#, c-format
+msgid "Imported MIDI from '%s'"
+msgstr ""
+
+#: modules/mod-midi-import-export/ImportMIDI.cpp
+msgid "Import MIDI"
+msgstr ""
+
+#: modules/mod-midi-import-export/ImportMIDI.cpp
+#, c-format
+msgid "Could not open file %s: Filename too short."
+msgstr ""
+
+#: modules/mod-midi-import-export/ImportMIDI.cpp
+#, c-format
+msgid "Could not open file %s: Incorrect filetype."
+msgstr ""
+
+#: modules/mod-midi-import-export/ImportMIDI.cpp
+#, c-format
+msgid "Could not open file %s."
+msgstr ""
+
+#: modules/mod-midi-import-export/ImportMIDI.cpp
+msgid "Select a MIDI file"
+msgstr ""
+
+#: modules/mod-midi-import-export/ImportMIDI.cpp
+msgid "MIDI and Allegro files"
+msgstr ""
+
+#: modules/mod-midi-import-export/ImportMIDI.cpp
+msgid "MIDI files"
+msgstr ""
+
+#: modules/mod-midi-import-export/ImportMIDI.cpp
+msgid "Allegro files"
+msgstr ""
+
+#: modules/mod-midi-import-export/ImportMIDI.cpp
+msgid "&MIDI..."
+msgstr ""
+
 #: modules/mod-mp2/ExportMP2.cpp
 msgid "Version"
 msgstr ""
@@ -6838,6 +6911,18 @@ msgstr ""
 #: src/LabelTrack.cpp src/commands/GetInfoCommand.cpp
 #: src/commands/GetTrackInfoCommand.cpp src/export/ExportAudioDialog.cpp
 msgid "Labels"
+msgstr ""
+
+#: src/LabelTrack.cpp
+msgid "S&tandard"
+msgstr ""
+
+#: src/LabelTrack.cpp
+msgid "E&xtended (with frequency ranges)"
+msgstr ""
+
+#: src/LabelTrack.cpp
+msgid "Exported Label Style:"
 msgstr ""
 
 #: src/LabelTrack.cpp
@@ -13090,40 +13175,6 @@ msgstr ""
 msgid "Other..."
 msgstr ""
 
-#: src/export/ExportMIDI.cpp
-msgid "Please select only one Note Track at a time."
-msgstr ""
-
-#: src/export/ExportMIDI.cpp
-msgid "Please select a Note Track."
-msgstr ""
-
-#: src/export/ExportMIDI.cpp
-msgid "Export MIDI As:"
-msgstr ""
-
-#: src/export/ExportMIDI.cpp
-msgid "MIDI file"
-msgstr ""
-
-#: src/export/ExportMIDI.cpp
-msgid "Allegro file"
-msgstr ""
-
-#: src/export/ExportMIDI.cpp
-msgid ""
-"You have selected a filename with an unrecognized file extension.\n"
-"Do you want to continue?"
-msgstr ""
-
-#: src/export/ExportMIDI.cpp
-msgid "Export MIDI"
-msgstr ""
-
-#: src/export/ExportMIDI.cpp
-msgid "Export MI&DI..."
-msgstr ""
-
 #. i18n-hint: track name and L abbreviating Left channel
 #: src/export/ExportMixerDialog.cpp
 #, c-format
@@ -13156,50 +13207,6 @@ msgstr ""
 
 #: src/export/ExportProgressUI.cpp
 msgid "Export completed with error."
-msgstr ""
-
-#: src/import/ImportMIDI.cpp
-#, c-format
-msgid "Imported MIDI from '%s'"
-msgstr ""
-
-#: src/import/ImportMIDI.cpp
-msgid "Import MIDI"
-msgstr ""
-
-#: src/import/ImportMIDI.cpp
-#, c-format
-msgid "Could not open file %s: Filename too short."
-msgstr ""
-
-#: src/import/ImportMIDI.cpp
-#, c-format
-msgid "Could not open file %s: Incorrect filetype."
-msgstr ""
-
-#: src/import/ImportMIDI.cpp
-#, c-format
-msgid "Could not open file %s."
-msgstr ""
-
-#: src/import/ImportMIDI.cpp
-msgid "Select a MIDI file"
-msgstr ""
-
-#: src/import/ImportMIDI.cpp
-msgid "MIDI and Allegro files"
-msgstr ""
-
-#: src/import/ImportMIDI.cpp
-msgid "MIDI files"
-msgstr ""
-
-#: src/import/ImportMIDI.cpp
-msgid "Allegro files"
-msgstr ""
-
-#: src/import/ImportMIDI.cpp
-msgid "&MIDI..."
 msgstr ""
 
 #. i18n-hint: 'Raw' means 'unprocessed' here and should usually be translated.
@@ -15622,22 +15629,6 @@ msgstr ""
 
 #: src/prefs/ImportExportPrefs.cpp
 msgid "Preferences for ImportExport"
-msgstr ""
-
-#: src/prefs/ImportExportPrefs.cpp
-msgid "S&tandard"
-msgstr ""
-
-#: src/prefs/ImportExportPrefs.cpp
-msgid "E&xtended (with frequency ranges)"
-msgstr ""
-
-#: src/prefs/ImportExportPrefs.cpp
-msgid "Exported Label Style:"
-msgstr ""
-
-#: src/prefs/ImportExportPrefs.cpp
-msgid "Exported Allegro (.gro) files save time as:"
 msgstr ""
 
 #: src/prefs/ImportExportPrefs.h
