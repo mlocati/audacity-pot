@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.4.0\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-11-28 08:18+0000\n"
+"POT-Creation-Date: 2023-11-30 08:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -199,7 +199,6 @@ msgstr ""
 #: src/prefs/DirectoriesPrefs.cpp src/prefs/KeyConfigPrefs.cpp
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackControls.cpp
 #: src/widgets/UnwritableLocationErrorDialog.cpp
-#: plug-ins/eq-xml-to-txt-converter.ny
 msgid "Error"
 msgstr ""
 
@@ -447,9 +446,8 @@ msgstr ""
 msgid "File Error"
 msgstr ""
 
-#: libraries/lib-files/FileNames.cpp plug-ins/eq-xml-to-txt-converter.ny
-#: plug-ins/nyquist-plug-in-installer.ny plug-ins/sample-data-export.ny
-#: plug-ins/sample-data-import.ny
+#: libraries/lib-files/FileNames.cpp plug-ins/nyquist-plug-in-installer.ny
+#: plug-ins/sample-data-export.ny plug-ins/sample-data-import.ny
 msgid "All files"
 msgstr ""
 
@@ -854,8 +852,7 @@ msgstr ""
 msgid "Unknown format"
 msgstr ""
 
-#: libraries/lib-menus/CommandManager.cpp src/prefs/MousePrefs.cpp
-#: src/widgets/KeyView.cpp
+#: libraries/lib-menus/CommandManager.cpp src/widgets/KeyView.cpp
 msgid "Command"
 msgstr ""
 
@@ -2403,7 +2400,6 @@ msgid "Problem details"
 msgstr ""
 
 #: libraries/lib-wx-init/ErrorReportDialog.cpp src/TagsEditor.cpp
-#: src/prefs/MousePrefs.cpp
 msgid "Comments"
 msgstr ""
 
@@ -5841,7 +5837,7 @@ msgstr ""
 
 #. i18n-hint: (verb).  It instruct the user to select items.
 #: src/AutoRecoveryDialog.cpp src/commands/SelectCommand.cpp
-#: src/prefs/MousePrefs.cpp src/tracks/ui/CommonTrackInfo.cpp
+#: src/tracks/ui/CommonTrackInfo.cpp
 msgid "Select"
 msgstr ""
 
@@ -6624,7 +6620,7 @@ msgstr ""
 msgid "Scroll"
 msgstr ""
 
-#: src/FreqWindow.cpp src/prefs/MousePrefs.cpp
+#: src/FreqWindow.cpp
 msgid "Zoom"
 msgstr ""
 
@@ -6959,15 +6955,6 @@ msgstr ""
 
 #: src/Legacy.cpp
 msgid "Opening Audacity Project"
-msgstr ""
-
-#: src/LyricsWindow.cpp
-#, c-format
-msgid "Audacity Karaoke%s"
-msgstr ""
-
-#: src/LyricsWindow.cpp
-msgid "&Karaoke"
 msgstr ""
 
 #: src/MenuCreator.cpp
@@ -9582,8 +9569,7 @@ msgid "Edited Envelope"
 msgstr ""
 
 #. i18n-hint: The envelope is a curve that controls the audio loudness.
-#: src/commands/SetEnvelopeCommand.cpp src/prefs/MousePrefs.cpp
-#: src/tracks/ui/EnvelopeHandle.cpp
+#: src/commands/SetEnvelopeCommand.cpp src/tracks/ui/EnvelopeHandle.cpp
 msgid "Envelope"
 msgstr ""
 
@@ -11063,13 +11049,12 @@ msgstr ""
 msgid "Equalization"
 msgstr ""
 
-#: src/effects/Equalization.cpp plug-ins/eq-xml-to-txt-converter.ny
-#: resources/EffectsMenuDefaults.xml
+#: src/effects/Equalization.cpp resources/EffectsMenuDefaults.xml
 msgid "Filter Curve EQ"
 msgstr ""
 
 #: src/effects/Equalization.cpp src/effects/EqualizationUI.cpp
-#: plug-ins/eq-xml-to-txt-converter.ny resources/EffectsMenuDefaults.xml
+#: resources/EffectsMenuDefaults.xml
 msgid "Graphic EQ"
 msgstr ""
 
@@ -15890,218 +15875,6 @@ msgstr ""
 msgid "Module"
 msgstr ""
 
-#: src/prefs/MousePrefs.cpp
-msgid "Ctrl"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp src/prefs/MousePrefs.h
-msgid "Mouse"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "Preferences for Mouse"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "Mouse Bindings (default values, not configurable)"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "Tool"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "Command Action"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "Buttons"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "Left-Click"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "Set Selection Point"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "Left-Drag"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "Set Selection Range"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-#: src/tracks/playabletrack/notetrack/ui/NoteTrackVZoomHandle.cpp
-#: src/tracks/playabletrack/wavetrack/ui/SpectrumVZoomHandle.cpp
-#: src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp
-msgid "Shift-Left-Click"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "Extend Selection Range"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "Left-Double-Click"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "Select Clip or Entire Track"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "Wheel-Rotate"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "Change scrub speed"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "Zoom in on Point"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "Zoom in on a Range"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "same as right-drag"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "Right-Click"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "Zoom out one step"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "Right-Drag"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "same as left-drag"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "Shift-Drag"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "Zoom out on a Range"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "Middle-Click"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "Zoom default"
-msgstr ""
-
-#. i18n-hint: The envelope is a curve that controls the audio loudness.
-#: src/prefs/MousePrefs.cpp
-msgid "Change Amplification Envelope"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "Pencil"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "Change Sample"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "Alt-Left-Click"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "Smooth at Sample"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "Change Several Samples"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "-Left-Drag"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "Change ONE Sample only"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "Multi"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "same as select tool"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "same as zoom tool"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "Any"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "Scroll tracks up or down"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "Shift-Wheel-Rotate"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "Scroll waveform"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "-Wheel-Rotate"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "Zoom waveform in or out"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "-Shift-Wheel-Rotate"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "Vertical Scale Waveform (dB) range"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "Shift-Left-Drag"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "Move all clips in track left/right"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "using clip handles"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "Move clip up/down between tracks"
-msgstr ""
-
-#: src/prefs/MousePrefs.cpp
-msgid "Move clip left/right or between tracks"
-msgstr ""
-
 #: src/prefs/PlaybackPrefs.cpp
 msgid "Preferences for Playback"
 msgstr ""
@@ -17562,6 +17335,12 @@ msgstr ""
 msgid "Left-Click/Left-Drag"
 msgstr ""
 
+#: src/tracks/playabletrack/notetrack/ui/NoteTrackVZoomHandle.cpp
+#: src/tracks/playabletrack/wavetrack/ui/SpectrumVZoomHandle.cpp
+#: src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp
+msgid "Shift-Left-Click"
+msgstr ""
+
 #: src/tracks/playabletrack/notetrack/ui/StretchHandle.cpp
 msgid "Click and drag to stretch selected region."
 msgstr ""
@@ -18160,7 +17939,7 @@ msgid "Brush tool selection"
 msgstr ""
 
 #: src/tracks/ui/CommonTrackControls.cpp
-msgid "&Name..."
+msgid "Re&name Track..."
 msgstr ""
 
 #: src/tracks/ui/CommonTrackControls.cpp
@@ -18747,8 +18526,7 @@ msgstr ""
 
 #: plug-ins/ShelfFilter.ny plug-ins/StudioFadeOut.ny
 #: plug-ins/adjustable-fade.ny plug-ins/crossfadeclips.ny
-#: plug-ins/crossfadetracks.ny plug-ins/delay.ny
-#: plug-ins/eq-xml-to-txt-converter.ny plug-ins/equalabel.ny
+#: plug-ins/crossfadetracks.ny plug-ins/delay.ny plug-ins/equalabel.ny
 #: plug-ins/label-sounds.ny plug-ins/limiter.ny plug-ins/noisegate.ny
 #: plug-ins/sample-data-export.ny plug-ins/sample-data-import.ny
 #: plug-ins/spectral-delete.ny plug-ins/tremolo.ny
@@ -18870,9 +18648,8 @@ msgstr ""
 
 #: plug-ins/SpectralEditShelves.ny plug-ins/StudioFadeOut.ny
 #: plug-ins/adjustable-fade.ny plug-ins/crossfadeclips.ny
-#: plug-ins/crossfadetracks.ny plug-ins/eq-xml-to-txt-converter.ny
-#: plug-ins/equalabel.ny plug-ins/label-sounds.ny plug-ins/limiter.ny
-#: plug-ins/noisegate.ny plug-ins/notch.ny
+#: plug-ins/crossfadetracks.ny plug-ins/equalabel.ny plug-ins/label-sounds.ny
+#: plug-ins/limiter.ny plug-ins/noisegate.ny plug-ins/notch.ny
 #: plug-ins/nyquist-plug-in-installer.ny plug-ins/rissetdrum.ny
 #: plug-ins/sample-data-export.ny plug-ins/sample-data-import.ny
 #: plug-ins/spectral-delete.ny plug-ins/tremolo.ny
@@ -19157,50 +18934,6 @@ msgstr ""
 
 #: plug-ins/delay.ny
 msgid "Allow duration to change"
-msgstr ""
-
-#: plug-ins/eq-xml-to-txt-converter.ny
-msgid "EQ XML to TXT Converter"
-msgstr ""
-
-#: plug-ins/eq-xml-to-txt-converter.ny
-msgid "Select target EQ effect"
-msgstr ""
-
-#: plug-ins/eq-xml-to-txt-converter.ny
-msgid "Equalization XML file"
-msgstr ""
-
-#: plug-ins/eq-xml-to-txt-converter.ny
-msgid "XML file"
-msgstr ""
-
-#: plug-ins/eq-xml-to-txt-converter.ny
-msgid "If output text file exists"
-msgstr ""
-
-#: plug-ins/eq-xml-to-txt-converter.ny
-msgid "Append number"
-msgstr ""
-
-#: plug-ins/eq-xml-to-txt-converter.ny
-msgid "Overwrite"
-msgstr ""
-
-#: plug-ins/eq-xml-to-txt-converter.ny
-#, lisp-format
-msgid "Error.~%Unable to open file~%~s"
-msgstr ""
-
-#. i18n-hint: Do not translate "~a".txt
-#: plug-ins/eq-xml-to-txt-converter.ny
-#, lisp-format
-msgid "Error.~%File overwrite disallowed:~%\"~a.txt\""
-msgstr ""
-
-#: plug-ins/eq-xml-to-txt-converter.ny
-#, lisp-format
-msgid "Error.~%File cannot be written:~%\"~a.txt\""
 msgstr ""
 
 #: plug-ins/equalabel.ny
