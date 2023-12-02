@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.4.0\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-11-30 08:17+0000\n"
+"POT-Creation-Date: 2023-12-02 08:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -748,8 +748,7 @@ msgid "Provides LV2 Effects support to Audacity"
 msgstr ""
 
 #: libraries/lib-math/Dither.cpp libraries/lib-playable-track/PlayableTrack.cpp
-#: src/commands/ScreenshotCommand.cpp src/effects/EffectManager.cpp
-#: src/effects/EffectUI.cpp plug-ins/equalabel.ny
+#: src/effects/EffectManager.cpp src/effects/EffectUI.cpp plug-ins/equalabel.ny
 #: plug-ins/sample-data-export.ny
 msgid "None"
 msgstr ""
@@ -4365,7 +4364,6 @@ msgid "Nyquist Effect Workbench - "
 msgstr ""
 
 #: modules/mod-nyq-bench/NyqBench.cpp src/PluginRegistrationDialog.cpp
-#: src/prefs/ModulePrefs.cpp
 msgid "New"
 msgstr ""
 
@@ -7510,7 +7508,7 @@ msgstr ""
 msgid "The project exceeds the maximum size of 4GB when writing to a FAT32 formatted filesystem."
 msgstr ""
 
-#: src/ProjectFileManager.cpp src/commands/ScreenshotCommand.cpp
+#: src/ProjectFileManager.cpp
 #, c-format
 msgid "Saved %s"
 msgstr ""
@@ -7915,164 +7913,6 @@ msgstr ""
 #: src/RealtimeEffectPanel.cpp
 #, c-format
 msgid "Realtime effects for %s"
-msgstr ""
-
-#: src/Screenshot.cpp
-msgid "Screen Capture Frame"
-msgstr ""
-
-#: src/Screenshot.cpp
-msgid "Choose location to save files"
-msgstr ""
-
-#: src/Screenshot.cpp
-msgid "Save images to:"
-msgstr ""
-
-#: src/Screenshot.cpp
-msgid "Choose..."
-msgstr ""
-
-#: src/Screenshot.cpp
-msgid "Capture entire window or screen"
-msgstr ""
-
-#: src/Screenshot.cpp
-msgid "Resize Small"
-msgstr ""
-
-#: src/Screenshot.cpp
-msgid "Resize Large"
-msgstr ""
-
-#. i18n-hint: Bkgnd is short for background and appears on a small button
-#. * It is OK to just translate this item as if it said 'Blue'
-#: src/Screenshot.cpp
-msgid "Blue Bkgnd"
-msgstr ""
-
-#. i18n-hint: Bkgnd is short for background and appears on a small button
-#. * It is OK to just translate this item as if it said 'White'
-#: src/Screenshot.cpp
-msgid "White Bkgnd"
-msgstr ""
-
-#: src/Screenshot.cpp
-msgid "Capture Window Only"
-msgstr ""
-
-#: src/Screenshot.cpp
-msgid "Capture Full Window"
-msgstr ""
-
-#: src/Screenshot.cpp
-msgid "Capture Window Plus"
-msgstr ""
-
-#: src/Screenshot.cpp
-msgid "Capture Full Screen"
-msgstr ""
-
-#: src/Screenshot.cpp
-msgid "Wait 5 seconds and capture frontmost window/dialog"
-msgstr ""
-
-#: src/Screenshot.cpp
-msgid "Capture part of a project window"
-msgstr ""
-
-#: src/Screenshot.cpp
-msgid "All Toolbars"
-msgstr ""
-
-#: src/Screenshot.cpp
-msgid "All Effects"
-msgstr ""
-
-#: src/Screenshot.cpp
-msgid "All Scriptables"
-msgstr ""
-
-#: src/Screenshot.cpp
-msgid "All Preferences"
-msgstr ""
-
-#: src/Screenshot.cpp src/TrackPanel.cpp
-msgid "Track Panel"
-msgstr ""
-
-#: src/Screenshot.cpp src/commands/ScreenshotCommand.cpp
-msgid "Ruler"
-msgstr ""
-
-#. i18n-hint: "Tracks" include audio recordings but also other collections of
-#. * data associated with a time line, such as sequences of labels, and musical
-#. * notes
-#: src/Screenshot.cpp src/commands/GetInfoCommand.cpp
-#: src/commands/GetTrackInfoCommand.cpp src/commands/ScreenshotCommand.cpp
-#: src/export/ExportAudioDialog.cpp src/prefs/TracksPrefs.cpp
-#: src/prefs/TracksPrefs.h
-msgid "Tracks"
-msgstr ""
-
-#: src/Screenshot.cpp src/commands/ScreenshotCommand.cpp
-msgid "First Track"
-msgstr ""
-
-#: src/Screenshot.cpp src/commands/ScreenshotCommand.cpp
-msgid "Second Track"
-msgstr ""
-
-#: src/Screenshot.cpp src/prefs/SpectrumPrefs.cpp
-msgid "Scale"
-msgstr ""
-
-#: src/Screenshot.cpp
-msgid "One Sec"
-msgstr ""
-
-#: src/Screenshot.cpp
-msgid "Ten Sec"
-msgstr ""
-
-#: src/Screenshot.cpp
-msgid "One Min"
-msgstr ""
-
-#: src/Screenshot.cpp
-msgid "Five Min"
-msgstr ""
-
-#: src/Screenshot.cpp
-msgid "One Hour"
-msgstr ""
-
-#: src/Screenshot.cpp
-msgid "Short Tracks"
-msgstr ""
-
-#: src/Screenshot.cpp
-msgid "Medium Tracks"
-msgstr ""
-
-#: src/Screenshot.cpp
-msgid "Tall Tracks"
-msgstr ""
-
-#: src/Screenshot.cpp
-msgid "Choose a location to save screenshot images"
-msgstr ""
-
-#: src/Screenshot.cpp
-msgid "Capture failed!"
-msgstr ""
-
-#: src/Screenshot.cpp src/commands/wxCommandTargets.cpp
-msgid "Long Message"
-msgstr ""
-
-#: src/Screenshot.cpp
-msgid "&Screenshot..."
 msgstr ""
 
 #: src/SelectUtilities.cpp
@@ -8663,6 +8503,10 @@ msgstr ""
 msgid "Stereo, 999999Hz"
 msgstr ""
 
+#: src/TrackPanel.cpp
+msgid "Track Panel"
+msgstr ""
+
 #. i18n-hint Esc is a key on the keyboard
 #: src/TrackPanel.cpp
 msgid "(Esc to cancel)"
@@ -9076,8 +8920,17 @@ msgstr ""
 msgid "Menus"
 msgstr ""
 
-#: src/commands/GetInfoCommand.cpp src/commands/ScreenshotCommand.cpp
+#: src/commands/GetInfoCommand.cpp
 msgid "Preferences"
+msgstr ""
+
+#. i18n-hint: "Tracks" include audio recordings but also other collections of
+#. * data associated with a time line, such as sequences of labels, and musical
+#. * notes
+#: src/commands/GetInfoCommand.cpp src/commands/GetTrackInfoCommand.cpp
+#: src/export/ExportAudioDialog.cpp src/prefs/TracksPrefs.cpp
+#: src/prefs/TracksPrefs.h
+msgid "Tracks"
 msgstr ""
 
 #: src/commands/GetInfoCommand.cpp src/commands/GetTrackInfoCommand.cpp
@@ -9296,113 +9149,6 @@ msgstr ""
 
 #: src/commands/PreferenceCommands.h
 msgid "Sets the value of a single preference."
-msgstr ""
-
-#: src/commands/ScreenshotCommand.cpp
-msgid "Screenshot"
-msgstr ""
-
-#: src/commands/ScreenshotCommand.cpp
-msgid "Window"
-msgstr ""
-
-#: src/commands/ScreenshotCommand.cpp
-msgid "Full Window"
-msgstr ""
-
-#: src/commands/ScreenshotCommand.cpp
-msgid "Window Plus"
-msgstr ""
-
-#: src/commands/ScreenshotCommand.cpp
-msgid "Fullscreen"
-msgstr ""
-
-#: src/commands/ScreenshotCommand.cpp
-msgid "Toolbars"
-msgstr ""
-
-#: src/commands/ScreenshotCommand.cpp src/prefs/EffectsPrefs.cpp
-#: src/prefs/EffectsPrefs.h
-#: src/tracks/playabletrack/ui/PlayableTrackButtonHandles.cpp
-#: src/tracks/playabletrack/ui/PlayableTrackControls.cpp
-msgid "Effects"
-msgstr ""
-
-#: src/commands/ScreenshotCommand.cpp
-msgid "Scriptables"
-msgstr ""
-
-#: src/commands/ScreenshotCommand.cpp
-msgid "Trackpanel"
-msgstr ""
-
-#: src/commands/ScreenshotCommand.cpp
-msgid "First Two Tracks"
-msgstr ""
-
-#: src/commands/ScreenshotCommand.cpp
-msgid "First Three Tracks"
-msgstr ""
-
-#: src/commands/ScreenshotCommand.cpp
-msgid "First Four Tracks"
-msgstr ""
-
-#: src/commands/ScreenshotCommand.cpp
-msgid "Tracks Plus"
-msgstr ""
-
-#: src/commands/ScreenshotCommand.cpp
-msgid "First Track Plus"
-msgstr ""
-
-#: src/commands/ScreenshotCommand.cpp
-msgid "All Tracks"
-msgstr ""
-
-#: src/commands/ScreenshotCommand.cpp
-msgid "All Tracks Plus"
-msgstr ""
-
-#: src/commands/ScreenshotCommand.cpp
-msgid "Blue"
-msgstr ""
-
-#. i18n-hint:  This really means the color, not as in "white noise"
-#: src/commands/ScreenshotCommand.cpp
-msgctxt "color"
-msgid "White"
-msgstr ""
-
-#: src/commands/ScreenshotCommand.cpp
-msgid "Path:"
-msgstr ""
-
-#: src/commands/ScreenshotCommand.cpp
-msgid "Capture What:"
-msgstr ""
-
-#: src/commands/ScreenshotCommand.cpp
-msgid "Background:"
-msgstr ""
-
-#: src/commands/ScreenshotCommand.cpp
-msgid "Bring To Top"
-msgstr ""
-
-#: src/commands/ScreenshotCommand.cpp
-#, c-format
-msgid "Error trying to save file: %s"
-msgstr ""
-
-#. i18n-hint: Screenshot in the help menu has a much bigger dialog.
-#: src/commands/ScreenshotCommand.cpp
-msgid "Screenshot (short format)..."
-msgstr ""
-
-#: src/commands/ScreenshotCommand.h
-msgid "Takes screenshots."
 msgstr ""
 
 #: src/commands/SelectCommand.cpp
@@ -9759,6 +9505,10 @@ msgstr ""
 
 #: src/commands/SetTrackInfoCommand.h
 msgid "Sets various values for a track."
+msgstr ""
+
+#: src/commands/wxCommandTargets.cpp
+msgid "Long Message"
 msgstr ""
 
 #: src/effects/Amplify.cpp resources/EffectsMenuDefaults.xml
@@ -12979,7 +12729,7 @@ msgid "M&ultiple Files"
 msgstr ""
 
 #: src/export/ExportAudioDialog.cpp
-msgid "Curren&t selection"
+msgid "Curren&t Selection"
 msgstr ""
 
 #: src/export/ExportAudioDialog.cpp
@@ -15366,6 +15116,12 @@ msgstr ""
 msgid "'Macro Output' directory cannot be set."
 msgstr ""
 
+#: src/prefs/EffectsPrefs.cpp src/prefs/EffectsPrefs.h
+#: src/tracks/playabletrack/ui/PlayableTrackButtonHandles.cpp
+#: src/tracks/playabletrack/ui/PlayableTrackControls.cpp
+msgid "Effects"
+msgstr ""
+
 #: src/prefs/EffectsPrefs.cpp
 msgid "Preferences for Effects"
 msgstr ""
@@ -15836,31 +15592,16 @@ msgstr ""
 
 #: src/prefs/ModulePrefs.cpp
 msgid ""
-"These are experimental modules. Enable them only if you've read the Audacity Manual\n"
-"and know what you are doing."
-msgstr ""
-
-#. i18n-hint preserve the leading spaces
-#: src/prefs/ModulePrefs.cpp
-msgid "  'Ask' means Audacity will ask if you want to load the module each time it starts."
-msgstr ""
-
-#. i18n-hint preserve the leading spaces
-#: src/prefs/ModulePrefs.cpp
-msgid "  'Failed' means Audacity thinks the module is broken and won't run it."
-msgstr ""
-
-#. i18n-hint preserve the leading spaces
-#: src/prefs/ModulePrefs.cpp
-msgid "  'New' means no choice has been made yet."
+"Modules are optional components of Audacity that enable some functionality, such as importing and exporting. \n"
+"It is generally not necessary to change these settings."
 msgstr ""
 
 #: src/prefs/ModulePrefs.cpp
-msgid "Changes to these settings only take effect when Audacity starts up."
+msgid "Changes to these settings only take effect when restarting Audacity.\n"
 msgstr ""
 
 #: src/prefs/ModulePrefs.cpp
-msgid "Ask"
+msgid "Always ask"
 msgstr ""
 
 #: src/prefs/ModulePrefs.cpp
@@ -15868,7 +15609,11 @@ msgid "Failed"
 msgstr ""
 
 #: src/prefs/ModulePrefs.cpp
-msgid "No modules were found"
+msgid "No choice made"
+msgstr ""
+
+#: src/prefs/ModulePrefs.cpp
+msgid "Error: No modules were found. This may indicate a faulty installation."
 msgstr ""
 
 #: src/prefs/ModulePrefs.h
@@ -16171,6 +15916,10 @@ msgstr ""
 #. i18n-hint: use is a verb
 #: src/prefs/SpectrumPrefs.cpp src/prefs/WaveformPrefs.cpp
 msgid "&Use Preferences"
+msgstr ""
+
+#: src/prefs/SpectrumPrefs.cpp
+msgid "Scale"
 msgstr ""
 
 #: src/prefs/SpectrumPrefs.cpp src/prefs/WaveformPrefs.cpp
