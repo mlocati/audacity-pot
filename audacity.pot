@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.4.0\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-12-05 08:18+0000\n"
+"POT-Creation-Date: 2023-12-06 08:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2608,6 +2608,10 @@ msgstr ""
 
 #: libraries/lib-wx-init/SelectFile.cpp
 msgid "Specify New Filename:"
+msgstr ""
+
+#: libraries/lib-wx-wrappers/AudacityDontAskAgainMessageDialog.cpp
+msgid "Don't ask me again"
 msgstr ""
 
 #: libraries/lib-wx-wrappers/FileDialog/gtk/FileDialogPrivate.cpp
@@ -7669,6 +7673,25 @@ msgstr ""
 #: src/ProjectFileManager.cpp src/import/ImportRaw.cpp
 #, c-format
 msgid "Importing %s"
+msgstr ""
+
+#: src/ProjectFileManager.cpp
+#, c-format
+msgid ""
+"Audacity detected this file to be %s bpm.\n"
+"Would you like to enable music view and set the project tempo to %s?"
+msgstr ""
+
+#: src/ProjectFileManager.cpp
+msgid "Music Import"
+msgstr ""
+
+#: src/ProjectFileManager.cpp
+msgid "Configure Project from Music File"
+msgstr ""
+
+#: src/ProjectFileManager.cpp
+msgid "Automatic Music Configuration"
 msgstr ""
 
 #: src/ProjectFileManager.cpp
@@ -15366,6 +15389,26 @@ msgstr ""
 
 #: src/prefs/ImportExportPrefs.cpp
 msgid "Preferences for ImportExport"
+msgstr ""
+
+#: src/prefs/ImportExportPrefs.cpp
+msgid "S&witch view to Beats and Measures and align with musical grid"
+msgstr ""
+
+#: src/prefs/ImportExportPrefs.cpp
+msgid "&Ask me each time"
+msgstr ""
+
+#: src/prefs/ImportExportPrefs.cpp
+msgid "Do &nothing"
+msgstr ""
+
+#: src/prefs/ImportExportPrefs.cpp
+msgid "Music Imports"
+msgstr ""
+
+#: src/prefs/ImportExportPrefs.cpp
+msgid "When Audacity detects music in file imported on empty project"
 msgstr ""
 
 #: src/prefs/ImportExportPrefs.h
