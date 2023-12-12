@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.4.0\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-12-06 08:18+0000\n"
+"POT-Creation-Date: 2023-12-12 08:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2512,10 +2512,6 @@ msgstr ""
 
 #: libraries/lib-wx-init/HelpText.cpp
 msgid "You can also read our help on importing [[https://manual.audacityteam.org/man/playing_and_recording.html#midi|MIDI files]] and tracks from [[https://manual.audacityteam.org/man/faq_opening_and_saving_files.html#fromcd| audio CDs]]."
-msgstr ""
-
-#: libraries/lib-wx-init/HelpText.cpp
-msgid "The Manual does not appear to be installed. Please [[*URL*|view the Manual online]].<br><br>To always view the Manual online, change \"Location of Manual\" in Interface Preferences to \"From Internet\"."
 msgstr ""
 
 #: libraries/lib-wx-init/HelpText.cpp
@@ -6363,15 +6359,6 @@ msgstr ""
 
 #: src/Benchmark.cpp
 msgid "Benchmark completed successfully.\n"
-msgstr ""
-
-#. i18n-hint: %s will be replaced by the name of an action, such as Normalize, Cut, Fade.
-#: src/CommonCommandFlags.cpp
-#, c-format
-msgid ""
-"You must first select some audio for '%s' to act on.\n"
-"\n"
-"Ctrl + A selects all audio."
 msgstr ""
 
 #. i18n-hint: %s will be replaced by the name of an action, such as Normalize, Cut, Fade.
@@ -13528,18 +13515,6 @@ msgstr ""
 
 #: src/menus/HelpMenus.cpp
 msgid "Audio Device Info"
-msgstr ""
-
-#: src/menus/HelpMenus.cpp
-msgid "&Quick Fix..."
-msgstr ""
-
-#: src/menus/HelpMenus.cpp
-msgid "&Getting Started"
-msgstr ""
-
-#: src/menus/HelpMenus.cpp
-msgid "Audacity &Manual"
 msgstr ""
 
 #: src/menus/HelpMenus.cpp
