@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.4.0\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-12-12 08:18+0000\n"
+"POT-Creation-Date: 2023-12-14 08:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13458,14 +13458,6 @@ msgid "E&xit"
 msgstr ""
 
 #: src/menus/FileMenus.cpp
-msgid "Hidden File Menu"
-msgstr ""
-
-#: src/menus/FileMenus.cpp
-msgid "Export as FLAC"
-msgstr ""
-
-#: src/menus/FileMenus.cpp
 msgid "Export as MP&3"
 msgstr ""
 
@@ -13475,6 +13467,10 @@ msgstr ""
 
 #: src/menus/FileMenus.cpp
 msgid "Export as &OGG"
+msgstr ""
+
+#: src/menus/FileMenus.cpp
+msgid "Export as FLAC"
 msgstr ""
 
 #: src/menus/HelpMenus.cpp
