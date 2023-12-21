@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.4.0\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-12-14 08:17+0000\n"
+"POT-Creation-Date: 2023-12-21 08:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -5539,17 +5539,6 @@ msgstr ""
 
 #: src/AudacityApp.cpp
 msgid "Failed!"
-msgstr ""
-
-#: src/AudacityApp.cpp
-msgid ""
-"Reset Preferences?\n"
-"\n"
-"This is a one-time question, after an 'install' where you asked to have the Preferences reset."
-msgstr ""
-
-#: src/AudacityApp.cpp
-msgid "Reset Audacity Preferences"
 msgstr ""
 
 #: src/AudacityApp.cpp
