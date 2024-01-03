@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.4.0\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-12-21 08:17+0000\n"
+"POT-Creation-Date: 2024-01-03 08:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3252,6 +3252,14 @@ msgid "Show All Codecs"
 msgstr ""
 
 #: modules/mod-ffmpeg/ExportFFmpegOptions.cpp
+msgid "Formats"
+msgstr ""
+
+#: modules/mod-ffmpeg/ExportFFmpegOptions.cpp
+msgid "Codecs"
+msgstr ""
+
+#: modules/mod-ffmpeg/ExportFFmpegOptions.cpp
 msgid "General Options"
 msgstr ""
 
@@ -5221,7 +5229,7 @@ msgstr ""
 #. and a "copyright" symbol for the second
 #: src/AboutDialog.cpp
 #, c-format
-msgid "%s software is copyright %s 1999-2023 %s Team."
+msgid "%s software is copyright %s 1999-2024 %s Team."
 msgstr ""
 
 #. i18n-hint Audacity's name substitutes for %s
