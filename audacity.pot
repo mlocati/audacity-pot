@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.4.0\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2024-01-03 08:17+0000\n"
+"POT-Creation-Date: 2024-01-11 08:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -7668,6 +7668,14 @@ msgstr ""
 
 #: src/ProjectFileManager.cpp
 msgid "Music Import"
+msgstr ""
+
+#: src/ProjectFileManager.cpp
+msgid "Music Information Retrieval"
+msgstr ""
+
+#: src/ProjectFileManager.cpp
+msgid "Analyzing imported audio"
 msgstr ""
 
 #: src/ProjectFileManager.cpp
