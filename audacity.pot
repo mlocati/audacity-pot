@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.4.0\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2024-02-03 08:16+0000\n"
+"POT-Creation-Date: 2024-02-07 08:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -747,8 +747,8 @@ msgstr ""
 msgid "Provides LV2 Effects support to Audacity"
 msgstr ""
 
-#: libraries/lib-math/Dither.cpp libraries/lib-playable-track/PlayableTrack.cpp
-#: src/effects/EffectManager.cpp src/effects/EffectUI.cpp plug-ins/equalabel.ny
+#: libraries/lib-math/Dither.cpp src/effects/EffectManager.cpp
+#: src/effects/EffectUI.cpp plug-ins/equalabel.ny
 #: plug-ins/sample-data-export.ny
 msgid "None"
 msgstr ""
@@ -2877,10 +2877,6 @@ msgstr ""
 #: modules/mod-cl/ExportCL.cpp src/IncompatiblePluginsDialog.cpp
 #: src/update/UpdateNoticeDialog.cpp
 msgid "&OK"
-msgstr ""
-
-#: modules/mod-cl/ExportCL.cpp
-msgid "You've specified a file name without an extension. Are you sure?"
 msgstr ""
 
 #. i18n-hint kbps abbreviates "thousands of bits per second"
@@ -5437,7 +5433,7 @@ msgstr ""
 msgid "Record/Play head"
 msgstr ""
 
-#: src/AdornedRulerPanel.cpp src/prefs/GUIPrefs.cpp
+#: src/AdornedRulerPanel.cpp
 msgid "Timeline"
 msgstr ""
 
@@ -15342,14 +15338,6 @@ msgstr ""
 msgid "Never use comma as decimal point"
 msgstr ""
 
-#: src/prefs/GUIPrefs.cpp
-msgid "Show Timeline Tooltips"
-msgstr ""
-
-#: src/prefs/GUIPrefs.cpp src/toolbars/ScrubbingToolBar.cpp
-msgid "Show Scrub Ruler"
-msgstr ""
-
 #: src/prefs/GUIPrefs.h
 msgid "GUI"
 msgstr ""
@@ -16149,10 +16137,6 @@ msgid "Enable cut &lines"
 msgstr ""
 
 #: src/prefs/TracksBehaviorsPrefs.cpp
-msgid "Enable &dragging selection edges"
-msgstr ""
-
-#: src/prefs/TracksBehaviorsPrefs.cpp
 msgid "Editing a clip can &move other clips"
 msgstr ""
 
@@ -16170,10 +16154,6 @@ msgstr ""
 
 #: src/prefs/TracksBehaviorsPrefs.cpp
 msgid "Use dialog for the &name of a new label"
-msgstr ""
-
-#: src/prefs/TracksBehaviorsPrefs.cpp
-msgid "Enable scrolling left of &zero"
 msgstr ""
 
 #: src/prefs/TracksBehaviorsPrefs.cpp
@@ -16331,22 +16311,6 @@ msgstr ""
 
 #: src/prefs/WarningsPrefs.cpp
 msgid "Saving &empty project"
-msgstr ""
-
-#: src/prefs/WarningsPrefs.cpp
-msgid "Mixing down to &mono during export"
-msgstr ""
-
-#: src/prefs/WarningsPrefs.cpp
-msgid "Mixing down to &stereo during export"
-msgstr ""
-
-#: src/prefs/WarningsPrefs.cpp
-msgid "Mixing down on export (&Custom FFmpeg or external program)"
-msgstr ""
-
-#: src/prefs/WarningsPrefs.cpp
-msgid "Missing file &name extension during export"
 msgstr ""
 
 #. i18n-hint: A waveform is a visual representation of vibration
@@ -16670,64 +16634,6 @@ msgstr ""
 
 #: src/toolbars/MeterToolBar.cpp
 msgid "D&ecrease Recording Volume"
-msgstr ""
-
-#: src/toolbars/ScrubbingToolBar.cpp
-msgid "Scrub"
-msgstr ""
-
-#: src/toolbars/ScrubbingToolBar.cpp
-msgid "Seek"
-msgstr ""
-
-#: src/toolbars/ScrubbingToolBar.cpp
-msgid "Scrub Ruler"
-msgstr ""
-
-#: src/toolbars/ScrubbingToolBar.cpp src/tracks/ui/Scrubbing.cpp
-msgid "Scrubbing"
-msgstr ""
-
-#. i18n-hint: These commands assist the user in finding a sound by ear. ...
-#. "Scrubbing" is variable-speed playback, ...
-#. "Seeking" is normal speed playback but with skips
-#.
-#: src/toolbars/ScrubbingToolBar.cpp
-msgid "Stop Scrubbing"
-msgstr ""
-
-#. i18n-hint: These commands assist the user in finding a sound by ear. ...
-#. "Scrubbing" is variable-speed playback, ...
-#. "Seeking" is normal speed playback but with skips
-#.
-#: src/toolbars/ScrubbingToolBar.cpp
-msgid "Start Scrubbing"
-msgstr ""
-
-#. i18n-hint: These commands assist the user in finding a sound by ear. ...
-#. "Scrubbing" is variable-speed playback, ...
-#. "Seeking" is normal speed playback but with skips
-#.
-#: src/toolbars/ScrubbingToolBar.cpp
-msgid "Stop Seeking"
-msgstr ""
-
-#. i18n-hint: These commands assist the user in finding a sound by ear. ...
-#. "Scrubbing" is variable-speed playback, ...
-#. "Seeking" is normal speed playback but with skips
-#.
-#: src/toolbars/ScrubbingToolBar.cpp
-msgid "Start Seeking"
-msgstr ""
-
-#: src/toolbars/ScrubbingToolBar.cpp
-msgid "Hide Scrub Ruler"
-msgstr ""
-
-#. i18n-hint: Clicking this menu item shows the toolbar
-#. that enables Scrub or Seek playback and Scrub Ruler
-#: src/toolbars/ScrubbingToolBar.cpp
-msgid "Scru&b Toolbar"
 msgstr ""
 
 #. i18n-hint noun
@@ -17777,6 +17683,10 @@ msgstr ""
 #.
 #: src/tracks/ui/Scrubbing.cpp
 msgid "&Scrub"
+msgstr ""
+
+#: src/tracks/ui/Scrubbing.cpp
+msgid "Scrubbing"
 msgstr ""
 
 #: src/tracks/ui/Scrubbing.cpp
