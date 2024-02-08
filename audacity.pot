@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.4.0\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2024-02-07 08:16+0000\n"
+"POT-Creation-Date: 2024-02-08 08:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -5776,6 +5776,32 @@ msgstr ""
 msgid "&Retry"
 msgstr ""
 
+#: src/AudacityMirProject.cpp
+msgid "Configure Project from Music File"
+msgstr ""
+
+#: src/AudacityMirProject.cpp
+msgid "Automatic Music Configuration"
+msgstr ""
+
+#: src/AudacityMirProject.cpp
+#, c-format
+msgid ""
+"Audacity detected this file to be %s bpm.\n"
+"Would you like to enable music view and set the project tempo to %s?"
+msgstr ""
+
+#: src/AudacityMirProject.cpp
+#, c-format
+msgid ""
+"Audacity detected one or more files to be %s bpm.\n"
+"Would you like to enable music view and set the project tempo to %s?"
+msgstr ""
+
+#: src/AudacityMirProject.cpp
+msgid "Music Import"
+msgstr ""
+
 #: src/AudioPasteDialog.cpp src/prefs/TracksBehaviorsPrefs.cpp
 msgid ""
 "Smart clip.\n"
@@ -7656,30 +7682,11 @@ msgid "Importing %s"
 msgstr ""
 
 #: src/ProjectFileManager.cpp
-#, c-format
-msgid ""
-"Audacity detected this file to be %s bpm.\n"
-"Would you like to enable music view and set the project tempo to %s?"
-msgstr ""
-
-#: src/ProjectFileManager.cpp
-msgid "Music Import"
-msgstr ""
-
-#: src/ProjectFileManager.cpp
 msgid "Music Information Retrieval"
 msgstr ""
 
 #: src/ProjectFileManager.cpp
 msgid "Analyzing imported audio"
-msgstr ""
-
-#: src/ProjectFileManager.cpp
-msgid "Configure Project from Music File"
-msgstr ""
-
-#: src/ProjectFileManager.cpp
-msgid "Automatic Music Configuration"
 msgstr ""
 
 #: src/ProjectFileManager.cpp
