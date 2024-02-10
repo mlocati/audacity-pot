@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.4.0\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2024-02-08 08:16+0000\n"
+"POT-Creation-Date: 2024-02-10 08:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14149,7 +14149,7 @@ msgid "Long Seek Rig&ht During Playback"
 msgstr ""
 
 #: src/menus/TimelineMenus.cpp
-msgid "&Timeline"
+msgid "Ti&meline"
 msgstr ""
 
 #: src/menus/ToolbarMenus.cpp
