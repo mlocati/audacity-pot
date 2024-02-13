@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.4.0\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2024-02-10 08:15+0000\n"
+"POT-Creation-Date: 2024-02-13 08:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14149,7 +14149,7 @@ msgid "Long Seek Rig&ht During Playback"
 msgstr ""
 
 #: src/menus/TimelineMenus.cpp
-msgid "Ti&meline"
+msgid "Tim&eline"
 msgstr ""
 
 #: src/menus/ToolbarMenus.cpp
@@ -14820,7 +14820,7 @@ msgid "Skip to Selection End"
 msgstr ""
 
 #: src/menus/ViewMenus.cpp
-msgid "Enable &Extra Menus"
+msgid "Enable E&xtra Menus"
 msgstr ""
 
 #: src/menus/ViewMenus.cpp
@@ -17043,11 +17043,11 @@ msgid "Clip Pitch"
 msgstr ""
 
 #: src/tracks/playabletrack/wavetrack/ui/PitchAndSpeedDialog.cpp
-msgid "semitones,"
+msgid "semitones:"
 msgstr ""
 
 #: src/tracks/playabletrack/wavetrack/ui/PitchAndSpeedDialog.cpp
-msgid "cents"
+msgid "cents:"
 msgstr ""
 
 #: src/tracks/playabletrack/wavetrack/ui/PitchAndSpeedDialog.cpp
