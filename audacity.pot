@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.4.0\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2024-02-23 08:17+0000\n"
+"POT-Creation-Date: 2024-02-24 08:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -5430,7 +5430,7 @@ msgstr ""
 #. i18n-hint: This text is a tooltip on the icon (of a pin) representing
 #. the temporal position in the audio.
 #: src/AdornedRulerPanel.cpp
-msgid "Record/Play head"
+msgid "Record/Playhead"
 msgstr ""
 
 #: src/AdornedRulerPanel.cpp
@@ -5515,10 +5515,6 @@ msgstr ""
 msgid "Setting a loop region also makes an audio selection"
 msgstr ""
 
-#: src/AdornedRulerPanel.cpp
-msgid "Update display while playing"
-msgstr ""
-
 #. i18n-hint Clear is a verb
 #: src/AdornedRulerPanel.cpp
 msgid "Clear Loop"
@@ -5529,11 +5525,11 @@ msgid "Set Loop To Selection"
 msgstr ""
 
 #: src/AdornedRulerPanel.cpp
-msgid "Pinned Play Head"
+msgid "Scroll view to playhead"
 msgstr ""
 
 #: src/AdornedRulerPanel.cpp
-msgid "Enable pinned play &head"
+msgid "Continuous scrolling"
 msgstr ""
 
 #: src/AudacityApp.cpp
