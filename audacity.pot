@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.4.0\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2024-03-12 08:16+0000\n"
+"POT-Creation-Date: 2024-03-21 08:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -6067,7 +6067,6 @@ msgstr ""
 #: src/cloud/audiocom/LinkFailedDialog.cpp
 #: src/cloud/audiocom/ShareAudioDialog.cpp src/effects/EffectUI.cpp
 #: src/export/ExportAudioDialog.cpp
-#: src/tracks/playabletrack/wavetrack/ui/PitchAndSpeedDialog.cpp
 msgid "&Cancel"
 msgstr ""
 
@@ -8730,7 +8729,6 @@ msgid "Account linked successfully!"
 msgstr ""
 
 #: src/cloud/audiocom/LinkSucceededDialog.cpp
-#: src/tracks/playabletrack/wavetrack/ui/PitchAndSpeedDialog.cpp
 msgid "&Ok"
 msgstr ""
 
@@ -17095,18 +17093,24 @@ msgstr ""
 msgid "Clip Speed"
 msgstr ""
 
-#. i18n-hint: Title of an error message shown, when invalid clip speed
-#. is set
 #: src/tracks/playabletrack/wavetrack/ui/PitchAndSpeedDialog.cpp
-msgid "Invalid clip speed"
+msgid "speed %: "
 msgstr ""
 
 #: src/tracks/playabletrack/wavetrack/ui/PitchAndSpeedDialog.cpp
-msgid "Clip speed must be a positive value"
+msgid "General"
 msgstr ""
 
 #: src/tracks/playabletrack/wavetrack/ui/PitchAndSpeedDialog.cpp
-msgid "There is not enough space to stretch the clip to the selected speed"
+msgid "Optimize for Voice"
+msgstr ""
+
+#: src/tracks/playabletrack/wavetrack/ui/PitchAndSpeedDialog.cpp
+msgid "Changed Speed"
+msgstr ""
+
+#: src/tracks/playabletrack/wavetrack/ui/PitchAndSpeedDialog.cpp
+msgid "Changed Pitch"
 msgstr ""
 
 #: src/tracks/playabletrack/wavetrack/ui/SampleHandle.cpp
@@ -17276,10 +17280,6 @@ msgstr ""
 #: src/tracks/playabletrack/wavetrack/ui/WaveClipUtilities.cpp
 #, c-format
 msgid "Changed Speed to %.01f%%"
-msgstr ""
-
-#: src/tracks/playabletrack/wavetrack/ui/WaveClipUtilities.cpp
-msgid "Changed Pitch and Speed"
 msgstr ""
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackAffordanceControls.cpp
