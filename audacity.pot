@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.4.0\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2024-03-21 08:16+0000\n"
+"POT-Creation-Date: 2024-03-22 08:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17082,11 +17082,11 @@ msgid "Clip Pitch"
 msgstr ""
 
 #: src/tracks/playabletrack/wavetrack/ui/PitchAndSpeedDialog.cpp
-msgid "semitones:"
+msgid "se&mitones:"
 msgstr ""
 
 #: src/tracks/playabletrack/wavetrack/ui/PitchAndSpeedDialog.cpp
-msgid "cents:"
+msgid "&cents:"
 msgstr ""
 
 #: src/tracks/playabletrack/wavetrack/ui/PitchAndSpeedDialog.cpp
@@ -17094,7 +17094,7 @@ msgid "Clip Speed"
 msgstr ""
 
 #: src/tracks/playabletrack/wavetrack/ui/PitchAndSpeedDialog.cpp
-msgid "speed %: "
+msgid "&speed %: "
 msgstr ""
 
 #: src/tracks/playabletrack/wavetrack/ui/PitchAndSpeedDialog.cpp
@@ -17102,7 +17102,7 @@ msgid "General"
 msgstr ""
 
 #: src/tracks/playabletrack/wavetrack/ui/PitchAndSpeedDialog.cpp
-msgid "Optimize for Voice"
+msgid "&Optimize for Voice"
 msgstr ""
 
 #: src/tracks/playabletrack/wavetrack/ui/PitchAndSpeedDialog.cpp
