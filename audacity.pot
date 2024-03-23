@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.4.0\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2024-03-22 08:17+0000\n"
+"POT-Creation-Date: 2024-03-23 08:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -376,7 +376,7 @@ msgstr ""
 msgid "Nyquist"
 msgstr ""
 
-#: libraries/lib-effects/LoadEffects.cpp
+#: libraries/lib-effects/LoadEffects.cpp src/PluginRegistrationDialog.cpp
 msgid "Builtin Effects"
 msgstr ""
 
@@ -2875,7 +2875,7 @@ msgid "Command Output"
 msgstr ""
 
 #: modules/mod-cl/ExportCL.cpp src/IncompatiblePluginsDialog.cpp
-#: src/update/UpdateNoticeDialog.cpp
+#: src/PluginRegistrationDialog.cpp src/update/UpdateNoticeDialog.cpp
 msgid "&OK"
 msgstr ""
 
@@ -2968,7 +2968,8 @@ msgid "Cutoff"
 msgstr ""
 
 #: modules/mod-ffmpeg/ExportFFmpeg.cpp src/AboutDialog.cpp
-#: src/PluginRegistrationDialog.cpp src/prefs/ModulePrefs.cpp
+#: src/PluginDataViewCtrl.cpp src/PluginRegistrationDialog.cpp
+#: src/prefs/ModulePrefs.cpp
 msgid "Disabled"
 msgstr ""
 
@@ -4367,7 +4368,7 @@ msgstr ""
 msgid "Nyquist Effect Workbench - "
 msgstr ""
 
-#: modules/mod-nyq-bench/NyqBench.cpp src/PluginRegistrationDialog.cpp
+#: modules/mod-nyq-bench/NyqBench.cpp
 msgid "New"
 msgstr ""
 
@@ -4620,7 +4621,7 @@ msgstr ""
 msgid "memory allocation has failed"
 msgstr ""
 
-#: modules/mod-opus/ExportOpus.cpp
+#: modules/mod-opus/ExportOpus.cpp src/PluginDataModel.cpp
 msgid "Unknown error"
 msgstr ""
 
@@ -5238,8 +5239,8 @@ msgstr ""
 msgid "Build Information"
 msgstr ""
 
-#: src/AboutDialog.cpp src/PluginRegistrationDialog.cpp
-#: src/prefs/ModulePrefs.cpp
+#: src/AboutDialog.cpp src/PluginDataViewCtrl.cpp
+#: src/PluginRegistrationDialog.cpp src/prefs/ModulePrefs.cpp
 msgid "Enabled"
 msgstr ""
 
@@ -5855,7 +5856,7 @@ msgid "Select"
 msgstr ""
 
 #. i18n-hint: (noun).  It's the name of the project to recover.
-#: src/AutoRecoveryDialog.cpp src/PluginRegistrationDialog.cpp
+#: src/AutoRecoveryDialog.cpp src/PluginDataViewCtrl.cpp
 #: src/tracks/ui/CommonTrackInfo.cpp
 msgid "Name"
 msgstr ""
@@ -5932,7 +5933,7 @@ msgstr ""
 msgid "Export Macro"
 msgstr ""
 
-#: src/BatchCommands.cpp
+#: src/BatchCommands.cpp src/PluginRegistrationDialog.cpp
 msgid "Effect"
 msgstr ""
 
@@ -6062,8 +6063,8 @@ msgstr ""
 msgid "File"
 msgstr ""
 
-#: src/BatchProcessDialog.cpp src/TimerRecordExportDialog.cpp
-#: src/cloud/audiocom/LinkAccountDialog.cpp
+#: src/BatchProcessDialog.cpp src/PluginRegistrationDialog.cpp
+#: src/TimerRecordExportDialog.cpp src/cloud/audiocom/LinkAccountDialog.cpp
 #: src/cloud/audiocom/LinkFailedDialog.cpp
 #: src/cloud/audiocom/ShareAudioDialog.cpp src/effects/EffectUI.cpp
 #: src/export/ExportAudioDialog.cpp
@@ -7148,108 +7149,75 @@ msgstr ""
 msgid "A♯/B♭"
 msgstr ""
 
+#: src/PluginDataModel.cpp
+#, c-format
+msgid ""
+"Effect or Command at %s failed to register:\n"
+"%s"
+msgstr ""
+
+#: src/PluginDataViewCtrl.cpp
+msgid "Disable"
+msgstr ""
+
+#: src/PluginDataViewCtrl.cpp
+msgid "Enable"
+msgstr ""
+
+#: src/PluginDataViewCtrl.cpp plug-ins/limiter.ny
+msgid "Type"
+msgstr ""
+
+#: src/PluginDataViewCtrl.cpp
+msgid "Path"
+msgstr ""
+
+#: src/PluginRegistrationDialog.cpp plug-ins/sample-data-export.ny
+msgid "All"
+msgstr ""
+
+#: src/PluginRegistrationDialog.cpp src/effects/lv2/LV2Editor.cpp
+msgid "Generator"
+msgstr ""
+
+#: src/PluginRegistrationDialog.cpp
+msgid "Analyzer"
+msgstr ""
+
+#: src/PluginRegistrationDialog.cpp
+msgid "Tool"
+msgstr ""
+
 #: src/PluginRegistrationDialog.cpp
 msgid "Manage Plugins"
 msgstr ""
 
 #: src/PluginRegistrationDialog.cpp
-msgid "Select effects, click the Enable or Disable button, then click OK."
-msgstr ""
-
-#. i18n-hint: This is before radio buttons selecting which effects to show
-#: src/PluginRegistrationDialog.cpp
-msgid "Show:"
-msgstr ""
-
-#. i18n-hint: Radio button to show all effects
-#: src/PluginRegistrationDialog.cpp
-msgid "Show all"
-msgstr ""
-
-#. i18n-hint: Radio button to show all effects
-#: src/PluginRegistrationDialog.cpp src/menus/SelectMenus.cpp
-msgid "&All"
-msgstr ""
-
-#. i18n-hint: Radio button to show just the currently disabled effects
-#: src/PluginRegistrationDialog.cpp
-msgid "Show disabled"
-msgstr ""
-
-#. i18n-hint: Radio button to show just the currently disabled effects
-#: src/PluginRegistrationDialog.cpp
-msgid "D&isabled"
-msgstr ""
-
-#. i18n-hint: Radio button to show just the currently enabled effects
-#: src/PluginRegistrationDialog.cpp
-msgid "Show enabled"
-msgstr ""
-
-#. i18n-hint: Radio button to show just the currently enabled effects
-#: src/PluginRegistrationDialog.cpp
-msgid "E&nabled"
-msgstr ""
-
-#. i18n-hint: Radio button to show just the newly discovered effects
-#: src/PluginRegistrationDialog.cpp
-msgid "Show new"
-msgstr ""
-
-#. i18n-hint: Radio button to show just the newly discovered effects
-#: src/PluginRegistrationDialog.cpp
-msgid "Ne&w"
+msgid "Native Audacity"
 msgstr ""
 
 #: src/PluginRegistrationDialog.cpp
-msgid "State"
+msgid "&Show:"
 msgstr ""
 
 #: src/PluginRegistrationDialog.cpp
-msgid "Path"
+msgid "&Type:"
 msgstr ""
 
 #: src/PluginRegistrationDialog.cpp
-msgid "&Select All"
+msgid "C&ategory:"
+msgstr ""
+
+#: src/PluginRegistrationDialog.cpp src/prefs/KeyConfigPrefs.cpp
+msgid "Searc&h:"
 msgstr ""
 
 #: src/PluginRegistrationDialog.cpp
-msgid "C&lear All"
+msgid "Plugin"
 msgstr ""
 
 #: src/PluginRegistrationDialog.cpp
-msgid "Rescan"
-msgstr ""
-
-#: src/PluginRegistrationDialog.cpp src/prefs/RecordingPrefs.cpp
-msgid "&Enable"
-msgstr ""
-
-#: src/PluginRegistrationDialog.cpp
-msgid "&Disable"
-msgstr ""
-
-#: src/PluginRegistrationDialog.cpp
-#, c-format
-msgid ""
-"Enabling effects or commands:\n"
-"\n"
-"%s"
-msgstr ""
-
-#: src/PluginRegistrationDialog.cpp
-#, c-format
-msgid ""
-"Enabling effect or command:\n"
-"\n"
-"%s"
-msgstr ""
-
-#: src/PluginRegistrationDialog.cpp
-#, c-format
-msgid ""
-"Effect or Command at %s failed to register:\n"
-"%s"
+msgid "&Rescan"
 msgstr ""
 
 #: src/PluginStartupRegistration.cpp
@@ -12473,10 +12441,6 @@ msgstr ""
 msgid "As part of their processing, some LADSPA effects must delay returning audio to Audacity. When not compensating for this delay, you will notice that small silences have been inserted into the audio. Enabling this option will provide that compensation, but it may not work for all LADSPA effects."
 msgstr ""
 
-#: src/effects/lv2/LV2Editor.cpp
-msgid "Generator"
-msgstr ""
-
 #: src/effects/lv2/LV2Effect.cpp
 msgid "Couldn't instantiate effect"
 msgstr ""
@@ -13889,6 +13853,10 @@ msgstr ""
 #. i18n-hint: (verb) It's an item on a menu.
 #: src/menus/SelectMenus.cpp
 msgid "&Select"
+msgstr ""
+
+#: src/menus/SelectMenus.cpp
+msgid "&All"
 msgstr ""
 
 #: src/menus/SelectMenus.cpp
@@ -15434,10 +15402,6 @@ msgid "View by key"
 msgstr ""
 
 #: src/prefs/KeyConfigPrefs.cpp
-msgid "Searc&h:"
-msgstr ""
-
-#: src/prefs/KeyConfigPrefs.cpp
 msgid "Bindings"
 msgstr ""
 
@@ -15739,6 +15703,10 @@ msgstr ""
 
 #: src/prefs/RecordingPrefs.cpp
 msgid "Sound Activated Recording"
+msgstr ""
+
+#: src/prefs/RecordingPrefs.cpp
+msgid "&Enable"
 msgstr ""
 
 #: src/prefs/RecordingPrefs.cpp
@@ -18947,10 +18915,6 @@ msgid "Limiter"
 msgstr ""
 
 #: plug-ins/limiter.ny
-msgid "Type"
-msgstr ""
-
-#: plug-ins/limiter.ny
 msgid "Soft Limit"
 msgstr ""
 
@@ -19392,10 +19356,6 @@ msgstr ""
 
 #: plug-ins/sample-data-export.ny
 msgid "Minimal"
-msgstr ""
-
-#: plug-ins/sample-data-export.ny
-msgid "All"
 msgstr ""
 
 #: plug-ins/sample-data-export.ny
