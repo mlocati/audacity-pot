@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.5.0\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2024-05-23 08:18+0000\n"
+"POT-Creation-Date: 2024-05-28 08:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -8645,6 +8645,23 @@ msgstr ""
 msgid "Vertical Scrollbar"
 msgstr ""
 
+#: src/RealtimeEffectPanel.cpp
+msgid "No Effect"
+msgstr ""
+
+#: src/RealtimeEffectPanel.cpp src/menus/PluginMenus.cpp
+msgid "Get more effects..."
+msgstr ""
+
+#: src/RealtimeEffectPanel.cpp
+msgid "Analyze"
+msgstr ""
+
+#: src/RealtimeEffectPanel.cpp
+#, c-format
+msgid "%s (missing)"
+msgstr ""
+
 #. i18n-hint: argument - position of the effect in the effect stack
 #: src/RealtimeEffectPanel.cpp
 #, c-format
@@ -8657,11 +8674,6 @@ msgstr ""
 
 #: src/RealtimeEffectPanel.cpp
 msgid "Replace effect"
-msgstr ""
-
-#: src/RealtimeEffectPanel.cpp
-#, c-format
-msgid "%s (missing)"
 msgstr ""
 
 #. i18n-hint: undo history record
@@ -8700,13 +8712,13 @@ msgstr ""
 msgid "Unknown"
 msgstr ""
 
+#. i18n-hint: master channel display name
 #: src/RealtimeEffectPanel.cpp
-msgid "Add effect"
+msgid "Master"
 msgstr ""
 
-#. i18n-hint: Hyperlink to the effects stack panel tutorial video
 #: src/RealtimeEffectPanel.cpp
-msgid "Watch video"
+msgid "Add effect"
 msgstr ""
 
 #. i18n-hint: undo history record
@@ -8729,22 +8741,6 @@ msgstr ""
 
 #: src/RealtimeEffectPanel.cpp
 msgid "Change effect order"
-msgstr ""
-
-#: src/RealtimeEffectPanel.cpp
-msgid "No Effect"
-msgstr ""
-
-#: src/RealtimeEffectPanel.cpp src/menus/PluginMenus.cpp
-msgid "Get more effects..."
-msgstr ""
-
-#: src/RealtimeEffectPanel.cpp
-msgid "Analyze"
-msgstr ""
-
-#: src/RealtimeEffectPanel.cpp
-msgid "Realtime effects are non-destructive and can be changed at any time."
 msgstr ""
 
 #: src/RealtimeEffectPanel.cpp src/effects/EffectUI.cpp
@@ -8776,14 +8772,31 @@ msgstr ""
 msgid "Realtime effects"
 msgstr ""
 
-#: src/RealtimeEffectPanel.cpp
-msgid "Realtime Effects"
-msgstr ""
-
 #. i18n-hint: argument - track name
 #: src/RealtimeEffectPanel.cpp
 #, c-format
 msgid "Realtime effects for %s"
+msgstr ""
+
+#: src/RealtimeEffectPanel.cpp
+msgid "Realtime Effects"
+msgstr ""
+
+#. i18n-hint: Hyperlink to the effects stack panel tutorial video
+#: src/RealtimeEffectPanel.cpp
+msgid "Watch video"
+msgstr ""
+
+#: src/RealtimeEffectPanel.cpp
+msgid "Realtime effects are non-destructive and can be changed at any time."
+msgstr ""
+
+#: src/RealtimeEffectPanel.cpp
+msgid "Master effects"
+msgstr ""
+
+#: src/RealtimeEffectPanel.cpp
+msgid "Apply to all tracks"
 msgstr ""
 
 #: src/SelectUtilities.cpp
