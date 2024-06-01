@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.5.0\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2024-05-30 08:19+0000\n"
+"POT-Creation-Date: 2024-06-01 08:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -5415,11 +5415,11 @@ msgid "How would you like to save?"
 msgstr ""
 
 #: modules/sharing/mod-cloud-audiocom/ui/dialogs/CloudLocationDialog.cpp
-msgid "Save to the Cloud"
+msgid "Save to the Cloud (free)"
 msgstr ""
 
 #: modules/sharing/mod-cloud-audiocom/ui/dialogs/CloudLocationDialog.cpp
-msgid "Your project is backed up privately on audio.com. You can access your work from any device and collaborate on your project with others."
+msgid "Your project is backed up privately on audio.com. You can access your work from any device and collaborate on your project with others. Cloud saving is free for a limited number of projects."
 msgstr ""
 
 #: modules/sharing/mod-cloud-audiocom/ui/dialogs/CloudLocationDialog.cpp
@@ -5431,7 +5431,9 @@ msgid "On your computer"
 msgstr ""
 
 #: modules/sharing/mod-cloud-audiocom/ui/dialogs/CloudLocationDialog.cpp
-msgid "Files are saved on your device."
+msgid ""
+"Files are saved on your device.\n"
+"Note: To export MP3 and WAV files, use File > Export Audio instead."
 msgstr ""
 
 #: modules/sharing/mod-cloud-audiocom/ui/dialogs/CloudLocationDialog.cpp
@@ -5830,10 +5832,6 @@ msgstr ""
 
 #: modules/sharing/mod-cloud-audiocom/ui/dialogs/SyncSucceededDialog.cpp
 msgid "All saved changes will now update to the cloud. You can manage this file from your uploaded projects page on audio.com"
-msgstr ""
-
-#: modules/sharing/mod-cloud-audiocom/ui/dialogs/SyncSucceededDialog.cpp
-msgid "View online"
 msgstr ""
 
 #: modules/sharing/mod-cloud-audiocom/ui/dialogs/SyncSucceededDialog.cpp
@@ -8355,22 +8353,6 @@ msgid "Projects cannot be saved to FAT drives."
 msgstr ""
 
 #: src/ProjectFileManager.cpp
-msgid ""
-"Your project is now empty.\n"
-"If saved, the project will have no tracks.\n"
-"\n"
-"To save any previously open tracks:\n"
-"Click 'No', Edit > Undo until all tracks\n"
-"are open, then File > Save Project.\n"
-"\n"
-"Save anyway?"
-msgstr ""
-
-#: src/ProjectFileManager.cpp
-msgid "Warning - Empty Project"
-msgstr ""
-
-#: src/ProjectFileManager.cpp
 msgid "Insufficient Disk Space"
 msgstr ""
 
@@ -8399,12 +8381,6 @@ msgstr ""
 #: src/ProjectFileManager.cpp
 #, c-format
 msgid "%sSave Project \"%s\" As..."
-msgstr ""
-
-#: src/ProjectFileManager.cpp
-msgid ""
-"'Save Project' is for an Audacity project, not an audio file.\n"
-"For an audio file that will open in other apps, use 'Export'.\n"
 msgstr ""
 
 #. i18n-hint: In each case, %s is the name
@@ -8613,16 +8589,6 @@ msgid "Save project before closing?"
 msgstr ""
 
 #: src/ProjectManager.cpp
-msgid ""
-"\n"
-"If saved, the project will have no tracks.\n"
-"\n"
-"To save any previously open tracks:\n"
-"Cancel, Edit > Undo until all tracks\n"
-"are open, then File > Save Project."
-msgstr ""
-
-#: src/ProjectManager.cpp
 #, c-format
 msgid "Disk space remaining for recording: %s"
 msgstr ""
@@ -8806,11 +8772,11 @@ msgid "Realtime effects are non-destructive and can be changed at any time."
 msgstr ""
 
 #: src/RealtimeEffectPanel.cpp
-msgid "Master effects"
+msgid "Master Effects"
 msgstr ""
 
 #: src/RealtimeEffectPanel.cpp
-msgid "Apply to all tracks"
+msgid "Applies to all tracks"
 msgstr ""
 
 #: src/SelectUtilities.cpp
@@ -15164,7 +15130,7 @@ msgid "&Solo/Unsolo Focused Track"
 msgstr ""
 
 #: src/menus/TrackMenus.cpp
-msgid "&Close Focused Track"
+msgid "Delete Fo&cused Track"
 msgstr ""
 
 #: src/menus/TrackMenus.cpp
@@ -16902,26 +16868,6 @@ msgstr ""
 
 #: src/prefs/TracksPrefs.cpp
 msgid "Preset 2:"
-msgstr ""
-
-#: src/prefs/WarningsPrefs.cpp src/prefs/WarningsPrefs.h
-msgid "Warnings"
-msgstr ""
-
-#: src/prefs/WarningsPrefs.cpp
-msgid "Preferences for Warnings"
-msgstr ""
-
-#: src/prefs/WarningsPrefs.cpp
-msgid "Show Warnings/Prompts for"
-msgstr ""
-
-#: src/prefs/WarningsPrefs.cpp
-msgid "Saving &projects versus exporting audio"
-msgstr ""
-
-#: src/prefs/WarningsPrefs.cpp
-msgid "Saving &empty project"
 msgstr ""
 
 #. i18n-hint: A waveform is a visual representation of vibration
