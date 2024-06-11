@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.5.0\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2024-06-06 08:19+0000\n"
+"POT-Creation-Date: 2024-06-11 08:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -10625,6 +10625,14 @@ msgstr ""
 msgid "Max Spike Width"
 msgstr ""
 
+#: src/effects/CompressionMeterPanel.cpp
+msgid "compression"
+msgstr ""
+
+#: src/effects/CompressionMeterPanel.cpp
+msgid "output"
+msgstr ""
+
 #: src/effects/Compressor.cpp resources/EffectsMenuDefaults.xml
 msgid "Compressor"
 msgstr ""
@@ -11200,14 +11208,6 @@ msgid "%0.f ms"
 msgstr ""
 
 #: src/effects/DynamicRangeProcessorEditor.cpp
-msgid "Compression curve"
-msgstr ""
-
-#: src/effects/DynamicRangeProcessorEditor.cpp
-msgid "Smoothing"
-msgstr ""
-
-#: src/effects/DynamicRangeProcessorEditor.cpp
 msgid "I&nput"
 msgstr ""
 
@@ -11225,6 +11225,14 @@ msgstr ""
 #. * under the target
 #: src/effects/DynamicRangeProcessorEditor.cpp
 msgid "Under&shoot"
+msgstr ""
+
+#: src/effects/DynamicRangeProcessorEditor.cpp
+msgid "Compression curve"
+msgstr ""
+
+#: src/effects/DynamicRangeProcessorEditor.cpp
+msgid "Smoothing"
 msgstr ""
 
 #: src/effects/DynamicRangeProcessorEditor.h
