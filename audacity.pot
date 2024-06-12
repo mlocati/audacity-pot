@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.5.0\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2024-06-11 08:19+0000\n"
+"POT-Creation-Date: 2024-06-12 08:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3058,7 +3058,9 @@ msgstr ""
 msgid "Browse..."
 msgstr ""
 
+#. i18n-hint: show output on a graph
 #: modules/import-export/mod-cl/ExportCL.cpp
+#: src/effects/DynamicRangeProcessorEditor.cpp
 msgid "Show output"
 msgstr ""
 
@@ -11211,6 +11213,11 @@ msgstr ""
 msgid "I&nput"
 msgstr ""
 
+#. i18n-hint: show input on a graph
+#: src/effects/DynamicRangeProcessorEditor.cpp
+msgid "Show input"
+msgstr ""
+
 #: src/effects/DynamicRangeProcessorEditor.cpp
 msgid "O&utput"
 msgstr ""
@@ -11221,10 +11228,20 @@ msgstr ""
 msgid "O&vershoot"
 msgstr ""
 
+#. i18n-hint: show overshoot on a graph
+#: src/effects/DynamicRangeProcessorEditor.cpp
+msgid "Show overshoot"
+msgstr ""
+
 #. i18n-hint: when smoothing leads the output level to be momentarily
 #. * under the target
 #: src/effects/DynamicRangeProcessorEditor.cpp
 msgid "Under&shoot"
+msgstr ""
+
+#. i18n-hint: show undershoot on a graph
+#: src/effects/DynamicRangeProcessorEditor.cpp
+msgid "Show undershoot"
 msgstr ""
 
 #: src/effects/DynamicRangeProcessorEditor.cpp
