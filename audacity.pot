@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.5.0\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2024-06-12 08:19+0000\n"
+"POT-Creation-Date: 2024-06-18 08:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3153,7 +3153,6 @@ msgid "Quality (kbps)"
 msgstr ""
 
 #: modules/import-export/mod-ffmpeg/ExportFFmpeg.cpp
-#: src/effects/DynamicRangeProcessorHistoryPanel.cpp
 msgid "Compression"
 msgstr ""
 
@@ -5261,8 +5260,7 @@ msgid "Generating audio preview..."
 msgstr ""
 
 #: modules/sharing/mod-cloud-audiocom/CloudProjectOpenUtils.cpp
-#: modules/sharing/mod-cloud-audiocom/ui/dialogs/AudioComDialogBase.cpp
-msgid "Open from audio.com"
+msgid "Open trace audio.com"
 msgstr ""
 
 #: modules/sharing/mod-cloud-audiocom/CloudProjectOpenUtils.cpp
@@ -5405,6 +5403,10 @@ msgstr ""
 
 #: modules/sharing/mod-cloud-audiocom/ui/UserPanel.cpp
 msgid "&Unlink Account"
+msgstr ""
+
+#: modules/sharing/mod-cloud-audiocom/ui/dialogs/AudioComDialogBase.cpp
+msgid "Open from audio.com"
 msgstr ""
 
 #: modules/sharing/mod-cloud-audiocom/ui/dialogs/AudioComDialogBase.cpp
@@ -11222,26 +11224,22 @@ msgstr ""
 msgid "O&utput"
 msgstr ""
 
-#. i18n-hint: when smoothing leads the output level to be momentarily
-#. * over the target
 #: src/effects/DynamicRangeProcessorEditor.cpp
-msgid "O&vershoot"
+msgid "A&ctual compression"
 msgstr ""
 
-#. i18n-hint: show overshoot on a graph
+#. i18n-hint: show actual compression on a graph
 #: src/effects/DynamicRangeProcessorEditor.cpp
-msgid "Show overshoot"
+msgid "Show actual compression"
 msgstr ""
 
-#. i18n-hint: when smoothing leads the output level to be momentarily
-#. * under the target
 #: src/effects/DynamicRangeProcessorEditor.cpp
-msgid "Under&shoot"
+msgid "Tar&get compression"
 msgstr ""
 
-#. i18n-hint: show undershoot on a graph
+#. i18n-hint: show target compression on a graph
 #: src/effects/DynamicRangeProcessorEditor.cpp
-msgid "Show undershoot"
+msgid "Show target compression"
 msgstr ""
 
 #: src/effects/DynamicRangeProcessorEditor.cpp
@@ -11288,16 +11286,12 @@ msgstr ""
 msgid "Input"
 msgstr ""
 
-#. i18n-hint: when smoothing leads the output level to be momentarily
-#. * over the target
 #: src/effects/DynamicRangeProcessorHistoryPanel.cpp
-msgid "Overshoot"
+msgid "Actual Compression"
 msgstr ""
 
-#. i18n-hint: when smoothing leads the output level to be momentarily
-#. * under the target
 #: src/effects/DynamicRangeProcessorHistoryPanel.cpp
-msgid "Undershoot"
+msgid "Target Compression"
 msgstr ""
 
 #: src/effects/DynamicRangeProcessorHistoryPanel.cpp
