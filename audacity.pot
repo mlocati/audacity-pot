@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.5.0\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2024-06-19 08:19+0000\n"
+"POT-Creation-Date: 2024-07-03 08:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -387,6 +387,173 @@ msgstr ""
 
 #: libraries/lib-cloud-audiocom/sync/ResumedSnaphotUploadOperation.cpp
 msgid "Failed to deserialize the response"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset.
+#. i18n-hint: This is the name of an effect preset
+#: libraries/lib-dynamic-range-processor/DynamicRangeProcessorUtils.h
+#: src/effects/Reverb.cpp
+msgid "Modern"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset.
+#: libraries/lib-dynamic-range-processor/DynamicRangeProcessorUtils.h
+msgid "Glue Compressor"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset.
+#: libraries/lib-dynamic-range-processor/DynamicRangeProcessorUtils.h
+msgid "Gentle"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset.
+#: libraries/lib-dynamic-range-processor/DynamicRangeProcessorUtils.h
+msgid "Beat Booster"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset.
+#: libraries/lib-dynamic-range-processor/DynamicRangeProcessorUtils.h
+msgid "Deep Dive Master"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset.
+#: libraries/lib-dynamic-range-processor/DynamicRangeProcessorUtils.h
+msgid "Beefy Master"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset.
+#: libraries/lib-dynamic-range-processor/DynamicRangeProcessorUtils.h
+msgid "Make It Right Master"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset.
+#: libraries/lib-dynamic-range-processor/DynamicRangeProcessorUtils.h
+msgid "Brick Wall Master"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset.
+#: libraries/lib-dynamic-range-processor/DynamicRangeProcessorUtils.h
+msgid "Lead Vocals"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset.
+#: libraries/lib-dynamic-range-processor/DynamicRangeProcessorUtils.h
+msgid "Fat Vocals"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset.
+#: libraries/lib-dynamic-range-processor/DynamicRangeProcessorUtils.h
+msgid "Power Vocals"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset.
+#: libraries/lib-dynamic-range-processor/DynamicRangeProcessorUtils.h
+msgid "Vocal Control"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset.
+#: libraries/lib-dynamic-range-processor/DynamicRangeProcessorUtils.h
+msgid "Vocal Touch-Up"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset.
+#: libraries/lib-dynamic-range-processor/DynamicRangeProcessorUtils.h
+msgid "Voice Memos Balancer"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset.
+#: libraries/lib-dynamic-range-processor/DynamicRangeProcessorUtils.h
+msgid "Podcast/Radio"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset.
+#: libraries/lib-dynamic-range-processor/DynamicRangeProcessorUtils.h
+msgid "Piano"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset.
+#: libraries/lib-dynamic-range-processor/DynamicRangeProcessorUtils.h
+msgid "Acoustic Guitar"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset.
+#: libraries/lib-dynamic-range-processor/DynamicRangeProcessorUtils.h
+msgid "Bass Guitar"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset. Strings is violins, etc
+#: libraries/lib-dynamic-range-processor/DynamicRangeProcessorUtils.h
+msgid "Strings"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset.
+#: libraries/lib-dynamic-range-processor/DynamicRangeProcessorUtils.h
+msgid "Kick Drums"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset.
+#: libraries/lib-dynamic-range-processor/DynamicRangeProcessorUtils.h
+msgid "Drums Control"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset. SFX means sound effects.
+#: libraries/lib-dynamic-range-processor/DynamicRangeProcessorUtils.h
+msgid "Climax Impulser SFX"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset. SFX means sound effects.
+#: libraries/lib-dynamic-range-processor/DynamicRangeProcessorUtils.h
+msgid "Engine Breathing SFX"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset. SFX means sound effects.
+#: libraries/lib-dynamic-range-processor/DynamicRangeProcessorUtils.h
+msgid "Great Impact SFX"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset. SFX means sound effects.
+#: libraries/lib-dynamic-range-processor/DynamicRangeProcessorUtils.h
+msgid "Great Body SFX"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset. SFX means sound effects.
+#: libraries/lib-dynamic-range-processor/DynamicRangeProcessorUtils.h
+msgid "Great Tail SFX"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset. SFX means sound effects.
+#: libraries/lib-dynamic-range-processor/DynamicRangeProcessorUtils.h
+msgid "Smack Explosion SFX"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset.
+#: libraries/lib-dynamic-range-processor/DynamicRangeProcessorUtils.h
+msgid "Master Limiter"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset. SFX means sound effects.
+#: libraries/lib-dynamic-range-processor/DynamicRangeProcessorUtils.h
+msgid "SFX Limiter"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset. VO means Voiceover.
+#: libraries/lib-dynamic-range-processor/DynamicRangeProcessorUtils.h
+msgid "VO Limiter"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset.
+#: libraries/lib-dynamic-range-processor/DynamicRangeProcessorUtils.h
+msgid "Modern Punch"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset.
+#: libraries/lib-dynamic-range-processor/DynamicRangeProcessorUtils.h
+msgid "Modern Punch 2"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset.
+#: libraries/lib-dynamic-range-processor/DynamicRangeProcessorUtils.h
+msgid "Play it Loud"
 msgstr ""
 
 #: libraries/lib-effects/Effect.cpp
@@ -6051,6 +6218,12 @@ msgstr ""
 #: src/AboutDialog.cpp
 #, c-format
 msgid "%s, graphics"
+msgstr ""
+
+#. i18n-hint: For "About Audacity..." credits, substituting a person's proper name
+#: src/AboutDialog.cpp
+#, c-format
+msgid "%s, effects presets"
 msgstr ""
 
 #: src/AboutDialog.cpp
@@ -12438,40 +12611,89 @@ msgstr ""
 msgid "Warning: No repeats."
 msgstr ""
 
+#. i18n-hint: This is the name of an effect preset
+#: src/effects/Reverb.cpp
+msgid "Acoustic"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset
+#: src/effects/Reverb.cpp
+msgid "Ambience"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset
+#: src/effects/Reverb.cpp
+msgid "Artificial"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset
+#: src/effects/Reverb.cpp
+msgid "Clean"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset
 #: src/effects/Reverb.cpp
 msgid "Vocal I"
 msgstr ""
 
+#. i18n-hint: This is the name of an effect preset
 #: src/effects/Reverb.cpp
 msgid "Vocal II"
 msgstr ""
 
+#. i18n-hint: This is the name of an effect preset
+#: src/effects/Reverb.cpp
+msgid "Dance Vocal"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset
+#: src/effects/Reverb.cpp
+msgid "Modern Vocal"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset
+#: src/effects/Reverb.cpp
+msgid "Voice Tail"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset
 #: src/effects/Reverb.cpp
 msgid "Bathroom"
 msgstr ""
 
+#. i18n-hint: This is the name of an effect preset
 #: src/effects/Reverb.cpp
 msgid "Small Room Bright"
 msgstr ""
 
+#. i18n-hint: This is the name of an effect preset
 #: src/effects/Reverb.cpp
 msgid "Small Room Dark"
 msgstr ""
 
+#. i18n-hint: This is the name of an effect preset
 #: src/effects/Reverb.cpp
 msgid "Medium Room"
 msgstr ""
 
+#. i18n-hint: This is the name of an effect preset
 #: src/effects/Reverb.cpp
 msgid "Large Room"
 msgstr ""
 
+#. i18n-hint: This is the name of an effect preset
 #: src/effects/Reverb.cpp
 msgid "Church Hall"
 msgstr ""
 
+#. i18n-hint: This is the name of an effect preset
 #: src/effects/Reverb.cpp
 msgid "Cathedral"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset
+#: src/effects/Reverb.cpp
+msgid "Big Cave"
 msgstr ""
 
 #: src/effects/Reverb.cpp resources/EffectsMenuDefaults.xml
@@ -14459,6 +14681,10 @@ msgid "Add Realtime Effects"
 msgstr ""
 
 #: src/menus/PluginMenus.cpp
+msgid "Get AI effects..."
+msgstr ""
+
+#: src/menus/PluginMenus.cpp
 msgid "Repeat Last Effect"
 msgstr ""
 
@@ -15442,6 +15668,10 @@ msgstr ""
 
 #: src/menus/ViewMenus.cpp
 msgid "&Show Clipping in Waveform"
+msgstr ""
+
+#: src/menus/ViewMenus.cpp
+msgid "Show &RMS in Waveform"
 msgstr ""
 
 #: src/prefs/ApplicationPrefs.cpp
