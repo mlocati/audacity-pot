@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.6.0\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2024-07-17 08:19+0000\n"
+"POT-Creation-Date: 2024-08-05 08:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -4330,9 +4330,8 @@ msgstr ""
 msgid "45-85 kbps (Smaller files)"
 msgstr ""
 
-#. i18n-hint: Slightly humorous - as in use an insane precision with MP3.
 #: modules/import-export/mod-mp3/ExportMP3.cpp
-msgid "Insane, 320 kbps"
+msgid "Excessive, 320 kbps"
 msgstr ""
 
 #: modules/import-export/mod-mp3/ExportMP3.cpp
@@ -4347,9 +4346,8 @@ msgstr ""
 msgid "Medium, 145-185 kbps"
 msgstr ""
 
-#. i18n-hint: Slightly humorous - as in use an insane precision with MP3.
 #: modules/import-export/mod-mp3/ExportMP3.cpp
-msgid "Insane"
+msgid "Excessive"
 msgstr ""
 
 #: modules/import-export/mod-mp3/ExportMP3.cpp
@@ -15671,7 +15669,7 @@ msgid "&Show Clipping in Waveform"
 msgstr ""
 
 #: src/menus/ViewMenus.cpp
-msgid "Show &RMS in Waveform"
+msgid "Sho&w RMS in Waveform"
 msgstr ""
 
 #: src/prefs/ApplicationPrefs.cpp
