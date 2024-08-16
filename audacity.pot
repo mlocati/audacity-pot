@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.6.0\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2024-08-05 08:20+0000\n"
+"POT-Creation-Date: 2024-08-16 08:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -8048,12 +8048,12 @@ msgstr ""
 msgid "Audacity Mixer%s"
 msgstr ""
 
-#. i18n-hint: title of the Gain slider, used to adjust the volume
-#. i18n-hint: Title of the Gain slider, used to adjust the volume
-#: src/MixerBoard.cpp src/menus/TrackMenus.cpp
+#. i18n-hint: title of the Volume slider, used to adjust the volume
+#. i18n-hint: Title of the Volume slider, used to adjust the volume
+#: src/MixerBoard.cpp
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackControls.cpp
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackSliderHandles.cpp
-msgid "Gain"
+msgid "Volume"
 msgstr ""
 
 #. i18n-hint: title of the MIDI Velocity slider
@@ -8095,7 +8095,7 @@ msgstr ""
 
 #: src/MixerBoard.cpp
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackSliderHandles.cpp
-msgid "Moved gain slider"
+msgid "Moved volume slider"
 msgstr ""
 
 #: src/MixerBoard.cpp
@@ -10275,7 +10275,7 @@ msgid "Set Track Audio"
 msgstr ""
 
 #: src/commands/SetTrackInfoCommand.cpp
-msgid "Gain:"
+msgid "Volume:"
 msgstr ""
 
 #: src/commands/SetTrackInfoCommand.cpp
@@ -15162,6 +15162,10 @@ msgstr ""
 
 #: src/menus/TrackMenus.cpp
 msgid "Adjusted gain"
+msgstr ""
+
+#: src/menus/TrackMenus.cpp
+msgid "Gain"
 msgstr ""
 
 #: src/menus/TrackMenus.cpp
