@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.6.0\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2024-08-16 08:20+0000\n"
+"POT-Creation-Date: 2024-08-19 08:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,32 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: libraries/lib-audacity-application-logic/AudacityApplicationLogic.cpp
+#: src/RealtimeEffectPanel.cpp
+msgid ""
+"This plugin could not be loaded.\n"
+"It may have been deleted."
+msgstr ""
+
+#: libraries/lib-audacity-application-logic/AudacityApplicationLogic.cpp
+#: src/RealtimeEffectPanel.cpp
+msgid "Plugin Error"
+msgstr ""
+
+#: libraries/lib-audacity-application-logic/AudacityApplicationLogic.cpp
+#, c-format
+msgid "Applied effect: %s"
+msgstr ""
+
+#. i18n-hint: %s will be the name of the effect which will be
+#. * repeated if this menu item is chosen
+#: libraries/lib-audacity-application-logic/AudacityApplicationLogic.cpp
+#: libraries/lib-menus/CommandManager.cpp src/BatchProcessDialog.cpp
+#: src/menus/PluginMenus.cpp
+#, c-format
+msgid "Repeat %s"
+msgstr ""
 
 #: libraries/lib-audio-devices/AudioIOBase.cpp
 #: libraries/lib-note-track/NoteTrack.cpp
@@ -96,7 +122,12 @@ msgstr ""
 
 #. i18n-hint: Supported, meaning made available by the system
 #: libraries/lib-audio-devices/AudioIOBase.cpp
-msgid "Supported Rates:\n"
+msgid "Supported Playback Rates:\n"
+msgstr ""
+
+#. i18n-hint: Supported, meaning made available by the system
+#: libraries/lib-audio-devices/AudioIOBase.cpp
+msgid "Supported Capture Rates:\n"
 msgstr ""
 
 #: libraries/lib-audio-devices/AudioIOBase.cpp
@@ -117,6 +148,10 @@ msgstr ""
 #: libraries/lib-audio-devices/AudioIOBase.cpp
 #, c-format
 msgid "No playback device found for '%s'.\n"
+msgstr ""
+
+#: libraries/lib-audio-devices/AudioIOBase.cpp
+msgid "Supported Rates:\n"
 msgstr ""
 
 #: libraries/lib-audio-devices/AudioIOBase.cpp
@@ -1033,7 +1068,7 @@ msgstr ""
 msgid "Provides LV2 Effects support to Audacity"
 msgstr ""
 
-#: libraries/lib-math/Dither.cpp src/effects/EffectManager.cpp
+#: libraries/lib-math/Dither.cpp src/effects/EffectPresetDialog.cpp
 #: src/effects/EffectUI.cpp plug-ins/equalabel.ny
 #: plug-ins/sample-data-export.ny
 msgid "None"
@@ -1090,14 +1125,6 @@ msgstr ""
 
 #: libraries/lib-menus/CommandManager.cpp src/widgets/KeyView.cpp
 msgid "Command"
-msgstr ""
-
-#. i18n-hint: %s will be the name of the effect which will be
-#. * repeated if this menu item is chosen
-#: libraries/lib-menus/CommandManager.cpp src/BatchProcessDialog.cpp
-#: src/effects/EffectUI.cpp src/menus/PluginMenus.cpp
-#, c-format
-msgid "Repeat %s"
 msgstr ""
 
 #: libraries/lib-menus/CommandManager.cpp
@@ -7635,6 +7662,20 @@ msgstr ""
 msgid "Turn off dropout detection"
 msgstr ""
 
+#: src/EffectAndCommandPluginManager.cpp
+#, c-format
+msgid ""
+"Attempting to initialize the following command failed:\n"
+"\n"
+"%s\n"
+"\n"
+"More information may be available in 'Help > Diagnostics > Show Log'"
+msgstr ""
+
+#: src/EffectAndCommandPluginManager.cpp
+msgid "Command failed to initialize"
+msgstr ""
+
 #: src/FreqWindow.cpp
 msgid "Frequency Analysis"
 msgstr ""
@@ -8899,16 +8940,6 @@ msgstr ""
 msgid "Change effect order"
 msgstr ""
 
-#: src/RealtimeEffectPanel.cpp src/effects/EffectUI.cpp
-msgid ""
-"This plugin could not be loaded.\n"
-"It may have been deleted."
-msgstr ""
-
-#: src/RealtimeEffectPanel.cpp src/effects/EffectUI.cpp
-msgid "Plugin Error"
-msgstr ""
-
 #. i18n-hint: undo history record
 #. first parameter - realtime effect name
 #. second parameter - track name
@@ -9830,7 +9861,7 @@ msgstr ""
 msgid "Brief"
 msgstr ""
 
-#: src/commands/GetInfoCommand.cpp src/effects/EffectManager.cpp
+#: src/commands/GetInfoCommand.cpp src/effects/EffectPresetDialog.cpp
 msgid "Type:"
 msgstr ""
 
@@ -11482,66 +11513,28 @@ msgstr ""
 msgid "D&ecay factor:"
 msgstr ""
 
-#: src/effects/EffectManager.cpp
-#, c-format
-msgid "Applied effect: %s"
-msgstr ""
-
-#: src/effects/EffectManager.cpp
-#, c-format
-msgid "Applied command: %s"
-msgstr ""
-
-#: src/effects/EffectManager.cpp
+#: src/effects/EffectPresetDialog.cpp
 msgid "Select Preset"
 msgstr ""
 
-#: src/effects/EffectManager.cpp
+#: src/effects/EffectPresetDialog.cpp
 msgid "&Preset:"
 msgstr ""
 
-#: src/effects/EffectManager.cpp src/effects/EffectUI.cpp
+#: src/effects/EffectPresetDialog.cpp src/effects/EffectUI.cpp
 msgid "User Presets"
 msgstr ""
 
-#: src/effects/EffectManager.cpp src/effects/EffectUI.cpp
+#: src/effects/EffectPresetDialog.cpp src/effects/EffectUI.cpp
 msgid "Factory Presets"
 msgstr ""
 
-#: src/effects/EffectManager.cpp
+#: src/effects/EffectPresetDialog.cpp
 msgid "Current Settings"
 msgstr ""
 
-#: src/effects/EffectManager.cpp
+#: src/effects/EffectPresetDialog.cpp
 msgid "Factory Defaults"
-msgstr ""
-
-#: src/effects/EffectManager.cpp
-#, c-format
-msgid ""
-"Attempting to initialize the following effect failed:\n"
-"\n"
-"%s\n"
-"\n"
-"More information may be available in 'Help > Diagnostics > Show Log'"
-msgstr ""
-
-#: src/effects/EffectManager.cpp
-msgid "Effect failed to initialize"
-msgstr ""
-
-#: src/effects/EffectManager.cpp
-#, c-format
-msgid ""
-"Attempting to initialize the following command failed:\n"
-"\n"
-"%s\n"
-"\n"
-"More information may be available in 'Help > Diagnostics > Show Log'"
-msgstr ""
-
-#: src/effects/EffectManager.cpp
-msgid "Command failed to initialize"
 msgstr ""
 
 #: src/effects/EffectPreview.cpp
@@ -15665,7 +15658,7 @@ msgid "Skip to Selection End"
 msgstr ""
 
 #: src/menus/ViewMenus.cpp
-msgid "Enable E&xtra Menus"
+msgid "E&xtra Menus"
 msgstr ""
 
 #: src/menus/ViewMenus.cpp
