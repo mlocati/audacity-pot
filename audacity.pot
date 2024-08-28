@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.6.0\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2024-08-20 08:20+0000\n"
+"POT-Creation-Date: 2024-08-28 08:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -381,6 +381,78 @@ msgstr ""
 #: libraries/lib-builtin-effects/AmplifyBase.cpp
 #: resources/EffectsMenuDefaults.xml
 msgid "Amplify"
+msgstr ""
+
+#: libraries/lib-builtin-effects/Fade.cpp resources/EffectsMenuDefaults.xml
+msgid "Fade In"
+msgstr ""
+
+#: libraries/lib-builtin-effects/Fade.cpp
+msgid "Applies a linear fade-in to the selected audio"
+msgstr ""
+
+#: libraries/lib-builtin-effects/Fade.cpp resources/EffectsMenuDefaults.xml
+msgid "Fade Out"
+msgstr ""
+
+#: libraries/lib-builtin-effects/Fade.cpp
+msgid "Applies a linear fade-out to the selected audio"
+msgstr ""
+
+#: libraries/lib-builtin-effects/Invert.cpp resources/EffectsMenuDefaults.xml
+msgid "Invert"
+msgstr ""
+
+#: libraries/lib-builtin-effects/Invert.cpp
+msgid "Flips the audio samples upside-down, reversing their polarity"
+msgstr ""
+
+#: libraries/lib-builtin-effects/Repair.cpp resources/EffectsMenuDefaults.xml
+msgid "Repair"
+msgstr ""
+
+#: libraries/lib-builtin-effects/Repair.cpp
+msgid "Sets the peak amplitude of a one or more tracks"
+msgstr ""
+
+#: libraries/lib-builtin-effects/Repair.cpp
+msgid "The Repair effect cannot be applied within stretched or shrunk clips"
+msgstr ""
+
+#: libraries/lib-builtin-effects/Repair.cpp
+msgid ""
+"The Repair effect is intended to be used on very short sections of damaged audio (up to 128 samples).\n"
+"\n"
+"Zoom in and select a tiny fraction of a second to repair."
+msgstr ""
+
+#: libraries/lib-builtin-effects/Repair.cpp
+msgid ""
+"Repair works by using audio data outside the selection region.\n"
+"\n"
+"Please select a region that has audio touching at least one side of it.\n"
+"\n"
+"The more surrounding audio, the better it performs."
+msgstr ""
+
+#: libraries/lib-builtin-effects/Reverse.cpp resources/EffectsMenuDefaults.xml
+msgid "Reverse"
+msgstr ""
+
+#: libraries/lib-builtin-effects/Reverse.cpp
+msgid "Reverses the selected audio"
+msgstr ""
+
+#: libraries/lib-builtin-effects/StereoToMono.cpp
+msgid "Stereo To Mono"
+msgstr ""
+
+#: libraries/lib-builtin-effects/StereoToMono.cpp
+msgid "Converts stereo tracks to mono"
+msgstr ""
+
+#: libraries/lib-builtin-effects/StereoToMono.cpp
+msgid "Mixing down to mono"
 msgstr ""
 
 #: libraries/lib-builtin-effects/ToneGenBase.cpp
@@ -1057,6 +1129,43 @@ msgstr ""
 
 #: libraries/lib-import-export/ImportUtils.h
 msgid "Import Project"
+msgstr ""
+
+#: libraries/lib-label-track/LabelTrack.cpp
+msgid "SubRip text file"
+msgstr ""
+
+#: libraries/lib-label-track/LabelTrack.cpp
+msgid "WebVTT file"
+msgstr ""
+
+#: libraries/lib-label-track/LabelTrack.cpp
+msgid "S&tandard"
+msgstr ""
+
+#: libraries/lib-label-track/LabelTrack.cpp
+msgid "E&xtended (with frequency ranges)"
+msgstr ""
+
+#: libraries/lib-label-track/LabelTrack.cpp src/commands/GetInfoCommand.cpp
+#: src/commands/GetTrackInfoCommand.cpp src/export/ExportAudioDialog.cpp
+msgid "Labels"
+msgstr ""
+
+#. i18n-hint: (noun) it's the name of a kind of track.
+#. i18n-hint: This is for screen reader software and indicates that
+#. this is a Label track.
+#: libraries/lib-label-track/LabelTrack.cpp src/LabelDialog.cpp
+#: src/LabelDialog.h src/TrackPanelAx.cpp
+msgid "Label Track"
+msgstr ""
+
+#: libraries/lib-label-track/LabelTrack.cpp
+msgid "Importing WebVTT files is not currently supported."
+msgstr ""
+
+#: libraries/lib-label-track/LabelTrack.cpp
+msgid "One or more saved labels could not be read."
 msgstr ""
 
 #. i18n-hint: abbreviates "Linux Audio Developer's Simple Plugin API"
@@ -7713,6 +7822,10 @@ msgstr ""
 msgid "Command failed to initialize"
 msgstr ""
 
+#: src/ExportLabelTrack.cpp
+msgid "Exported Label Style:"
+msgstr ""
+
 #: src/FreqWindow.cpp
 msgid "Frequency Analysis"
 msgstr ""
@@ -8038,47 +8151,6 @@ msgstr ""
 
 #: src/LabelDialog.cpp
 msgid "Enter track name"
-msgstr ""
-
-#. i18n-hint: (noun) it's the name of a kind of track.
-#. i18n-hint: This is for screen reader software and indicates that
-#. this is a Label track.
-#: src/LabelDialog.cpp src/LabelDialog.h src/LabelTrack.cpp
-#: src/TrackPanelAx.cpp
-msgid "Label Track"
-msgstr ""
-
-#: src/LabelTrack.cpp
-msgid "SubRip text file"
-msgstr ""
-
-#: src/LabelTrack.cpp
-msgid "WebVTT file"
-msgstr ""
-
-#: src/LabelTrack.cpp src/commands/GetInfoCommand.cpp
-#: src/commands/GetTrackInfoCommand.cpp src/export/ExportAudioDialog.cpp
-msgid "Labels"
-msgstr ""
-
-#: src/LabelTrack.cpp
-msgid "S&tandard"
-msgstr ""
-
-#: src/LabelTrack.cpp
-msgid "E&xtended (with frequency ranges)"
-msgstr ""
-
-#: src/LabelTrack.cpp
-msgid "Exported Label Style:"
-msgstr ""
-
-#: src/LabelTrack.cpp
-msgid "Importing WebVTT files is not currently supported."
-msgstr ""
-
-#: src/LabelTrack.cpp
-msgid "One or more saved labels could not be read."
 msgstr ""
 
 #. i18n-hint: Title on a dialog indicating that this is the first
@@ -12015,22 +12087,6 @@ msgstr ""
 msgid "Curve not found"
 msgstr ""
 
-#: src/effects/Fade.cpp resources/EffectsMenuDefaults.xml
-msgid "Fade In"
-msgstr ""
-
-#: src/effects/Fade.cpp resources/EffectsMenuDefaults.xml
-msgid "Fade Out"
-msgstr ""
-
-#: src/effects/Fade.cpp
-msgid "Applies a linear fade-in to the selected audio"
-msgstr ""
-
-#: src/effects/Fade.cpp
-msgid "Applies a linear fade-out to the selected audio"
-msgstr ""
-
 #: src/effects/FindClipping.cpp
 msgid "Find Clipping"
 msgstr ""
@@ -12064,14 +12120,6 @@ msgstr ""
 
 #: src/effects/Generator.cpp
 msgid "There is not enough room available to generate the audio"
-msgstr ""
-
-#: src/effects/Invert.cpp resources/EffectsMenuDefaults.xml
-msgid "Invert"
-msgstr ""
-
-#: src/effects/Invert.cpp
-msgid "Flips the audio samples upside-down, reversing their polarity"
 msgstr ""
 
 #: src/effects/Limiter.cpp plug-ins/limiter.ny
@@ -12573,34 +12621,6 @@ msgstr ""
 msgid "%s - %s"
 msgstr ""
 
-#: src/effects/Repair.cpp resources/EffectsMenuDefaults.xml
-msgid "Repair"
-msgstr ""
-
-#: src/effects/Repair.cpp
-msgid "Sets the peak amplitude of a one or more tracks"
-msgstr ""
-
-#: src/effects/Repair.cpp
-msgid "The Repair effect cannot be applied within stretched or shrunk clips"
-msgstr ""
-
-#: src/effects/Repair.cpp
-msgid ""
-"The Repair effect is intended to be used on very short sections of damaged audio (up to 128 samples).\n"
-"\n"
-"Zoom in and select a tiny fraction of a second to repair."
-msgstr ""
-
-#: src/effects/Repair.cpp
-msgid ""
-"Repair works by using audio data outside the selection region.\n"
-"\n"
-"Please select a region that has audio touching at least one side of it.\n"
-"\n"
-"The more surrounding audio, the better it performs."
-msgstr ""
-
 #: src/effects/Repeat.cpp resources/EffectsMenuDefaults.xml
 msgid "Repeat"
 msgstr ""
@@ -12766,14 +12786,6 @@ msgstr ""
 
 #: src/effects/Reverb.cpp
 msgid "Wet O&nly"
-msgstr ""
-
-#: src/effects/Reverse.cpp resources/EffectsMenuDefaults.xml
-msgid "Reverse"
-msgstr ""
-
-#: src/effects/Reverse.cpp
-msgid "Reverses the selected audio"
 msgstr ""
 
 #: src/effects/SBSMSEffect.h
@@ -12959,18 +12971,6 @@ msgstr ""
 
 #: src/effects/Silence.cpp
 msgid "Creates audio of zero amplitude"
-msgstr ""
-
-#: src/effects/StereoToMono.cpp
-msgid "Stereo To Mono"
-msgstr ""
-
-#: src/effects/StereoToMono.cpp
-msgid "Converts stereo tracks to mono"
-msgstr ""
-
-#: src/effects/StereoToMono.cpp
-msgid "Mixing down to mono"
 msgstr ""
 
 #: src/effects/TimeScale.cpp resources/EffectsMenuDefaults.xml
