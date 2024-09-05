@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.6.0\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2024-08-28 08:20+0000\n"
+"POT-Creation-Date: 2024-09-05 08:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -383,6 +383,63 @@ msgstr ""
 msgid "Amplify"
 msgstr ""
 
+#: libraries/lib-builtin-effects/BassTrebleBase.cpp
+#: resources/EffectsMenuDefaults.xml
+msgid "Bass and Treble"
+msgstr ""
+
+#: libraries/lib-builtin-effects/BassTrebleBase.cpp
+msgid "Simple tone control effect"
+msgstr ""
+
+#: libraries/lib-builtin-effects/ChangePitchBase.cpp
+#: resources/EffectsMenuDefaults.xml
+msgid "Change Pitch"
+msgstr ""
+
+#: libraries/lib-builtin-effects/ChangePitchBase.cpp
+msgid "Changes the pitch of a track without changing its tempo"
+msgstr ""
+
+#: libraries/lib-builtin-effects/ChangePitchBase.cpp
+msgid "High Quality Pitch Change"
+msgstr ""
+
+#: libraries/lib-builtin-effects/ChangeSpeedBase.cpp
+#: resources/EffectsMenuDefaults.xml
+msgid "Change Speed and Pitch"
+msgstr ""
+
+#: libraries/lib-builtin-effects/ChangeSpeedBase.cpp
+msgid "Changes the speed of a track, also changing its pitch"
+msgstr ""
+
+#: libraries/lib-builtin-effects/ChangeTempoBase.cpp
+#: resources/EffectsMenuDefaults.xml
+msgid "Change Tempo"
+msgstr ""
+
+#: libraries/lib-builtin-effects/ChangeTempoBase.cpp
+msgid "Changes the tempo of a selection without changing its pitch"
+msgstr ""
+
+#: libraries/lib-builtin-effects/ChangeTempoBase.cpp
+msgid "High Quality Tempo Change"
+msgstr ""
+
+#: libraries/lib-builtin-effects/EchoBase.cpp resources/EffectsMenuDefaults.xml
+msgid "Echo"
+msgstr ""
+
+#: libraries/lib-builtin-effects/EchoBase.cpp
+msgid "Repeats the selected audio again and again"
+msgstr ""
+
+#: libraries/lib-builtin-effects/EchoBase.cpp src/effects/FindClipping.cpp
+#: src/effects/Paulstretch.cpp
+msgid "Requested value exceeds memory capacity."
+msgstr ""
+
 #: libraries/lib-builtin-effects/Fade.cpp resources/EffectsMenuDefaults.xml
 msgid "Fade In"
 msgstr ""
@@ -405,6 +462,81 @@ msgstr ""
 
 #: libraries/lib-builtin-effects/Invert.cpp
 msgid "Flips the audio samples upside-down, reversing their polarity"
+msgstr ""
+
+#: libraries/lib-builtin-effects/LoudnessBase.cpp
+#: resources/EffectsMenuDefaults.xml
+msgid "Loudness Normalization"
+msgstr ""
+
+#: libraries/lib-builtin-effects/LoudnessBase.cpp
+msgid "Sets the loudness of one or more tracks"
+msgstr ""
+
+#: libraries/lib-builtin-effects/LoudnessBase.cpp
+msgid "Normalizing Loudness...\n"
+msgstr ""
+
+#: libraries/lib-builtin-effects/LoudnessBase.cpp
+#: libraries/lib-builtin-effects/NormalizeBase.cpp
+#, c-format
+msgid "Analyzing: %s"
+msgstr ""
+
+#: libraries/lib-builtin-effects/LoudnessBase.cpp
+#: libraries/lib-builtin-effects/NormalizeBase.cpp
+#, c-format
+msgid "Processing: %s"
+msgstr ""
+
+#: libraries/lib-builtin-effects/NormalizeBase.cpp
+#: resources/EffectsMenuDefaults.xml
+msgid "Normalize"
+msgstr ""
+
+#: libraries/lib-builtin-effects/NormalizeBase.cpp
+msgid "Sets the peak amplitude of one or more tracks"
+msgstr ""
+
+#: libraries/lib-builtin-effects/NormalizeBase.cpp
+msgid "Removing DC offset and Normalizing...\n"
+msgstr ""
+
+#: libraries/lib-builtin-effects/NormalizeBase.cpp
+msgid "Removing DC offset...\n"
+msgstr ""
+
+#: libraries/lib-builtin-effects/NormalizeBase.cpp
+msgid "Normalizing without removing DC offset...\n"
+msgstr ""
+
+#: libraries/lib-builtin-effects/NormalizeBase.cpp
+msgid "Not doing anything...\n"
+msgstr ""
+
+#: libraries/lib-builtin-effects/NormalizeBase.cpp
+#, c-format
+msgid "Analyzing first track of stereo pair: %s"
+msgstr ""
+
+#: libraries/lib-builtin-effects/NormalizeBase.cpp
+#, c-format
+msgid "Analyzing second track of stereo pair: %s"
+msgstr ""
+
+#: libraries/lib-builtin-effects/NormalizeBase.cpp
+#, c-format
+msgid "Processing stereo channels independently: %s"
+msgstr ""
+
+#: libraries/lib-builtin-effects/NormalizeBase.cpp
+#, c-format
+msgid "Processing first track of stereo pair: %s"
+msgstr ""
+
+#: libraries/lib-builtin-effects/NormalizeBase.cpp
+#, c-format
+msgid "Processing second track of stereo pair: %s"
 msgstr ""
 
 #: libraries/lib-builtin-effects/Repair.cpp resources/EffectsMenuDefaults.xml
@@ -435,12 +567,117 @@ msgid ""
 "The more surrounding audio, the better it performs."
 msgstr ""
 
+#. i18n-hint: This is the name of an effect preset
+#: libraries/lib-builtin-effects/ReverbBase.cpp
+msgid "Acoustic"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset
+#: libraries/lib-builtin-effects/ReverbBase.cpp
+msgid "Ambience"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset
+#: libraries/lib-builtin-effects/ReverbBase.cpp
+msgid "Artificial"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset
+#: libraries/lib-builtin-effects/ReverbBase.cpp
+msgid "Clean"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset
+#. i18n-hint: This is the name of an effect preset.
+#: libraries/lib-builtin-effects/ReverbBase.cpp
+#: libraries/lib-dynamic-range-processor/DynamicRangeProcessorUtils.h
+msgid "Modern"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset
+#: libraries/lib-builtin-effects/ReverbBase.cpp
+msgid "Vocal I"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset
+#: libraries/lib-builtin-effects/ReverbBase.cpp
+msgid "Vocal II"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset
+#: libraries/lib-builtin-effects/ReverbBase.cpp
+msgid "Dance Vocal"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset
+#: libraries/lib-builtin-effects/ReverbBase.cpp
+msgid "Modern Vocal"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset
+#: libraries/lib-builtin-effects/ReverbBase.cpp
+msgid "Voice Tail"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset
+#: libraries/lib-builtin-effects/ReverbBase.cpp
+msgid "Bathroom"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset
+#: libraries/lib-builtin-effects/ReverbBase.cpp
+msgid "Small Room Bright"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset
+#: libraries/lib-builtin-effects/ReverbBase.cpp
+msgid "Small Room Dark"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset
+#: libraries/lib-builtin-effects/ReverbBase.cpp
+msgid "Medium Room"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset
+#: libraries/lib-builtin-effects/ReverbBase.cpp
+msgid "Large Room"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset
+#: libraries/lib-builtin-effects/ReverbBase.cpp
+msgid "Church Hall"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset
+#: libraries/lib-builtin-effects/ReverbBase.cpp
+msgid "Cathedral"
+msgstr ""
+
+#. i18n-hint: This is the name of an effect preset
+#: libraries/lib-builtin-effects/ReverbBase.cpp
+msgid "Big Cave"
+msgstr ""
+
+#: libraries/lib-builtin-effects/ReverbBase.cpp
+#: resources/EffectsMenuDefaults.xml
+msgid "Reverb"
+msgstr ""
+
+#: libraries/lib-builtin-effects/ReverbBase.cpp
+msgid "Adds ambience or a \"hall effect\""
+msgstr ""
+
 #: libraries/lib-builtin-effects/Reverse.cpp resources/EffectsMenuDefaults.xml
 msgid "Reverse"
 msgstr ""
 
 #: libraries/lib-builtin-effects/Reverse.cpp
 msgid "Reverses the selected audio"
+msgstr ""
+
+#: libraries/lib-builtin-effects/SBSMSBase.h
+msgid "SBSMS Time / Pitch Stretch"
 msgstr ""
 
 #: libraries/lib-builtin-effects/StereoToMono.cpp
@@ -531,13 +768,6 @@ msgstr ""
 
 #: libraries/lib-cloud-audiocom/sync/ResumedSnaphotUploadOperation.cpp
 msgid "Failed to deserialize the response"
-msgstr ""
-
-#. i18n-hint: This is the name of an effect preset.
-#. i18n-hint: This is the name of an effect preset
-#: libraries/lib-dynamic-range-processor/DynamicRangeProcessorUtils.h
-#: src/effects/Reverb.cpp
-msgid "Modern"
 msgstr ""
 
 #. i18n-hint: This is the name of an effect preset.
@@ -1233,6 +1463,116 @@ msgstr ""
 msgid "Shaped"
 msgstr ""
 
+#. i18n-hint: Name of a musical note in the 12-tone chromatic scale
+#: libraries/lib-math/PitchName.cpp
+msgid "C"
+msgstr ""
+
+#. i18n-hint: Name of a musical note in the 12-tone chromatic scale
+#: libraries/lib-math/PitchName.cpp
+msgid "C♯"
+msgstr ""
+
+#. i18n-hint: Name of a musical note in the 12-tone chromatic scale
+#: libraries/lib-math/PitchName.cpp
+msgid "D"
+msgstr ""
+
+#. i18n-hint: Name of a musical note in the 12-tone chromatic scale
+#: libraries/lib-math/PitchName.cpp
+msgid "D♯"
+msgstr ""
+
+#. i18n-hint: Name of a musical note in the 12-tone chromatic scale
+#: libraries/lib-math/PitchName.cpp
+msgid "E"
+msgstr ""
+
+#. i18n-hint: Name of a musical note in the 12-tone chromatic scale
+#: libraries/lib-math/PitchName.cpp
+msgid "F"
+msgstr ""
+
+#. i18n-hint: Name of a musical note in the 12-tone chromatic scale
+#: libraries/lib-math/PitchName.cpp
+msgid "F♯"
+msgstr ""
+
+#. i18n-hint: Name of a musical note in the 12-tone chromatic scale
+#: libraries/lib-math/PitchName.cpp
+msgid "G"
+msgstr ""
+
+#. i18n-hint: Name of a musical note in the 12-tone chromatic scale
+#: libraries/lib-math/PitchName.cpp
+msgid "G♯"
+msgstr ""
+
+#. i18n-hint: Name of a musical note in the 12-tone chromatic scale
+#: libraries/lib-math/PitchName.cpp
+msgid "A"
+msgstr ""
+
+#. i18n-hint: Name of a musical note in the 12-tone chromatic scale
+#: libraries/lib-math/PitchName.cpp
+msgid "A♯"
+msgstr ""
+
+#. i18n-hint: Name of a musical note in the 12-tone chromatic scale
+#: libraries/lib-math/PitchName.cpp
+msgid "B"
+msgstr ""
+
+#. i18n-hint: Name of a musical note in the 12-tone chromatic scale
+#: libraries/lib-math/PitchName.cpp
+msgid "D♭"
+msgstr ""
+
+#. i18n-hint: Name of a musical note in the 12-tone chromatic scale
+#: libraries/lib-math/PitchName.cpp
+msgid "E♭"
+msgstr ""
+
+#. i18n-hint: Name of a musical note in the 12-tone chromatic scale
+#: libraries/lib-math/PitchName.cpp
+msgid "G♭"
+msgstr ""
+
+#. i18n-hint: Name of a musical note in the 12-tone chromatic scale
+#: libraries/lib-math/PitchName.cpp
+msgid "A♭"
+msgstr ""
+
+#. i18n-hint: Name of a musical note in the 12-tone chromatic scale
+#: libraries/lib-math/PitchName.cpp
+msgid "B♭"
+msgstr ""
+
+#. i18n-hint: Two, alternate names of a musical note in the 12-tone chromatic scale
+#: libraries/lib-math/PitchName.cpp
+msgid "C♯/D♭"
+msgstr ""
+
+#. i18n-hint: Two, alternate names of a musical note in the 12-tone chromatic scale
+#: libraries/lib-math/PitchName.cpp
+msgid "D♯/E♭"
+msgstr ""
+
+#. i18n-hint: Two, alternate names of a musical note in the 12-tone chromatic scale
+#: libraries/lib-math/PitchName.cpp
+msgid "F♯/G♭"
+msgstr ""
+
+#. i18n-hint: Two, alternate names of a musical note in the 12-tone chromatic scale
+#: libraries/lib-math/PitchName.cpp
+msgid "G♯/A♭"
+msgstr ""
+
+#. i18n-hint: Two, alternate names of a musical note in the 12-tone chromatic scale
+#: libraries/lib-math/PitchName.cpp
+msgid "A♯/B♭"
+msgstr ""
+
 #: libraries/lib-math/Resample.cpp
 msgid "Low Quality (Fastest)"
 msgstr ""
@@ -1357,13 +1697,13 @@ msgid ""
 msgstr ""
 
 #: libraries/lib-module-manager/ModuleManager.cpp src/TimerRecordDialog.cpp
-#: plug-ins/delay.ny plug-ins/equalabel.ny plug-ins/limiter.ny
+#: plug-ins/delay.ny plug-ins/equalabel.ny plug-ins/legacy-limiter.ny
 #: plug-ins/sample-data-export.ny
 msgid "Yes"
 msgstr ""
 
 #: libraries/lib-module-manager/ModuleManager.cpp src/TimerRecordDialog.cpp
-#: plug-ins/delay.ny plug-ins/equalabel.ny plug-ins/limiter.ny
+#: plug-ins/delay.ny plug-ins/equalabel.ny plug-ins/legacy-limiter.ny
 msgid "No"
 msgstr ""
 
@@ -2900,17 +3240,11 @@ msgid "Wave Track"
 msgstr ""
 
 #. i18n-hint Template for clip name generation on copy-paste
-#: libraries/lib-wave-track/WaveTrack.cpp
-#, c-format
-msgctxt "clip name template"
-msgid "%s.%i"
-msgstr ""
-
 #. i18n-hint Template for clip name generation on inserting new empty clip
 #: libraries/lib-wave-track/WaveTrack.cpp
 #, c-format
 msgctxt "clip name template"
-msgid "%s %i"
+msgid "%s.%i"
 msgstr ""
 
 #: libraries/lib-wave-track/WaveTrack.cpp
@@ -6804,15 +7138,15 @@ msgid ""
 msgstr ""
 
 #: src/AudacityApp.cpp
+msgid "Audacity is starting up..."
+msgstr ""
+
+#: src/AudacityApp.cpp
 msgid "SQLite library failed to initialize.  Audacity cannot continue."
 msgstr ""
 
 #: src/AudacityApp.cpp
 msgid "Block size must be within 256 to 100000000\n"
-msgstr ""
-
-#: src/AudacityApp.cpp
-msgid "Audacity is starting up..."
 msgstr ""
 
 #. i18n-hint: "New" is an action (verb) to create a NEW project
@@ -7871,8 +8205,9 @@ msgstr ""
 
 #. i18n-hint: short form of 'decibels'.
 #: src/FreqWindow.cpp src/effects/AutoDuck.cpp src/effects/EqualizationUI.cpp
-#: src/effects/Loudness.cpp src/effects/Normalize.cpp
-#: src/effects/ScienFilter.cpp src/effects/TruncSilence.cpp
+#: src/effects/LegacyCompressor.cpp src/effects/Loudness.cpp
+#: src/effects/Normalize.cpp src/effects/ScienFilter.cpp
+#: src/effects/TruncSilence.cpp
 #: src/tracks/playabletrack/wavetrack/ui/WaveformVRulerControls.cpp
 #: src/widgets/MeterPanel.cpp plug-ins/sample-data-export.ny
 msgid "dB"
@@ -8262,116 +8597,6 @@ msgstr ""
 msgid "&Mixer"
 msgstr ""
 
-#. i18n-hint: Name of a musical note in the 12-tone chromatic scale
-#: src/PitchName.cpp
-msgid "C"
-msgstr ""
-
-#. i18n-hint: Name of a musical note in the 12-tone chromatic scale
-#: src/PitchName.cpp
-msgid "C♯"
-msgstr ""
-
-#. i18n-hint: Name of a musical note in the 12-tone chromatic scale
-#: src/PitchName.cpp
-msgid "D"
-msgstr ""
-
-#. i18n-hint: Name of a musical note in the 12-tone chromatic scale
-#: src/PitchName.cpp
-msgid "D♯"
-msgstr ""
-
-#. i18n-hint: Name of a musical note in the 12-tone chromatic scale
-#: src/PitchName.cpp
-msgid "E"
-msgstr ""
-
-#. i18n-hint: Name of a musical note in the 12-tone chromatic scale
-#: src/PitchName.cpp
-msgid "F"
-msgstr ""
-
-#. i18n-hint: Name of a musical note in the 12-tone chromatic scale
-#: src/PitchName.cpp
-msgid "F♯"
-msgstr ""
-
-#. i18n-hint: Name of a musical note in the 12-tone chromatic scale
-#: src/PitchName.cpp
-msgid "G"
-msgstr ""
-
-#. i18n-hint: Name of a musical note in the 12-tone chromatic scale
-#: src/PitchName.cpp
-msgid "G♯"
-msgstr ""
-
-#. i18n-hint: Name of a musical note in the 12-tone chromatic scale
-#: src/PitchName.cpp
-msgid "A"
-msgstr ""
-
-#. i18n-hint: Name of a musical note in the 12-tone chromatic scale
-#: src/PitchName.cpp
-msgid "A♯"
-msgstr ""
-
-#. i18n-hint: Name of a musical note in the 12-tone chromatic scale
-#: src/PitchName.cpp
-msgid "B"
-msgstr ""
-
-#. i18n-hint: Name of a musical note in the 12-tone chromatic scale
-#: src/PitchName.cpp
-msgid "D♭"
-msgstr ""
-
-#. i18n-hint: Name of a musical note in the 12-tone chromatic scale
-#: src/PitchName.cpp
-msgid "E♭"
-msgstr ""
-
-#. i18n-hint: Name of a musical note in the 12-tone chromatic scale
-#: src/PitchName.cpp
-msgid "G♭"
-msgstr ""
-
-#. i18n-hint: Name of a musical note in the 12-tone chromatic scale
-#: src/PitchName.cpp
-msgid "A♭"
-msgstr ""
-
-#. i18n-hint: Name of a musical note in the 12-tone chromatic scale
-#: src/PitchName.cpp
-msgid "B♭"
-msgstr ""
-
-#. i18n-hint: Two, alternate names of a musical note in the 12-tone chromatic scale
-#: src/PitchName.cpp
-msgid "C♯/D♭"
-msgstr ""
-
-#. i18n-hint: Two, alternate names of a musical note in the 12-tone chromatic scale
-#: src/PitchName.cpp
-msgid "D♯/E♭"
-msgstr ""
-
-#. i18n-hint: Two, alternate names of a musical note in the 12-tone chromatic scale
-#: src/PitchName.cpp
-msgid "F♯/G♭"
-msgstr ""
-
-#. i18n-hint: Two, alternate names of a musical note in the 12-tone chromatic scale
-#: src/PitchName.cpp
-msgid "G♯/A♭"
-msgstr ""
-
-#. i18n-hint: Two, alternate names of a musical note in the 12-tone chromatic scale
-#: src/PitchName.cpp
-msgid "A♯/B♭"
-msgstr ""
-
 #: src/PluginDataModel.cpp
 #, c-format
 msgid ""
@@ -8387,7 +8612,7 @@ msgstr ""
 msgid "Enable"
 msgstr ""
 
-#: src/PluginDataViewCtrl.cpp plug-ins/limiter.ny
+#: src/PluginDataViewCtrl.cpp plug-ins/legacy-limiter.ny
 msgid "Type"
 msgstr ""
 
@@ -8487,7 +8712,7 @@ msgstr ""
 #: src/ProjectAudioManager.cpp
 #, c-format
 msgctxt "clip name template"
-msgid "%s #%d"
+msgid "%s.%d"
 msgstr ""
 
 #: src/ProjectAudioManager.cpp
@@ -10592,7 +10817,8 @@ msgstr ""
 msgid "Inner &fade up length:"
 msgstr ""
 
-#: src/effects/AutoDuck.cpp src/effects/TruncSilence.cpp
+#: src/effects/AutoDuck.cpp src/effects/LegacyCompressor.cpp
+#: src/effects/TruncSilence.cpp
 msgid "&Threshold:"
 msgstr ""
 
@@ -10622,14 +10848,6 @@ msgstr ""
 #: src/effects/BasicEffectUIServices.cpp
 #, c-format
 msgid "%s: is for a different Effect, Generator or Analyzer.\n"
-msgstr ""
-
-#: src/effects/BassTreble.cpp resources/EffectsMenuDefaults.xml
-msgid "Bass and Treble"
-msgstr ""
-
-#: src/effects/BassTreble.cpp
-msgid "Simple tone control effect"
 msgstr ""
 
 #: src/effects/BassTreble.cpp
@@ -10662,18 +10880,6 @@ msgstr ""
 
 #: src/effects/BassTreble.cpp
 msgid "&Link Volume control to Tone controls"
-msgstr ""
-
-#: src/effects/ChangePitch.cpp resources/EffectsMenuDefaults.xml
-msgid "Change Pitch"
-msgstr ""
-
-#: src/effects/ChangePitch.cpp
-msgid "Changes the pitch of a track without changing its tempo"
-msgstr ""
-
-#: src/effects/ChangePitch.cpp
-msgid "High Quality Pitch Change"
 msgstr ""
 
 #: src/effects/ChangePitch.cpp
@@ -10772,14 +10978,6 @@ msgstr ""
 msgid "78"
 msgstr ""
 
-#: src/effects/ChangeSpeed.cpp resources/EffectsMenuDefaults.xml
-msgid "Change Speed and Pitch"
-msgstr ""
-
-#: src/effects/ChangeSpeed.cpp
-msgid "Changes the speed of a track, also changing its pitch"
-msgstr ""
-
 #: src/effects/ChangeSpeed.cpp
 msgid "&Speed Multiplier:"
 msgstr ""
@@ -10842,18 +11040,6 @@ msgstr ""
 #: src/effects/ChangeSpeed.cpp
 msgctxt "change speed"
 msgid "to"
-msgstr ""
-
-#: src/effects/ChangeTempo.cpp resources/EffectsMenuDefaults.xml
-msgid "Change Tempo"
-msgstr ""
-
-#: src/effects/ChangeTempo.cpp
-msgid "Changes the tempo of a selection without changing its pitch"
-msgstr ""
-
-#: src/effects/ChangeTempo.cpp
-msgid "High Quality Tempo Change"
 msgstr ""
 
 #: src/effects/ChangeTempo.cpp
@@ -10924,7 +11110,7 @@ msgstr ""
 msgid "&Threshold (lower is more sensitive):"
 msgstr ""
 
-#: src/effects/ClickRemoval.cpp
+#: src/effects/ClickRemoval.cpp src/effects/LegacyCompressor.cpp
 msgid "Threshold"
 msgstr ""
 
@@ -11329,7 +11515,7 @@ msgstr ""
 msgid "Upper Threshold"
 msgstr ""
 
-#: src/effects/Distortion.cpp
+#: src/effects/Distortion.cpp src/effects/LegacyCompressor.cpp
 msgid "Noise Floor"
 msgstr ""
 
@@ -11595,19 +11781,6 @@ msgstr ""
 
 #: src/effects/DynamicRangeProcessorHistoryPanel.cpp
 msgid "awaiting playback"
-msgstr ""
-
-#: src/effects/Echo.cpp resources/EffectsMenuDefaults.xml
-msgid "Echo"
-msgstr ""
-
-#: src/effects/Echo.cpp
-msgid "Repeats the selected audio again and again"
-msgstr ""
-
-#: src/effects/Echo.cpp src/effects/FindClipping.cpp
-#: src/effects/Paulstretch.cpp
-msgid "Requested value exceeds memory capacity."
 msgstr ""
 
 #: src/effects/Echo.cpp
@@ -12122,8 +12295,126 @@ msgstr ""
 msgid "There is not enough room available to generate the audio"
 msgstr ""
 
-#: src/effects/Limiter.cpp plug-ins/limiter.ny
-#: resources/EffectsMenuDefaults.xml
+#: src/effects/LegacyCompressor.cpp resources/EffectsMenuDefaults.xml
+msgid "Legacy Compressor"
+msgstr ""
+
+#: src/effects/LegacyCompressor.cpp
+msgid "Compresses the dynamic range of audio"
+msgstr ""
+
+#. i18n-hint: usually leave this as is as dB doesn't get translated
+#: src/effects/LegacyCompressor.cpp
+#, c-format
+msgid "%3d dB"
+msgstr ""
+
+#: src/effects/LegacyCompressor.cpp src/effects/ScoreAlignDialog.cpp
+#, c-format
+msgid "%.2f secs"
+msgstr ""
+
+#: src/effects/LegacyCompressor.cpp
+#, c-format
+msgid "%.1f secs"
+msgstr ""
+
+#. i18n-hint: Unless your language has a different convention for ratios,
+#. * like 8:1, leave as is.
+#: src/effects/LegacyCompressor.cpp
+#, c-format
+msgid "%.0f:1"
+msgstr ""
+
+#. i18n-hint: Unless your language has a different convention for ratios,
+#. * like 8:1, leave as is.
+#: src/effects/LegacyCompressor.cpp
+#, c-format
+msgid "%.1f:1"
+msgstr ""
+
+#: src/effects/LegacyCompressor.cpp
+#, c-format
+msgid "Ratio %.0f to 1"
+msgstr ""
+
+#: src/effects/LegacyCompressor.cpp
+#, c-format
+msgid "Ratio %.1f to 1"
+msgstr ""
+
+#: src/effects/LegacyCompressor.cpp
+msgid "&Noise Floor:"
+msgstr ""
+
+#: src/effects/LegacyCompressor.cpp
+msgid "&Ratio:"
+msgstr ""
+
+#: src/effects/LegacyCompressor.cpp
+msgid "Ratio"
+msgstr ""
+
+#. i18n-hint: Particularly in percussion, sounds can be regarded as having
+#. * an 'attack' phase where the sound builds up and a 'decay' where the
+#. * sound dies away.  So this means 'onset duration'.
+#: src/effects/LegacyCompressor.cpp
+msgid "&Attack Time:"
+msgstr ""
+
+#. i18n-hint: Particularly in percussion, sounds can be regarded as having
+#. * an 'attack' phase where the sound builds up and a 'decay' where the
+#. * sound dies away.  So this means 'onset duration'.
+#: src/effects/LegacyCompressor.cpp
+msgid "Attack Time"
+msgstr ""
+
+#. i18n-hint: Particularly in percussion, sounds can be regarded as having
+#. * an 'attack' phase where the sound builds up and a 'decay' or 'release' where the
+#. * sound dies away.
+#: src/effects/LegacyCompressor.cpp
+msgid "R&elease Time:"
+msgstr ""
+
+#. i18n-hint: Particularly in percussion, sounds can be regarded as having
+#. * an 'attack' phase where the sound builds up and a 'decay' or 'release' where the
+#. * sound dies away.
+#: src/effects/LegacyCompressor.cpp
+msgid "Release Time"
+msgstr ""
+
+#. i18n-hint: Make-up, i.e. correct for any reduction, rather than fabricate it.
+#: src/effects/LegacyCompressor.cpp
+msgid "Ma&ke-up gain for 0 dB after compressing"
+msgstr ""
+
+#. i18n-hint: "Compress" here means reduce variations of sound volume,
+#. NOT related to file-size compression; Peaks means extremes in volume
+#: src/effects/LegacyCompressor.cpp
+msgid "C&ompress based on Peaks"
+msgstr ""
+
+#: src/effects/LegacyCompressor.cpp
+#, c-format
+msgid "Threshold %d dB"
+msgstr ""
+
+#: src/effects/LegacyCompressor.cpp
+#, c-format
+msgid "Noise Floor %d dB"
+msgstr ""
+
+#: src/effects/LegacyCompressor.cpp
+#, c-format
+msgid "Attack Time %.2f secs"
+msgstr ""
+
+#: src/effects/LegacyCompressor.cpp
+#, c-format
+msgid "Release Time %.1f secs"
+msgstr ""
+
+#: src/effects/Limiter.cpp resources/EffectsMenuDefaults.xml
 msgid "Limiter"
 msgstr ""
 
@@ -12137,28 +12428,6 @@ msgstr ""
 
 #: src/effects/Loudness.cpp src/widgets/MeterPanel.cpp
 msgid "RMS"
-msgstr ""
-
-#: src/effects/Loudness.cpp resources/EffectsMenuDefaults.xml
-msgid "Loudness Normalization"
-msgstr ""
-
-#: src/effects/Loudness.cpp
-msgid "Sets the loudness of one or more tracks"
-msgstr ""
-
-#: src/effects/Loudness.cpp
-msgid "Normalizing Loudness...\n"
-msgstr ""
-
-#: src/effects/Loudness.cpp src/effects/Normalize.cpp
-#, c-format
-msgid "Analyzing: %s"
-msgstr ""
-
-#: src/effects/Loudness.cpp src/effects/Normalize.cpp
-#, c-format
-msgid "Processing: %s"
 msgstr ""
 
 #: src/effects/Loudness.cpp
@@ -12436,55 +12705,6 @@ msgstr ""
 msgid "Discrimination &method:"
 msgstr ""
 
-#: src/effects/Normalize.cpp resources/EffectsMenuDefaults.xml
-msgid "Normalize"
-msgstr ""
-
-#: src/effects/Normalize.cpp
-msgid "Sets the peak amplitude of one or more tracks"
-msgstr ""
-
-#: src/effects/Normalize.cpp
-msgid "Removing DC offset and Normalizing...\n"
-msgstr ""
-
-#: src/effects/Normalize.cpp
-msgid "Removing DC offset...\n"
-msgstr ""
-
-#: src/effects/Normalize.cpp
-msgid "Normalizing without removing DC offset...\n"
-msgstr ""
-
-#: src/effects/Normalize.cpp
-msgid "Not doing anything...\n"
-msgstr ""
-
-#: src/effects/Normalize.cpp
-#, c-format
-msgid "Analyzing first track of stereo pair: %s"
-msgstr ""
-
-#: src/effects/Normalize.cpp
-#, c-format
-msgid "Analyzing second track of stereo pair: %s"
-msgstr ""
-
-#: src/effects/Normalize.cpp
-#, c-format
-msgid "Processing stereo channels independently: %s"
-msgstr ""
-
-#: src/effects/Normalize.cpp
-#, c-format
-msgid "Processing first track of stereo pair: %s"
-msgstr ""
-
-#: src/effects/Normalize.cpp
-#, c-format
-msgid "Processing second track of stereo pair: %s"
-msgstr ""
-
 #: src/effects/Normalize.cpp
 msgid "&Remove DC offset (center on 0.0 vertically)"
 msgstr ""
@@ -12655,99 +12875,6 @@ msgstr ""
 msgid "Warning: No repeats."
 msgstr ""
 
-#. i18n-hint: This is the name of an effect preset
-#: src/effects/Reverb.cpp
-msgid "Acoustic"
-msgstr ""
-
-#. i18n-hint: This is the name of an effect preset
-#: src/effects/Reverb.cpp
-msgid "Ambience"
-msgstr ""
-
-#. i18n-hint: This is the name of an effect preset
-#: src/effects/Reverb.cpp
-msgid "Artificial"
-msgstr ""
-
-#. i18n-hint: This is the name of an effect preset
-#: src/effects/Reverb.cpp
-msgid "Clean"
-msgstr ""
-
-#. i18n-hint: This is the name of an effect preset
-#: src/effects/Reverb.cpp
-msgid "Vocal I"
-msgstr ""
-
-#. i18n-hint: This is the name of an effect preset
-#: src/effects/Reverb.cpp
-msgid "Vocal II"
-msgstr ""
-
-#. i18n-hint: This is the name of an effect preset
-#: src/effects/Reverb.cpp
-msgid "Dance Vocal"
-msgstr ""
-
-#. i18n-hint: This is the name of an effect preset
-#: src/effects/Reverb.cpp
-msgid "Modern Vocal"
-msgstr ""
-
-#. i18n-hint: This is the name of an effect preset
-#: src/effects/Reverb.cpp
-msgid "Voice Tail"
-msgstr ""
-
-#. i18n-hint: This is the name of an effect preset
-#: src/effects/Reverb.cpp
-msgid "Bathroom"
-msgstr ""
-
-#. i18n-hint: This is the name of an effect preset
-#: src/effects/Reverb.cpp
-msgid "Small Room Bright"
-msgstr ""
-
-#. i18n-hint: This is the name of an effect preset
-#: src/effects/Reverb.cpp
-msgid "Small Room Dark"
-msgstr ""
-
-#. i18n-hint: This is the name of an effect preset
-#: src/effects/Reverb.cpp
-msgid "Medium Room"
-msgstr ""
-
-#. i18n-hint: This is the name of an effect preset
-#: src/effects/Reverb.cpp
-msgid "Large Room"
-msgstr ""
-
-#. i18n-hint: This is the name of an effect preset
-#: src/effects/Reverb.cpp
-msgid "Church Hall"
-msgstr ""
-
-#. i18n-hint: This is the name of an effect preset
-#: src/effects/Reverb.cpp
-msgid "Cathedral"
-msgstr ""
-
-#. i18n-hint: This is the name of an effect preset
-#: src/effects/Reverb.cpp
-msgid "Big Cave"
-msgstr ""
-
-#: src/effects/Reverb.cpp resources/EffectsMenuDefaults.xml
-msgid "Reverb"
-msgstr ""
-
-#: src/effects/Reverb.cpp
-msgid "Adds ambience or a \"hall effect\""
-msgstr ""
-
 #: src/effects/Reverb.cpp
 msgid "&Room Size (%):"
 msgstr ""
@@ -12786,10 +12913,6 @@ msgstr ""
 
 #: src/effects/Reverb.cpp
 msgid "Wet O&nly"
-msgstr ""
-
-#: src/effects/SBSMSEffect.h
-msgid "SBSMS Time / Pitch Stretch"
 msgstr ""
 
 #. i18n-hint: Butterworth is the name of the person after whom the filter type is named.
@@ -12951,11 +13074,6 @@ msgstr ""
 
 #: src/effects/ScoreAlignDialog.cpp
 msgid "Restore Defaults"
-msgstr ""
-
-#: src/effects/ScoreAlignDialog.cpp
-#, c-format
-msgid "%.2f secs"
 msgstr ""
 
 #: src/effects/ScoreAlignDialog.cpp
@@ -18367,19 +18485,27 @@ msgid "WaveColor Change"
 msgstr ""
 
 #: src/tracks/timetrack/ui/TimeTrackControls.cpp
-msgid "Change lower speed limit (%) to:"
+msgid "Change Speed Limits"
 msgstr ""
 
 #: src/tracks/timetrack/ui/TimeTrackControls.cpp
-msgid "Lower speed limit"
+msgid "Change speed limit (%) to:"
 msgstr ""
 
 #: src/tracks/timetrack/ui/TimeTrackControls.cpp
-msgid "Change upper speed limit (%) to:"
+msgid "Lower Speed Limit"
 msgstr ""
 
 #: src/tracks/timetrack/ui/TimeTrackControls.cpp
-msgid "Upper speed limit"
+msgid "Upper Speed Limit"
+msgstr ""
+
+#: src/tracks/timetrack/ui/TimeTrackControls.cpp
+msgid "Upper Speed Limit must be greater than the Lower Speed Limit"
+msgstr ""
+
+#: src/tracks/timetrack/ui/TimeTrackControls.cpp
+msgid "Invalid Limits"
 msgstr ""
 
 #: src/tracks/timetrack/ui/TimeTrackControls.cpp
@@ -19062,7 +19188,7 @@ msgstr ""
 #: plug-ins/ShelfFilter.ny plug-ins/StudioFadeOut.ny
 #: plug-ins/adjustable-fade.ny plug-ins/crossfadeclips.ny
 #: plug-ins/crossfadetracks.ny plug-ins/delay.ny plug-ins/equalabel.ny
-#: plug-ins/label-sounds.ny plug-ins/limiter.ny plug-ins/noisegate.ny
+#: plug-ins/label-sounds.ny plug-ins/legacy-limiter.ny plug-ins/noisegate.ny
 #: plug-ins/sample-data-export.ny plug-ins/sample-data-import.ny
 #: plug-ins/spectral-delete.ny plug-ins/tremolo.ny
 msgid "Steve Daulton"
@@ -19184,7 +19310,7 @@ msgstr ""
 #: plug-ins/SpectralEditShelves.ny plug-ins/StudioFadeOut.ny
 #: plug-ins/adjustable-fade.ny plug-ins/crossfadeclips.ny
 #: plug-ins/crossfadetracks.ny plug-ins/equalabel.ny plug-ins/label-sounds.ny
-#: plug-ins/limiter.ny plug-ins/noisegate.ny plug-ins/notch.ny
+#: plug-ins/legacy-limiter.ny plug-ins/noisegate.ny plug-ins/notch.ny
 #: plug-ins/nyquist-plug-in-installer.ny plug-ins/rissetdrum.ny
 #: plug-ins/sample-data-export.ny plug-ins/sample-data-import.ny
 #: plug-ins/spectral-delete.ny plug-ins/tremolo.ny
@@ -19726,44 +19852,48 @@ msgid ""
 "                 Only one sound detected."
 msgstr ""
 
-#: plug-ins/limiter.ny
+#: plug-ins/legacy-limiter.ny resources/EffectsMenuDefaults.xml
+msgid "Legacy Limiter"
+msgstr ""
+
+#: plug-ins/legacy-limiter.ny
 msgid "Soft Limit"
 msgstr ""
 
-#: plug-ins/limiter.ny
+#: plug-ins/legacy-limiter.ny
 msgid "Hard Limit"
 msgstr ""
 
 #. i18n-hint: clipping of wave peaks and troughs, not division of a track into clips
-#: plug-ins/limiter.ny
+#: plug-ins/legacy-limiter.ny
 msgid "Soft Clip"
 msgstr ""
 
-#: plug-ins/limiter.ny
+#: plug-ins/legacy-limiter.ny
 msgid "Hard Clip"
 msgstr ""
 
-#: plug-ins/limiter.ny
+#: plug-ins/legacy-limiter.ny
 msgid ""
 "Input Gain (dB)\n"
 "mono/Left"
 msgstr ""
 
-#: plug-ins/limiter.ny
+#: plug-ins/legacy-limiter.ny
 msgid ""
 "Input Gain (dB)\n"
 "Right channel"
 msgstr ""
 
-#: plug-ins/limiter.ny
+#: plug-ins/legacy-limiter.ny
 msgid "Limit to (dB)"
 msgstr ""
 
-#: plug-ins/limiter.ny plug-ins/noisegate.ny
+#: plug-ins/legacy-limiter.ny plug-ins/noisegate.ny
 msgid "Hold (ms)"
 msgstr ""
 
-#: plug-ins/limiter.ny
+#: plug-ins/legacy-limiter.ny
 msgid "Apply Make-up Gain"
 msgstr ""
 
@@ -20568,4 +20698,8 @@ msgstr ""
 
 #: resources/EffectsMenuDefaults.xml
 msgid "Spectral Tools"
+msgstr ""
+
+#: resources/EffectsMenuDefaults.xml
+msgid "Legacy"
 msgstr ""
