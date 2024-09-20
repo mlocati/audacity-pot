@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.6.0\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2024-09-05 08:21+0000\n"
+"POT-Creation-Date: 2024-09-20 08:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -223,16 +223,15 @@ msgid ""
 "Error code: %s"
 msgstr ""
 
-#: libraries/lib-audio-io/AudioIO.cpp libraries/lib-files/FileNames.cpp
-#: libraries/lib-vst3/VST3Wrapper.cpp
+#: libraries/lib-audio-io/AudioIO.cpp
+#: libraries/lib-builtin-effects/PlotSpectrumBase.cpp
+#: libraries/lib-files/FileNames.cpp libraries/lib-vst3/VST3Wrapper.cpp
 #: libraries/lib-wx-wrappers/FileDialog/gtk/FileDialogPrivate.cpp
-#: modules/import-export/mod-mp3/ExportMP3.cpp src/FreqWindow.cpp
-#: src/ProjectAudioManager.cpp src/TimerRecordDialog.cpp
-#: src/effects/Contrast.cpp src/effects/EffectPreview.cpp
-#: src/effects/Generator.cpp src/effects/nyquist/Nyquist.cpp
-#: src/menus/SelectMenus.cpp src/menus/TrackMenus.cpp
-#: src/menus/TransportMenus.cpp src/prefs/DirectoriesPrefs.cpp
-#: src/prefs/KeyConfigPrefs.cpp
+#: modules/import-export/mod-mp3/ExportMP3.cpp src/ProjectAudioManager.cpp
+#: src/TimerRecordDialog.cpp src/effects/EffectPreview.cpp
+#: src/effects/nyquist/Nyquist.cpp src/menus/SelectMenus.cpp
+#: src/menus/TrackMenus.cpp src/menus/TransportMenus.cpp
+#: src/prefs/DirectoriesPrefs.cpp src/prefs/KeyConfigPrefs.cpp
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackControls.cpp
 #: src/widgets/UnwritableLocationErrorDialog.cpp
 msgid "Error"
@@ -427,6 +426,40 @@ msgstr ""
 msgid "High Quality Tempo Change"
 msgstr ""
 
+#: libraries/lib-builtin-effects/ContrastBase.cpp
+msgid "You can only measure one track at a time."
+msgstr ""
+
+#: libraries/lib-builtin-effects/ContrastBase.cpp
+msgid "Please select an audio track."
+msgstr ""
+
+#: libraries/lib-builtin-effects/ContrastBase.cpp
+msgid ""
+"Invalid audio selection.\n"
+"Please ensure that audio is selected."
+msgstr ""
+
+#: libraries/lib-builtin-effects/ContrastBase.cpp
+msgid ""
+"Nothing to measure.\n"
+"Please select a section of a track."
+msgstr ""
+
+#: libraries/lib-builtin-effects/DtmfBase.cpp
+msgid "DTMF Tones"
+msgstr ""
+
+#: libraries/lib-builtin-effects/DtmfBase.cpp
+msgid "Generates dual-tone multi-frequency (DTMF) tones like those produced by the keypad on telephones"
+msgstr ""
+
+#: libraries/lib-builtin-effects/DtmfBase.cpp
+msgid ""
+"DTMF sequence empty.\n"
+"Check ALL settings for this effect."
+msgstr ""
+
 #: libraries/lib-builtin-effects/EchoBase.cpp resources/EffectsMenuDefaults.xml
 msgid "Echo"
 msgstr ""
@@ -435,8 +468,9 @@ msgstr ""
 msgid "Repeats the selected audio again and again"
 msgstr ""
 
-#: libraries/lib-builtin-effects/EchoBase.cpp src/effects/FindClipping.cpp
-#: src/effects/Paulstretch.cpp
+#: libraries/lib-builtin-effects/EchoBase.cpp
+#: libraries/lib-builtin-effects/FindClippingBase.cpp
+#: libraries/lib-builtin-effects/PaulstretchBase.cpp
 msgid "Requested value exceeds memory capacity."
 msgstr ""
 
@@ -456,12 +490,48 @@ msgstr ""
 msgid "Applies a linear fade-out to the selected audio"
 msgstr ""
 
+#: libraries/lib-builtin-effects/FindClippingBase.cpp
+msgid "Find Clipping"
+msgstr ""
+
+#: libraries/lib-builtin-effects/FindClippingBase.cpp
+msgid "Creates labels where clipping is detected"
+msgstr ""
+
+#: libraries/lib-builtin-effects/FindClippingBase.cpp
+msgid "Clipping"
+msgstr ""
+
+#. i18n-hint: Two numbers are substituted; the second is the
+#. size of a set, the first is the size of a subset, and not
+#. understood as an ordinal (i.e., not meaning "first", or
+#. "second", etc.)
+#.
+#: libraries/lib-builtin-effects/FindClippingBase.cpp
+#, c-format
+msgctxt "find clipping"
+msgid "%lld of %lld"
+msgstr ""
+
+#: libraries/lib-builtin-effects/Generator.cpp
+msgid "There is not enough room available to generate the audio"
+msgstr ""
+
 #: libraries/lib-builtin-effects/Invert.cpp resources/EffectsMenuDefaults.xml
 msgid "Invert"
 msgstr ""
 
 #: libraries/lib-builtin-effects/Invert.cpp
 msgid "Flips the audio samples upside-down, reversing their polarity"
+msgstr ""
+
+#: libraries/lib-builtin-effects/LegacyCompressorBase.cpp
+#: resources/EffectsMenuDefaults.xml
+msgid "Legacy Compressor"
+msgstr ""
+
+#: libraries/lib-builtin-effects/LegacyCompressorBase.cpp
+msgid "Compresses the dynamic range of audio"
 msgstr ""
 
 #: libraries/lib-builtin-effects/LoudnessBase.cpp
@@ -487,6 +557,33 @@ msgstr ""
 #: libraries/lib-builtin-effects/NormalizeBase.cpp
 #, c-format
 msgid "Processing: %s"
+msgstr ""
+
+#. i18n-hint: not a color, but "white noise" having a uniform spectrum
+#: libraries/lib-builtin-effects/NoiseBase.cpp
+msgctxt "noise"
+msgid "White"
+msgstr ""
+
+#. i18n-hint: not a color, but "pink noise" having a spectrum with more power
+#. in low frequencies
+#: libraries/lib-builtin-effects/NoiseBase.cpp
+msgctxt "noise"
+msgid "Pink"
+msgstr ""
+
+#. i18n-hint: a kind of noise spectrum also known as "red" or "brown"
+#: libraries/lib-builtin-effects/NoiseBase.cpp
+msgctxt "noise"
+msgid "Brownian"
+msgstr ""
+
+#: libraries/lib-builtin-effects/NoiseBase.cpp
+msgid "Noise"
+msgstr ""
+
+#: libraries/lib-builtin-effects/NoiseBase.cpp
+msgid "Generates one of three different types of noise"
 msgstr ""
 
 #: libraries/lib-builtin-effects/NormalizeBase.cpp
@@ -537,6 +634,63 @@ msgstr ""
 #: libraries/lib-builtin-effects/NormalizeBase.cpp
 #, c-format
 msgid "Processing second track of stereo pair: %s"
+msgstr ""
+
+#: libraries/lib-builtin-effects/PaulstretchBase.cpp
+#: resources/EffectsMenuDefaults.xml
+msgid "Paulstretch"
+msgstr ""
+
+#: libraries/lib-builtin-effects/PaulstretchBase.cpp
+msgid "Paulstretch is only for an extreme time-stretch or \"stasis\" effect"
+msgstr ""
+
+#. i18n-hint: 'Time Resolution' is the name of a control in the
+#. Paulstretch effect.
+#: libraries/lib-builtin-effects/PaulstretchBase.cpp
+#, c-format
+msgid ""
+"Audio selection too short to preview.\n"
+"\n"
+"Try increasing the audio selection to at least %.1f seconds,\n"
+"or reducing the 'Time Resolution' to less than %.1f seconds."
+msgstr ""
+
+#. i18n-hint: 'Time Resolution' is the name of a control in the
+#. Paulstretch effect.
+#: libraries/lib-builtin-effects/PaulstretchBase.cpp
+#, c-format
+msgid ""
+"Unable to Preview.\n"
+"\n"
+"For the current audio selection, the maximum\n"
+"'Time Resolution' is %.1f seconds."
+msgstr ""
+
+#. i18n-hint: 'Time Resolution' is the name of a control in the
+#. Paulstretch effect.
+#: libraries/lib-builtin-effects/PaulstretchBase.cpp
+#, c-format
+msgid ""
+"The 'Time Resolution' is too long for the selection.\n"
+"\n"
+"Try increasing the audio selection to at least %.1f seconds,\n"
+"or reducing the 'Time Resolution' to less than %.1f seconds."
+msgstr ""
+
+#: libraries/lib-builtin-effects/PlotSpectrumBase.cpp
+msgid "To plot the spectrum, all selected tracks must have the same sample rate."
+msgstr ""
+
+#: libraries/lib-builtin-effects/PlotSpectrumBase.cpp
+msgid ""
+"Audio could not be analyzed. This may be due to a stretched or pitch-shifted clip.\n"
+"Try resetting any stretched clips, or mixing and rendering the tracks before analyzing"
+msgstr ""
+
+#: libraries/lib-builtin-effects/PlotSpectrumBase.cpp
+#, c-format
+msgid "Too much audio was selected. Only the first %.1f seconds of audio will be analyzed."
 msgstr ""
 
 #: libraries/lib-builtin-effects/Repair.cpp resources/EffectsMenuDefaults.xml
@@ -678,6 +832,56 @@ msgstr ""
 
 #: libraries/lib-builtin-effects/SBSMSBase.h
 msgid "SBSMS Time / Pitch Stretch"
+msgstr ""
+
+#. i18n-hint: Butterworth is the name of the person after whom the filter type
+#. is named.
+#: libraries/lib-builtin-effects/ScienFilterBase.cpp
+msgid "Butterworth"
+msgstr ""
+
+#. i18n-hint: Chebyshev is the name of the person after whom the filter type
+#. is named.
+#: libraries/lib-builtin-effects/ScienFilterBase.cpp
+msgid "Chebyshev Type I"
+msgstr ""
+
+#. i18n-hint: Chebyshev is the name of the person after whom the filter type
+#. is named.
+#: libraries/lib-builtin-effects/ScienFilterBase.cpp
+msgid "Chebyshev Type II"
+msgstr ""
+
+#: libraries/lib-builtin-effects/ScienFilterBase.cpp
+msgid "Lowpass"
+msgstr ""
+
+#: libraries/lib-builtin-effects/ScienFilterBase.cpp
+msgid "Highpass"
+msgstr ""
+
+#: libraries/lib-builtin-effects/ScienFilterBase.cpp
+#: resources/EffectsMenuDefaults.xml
+msgid "Classic Filters"
+msgstr ""
+
+#. i18n-hint: "infinite impulse response"
+#: libraries/lib-builtin-effects/ScienFilterBase.cpp
+msgid "Performs IIR filtering that emulates analog filters"
+msgstr ""
+
+#: libraries/lib-builtin-effects/ScienFilterBase.cpp
+msgid "To apply a filter, all selected tracks must have the same sample rate."
+msgstr ""
+
+#. i18n-hint: noun
+#: libraries/lib-builtin-effects/SilenceBase.cpp
+msgctxt "generator"
+msgid "Silence"
+msgstr ""
+
+#: libraries/lib-builtin-effects/SilenceBase.cpp
+msgid "Creates audio of zero amplitude"
 msgstr ""
 
 #: libraries/lib-builtin-effects/StereoToMono.cpp
@@ -8258,21 +8462,6 @@ msgid "&Replot..."
 msgstr ""
 
 #: src/FreqWindow.cpp
-msgid "To plot the spectrum, all selected tracks must have the same sample rate."
-msgstr ""
-
-#: src/FreqWindow.cpp
-msgid ""
-"Audio could not be analyzed. This may be due to a stretched or pitch-shifted clip.\n"
-"Try resetting any stretched clips, or mixing and rendering the tracks before analyzing"
-msgstr ""
-
-#: src/FreqWindow.cpp
-#, c-format
-msgid "Too much audio was selected. Only the first %.1f seconds of audio will be analyzed."
-msgstr ""
-
-#: src/FreqWindow.cpp
 msgid "Not enough data selected."
 msgstr ""
 
@@ -11130,26 +11319,6 @@ msgstr ""
 msgid "Reduces \"dynamic range\", or differences between loud and quiet parts."
 msgstr ""
 
-#: src/effects/Contrast.cpp
-msgid "You can only measure one track at a time."
-msgstr ""
-
-#: src/effects/Contrast.cpp
-msgid "Please select an audio track."
-msgstr ""
-
-#: src/effects/Contrast.cpp
-msgid ""
-"Invalid audio selection.\n"
-"Please ensure that audio is selected."
-msgstr ""
-
-#: src/effects/Contrast.cpp
-msgid ""
-"Nothing to measure.\n"
-"Please select a section of a track."
-msgstr ""
-
 #. i18n-hint: RMS abbreviates root mean square, a certain averaging method
 #: src/effects/Contrast.cpp
 msgid "Contrast Analyzer, for measuring RMS volume differences between two selections of audio."
@@ -11633,20 +11802,6 @@ msgstr ""
 #. i18n-hint: Control range.
 #: src/effects/Distortion.cpp
 msgid "(0 to 5):"
-msgstr ""
-
-#: src/effects/DtmfGen.cpp
-msgid "DTMF Tones"
-msgstr ""
-
-#: src/effects/DtmfGen.cpp
-msgid "Generates dual-tone multi-frequency (DTMF) tones like those produced by the keypad on telephones"
-msgstr ""
-
-#: src/effects/DtmfGen.cpp
-msgid ""
-"DTMF sequence empty.\n"
-"Check ALL settings for this effect."
 msgstr ""
 
 #: src/effects/DtmfGen.cpp
@@ -12261,46 +12416,11 @@ msgid "Curve not found"
 msgstr ""
 
 #: src/effects/FindClipping.cpp
-msgid "Find Clipping"
-msgstr ""
-
-#: src/effects/FindClipping.cpp
-msgid "Creates labels where clipping is detected"
-msgstr ""
-
-#: src/effects/FindClipping.cpp
-msgid "Clipping"
-msgstr ""
-
-#. i18n-hint: Two numbers are substituted; the second is the
-#. size of a set, the first is the size of a subset, and not
-#. understood as an ordinal (i.e., not meaning "first", or
-#. "second", etc.)
-#.
-#: src/effects/FindClipping.cpp
-#, c-format
-msgctxt "find clipping"
-msgid "%lld of %lld"
-msgstr ""
-
-#: src/effects/FindClipping.cpp
 msgid "&Start threshold (samples):"
 msgstr ""
 
 #: src/effects/FindClipping.cpp
 msgid "St&op threshold (samples):"
-msgstr ""
-
-#: src/effects/Generator.cpp
-msgid "There is not enough room available to generate the audio"
-msgstr ""
-
-#: src/effects/LegacyCompressor.cpp resources/EffectsMenuDefaults.xml
-msgid "Legacy Compressor"
-msgstr ""
-
-#: src/effects/LegacyCompressor.cpp
-msgid "Compresses the dynamic range of audio"
 msgstr ""
 
 #. i18n-hint: usually leave this as is as dB doesn't get translated
@@ -12457,33 +12577,6 @@ msgstr ""
 
 #: src/effects/Loudness.cpp src/effects/Normalize.cpp
 msgid "(Maximum 0dB)"
-msgstr ""
-
-#. i18n-hint: not a color, but "white noise" having a uniform spectrum
-#: src/effects/Noise.cpp
-msgctxt "noise"
-msgid "White"
-msgstr ""
-
-#. i18n-hint: not a color, but "pink noise" having a spectrum with more power
-#. in low frequencies
-#: src/effects/Noise.cpp
-msgctxt "noise"
-msgid "Pink"
-msgstr ""
-
-#. i18n-hint: a kind of noise spectrum also known as "red" or "brown"
-#: src/effects/Noise.cpp
-msgctxt "noise"
-msgid "Brownian"
-msgstr ""
-
-#: src/effects/Noise.cpp
-msgid "Noise"
-msgstr ""
-
-#: src/effects/Noise.cpp
-msgid "Generates one of three different types of noise"
 msgstr ""
 
 #: src/effects/Noise.cpp
@@ -12721,14 +12814,6 @@ msgstr ""
 msgid "N&ormalize stereo channels independently"
 msgstr ""
 
-#: src/effects/Paulstretch.cpp resources/EffectsMenuDefaults.xml
-msgid "Paulstretch"
-msgstr ""
-
-#: src/effects/Paulstretch.cpp
-msgid "Paulstretch is only for an extreme time-stretch or \"stasis\" effect"
-msgstr ""
-
 #. i18n-hint: This is how many times longer the sound will be, e.g. applying
 #. * the effect to a 1-second sample, with the default Stretch Factor of 10.0
 #. * will give an (approximately) 10 second sound
@@ -12739,36 +12824,6 @@ msgstr ""
 
 #: src/effects/Paulstretch.cpp
 msgid "&Time Resolution (seconds):"
-msgstr ""
-
-#. i18n-hint: 'Time Resolution' is the name of a control in the Paulstretch effect.
-#: src/effects/Paulstretch.cpp
-#, c-format
-msgid ""
-"Audio selection too short to preview.\n"
-"\n"
-"Try increasing the audio selection to at least %.1f seconds,\n"
-"or reducing the 'Time Resolution' to less than %.1f seconds."
-msgstr ""
-
-#. i18n-hint: 'Time Resolution' is the name of a control in the Paulstretch effect.
-#: src/effects/Paulstretch.cpp
-#, c-format
-msgid ""
-"Unable to Preview.\n"
-"\n"
-"For the current audio selection, the maximum\n"
-"'Time Resolution' is %.1f seconds."
-msgstr ""
-
-#. i18n-hint: 'Time Resolution' is the name of a control in the Paulstretch effect.
-#: src/effects/Paulstretch.cpp
-#, c-format
-msgid ""
-"The 'Time Resolution' is too long for the selection.\n"
-"\n"
-"Try increasing the audio selection to at least %.1f seconds,\n"
-"or reducing the 'Time Resolution' to less than %.1f seconds."
 msgstr ""
 
 #: src/effects/Phaser.cpp resources/EffectsMenuDefaults.xml
@@ -12915,42 +12970,6 @@ msgstr ""
 msgid "Wet O&nly"
 msgstr ""
 
-#. i18n-hint: Butterworth is the name of the person after whom the filter type is named.
-#: src/effects/ScienFilter.cpp
-msgid "Butterworth"
-msgstr ""
-
-#. i18n-hint: Chebyshev is the name of the person after whom the filter type is named.
-#: src/effects/ScienFilter.cpp
-msgid "Chebyshev Type I"
-msgstr ""
-
-#. i18n-hint: Chebyshev is the name of the person after whom the filter type is named.
-#: src/effects/ScienFilter.cpp
-msgid "Chebyshev Type II"
-msgstr ""
-
-#: src/effects/ScienFilter.cpp
-msgid "Lowpass"
-msgstr ""
-
-#: src/effects/ScienFilter.cpp
-msgid "Highpass"
-msgstr ""
-
-#: src/effects/ScienFilter.cpp resources/EffectsMenuDefaults.xml
-msgid "Classic Filters"
-msgstr ""
-
-#. i18n-hint: "infinite impulse response"
-#: src/effects/ScienFilter.cpp
-msgid "Performs IIR filtering that emulates analog filters"
-msgstr ""
-
-#: src/effects/ScienFilter.cpp
-msgid "To apply a filter, all selected tracks must have the same sample rate."
-msgstr ""
-
 #: src/effects/ScienFilter.cpp
 msgid "&Filter Type:"
 msgstr ""
@@ -13079,16 +13098,6 @@ msgstr ""
 #: src/effects/ScoreAlignDialog.cpp
 #, c-format
 msgid "%.3f"
-msgstr ""
-
-#. i18n-hint: noun
-#: src/effects/Silence.cpp
-msgctxt "generator"
-msgid "Silence"
-msgstr ""
-
-#: src/effects/Silence.cpp
-msgid "Creates audio of zero amplitude"
 msgstr ""
 
 #: src/effects/TimeScale.cpp resources/EffectsMenuDefaults.xml
