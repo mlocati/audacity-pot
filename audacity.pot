@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.6.0\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2024-09-24 08:23+0000\n"
+"POT-Creation-Date: 2024-09-25 08:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3352,7 +3352,7 @@ msgid "Writable Sample Track"
 msgstr ""
 
 #: libraries/lib-shuttlegui/ShuttleGui.cpp libraries/lib-wx-init/LogWindow.cpp
-#: src/effects/Contrast.cpp src/menus/FileMenus.cpp
+#: src/effects/Contrast.cpp
 msgid "&Close"
 msgstr ""
 
@@ -8207,7 +8207,9 @@ msgid ""
 "If you choose to \"Quit Audacity\", your project may be left in an unsaved state which will be recovered the next time you open it."
 msgstr ""
 
+#. i18n-hint: (verb) It's item on a menu.
 #: src/AudacityFileConfig.cpp src/AutoRecoveryDialog.cpp
+#: src/menus/FileMenus.cpp
 msgid "&Quit Audacity"
 msgstr ""
 
@@ -14514,9 +14516,8 @@ msgstr ""
 msgid "&Raw Data..."
 msgstr ""
 
-#. i18n-hint: (verb) It's item on a menu.
 #: src/menus/FileMenus.cpp
-msgid "E&xit"
+msgid "&Close Project"
 msgstr ""
 
 #: src/menus/FileMenus.cpp
