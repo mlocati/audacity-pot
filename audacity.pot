@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.6.0\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2024-09-25 08:24+0000\n"
+"POT-Creation-Date: 2024-10-09 08:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -4327,6 +4327,7 @@ msgstr ""
 #: libraries/lib-wx-init/ProgressDialog.cpp
 #: modules/sharing/mod-cloud-audiocom/ui/dialogs/CloudProjectPropertiesDialog.cpp
 #: modules/sharing/mod-cloud-audiocom/ui/dialogs/LinkAccountDialog.cpp
+#: modules/sharing/mod-cloud-audiocom/ui/dialogs/LoginDialog.cpp
 #: modules/sharing/mod-cloud-audiocom/ui/dialogs/ProjectVersionConflictDialog.cpp
 #: modules/sharing/mod-cloud-audiocom/ui/dialogs/UnsyncedProjectDialog.cpp
 #: modules/sharing/mod-cloud-audiocom/ui/dialogs/WaitForActionDialog.cpp
@@ -6925,11 +6926,19 @@ msgid "Account not linked"
 msgstr ""
 
 #: modules/sharing/mod-cloud-audiocom/ui/UserPanel.cpp
+msgid "Anonymous"
+msgstr ""
+
+#: modules/sharing/mod-cloud-audiocom/ui/UserPanel.cpp
 msgid "&Link Account"
 msgstr ""
 
 #: modules/sharing/mod-cloud-audiocom/ui/UserPanel.cpp
 msgid "&Unlink Account"
+msgstr ""
+
+#: modules/sharing/mod-cloud-audiocom/ui/UserPanel.cpp
+msgid "&Sign Out"
 msgstr ""
 
 #: modules/sharing/mod-cloud-audiocom/ui/dialogs/AudioComDialogBase.cpp
@@ -7009,10 +7018,6 @@ msgstr ""
 #: modules/sharing/mod-cloud-audiocom/ui/dialogs/CloudProjectPropertiesDialog.cpp
 #: modules/sharing/mod-cloud-audiocom/ui/dialogs/ProjectsListDialog.cpp
 msgid "Project Name"
-msgstr ""
-
-#: modules/sharing/mod-cloud-audiocom/ui/dialogs/CloudProjectPropertiesDialog.cpp
-msgid "Cloud saving requires a free audio.com account linked to Audacity. Press \"Link account\" above to proceed."
 msgstr ""
 
 #: modules/sharing/mod-cloud-audiocom/ui/dialogs/CloudProjectPropertiesDialog.cpp
@@ -7096,6 +7101,72 @@ msgstr ""
 
 #: modules/sharing/mod-cloud-audiocom/ui/dialogs/LinkWithTokenDialog.cpp
 msgid "L&ink audio.com account..."
+msgstr ""
+
+#: modules/sharing/mod-cloud-audiocom/ui/dialogs/LoginDialog.cpp
+msgid "Create cloud account"
+msgstr ""
+
+#: modules/sharing/mod-cloud-audiocom/ui/dialogs/LoginDialog.cpp
+msgid "Sign in to cloud"
+msgstr ""
+
+#: modules/sharing/mod-cloud-audiocom/ui/dialogs/LoginDialog.cpp
+msgid ""
+"Oops! It looks like there was an issue with your input.\n"
+"Please ensure your email is correct and that your password is at least 8 characters long"
+msgstr ""
+
+#: modules/sharing/mod-cloud-audiocom/ui/dialogs/LoginDialog.cpp
+msgid ""
+"Sorry, but it seems the email or password you entered is incorrect.\n"
+"Please double-check your credentials and try again!"
+msgstr ""
+
+#: modules/sharing/mod-cloud-audiocom/ui/dialogs/LoginDialog.cpp
+msgid "Create an account to save to the cloud"
+msgstr ""
+
+#: modules/sharing/mod-cloud-audiocom/ui/dialogs/LoginDialog.cpp
+msgid "Sign in to save to the cloud"
+msgstr ""
+
+#: modules/sharing/mod-cloud-audiocom/ui/dialogs/LoginDialog.cpp
+msgid "Continue with Google"
+msgstr ""
+
+#: modules/sharing/mod-cloud-audiocom/ui/dialogs/LoginDialog.cpp
+msgid "Continue with Facebook"
+msgstr ""
+
+#: modules/sharing/mod-cloud-audiocom/ui/dialogs/LoginDialog.cpp
+msgid "Email"
+msgstr ""
+
+#: modules/sharing/mod-cloud-audiocom/ui/dialogs/LoginDialog.cpp
+msgid "Password"
+msgstr ""
+
+#: modules/sharing/mod-cloud-audiocom/ui/dialogs/LoginDialog.cpp
+msgid "Forgot your password?"
+msgstr ""
+
+#: modules/sharing/mod-cloud-audiocom/ui/dialogs/LoginDialog.cpp
+msgid "Already have an account? "
+msgstr ""
+
+#: modules/sharing/mod-cloud-audiocom/ui/dialogs/LoginDialog.cpp
+msgid "Sign in here"
+msgstr ""
+
+#: modules/sharing/mod-cloud-audiocom/ui/dialogs/LoginDialog.cpp
+msgid "Need an account? "
+msgstr ""
+
+#: modules/sharing/mod-cloud-audiocom/ui/dialogs/LoginDialog.cpp
+#: modules/sharing/mod-cloud-audiocom/ui/dialogs/SyncInBackroundDialog.cpp
+#: src/AudioPasteDialog.cpp
+msgid "Continue"
 msgstr ""
 
 #: modules/sharing/mod-cloud-audiocom/ui/dialogs/NotCloudProjectDialog.cpp
@@ -7351,11 +7422,6 @@ msgstr ""
 
 #: modules/sharing/mod-cloud-audiocom/ui/dialogs/SyncInBackroundDialog.cpp
 msgid "The project will sync in background while you work. You can check the sync status on the bottom right corner of Audacity at any time"
-msgstr ""
-
-#: modules/sharing/mod-cloud-audiocom/ui/dialogs/SyncInBackroundDialog.cpp
-#: src/AudioPasteDialog.cpp
-msgid "Continue"
 msgstr ""
 
 #: modules/sharing/mod-cloud-audiocom/ui/dialogs/SyncSucceededDialog.cpp
