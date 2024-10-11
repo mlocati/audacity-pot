@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audacity 3.6.0\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
-"POT-Creation-Date: 2024-10-09 08:22+0000\n"
+"POT-Creation-Date: 2024-10-11 08:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14346,11 +14346,11 @@ msgid "Duplicate"
 msgstr ""
 
 #: src/menus/EditMenus.cpp
-msgid "Split-cut to the clipboard"
+msgid "Cut to clipboard and leave gap"
 msgstr ""
 
 #: src/menus/EditMenus.cpp
-msgid "Split Cut"
+msgid "Cut and leave gap"
 msgstr ""
 
 #: src/menus/EditMenus.cpp
@@ -14447,12 +14447,12 @@ msgstr ""
 
 #. i18n-hint: (verb) Do a special kind of cut
 #: src/menus/EditMenus.cpp
-msgid "Spl&it Cut"
+msgid "&Cut and leave gap"
 msgstr ""
 
 #. i18n-hint: (verb) Do a special kind of DELETE
 #: src/menus/EditMenus.cpp
-msgid "Split D&elete"
+msgid "&Delete and leave gap"
 msgstr ""
 
 #. i18n-hint: (verb)
@@ -14704,15 +14704,12 @@ msgstr ""
 msgid "Delete Labeled Audio"
 msgstr ""
 
-#. i18n-hint: (verb) Audacity has just split cut the labeled audio
-#. regions
 #: src/menus/LabelMenus.cpp
-msgid "Split Cut labeled audio regions to clipboard"
+msgid "Cut labeled audio regions to clipboard and leave gap"
 msgstr ""
 
-#. i18n-hint: (verb) Do a special kind of cut on the labels
 #: src/menus/LabelMenus.cpp
-msgid "Split Cut Labeled Audio"
+msgid "Cut labeled audio and leave gap"
 msgstr ""
 
 #. i18n-hint: (verb) Audacity has just done a special kind of DELETE on
@@ -14824,28 +14821,28 @@ msgid "&Cut"
 msgstr ""
 
 #: src/menus/LabelMenus.cpp
-msgid "Label Cut"
+msgid "Cut by label"
 msgstr ""
 
 #: src/menus/LabelMenus.cpp
-msgid "Label Delete"
+msgid "Delete by label"
 msgstr ""
 
 #. i18n-hint: (verb) A special way to cut out a piece of audio
 #: src/menus/LabelMenus.cpp
-msgid "&Split Cut"
+msgid "C&ut and leave gap"
 msgstr ""
 
 #: src/menus/LabelMenus.cpp
-msgid "Label Split Cut"
+msgid "Cut by labels and leave gap"
 msgstr ""
 
 #: src/menus/LabelMenus.cpp
-msgid "Sp&lit Delete"
+msgid "De&lete and leave gap"
 msgstr ""
 
 #: src/menus/LabelMenus.cpp
-msgid "Label Split Delete"
+msgid "Delete by labels and leave gap"
 msgstr ""
 
 #: src/menus/LabelMenus.cpp
